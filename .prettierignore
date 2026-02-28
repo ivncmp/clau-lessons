@@ -1,0 +1,4 @@
+frontend/dist
+coverage
+node_modules
+*.min.js
