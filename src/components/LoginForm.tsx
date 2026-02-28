@@ -25,11 +25,9 @@ const cursos = [
   "4º Primaria",
   "5º Primaria",
   "6º Primaria",
-  "1º ESO",
-  "2º ESO",
-  "3º ESO",
-  "4º ESO",
 ];
+
+const AVAILABLE_CURSO = "2º Primaria";
 
 export default function LoginForm({ onLogin }: Readonly<LoginFormProps>) {
   const [nombre, setNombre] = useState("");
@@ -112,10 +110,21 @@ export default function LoginForm({ onLogin }: Readonly<LoginFormProps>) {
                 {cursos.map((c) => (
                   <MenuItem key={c} value={c}>
                     {c}
+                    {c !== AVAILABLE_CURSO && " (sin material)"}
                   </MenuItem>
                 ))}
               </Select>
             </FormControl>
+
+            {curso && curso !== AVAILABLE_CURSO && (
+              <Typography
+                variant="body2"
+                color="warning.main"
+                sx={{ mb: 2, textAlign: "center" }}
+              >
+                ⚠️ Actualmente solo hay material disponible para 2º de Primaria
+              </Typography>
+            )}
 
             <Button
               type="submit"
