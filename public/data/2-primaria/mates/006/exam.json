@@ -1,0 +1,288 @@
+{
+  "topicId": "006",
+  "subjectId": "mates",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "¿Qué número corresponde a 8 centenas, 3 decenas y 7 unidades?",
+      "options": ["738", "837", "873", "387"],
+      "answer": 1,
+      "explanation": "8C + 3D + 7U = 837."
+    },
+    {
+      "id": "q02",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "El número 905 tiene 9 centenas, 0 decenas y 5 unidades.",
+      "answer": true,
+      "explanation": "905 = 9 centenas + 0 decenas + 5 unidades."
+    },
+    {
+      "id": "q03",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "¿Cuál de estos números es mayor?",
+      "options": ["879", "897", "978", "789"],
+      "answer": 2,
+      "explanation": "978 es el mayor porque tiene 9 centenas, 7 decenas y 8 unidades."
+    },
+    {
+      "id": "q04",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada número con su nombre.",
+      "pairs": [
+        { "left": "810", "right": "ochocientos diez" },
+        { "left": "950", "right": "novecientos cincuenta" },
+        { "left": "899", "right": "ochocientos noventa y nueve" }
+      ],
+      "rightOptions": ["ochocientos diez", "novecientos cincuenta", "ochocientos noventa y nueve", "novecientos diez"]
+    },
+    {
+      "id": "q05",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estos números según sean menores o mayores que 900.",
+      "words": ["856", "912", "899", "950", "870", "999"],
+      "slots": [
+        { "label": "Menores de 900", "accepts": ["856", "899", "870"] },
+        { "label": "Mayores de 900", "accepts": ["912", "950", "999"] }
+      ]
+    },
+    {
+      "id": "q06",
+      "type": "choice",
+      "emoji": "➕",
+      "question": "¿Cuánto es 275 + 125?",
+      "options": ["400", "390", "410", "300"],
+      "answer": 0,
+      "explanation": "275 + 125 = 400. Unidades: 5+5=10, llevamos 1. Decenas: 7+2+1=10, llevamos 1. Centenas: 2+1+1=4."
+    },
+    {
+      "id": "q07",
+      "type": "choice",
+      "emoji": "➕",
+      "question": "¿Cuánto es 364 + 478?",
+      "options": ["842", "832", "742", "852"],
+      "answer": 0,
+      "explanation": "364 + 478 = 842. Unidades: 4+8=12, escribo 2 y llevo 1. Decenas: 6+7+1=14, escribo 4 y llevo 1. Centenas: 3+4+1=8."
+    },
+    {
+      "id": "q08",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Cuando sumamos las unidades y el resultado es mayor que 9, llevamos 1 a las decenas.",
+      "answer": true,
+      "explanation": "Si las unidades suman más de 9, escribimos las unidades del resultado y llevamos 1 decena."
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "➕",
+      "question": "¿Cuánto es 456 + 387?",
+      "options": ["843", "833", "743", "853"],
+      "answer": 0,
+      "explanation": "456 + 387 = 843. Unidades: 6+7=13 (3, llevo 1). Decenas: 5+8+1=14 (4, llevo 1). Centenas: 4+3+1=8."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "➕",
+      "question": "Ana usó 19 cuadrados y Pablo usó 12. ¿Cuántos cuadrados usaron en total?",
+      "options": ["31", "32", "30", "21"],
+      "answer": 0,
+      "refText": "juego",
+      "explanation": "19 + 12 = 31 cuadrados."
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "📐",
+      "question": "¿Qué es un segmento?",
+      "options": [
+        "Una línea recta que no tiene principio ni final",
+        "Una línea recta entre dos puntos",
+        "Una línea curva cerrada",
+        "Un punto muy grande"
+      ],
+      "answer": 1,
+      "explanation": "Un segmento es una línea recta que va entre dos puntos."
+    },
+    {
+      "id": "q12",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Una recta no tiene principio ni final.",
+      "answer": true,
+      "explanation": "Una recta es infinita, no tiene principio ni final. Un segmento sí tiene principio y final."
+    },
+    {
+      "id": "q13",
+      "type": "choice",
+      "emoji": "📐",
+      "question": "La marca que deja la punta de un lápiz es...",
+      "options": ["una recta", "un punto", "un segmento", "una circunferencia"],
+      "answer": 1,
+      "explanation": "Un punto es la marca que deja la punta de un lápiz o un bolígrafo."
+    },
+    {
+      "id": "q14",
+      "type": "choice",
+      "emoji": "📐",
+      "question": "¿Qué es un polígono?",
+      "options": [
+        "Una línea curva cerrada",
+        "Una línea poligonal cerrada y su interior",
+        "Un punto con muchos lados",
+        "Una recta muy larga"
+      ],
+      "answer": 1,
+      "explanation": "Un polígono es una línea poligonal cerrada y su interior. Todos los polígonos tienen lados y vértices."
+    },
+    {
+      "id": "q15",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Un triángulo tiene 3 lados y 3 vértices.",
+      "answer": true,
+      "explanation": "El triángulo es un polígono con 3 lados y 3 vértices."
+    },
+    {
+      "id": "q16",
+      "type": "choice",
+      "emoji": "📐",
+      "question": "¿Cuántos lados tiene un cuadrilátero?",
+      "options": ["3", "4", "5", "6"],
+      "answer": 1,
+      "explanation": "Un cuadrilátero tiene 4 lados y 4 vértices. Ejemplo: cuadrado, rectángulo, rombo."
+    },
+    {
+      "id": "q17",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada forma con su número de lados.",
+      "pairs": [
+        { "left": "Triángulo", "right": "3 lados" },
+        { "left": "Cuadrado", "right": "4 lados" },
+        { "left": "Pentágono", "right": "5 lados" }
+      ],
+      "rightOptions": ["3 lados", "4 lados", "5 lados", "6 lados"]
+    },
+    {
+      "id": "q18",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estas figuras en triángulos y cuadriláteros.",
+      "words": ["cuadrado", "triángulo equilátero", "rectángulo", "rombo", "triángulo isósceles", "trapecio"],
+      "slots": [
+        { "label": "Triángulos (3 lados)", "accepts": ["triángulo equilátero", "triángulo isósceles"] },
+        { "label": "Cuadriláteros (4 lados)", "accepts": ["cuadrado", "rectángulo", "rombo", "trapecio"] }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "choice",
+      "emoji": "⭕",
+      "question": "¿Qué es la circunferencia?",
+      "options": [
+        "Una línea recta cerrada",
+        "Una línea curva cerrada",
+        "Un polígono redondo",
+        "Lo mismo que un círculo"
+      ],
+      "answer": 1,
+      "explanation": "La circunferencia es una línea curva cerrada."
+    },
+    {
+      "id": "q20",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "El círculo es la circunferencia y su interior.",
+      "answer": true,
+      "explanation": "El círculo incluye la circunferencia (la línea curva) y todo su interior."
+    },
+    {
+      "id": "q21",
+      "type": "choice",
+      "emoji": "⭕",
+      "question": "¿Cuál de estos objetos tiene forma de circunferencia?",
+      "options": ["Una caja de zapatos", "La rueda de una bicicleta", "Un libro abierto", "Una puerta"],
+      "answer": 1,
+      "refText": "formas",
+      "explanation": "Las ruedas de bicicleta tienen forma de circunferencia."
+    },
+    {
+      "id": "q22",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada objeto del recreo con la forma que tiene.",
+      "pairs": [
+        { "left": "Portería de fútbol", "right": "Rectángulo" },
+        { "left": "Señal de peligro", "right": "Triángulo" },
+        { "left": "Rueda de bicicleta", "right": "Circunferencia" }
+      ],
+      "rightOptions": ["Rectángulo", "Triángulo", "Circunferencia", "Pentágono"],
+      "refText": "formas"
+    },
+    {
+      "id": "q23",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "Había 36 cuadrados en la caja. Si usaron 31, ¿cuántos quedan?",
+      "options": ["5", "6", "4", "7"],
+      "answer": 0,
+      "refText": "juego",
+      "explanation": "36 - 31 = 5 cuadrados quedan."
+    },
+    {
+      "id": "q24",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Un círculo es un polígono.",
+      "answer": false,
+      "explanation": "Un círculo NO es un polígono. Los polígonos tienen lados rectos y el círculo tiene una línea curva."
+    },
+    {
+      "id": "q25",
+      "type": "choice",
+      "emoji": "🧠",
+      "question": "¿Cuánto es 53 - 9?",
+      "options": ["43", "44", "45", "42"],
+      "answer": 1,
+      "explanation": "53 - 9 = 53 - 10 + 1 = 43 + 1 = 44."
+    },
+    {
+      "id": "q26",
+      "type": "choice",
+      "emoji": "🧠",
+      "question": "Para restar 9 a un número, ¿qué truco podemos usar?",
+      "options": [
+        "Restar 10 y sumar 1",
+        "Restar 10 y restar 1",
+        "Sumar 10 y restar 1",
+        "Restar 8 y restar 1"
+      ],
+      "answer": 0,
+      "explanation": "Restar 9 = restar 10 y luego sumar 1. ¡Es más fácil así!"
+    },
+    {
+      "id": "q27",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Completa la frase con las palabras correctas.",
+      "sentence": "Para restar 9, primero _____ 10 y luego _____ 1.",
+      "blanks": ["resto", "sumo"],
+      "wordBank": ["resto", "sumo", "multiplico", "divido"]
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Ordena las sílabas para formar el nombre de una forma geométrica.",
+      "words": ["trián", "gu", "lo"],
+      "answer": "triángulo"
+    }
+  ]
+}

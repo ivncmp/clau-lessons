@@ -1,0 +1,22 @@
+{
+  "id": "2-primaria",
+  "name": "2º Primaria",
+  "subjects": [
+    {
+      "id": "lengua",
+      "name": "Lengua",
+      "icon": "📝",
+      "color": "#7B1FA2",
+      "lang": "es",
+      "topicCount": 1
+    },
+    {
+      "id": "mates",
+      "name": "Matemáticas",
+      "icon": "🔢",
+      "color": "#1565C0",
+      "lang": "es",
+      "topicCount": 2
+    }
+  ]
+}

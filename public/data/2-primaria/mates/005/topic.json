@@ -1,0 +1,18 @@
+{
+  "id": "005",
+  "subjectId": "mates",
+  "title": "Unidad 5",
+  "description": "Números del 400 al 799 · Suma y resta de tres cifras · El kilogramo · Gráficos de barras",
+  "icon": "🔢",
+  "texts": {
+    "mercado": {
+      "title": "🛒 Un día en el mercado",
+      "html": "<p>María y su madre fueron al <span class='hl'>mercado</span> a comprar fruta. Compraron <span class='hl'>2 kilos</span> de naranjas y <span class='hl'>medio kilo</span> de fresas.</p><p>En la tienda había una <span class='hl'>balanza</span> para pesar la fruta. María vio que un melón pesaba <span class='hl'>3 kilos</span> y una sandía pesaba <span class='hl'>5 kilos</span>.</p><p>Su madre pagó con un billete de <span class='hl'>10 euros</span> y le devolvieron <span class='hl'>4 euros</span>. En total gastaron <span class='hl'>6 euros</span> en la compra.</p>"
+    },
+    "huerto": {
+      "title": "🌱 El huerto escolar",
+      "html": "<p>En el colegio de Pablo tienen un <span class='hl'>huerto escolar</span>. Esta semana han recogido la cosecha.</p><p>Han recogido <span class='hl'>234 tomates</span>, <span class='hl'>152 pepinos</span> y <span class='hl'>113 zanahorias</span>.</p><p>La clase de 2ºA recogió los tomates y la clase de 2ºB recogió los pepinos. Entre las dos clases recogieron <span class='hl'>386 hortalizas</span> en total.</p><p>El curso pasado recogieron <span class='hl'>499 hortalizas</span> en total. Este año quieren superar esa cifra y llegar a las <span class='hl'>500</span>.</p>"
+    }
+  },
+  "images": {}
+}

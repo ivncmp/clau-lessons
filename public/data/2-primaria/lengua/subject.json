@@ -1,0 +1,16 @@
+{
+  "id": "lengua",
+  "name": "Lengua",
+  "icon": "📝",
+  "color": "#7B1FA2",
+  "lang": "es",
+  "topics": [
+    {
+      "id": "005",
+      "title": "Unidad 5",
+      "description": "¡SOS, salvemos el mar! · El adjetivo · Palabras con za, ce, ci, zo, zu",
+      "icon": "🌊",
+      "questionCount": 28
+    }
+  ]
+}

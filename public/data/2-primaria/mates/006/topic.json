@@ -1,0 +1,18 @@
+{
+  "id": "006",
+  "subjectId": "mates",
+  "title": "Unidad 6",
+  "description": "Números del 800 al 999 · Suma llevando · Punto y recta · Polígonos · El círculo",
+  "icon": "📐",
+  "texts": {
+    "juego": {
+      "title": "🎮 El juego de construcción",
+      "html": "<p>En el colegio de Ana tienen un <span class='hl'>juego de construcción</span> con piezas de colores. En la caja hay <span class='hl'>36 cuadrados</span> y <span class='hl'>25 triángulos</span>.</p><p>Ana ha construido un <span class='hl'>castillo</span> usando 19 cuadrados y 8 triángulos. Su amigo Pablo ha construido un <span class='hl'>robot</span> usando 12 cuadrados y 10 triángulos.</p><p>En total han usado <span class='hl'>31 cuadrados</span> y <span class='hl'>18 triángulos</span> entre los dos. ¿Cuántas piezas de cada tipo quedan en la caja?</p>"
+    },
+    "formas": {
+      "title": "🔍 Formas en el recreo",
+      "html": "<p>La profesora Sara pidió a sus alumnos que buscaran <span class='hl'>formas geométricas</span> en el patio del colegio.</p><p>Lucas encontró que la <span class='hl'>portería</span> de fútbol tiene forma de <span class='hl'>rectángulo</span>. María vio que las <span class='hl'>señales de tráfico</span> cerca del colegio tienen diferentes formas: una es un <span class='hl'>triángulo</span>, otra es un <span class='hl'>círculo</span> y la de STOP es un <span class='hl'>octógono</span>.</p><p>Pablo descubrió que las <span class='hl'>ruedas</span> de su bicicleta tienen forma de <span class='hl'>circunferencia</span> y que el <span class='hl'>reloj</span> de la pared tiene forma de <span class='hl'>círculo</span>.</p>"
+    }
+  },
+  "images": {}
+}

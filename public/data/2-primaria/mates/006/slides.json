@@ -1,0 +1,113 @@
+{
+  "topicId": "006",
+  "subjectId": "mates",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "🔢",
+      "title": "Números del 800 al 999",
+      "content": "<p>Los números del <span class='hl'>800 al 999</span> se forman con <span class='hl'>centenas</span>, <span class='hl'>decenas</span> y <span class='hl'>unidades</span>.</p><p>Por ejemplo, el número <span class='hl'>837</span> tiene:</p><p>🟥 <span class='hl'>8 centenas</span> (800)<br/>🟧 <span class='hl'>3 decenas</span> (30)<br/>🟨 <span class='hl'>7 unidades</span> (7)</p><p>800 + 30 + 7 = <span class='hl'>837</span></p>",
+      "tip": "¡El 9 es la centena más grande de un solo dígito! 999 es el número más grande con tres cifras."
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "📊",
+      "title": "Comparar números grandes",
+      "content": "<p>Para comparar números de tres cifras, miramos primero las <span class='hl'>centenas</span>.</p><p>🔹 Si las centenas son diferentes, ¡el que tenga más centenas es mayor!</p><p>🔹 Si las centenas son iguales, miramos las <span class='hl'>decenas</span>.</p><p>🔹 Si las decenas también son iguales, miramos las <span class='hl'>unidades</span>.</p><p>Ejemplo: <span class='hl'>879</span> y <span class='hl'>897</span><br/>Centenas: 8 = 8 (iguales)<br/>Decenas: 7 &lt; 9 → <span class='hl'>897 es mayor</span></p>"
+    },
+    {
+      "id": "s03",
+      "type": "story",
+      "emoji": "🎮",
+      "title": "El juego de construcción",
+      "html": "<p>En el colegio de Ana tienen un <span class='hl'>juego de construcción</span> con piezas de colores. En la caja hay <span class='hl'>36 cuadrados</span> y <span class='hl'>25 triángulos</span>.</p><p>Ana ha construido un <span class='hl'>castillo</span> usando 19 cuadrados y 8 triángulos. Su amigo Pablo ha construido un <span class='hl'>robot</span> usando 12 cuadrados y 10 triángulos.</p><p>En total han usado <span class='hl'>31 cuadrados</span> y <span class='hl'>18 triángulos</span> entre los dos. ¿Cuántas piezas de cada tipo quedan en la caja?</p>"
+    },
+    {
+      "id": "s04",
+      "type": "concept",
+      "emoji": "➕",
+      "title": "Suma llevando",
+      "content": "<p>Cuando sumamos dos números y las unidades (o decenas) <span class='hl'>pasan de 9</span>, tenemos que <span class='hl'>llevar</span>.</p><p>🔸 Sumamos las <span class='hl'>unidades</span>. Si pasan de 9, escribimos las unidades del resultado y llevamos 1 a las decenas.</p><p>🔸 Sumamos las <span class='hl'>decenas</span> (más lo que llevamos). Si pasan de 9, escribimos las unidades y llevamos 1 a las centenas.</p><p>🔸 Sumamos las <span class='hl'>centenas</span> (más lo que llevamos).</p>",
+      "tip": "¡\"Llevar\" significa que pasamos un grupo de 10 a la siguiente columna!"
+    },
+    {
+      "id": "s05",
+      "type": "example",
+      "emoji": "➕",
+      "title": "Ejemplo: 364 + 478",
+      "problem": "<p>Vamos a sumar <span class='hl'>364 + 478</span> paso a paso.</p>",
+      "steps": [
+        "1️⃣ Unidades: 4 + 8 = 12 → escribo 2, llevo 1",
+        "2️⃣ Decenas: 6 + 7 + 1 = 14 → escribo 4, llevo 1",
+        "3️⃣ Centenas: 3 + 4 + 1 = 8"
+      ],
+      "answer": "364 + 478 = 842 ✅"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "📐",
+      "title": "Punto, recta y segmento",
+      "content": "<p>🔹 Un <span class='hl'>punto</span> es la marca que deja la punta de un lápiz. Se escribe con una letra mayúscula (A, B, C...).</p><p>🔹 Una <span class='hl'>recta</span> es una línea recta que <span class='hl'>no tiene principio ni final</span>. ¡Es infinita!</p><p>🔹 Un <span class='hl'>segmento</span> es una línea recta que va <span class='hl'>entre dos puntos</span>. Sí tiene principio y final.</p>",
+      "tip": "Piensa en una cuerda: si la cortas, tienes un segmento. Si pudiera estirarse sin parar, sería una recta."
+    },
+    {
+      "id": "s07",
+      "type": "concept",
+      "emoji": "🔷",
+      "title": "Los polígonos",
+      "content": "<p>Un <span class='hl'>polígono</span> es una figura plana formada por una <span class='hl'>línea poligonal cerrada</span> y su interior.</p><p>Los polígonos tienen <span class='hl'>lados</span> (los segmentos) y <span class='hl'>vértices</span> (los puntos donde se juntan).</p><p>🔺 <span class='hl'>Triángulo</span> → 3 lados y 3 vértices<br/>🔹 <span class='hl'>Cuadrilátero</span> → 4 lados (cuadrado, rectángulo, rombo...)<br/>⬠ <span class='hl'>Pentágono</span> → 5 lados<br/>⬡ <span class='hl'>Hexágono</span> → 6 lados</p>"
+    },
+    {
+      "id": "s08",
+      "type": "story",
+      "emoji": "🔍",
+      "title": "Formas en el recreo",
+      "html": "<p>La profesora Sara pidió a sus alumnos que buscaran <span class='hl'>formas geométricas</span> en el patio del colegio.</p><p>Lucas encontró que la <span class='hl'>portería</span> de fútbol tiene forma de <span class='hl'>rectángulo</span>. María vio que las <span class='hl'>señales de tráfico</span> cerca del colegio tienen diferentes formas: una es un <span class='hl'>triángulo</span>, otra es un <span class='hl'>círculo</span> y la de STOP es un <span class='hl'>octógono</span>.</p><p>Pablo descubrió que las <span class='hl'>ruedas</span> de su bicicleta tienen forma de <span class='hl'>circunferencia</span> y que el <span class='hl'>reloj</span> de la pared tiene forma de <span class='hl'>círculo</span>.</p>"
+    },
+    {
+      "id": "s09",
+      "type": "concept",
+      "emoji": "⭕",
+      "title": "El círculo y la circunferencia",
+      "content": "<p>🔵 La <span class='hl'>circunferencia</span> es una <span class='hl'>línea curva cerrada</span>. Es solo el borde.</p><p>🟣 El <span class='hl'>círculo</span> es la circunferencia <span class='hl'>y todo su interior</span>.</p><p>⚠️ ¡Cuidado! Un círculo <span class='hl'>NO es un polígono</span> porque no tiene lados rectos.</p>",
+      "tip": "La circunferencia es como un anillo. El círculo es como una moneda (anillo + todo lo de dentro)."
+    },
+    {
+      "id": "s10",
+      "type": "concept",
+      "emoji": "🧠",
+      "title": "Truco: restar 9",
+      "content": "<p>Para restar 9 a un número hay un <span class='hl'>truco mental</span> muy fácil:</p><p>🔸 <span class='hl'>Restar 9</span> = <span class='hl'>restar 10</span> y luego <span class='hl'>sumar 1</span></p><p>Ejemplo: <span class='hl'>53 - 9</span><br/>Paso 1: 53 - 10 = 43<br/>Paso 2: 43 + 1 = <span class='hl'>44</span></p><p>¡Es mucho más fácil restar 10 que restar 9!</p>",
+      "tip": "9 = 10 - 1. ¡Por eso si restas 10, has restado 1 de más, y tienes que sumar 1!"
+    },
+    {
+      "id": "s11",
+      "type": "example",
+      "emoji": "🧠",
+      "title": "Ejemplo: 76 - 9",
+      "problem": "<p>Usa el truco para calcular <span class='hl'>76 - 9</span>.</p>",
+      "steps": [
+        "1️⃣ Restamos 10: 76 - 10 = 66",
+        "2️⃣ Sumamos 1: 66 + 1 = 67"
+      ],
+      "answer": "76 - 9 = 67 ✅"
+    },
+    {
+      "id": "s12",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "¡Repasamos todo!",
+      "points": [
+        "🔢 Números del 800 al 999: centenas + decenas + unidades",
+        "➕ Suma llevando: si las unidades o decenas pasan de 9, llevo 1",
+        "📐 Punto (marca del lápiz), recta (infinita), segmento (entre dos puntos)",
+        "🔷 Polígonos: figuras con lados rectos (triángulo, cuadrilátero, pentágono...)",
+        "⭕ Circunferencia = línea curva cerrada. Círculo = circunferencia + interior",
+        "🧠 Truco para restar 9: resto 10 y sumo 1"
+      ]
+    }
+  ]
+}

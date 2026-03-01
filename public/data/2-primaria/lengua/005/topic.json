@@ -1,0 +1,18 @@
+{
+  "id": "005",
+  "subjectId": "lengua",
+  "title": "Unidad 5",
+  "description": "¡SOS, salvemos el mar! · El adjetivo · Palabras con za, ce, ci, zo, zu",
+  "icon": "🌊",
+  "texts": {
+    "labota": {
+      "title": "📖 La bota que cayó en la roca",
+      "html": "<p>Una vez cayó algo en lo más <span class='hl'>hondo</span> del mar. Era una <span class='hl'>bota</span> vieja que alguien tiró desde un barco.</p><p>Los <span class='hl'>cangrejos</span> la miraron con curiosidad. Un calamar se acercó despacio y la tocó con sus <span class='hl'>tentáculos</span>. «¿Qué es esto?», preguntó. «No lo sé», contestó un cangrejo, «pero no huele a comida».</p><p>Entonces llegó un <span class='hl'>pulpo</span> enorme. Metió un tentáculo dentro de la bota y dijo: «¡Qué casa tan cómoda! Me quedaré a vivir aquí». Y así fue como el pulpo encontró un <span class='hl'>hogar</span> en el fondo del mar.</p><p>Pero un día, una <span class='hl'>tortuga marina</span> pasó nadando y vio la bota. «Eso no debería estar aquí», dijo la tortuga. «La <span class='hl'>basura</span> ensucia nuestro mar y hace daño a los animales». El pulpo comprendió y decidió buscar una cueva de verdad.</p>"
+    },
+    "tortugas": {
+      "title": "🐢 Las tortugas marinas",
+      "html": "<p>Las <span class='hl'>tortugas marinas</span> son reptiles <span class='hl'>acuáticos</span> que viven en el mar y se acercan a la orilla y a los ojos salinos.</p><p><strong>¿Cómo son?</strong> Tienen un <span class='hl'>caparazón</span> muy fuerte que las protege. Sus principales enemigos son los <span class='hl'>plásticos</span> que llegan al mar: bolsas, redes de plásticos con botellas y anillos de envases.</p><p><strong>¿Dónde viven?</strong> Viven en todos los mares y los océanos de aguas templadas.</p><p><strong>¿Qué comen?</strong> Comen algas y animales: peces, algas, esponjas, erizos de mar, y las encuentran medusas.</p>"
+    }
+  },
+  "images": {}
+}

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build)",
+      "Bash(npm run test:run)",
+      "Bash(wc -l /Users/ivan/claudia-school/*/examenes/*/exam.js)",
+      "Bash(grep -h \"type:\" /Users/ivan/claudia-school/*/examenes/*/exam.js)",
+      "Bash(grep -A1 \"const questions = \\\\[\" /Users/ivan/claudia-school/*/examenes/*/exam.js)",
+      "Bash(node -e \"const e = require\\(''./public/data/2-primaria/lengua/005/exam.json''\\); console.log\\(''Questions:'', e.questions.length\\); const types = {}; e.questions.forEach\\(q => { types[q.type] = \\(types[q.type]||0\\)+1; }\\); console.log\\(''By type:'', types\\); const t = require\\(''./public/data/2-primaria/lengua/005/topic.json''\\); console.log\\(''Texts:'', Object.keys\\(t.texts\\)\\);\")",
+      "Bash(npm run lint)"
+    ]
+  }
+}

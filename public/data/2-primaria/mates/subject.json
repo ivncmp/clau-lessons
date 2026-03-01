@@ -1,0 +1,23 @@
+{
+  "id": "mates",
+  "name": "Matemáticas",
+  "icon": "🔢",
+  "color": "#1565C0",
+  "lang": "es",
+  "topics": [
+    {
+      "id": "005",
+      "title": "Unidad 5",
+      "description": "Números del 400 al 799 · Suma y resta de tres cifras · El kilogramo · Gráficos de barras",
+      "icon": "🔢",
+      "questionCount": 28
+    },
+    {
+      "id": "006",
+      "title": "Unidad 6",
+      "description": "Números del 800 al 999 · Suma llevando · Punto y recta · Polígonos · El círculo",
+      "icon": "📐",
+      "questionCount": 28
+    }
+  ]
+}

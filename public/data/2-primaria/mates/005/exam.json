@@ -1,0 +1,275 @@
+{
+  "topicId": "005",
+  "subjectId": "mates",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "¿Cómo se descompone el número 475?",
+      "options": ["4C + 7D + 5U", "4C + 5D + 7U", "7C + 4D + 5U", "5C + 7D + 4U"],
+      "answer": 0,
+      "explanation": "475 = 4 centenas + 7 decenas + 5 unidades."
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "¿Qué número corresponde a 5 centenas, 2 decenas y 8 unidades?",
+      "options": ["258", "582", "528", "825"],
+      "answer": 2,
+      "explanation": "5C + 2D + 8U = 528."
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "El número 506 tiene 5 centenas, 0 decenas y 6 unidades.",
+      "answer": true,
+      "explanation": "506 = 5 centenas + 0 decenas + 6 unidades."
+    },
+    {
+      "id": "q04",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "¿Qué número va justo después del 499?",
+      "options": ["500", "498", "490", "501"],
+      "answer": 0,
+      "explanation": "Después del 499 viene el 500."
+    },
+    {
+      "id": "q05",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estos números según sean menores o mayores que 500.",
+      "words": ["423", "567", "489", "512", "450", "601"],
+      "slots": [
+        { "label": "Menores de 500", "accepts": ["423", "489", "450"] },
+        { "label": "Mayores de 500", "accepts": ["567", "512", "601"] }
+      ]
+    },
+    {
+      "id": "q06",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada número con su nombre.",
+      "pairs": [
+        { "left": "450", "right": "cuatrocientos cincuenta" },
+        { "left": "532", "right": "quinientos treinta y dos" },
+        { "left": "408", "right": "cuatrocientos ocho" },
+        { "left": "571", "right": "quinientos setenta y uno" }
+      ],
+      "rightOptions": ["cuatrocientos cincuenta", "quinientos treinta y dos", "cuatrocientos ocho", "quinientos setenta y uno", "cuatrocientos ochenta"]
+    },
+    {
+      "id": "q07",
+      "type": "choice",
+      "emoji": "➕",
+      "question": "En el huerto recogieron 234 tomates y 152 pepinos. ¿Cuántas hortalizas recogieron en total?",
+      "options": ["386", "376", "396", "286"],
+      "answer": 0,
+      "refText": "huerto",
+      "explanation": "234 + 152 = 386 hortalizas."
+    },
+    {
+      "id": "q08",
+      "type": "choice",
+      "emoji": "➕",
+      "question": "¿Cuánto es 321 + 245?",
+      "options": ["566", "556", "576", "565"],
+      "answer": 0,
+      "explanation": "321 + 245 = 566. Sumamos unidades (1+5=6), decenas (2+4=6) y centenas (3+2=5)."
+    },
+    {
+      "id": "q09",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Para sumar números de tres cifras, primero sumamos las unidades.",
+      "answer": true,
+      "explanation": "Sumamos en orden: 1º unidades, 2º decenas, 3º centenas."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "➕",
+      "question": "¿Cuánto es 172 + 405?",
+      "options": ["577", "567", "587", "477"],
+      "answer": 0,
+      "explanation": "172 + 405 = 577."
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "➖",
+      "question": "¿Cuánto es 487 - 253?",
+      "options": ["234", "244", "224", "334"],
+      "answer": 0,
+      "explanation": "487 - 253 = 234. Restamos unidades (7-3=4), decenas (8-5=3) y centenas (4-2=2)."
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "emoji": "➖",
+      "question": "¿Cuánto es 596 - 341?",
+      "options": ["255", "245", "265", "355"],
+      "answer": 0,
+      "explanation": "596 - 341 = 255."
+    },
+    {
+      "id": "q13",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Para restar números de tres cifras, primero restamos las centenas.",
+      "answer": false,
+      "explanation": "Primero restamos las unidades, luego las decenas y por último las centenas."
+    },
+    {
+      "id": "q14",
+      "type": "choice",
+      "emoji": "➖",
+      "question": "En la biblioteca hay 358 libros. Se prestan 212 libros. ¿Cuántos quedan?",
+      "options": ["146", "156", "136", "246"],
+      "answer": 0,
+      "explanation": "358 - 212 = 146 libros quedan."
+    },
+    {
+      "id": "q15",
+      "type": "choice",
+      "emoji": "⚖️",
+      "question": "¿Cuántos cuartos de kilo necesitas para completar 1 kilo?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 2,
+      "explanation": "1 kilo = 4 cuartos de kilo (1/4 + 1/4 + 1/4 + 1/4 = 1 kg)."
+    },
+    {
+      "id": "q16",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Medio kilo es lo mismo que 2 cuartos de kilo.",
+      "answer": true,
+      "explanation": "1/2 kg = 2 × 1/4 kg. Medio kilo equivale a dos cuartos de kilo."
+    },
+    {
+      "id": "q17",
+      "type": "choice",
+      "emoji": "⚖️",
+      "question": "María compró 2 kilos de naranjas y medio kilo de fresas. ¿Cuántos kilos de fruta compró en total?",
+      "options": ["2 kilos y medio", "3 kilos", "2 kilos", "1 kilo y medio"],
+      "answer": 0,
+      "refText": "mercado",
+      "explanation": "2 kg + 1/2 kg = 2 kilos y medio."
+    },
+    {
+      "id": "q18",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada objeto con su peso aproximado.",
+      "pairs": [
+        { "left": "Una naranja", "right": "1/4 de kilo" },
+        { "left": "Un melón", "right": "3 kilos" },
+        { "left": "Una sandía", "right": "5 kilos" }
+      ],
+      "rightOptions": ["1/4 de kilo", "3 kilos", "5 kilos", "10 kilos"]
+    },
+    {
+      "id": "q19",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estos objetos según su peso.",
+      "words": ["una mochila llena", "una pluma", "un balón de fútbol", "un lápiz", "una silla", "una goma de borrar"],
+      "slots": [
+        { "label": "Pesa más de 1 kg", "accepts": ["una mochila llena", "un balón de fútbol", "una silla"] },
+        { "label": "Pesa menos de 1 kg", "accepts": ["una pluma", "un lápiz", "una goma de borrar"] }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "¿Cómo se escribe el número seiscientos cuarenta y tres?",
+      "options": ["643", "634", "463", "346"],
+      "answer": 0,
+      "explanation": "Seiscientos (600) + cuarenta (40) + tres (3) = 643."
+    },
+    {
+      "id": "q21",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "¿Cuál de estos números es mayor?",
+      "options": ["698", "689", "679", "699"],
+      "answer": 3,
+      "explanation": "699 es el mayor: tiene 6 centenas, 9 decenas y 9 unidades."
+    },
+    {
+      "id": "q22",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada número con su descomposición.",
+      "pairs": [
+        { "left": "735", "right": "7C + 3D + 5U" },
+        { "left": "609", "right": "6C + 0D + 9U" },
+        { "left": "781", "right": "7C + 8D + 1U" }
+      ],
+      "rightOptions": ["7C + 3D + 5U", "6C + 0D + 9U", "7C + 8D + 1U", "6C + 9D + 0U"]
+    },
+    {
+      "id": "q23",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Ordena las sílabas para formar el nombre de un número.",
+      "words": ["seis", "cien", "tos"],
+      "answer": "seiscientos"
+    },
+    {
+      "id": "q24",
+      "type": "choice",
+      "emoji": "📊",
+      "question": "En el huerto recogieron 234 tomates, 152 pepinos y 113 zanahorias. ¿De qué hortaliza recogieron más?",
+      "options": ["Pepinos", "Tomates", "Zanahorias", "Todas igual"],
+      "answer": 1,
+      "refText": "huerto",
+      "explanation": "Recogieron más tomates (234) que pepinos (152) o zanahorias (113)."
+    },
+    {
+      "id": "q25",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "En el huerto recogieron más pepinos (152) que zanahorias (113).",
+      "answer": true,
+      "refText": "huerto",
+      "explanation": "152 pepinos > 113 zanahorias."
+    },
+    {
+      "id": "q26",
+      "type": "choice",
+      "emoji": "🧠",
+      "question": "¿Cuánto es 46 + 9?",
+      "options": ["54", "55", "56", "45"],
+      "answer": 1,
+      "explanation": "46 + 9 = 46 + 10 - 1 = 56 - 1 = 55."
+    },
+    {
+      "id": "q27",
+      "type": "choice",
+      "emoji": "🧠",
+      "question": "Para sumar 9 a un número, ¿qué truco podemos usar?",
+      "options": [
+        "Sumar 10 y restar 1",
+        "Sumar 10 y sumar 1",
+        "Restar 10 y sumar 1",
+        "Sumar 8 y sumar 1"
+      ],
+      "answer": 0,
+      "explanation": "Sumar 9 = sumar 10 y luego restar 1. ¡Es más fácil así!"
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Completa la frase con las palabras correctas.",
+      "sentence": "Para sumar 9, primero _____ 10 y luego _____ 1.",
+      "blanks": ["sumo", "resto"],
+      "wordBank": ["sumo", "resto", "multiplico", "divido"]
+    }
+  ]
+}

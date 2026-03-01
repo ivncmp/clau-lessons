@@ -1,23 +1,179 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-}
-
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  min-height: 100vh;
+}
+
+/* ─── Exam Animations ──────────────────────────────────────────── */
+
+@keyframes cardIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes floatBubble {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.05);
+  }
+}
+
+.exam-card-in {
+  animation: cardIn 0.4s ease-out;
+}
+
+.exam-pop-in {
+  animation: popIn 0.5s ease-out;
+}
+
+/* ─── Page Entrance Animations ────────────────────────────────── */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.5s ease-out both;
+}
+
+.fade-in-scale {
+  animation: fadeInScale 0.4s ease-out both;
+}
+
+.fade-in-left {
+  animation: fadeInLeft 0.4s ease-out both;
+}
+
+/* Stagger delays — applied via style attribute or nth-child */
+.stagger-1 {
+  animation-delay: 0ms;
+}
+.stagger-2 {
+  animation-delay: 60ms;
+}
+.stagger-3 {
+  animation-delay: 120ms;
+}
+.stagger-4 {
+  animation-delay: 180ms;
+}
+.stagger-5 {
+  animation-delay: 240ms;
+}
+.stagger-6 {
+  animation-delay: 300ms;
+}
+.stagger-7 {
+  animation-delay: 360ms;
+}
+.stagger-8 {
+  animation-delay: 420ms;
+}
+.stagger-9 {
+  animation-delay: 480ms;
+}
+.stagger-10 {
+  animation-delay: 540ms;
+}
+.stagger-11 {
+  animation-delay: 600ms;
+}
+.stagger-12 {
+  animation-delay: 660ms;
+}
+
+/* ─── Floating Decorations ─────────────────────────────────────── */
+
+@keyframes floatCloud {
+  0%,
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(30px) translateY(-8px);
+  }
+}
+
+@keyframes floatDrift {
+  0%,
+  100% {
+    transform: translateX(0) translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(15px) translateY(-12px) rotate(8deg);
+  }
+}
+
+@keyframes floatStar {
+  0%,
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 0.35;
+  }
+  50% {
+    transform: scale(1.2) translateY(-6px);
+    opacity: 0.5;
+  }
 }

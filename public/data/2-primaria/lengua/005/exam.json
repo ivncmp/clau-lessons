@@ -1,0 +1,284 @@
+{
+  "topicId": "005",
+  "subjectId": "lengua",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Según el texto, ¿qué cayó al fondo del mar?",
+      "options": ["Un zapato viejo", "Una bota vieja", "Un sombrero roto", "Una botella de cristal"],
+      "answer": 1,
+      "refText": "labota",
+      "explanation": "El texto dice: «Era una bota vieja que alguien tiró desde un barco»."
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "¿Quién decidió vivir dentro de la bota?",
+      "options": ["Un cangrejo", "Un calamar", "Un pulpo", "Una tortuga"],
+      "answer": 2,
+      "refText": "labota",
+      "explanation": "El pulpo dijo: «¡Qué casa tan cómoda! Me quedaré a vivir aquí»."
+    },
+    {
+      "id": "q03",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "¿Qué animal advirtió que la basura ensucia el mar?",
+      "options": ["El cangrejo", "El calamar", "El pulpo", "La tortuga marina"],
+      "answer": 3,
+      "refText": "labota",
+      "explanation": "La tortuga dijo: «La basura ensucia nuestro mar y hace daño a los animales»."
+    },
+    {
+      "id": "q04",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "En el cuento, el calamar tocó la bota con sus tentáculos.",
+      "answer": true,
+      "refText": "labota",
+      "explanation": "El texto dice: «Un calamar se acercó despacio y la tocó con sus tentáculos»."
+    },
+    {
+      "id": "q05",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Al final del cuento, el pulpo se quedó a vivir en la bota.",
+      "answer": false,
+      "refText": "labota",
+      "explanation": "El pulpo comprendió y decidió buscar una cueva de verdad."
+    },
+    {
+      "id": "q06",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "¿Cuál es el principal enemigo de las tortugas marinas según el texto?",
+      "options": ["Los tiburones", "Los plásticos del mar", "Los pescadores", "El frío"],
+      "answer": 1,
+      "refText": "tortugas",
+      "explanation": "Sus principales enemigos son los plásticos que llegan al mar."
+    },
+    {
+      "id": "q07",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Las tortugas marinas viven solo en aguas frías.",
+      "answer": false,
+      "refText": "tortugas",
+      "explanation": "Viven en todos los mares y océanos de aguas templadas."
+    },
+    {
+      "id": "q08",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Las tortugas marinas tienen un caparazón que las protege.",
+      "answer": true,
+      "refText": "tortugas",
+      "explanation": "Tienen un caparazón muy fuerte que las protege."
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "¿Qué es un adjetivo?",
+      "options": [
+        "Una palabra que indica una acción",
+        "Una palabra que indica una cualidad del nombre",
+        "Una palabra que sustituye al nombre",
+        "Una palabra que une dos frases"
+      ],
+      "answer": 1,
+      "explanation": "El adjetivo acompaña al nombre y nos indica alguna cualidad de este."
+    },
+    {
+      "id": "q10",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "El adjetivo siempre tiene el mismo género y número que el nombre al que acompaña.",
+      "answer": true,
+      "explanation": "El adjetivo tiene el mismo género (masculino/femenino) y número (singular/plural) que el nombre."
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "En la frase «El tiburón tiene dientes afilados», ¿cuál es el adjetivo?",
+      "options": ["tiburón", "tiene", "dientes", "afilados"],
+      "answer": 3,
+      "explanation": "«Afilados» describe cómo son los dientes, es un adjetivo."
+    },
+    {
+      "id": "q12",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estos adjetivos en cualidades positivas o negativas.",
+      "words": ["bonita", "horrible", "amable", "antipático", "cuidadoso", "desagradable"],
+      "slots": [
+        { "label": "Cualidades positivas", "accepts": ["bonita", "amable", "cuidadoso"] },
+        { "label": "Cualidades negativas", "accepts": ["horrible", "antipático", "desagradable"] }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada animal con el adjetivo que mejor lo describe.",
+      "pairs": [
+        { "left": "Tiburón", "right": "feroz" },
+        { "left": "Tortuga", "right": "lenta" },
+        { "left": "Delfín", "right": "juguetón" },
+        { "left": "Pulpo", "right": "inteligente" }
+      ],
+      "rightOptions": ["feroz", "lenta", "juguetón", "inteligente", "diminuto"]
+    },
+    {
+      "id": "q14",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "¿Cuál de estas palabras NO es un adjetivo?",
+      "options": ["grande", "veloz", "cariñoso", "cangrejo"],
+      "answer": 3,
+      "explanation": "«Cangrejo» es un sustantivo (nombre), no un adjetivo."
+    },
+    {
+      "id": "q15",
+      "type": "choice",
+      "emoji": "🔤",
+      "question": "¿Qué es una familia de palabras?",
+      "options": [
+        "Palabras que significan lo mismo",
+        "Palabras que se parecen por su raíz",
+        "Palabras que riman entre sí",
+        "Palabras que empiezan igual"
+      ],
+      "answer": 1,
+      "explanation": "Una familia de palabras son palabras que comparten la misma raíz: mar, marinero, submarino."
+    },
+    {
+      "id": "q16",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada palabra con otra de su misma familia.",
+      "pairs": [
+        { "left": "mar", "right": "marinero" },
+        { "left": "zapato", "right": "zapatero" },
+        { "left": "pescado", "right": "pescador" },
+        { "left": "barco", "right": "barquero" }
+      ],
+      "rightOptions": ["marinero", "zapatero", "pescador", "barquero", "panadero"]
+    },
+    {
+      "id": "q17",
+      "type": "choice",
+      "emoji": "🔤",
+      "question": "¿Cuál de estas palabras pertenece a la familia de «mar»?",
+      "options": ["mariposa", "submarino", "martes", "marioneta"],
+      "answer": 1,
+      "explanation": "Submarino viene de «sub» (debajo) + «mar»: lo que va debajo del mar."
+    },
+    {
+      "id": "q18",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Ordena las sílabas para formar una palabra de la familia de «mar».",
+      "words": ["ri", "ma", "ne", "ro"],
+      "answer": "marinero"
+    },
+    {
+      "id": "q19",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Ordena las sílabas para formar una palabra de la familia de «mar».",
+      "words": ["sub", "ma", "ri", "no"],
+      "answer": "submarino"
+    },
+    {
+      "id": "q20",
+      "type": "choice",
+      "emoji": "✏️",
+      "question": "¿Cuál de estas palabras se escribe con «z»?",
+      "options": ["sereza", "zapato", "sapato", "cebra"],
+      "answer": 1,
+      "explanation": "Se escribe «zapato» con z. Delante de a, o, u se escribe z: za, zo, zu."
+    },
+    {
+      "id": "q21",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Se escribe «c» delante de «e» e «i»: ce, ci.",
+      "answer": true,
+      "explanation": "La regla es: za, ce, ci, zo, zu. Delante de e, i se escribe c."
+    },
+    {
+      "id": "q22",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estas palabras según su escritura.",
+      "words": ["zapato", "cereza", "circo", "zorro", "cesta", "zumo"],
+      "slots": [
+        { "label": "Se escriben con Z", "accepts": ["zapato", "zorro", "zumo"] },
+        { "label": "Se escriben con C", "accepts": ["cereza", "circo", "cesta"] }
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Completa las palabras con «c» o «z».",
+      "sentence": "El _____apato está en la _____esta junto a las _____erezas.",
+      "blanks": ["z", "c", "c"],
+      "wordBank": ["z", "c", "c", "s"]
+    },
+    {
+      "id": "q24",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Completa las palabras con «c» o «z».",
+      "sentence": "El _____orro bebe _____umo de _____iruela.",
+      "blanks": ["z", "z", "c"],
+      "wordBank": ["z", "z", "c", "s"]
+    },
+    {
+      "id": "q25",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Ordena las sílabas para formar el nombre de un animal marino.",
+      "words": ["tor", "tu", "ga"],
+      "answer": "tortuga"
+    },
+    {
+      "id": "q26",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "En la frase «La tortuga lenta nada en el mar azul», ¿cuántos adjetivos hay?",
+      "options": ["Uno", "Dos", "Tres", "Ninguno"],
+      "answer": 1,
+      "explanation": "Hay dos adjetivos: «lenta» (describe a la tortuga) y «azul» (describe al mar)."
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada nombre con el adjetivo que concuerda.",
+      "pairs": [
+        { "left": "La bota (femenino singular)", "right": "vieja" },
+        { "left": "Los cangrejos (masculino plural)", "right": "pequeños" },
+        { "left": "El mar (masculino singular)", "right": "profundo" }
+      ],
+      "rightOptions": ["vieja", "pequeños", "profundo", "bonitas"]
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estas palabras en la familia que les corresponda.",
+      "words": ["marinero", "submarino", "zapatero", "zapatilla", "submarinista", "zapatería"],
+      "slots": [
+        { "label": "Familia de «mar»", "accepts": ["marinero", "submarino", "submarinista"] },
+        { "label": "Familia de «zapato»", "accepts": ["zapatero", "zapatilla", "zapatería"] }
+      ]
+    }
+  ]
+}
