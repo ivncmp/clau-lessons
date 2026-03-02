@@ -12,7 +12,8 @@
       "Bash(git config --local user.email \"ivncmp@gmail.com\")",
       "Bash(git add .claude/settings.local.json)",
       "Bash(git commit --amend --no-edit)",
-      "Bash(npm install @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities)"
+      "Bash(npm install @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities)",
+      "Bash(npm run check)"
     ]
   }
 }
