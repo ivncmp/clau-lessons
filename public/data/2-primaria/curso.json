@@ -17,6 +17,38 @@
       "color": "#1565C0",
       "lang": "es",
       "topicCount": 2
+    },
+    {
+      "id": "calculo",
+      "name": "Cálculo",
+      "icon": "🧮",
+      "color": "#0277BD",
+      "lang": "es",
+      "topicCount": 0
+    },
+    {
+      "id": "natural-science",
+      "name": "Natural Science",
+      "icon": "🔬",
+      "color": "#2E7D32",
+      "lang": "en",
+      "topicCount": 0
+    },
+    {
+      "id": "social-science",
+      "name": "Social Science",
+      "icon": "🌍",
+      "color": "#F57C00",
+      "lang": "en",
+      "topicCount": 0
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "icon": "🇬🇧",
+      "color": "#C62828",
+      "lang": "en",
+      "topicCount": 0
     }
   ]
 }
