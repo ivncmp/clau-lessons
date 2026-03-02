@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { Stack, Typography, Box } from "@mui/material";
+import { Stack, Typography, Box, Chip } from "@mui/material";
 import type { WordBankOrderQuestion as WordBankOrderType } from "../../../../types/data";
 import type { UserAnswer } from "../../../../types/storage";
 import { shuffle } from "../../../../utils/shuffle";
@@ -10,13 +10,30 @@ interface WordBankOrderQuestionProps {
   onAnswer: (answer: UserAnswer) => void;
 }
 
+/**
+ * Decode the arranged string back into pieces by greedily matching
+ * against the original word list (longest match first).
+ */
+function splitIntoPieces(arranged: string, words: string[]): string[] {
+  const pieces: string[] = [];
+  let remaining = arranged;
+  const sorted = [...words].sort((a, b) => b.length - a.length);
+  while (remaining.length > 0) {
+    const match = sorted.find((w) => remaining.startsWith(w));
+    if (!match) break;
+    pieces.push(match);
+    remaining = remaining.slice(match.length);
+  }
+  return pieces;
+}
+
 export default function WordBankOrderQuestion({
   question,
   answer,
   onAnswer,
 }: Readonly<WordBankOrderQuestionProps>) {
   const arranged = answer?.type === "word-bank-order" ? answer.arranged : "";
-  const selectedWords = arranged ? arranged.split("") : [];
+  const pieces = splitIntoPieces(arranged, question.words);
 
   const shuffledWords = useMemo(() => shuffle(question.words), [question]);
 
@@ -26,14 +43,18 @@ export default function WordBankOrderQuestion({
   };
 
   const handleRemoveLast = () => {
-    const newArranged = arranged.slice(0, -1);
-    onAnswer({ type: "word-bank-order", arranged: newArranged });
+    if (pieces.length === 0) return;
+    const newPieces = pieces.slice(0, -1);
+    onAnswer({ type: "word-bank-order", arranged: newPieces.join("") });
   };
 
   return (
     <Stack spacing={2}>
-      <Typography variant="h6" fontWeight={600} sx={{ mb: 1 }}>
+      <Typography variant="h6" fontWeight={600}>
         {question.emoji} {question.question}
+      </Typography>
+      <Typography variant="body2" sx={{ color: "#78909C" }}>
+        Pulsa las piezas en el orden correcto
       </Typography>
 
       <Box
@@ -52,29 +73,40 @@ export default function WordBankOrderQuestion({
             : {},
         }}
       >
-        <Typography
-          sx={{
-            fontSize: "1.3rem",
-            fontWeight: 600,
-            letterSpacing: 2,
-            color: arranged ? "#1B5E20" : "#BDBDBD",
-          }}
-        >
-          {arranged || "Pulsa las piezas en orden..."}
-        </Typography>
+        {pieces.length > 0 ? (
+          <Box sx={{ display: "flex", flexWrap: "wrap", gap: 0.5 }}>
+            {pieces.map((piece, i) => (
+              <Chip
+                key={`${piece}-${i}`}
+                label={piece}
+                sx={{
+                  fontSize: "1.1rem",
+                  fontWeight: 700,
+                  bgcolor: "#66BB6A",
+                  color: "white",
+                  height: 36,
+                }}
+              />
+            ))}
+          </Box>
+        ) : (
+          <Typography sx={{ color: "#BDBDBD", fontSize: "1.1rem" }}>
+            Pulsa las piezas en orden...
+          </Typography>
+        )}
         {arranged && (
           <Typography
             variant="caption"
             sx={{ color: "#558B2F", mt: 0.5, display: "block" }}
           >
-            Pulsa para borrar la última pieza
+            Pulsa para quitar la última pieza
           </Typography>
         )}
       </Box>
 
       <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1 }}>
         {shuffledWords.map((word, index) => {
-          const usedCount = selectedWords.filter((w) => w === word).length;
+          const usedCount = pieces.filter((w) => w === word).length;
           const availableCount = question.words.filter(
             (w) => w === word,
           ).length;

@@ -8,7 +8,7 @@
       "icon": "📝",
       "color": "#7B1FA2",
       "lang": "es",
-      "topicCount": 1
+      "topicCount": 12
     },
     {
       "id": "mates",
@@ -16,7 +16,7 @@
       "icon": "🔢",
       "color": "#1565C0",
       "lang": "es",
-      "topicCount": 2
+      "topicCount": 9
     },
     {
       "id": "calculo",
@@ -24,7 +24,8 @@
       "icon": "🧮",
       "color": "#0277BD",
       "lang": "es",
-      "topicCount": 0
+      "topicCount": 0,
+      "disabled": true
     },
     {
       "id": "natural-science",
@@ -32,7 +33,7 @@
       "icon": "🔬",
       "color": "#2E7D32",
       "lang": "en",
-      "topicCount": 0
+      "topicCount": 6
     },
     {
       "id": "social-science",
@@ -40,7 +41,7 @@
       "icon": "🌍",
       "color": "#F57C00",
       "lang": "en",
-      "topicCount": 0
+      "topicCount": 6
     },
     {
       "id": "english",
@@ -48,7 +49,7 @@
       "icon": "🇬🇧",
       "color": "#C62828",
       "lang": "en",
-      "topicCount": 0
+      "topicCount": 18
     }
   ]
 }

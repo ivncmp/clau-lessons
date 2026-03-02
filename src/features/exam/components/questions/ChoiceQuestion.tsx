@@ -19,8 +19,11 @@ export default function ChoiceQuestion({
 
   return (
     <Stack spacing={1.5}>
-      <Typography variant="h6" fontWeight={600} sx={{ mb: 1 }}>
+      <Typography variant="h6" fontWeight={600}>
         {question.emoji} {question.question}
+      </Typography>
+      <Typography variant="body2" sx={{ color: "#78909C", mb: 0.5 }}>
+        Elige la respuesta correcta
       </Typography>
       {question.options.map((option, index) => {
         const isSelected = selected === index;
@@ -35,8 +38,8 @@ export default function ChoiceQuestion({
               p: "14px 18px",
               borderRadius: "16px",
               border: "2px solid",
-              borderColor: isSelected ? "#0288D1" : "#B3E5FC",
-              bgcolor: isSelected ? "#0288D1" : "#E3F2FD",
+              borderColor: isSelected ? "#2E86C1" : "#AED6F1",
+              bgcolor: isSelected ? "#2E86C1" : "#D6EAF8",
               color: isSelected ? "white" : "text.primary",
               cursor: "pointer",
               fontWeight: 500,
@@ -44,7 +47,7 @@ export default function ChoiceQuestion({
               transition: "all 0.2s",
               transform: isSelected ? "translateX(4px)" : "none",
               "&:hover": {
-                bgcolor: isSelected ? "#0288D1" : "#B3E5FC",
+                bgcolor: isSelected ? "#2E86C1" : "#AED6F1",
                 transform: "translateX(4px)",
               },
             }}
@@ -63,7 +66,7 @@ export default function ChoiceQuestion({
                 bgcolor: isSelected
                   ? "rgba(255,255,255,0.25)"
                   : "rgba(255,255,255,0.8)",
-                color: isSelected ? "white" : "#0288D1",
+                color: isSelected ? "white" : "#2E86C1",
               }}
             >
               {LETTERS[index]}

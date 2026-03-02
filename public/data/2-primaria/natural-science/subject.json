@@ -4,5 +4,48 @@
   "icon": "🔬",
   "color": "#2E7D32",
   "lang": "en",
-  "topics": []
+  "topics": [
+    {
+      "id": "001",
+      "title": "Unit 1",
+      "description": "The human body",
+      "icon": "🧍",
+      "questionCount": 0
+    },
+    {
+      "id": "002",
+      "title": "Unit 2",
+      "description": "Be healthy",
+      "icon": "💪",
+      "questionCount": 0
+    },
+    {
+      "id": "003",
+      "title": "Unit 3",
+      "description": "Animals",
+      "icon": "🐾",
+      "questionCount": 0
+    },
+    {
+      "id": "004",
+      "title": "Unit 4",
+      "description": "Plants",
+      "icon": "🌱",
+      "questionCount": 0
+    },
+    {
+      "id": "005",
+      "title": "Unit 5",
+      "description": "Matter, force and machines",
+      "icon": "⚙️",
+      "questionCount": 0
+    },
+    {
+      "id": "006",
+      "title": "Unit 6",
+      "description": "Technology",
+      "icon": "💻",
+      "questionCount": 0
+    }
+  ]
 }

@@ -4,5 +4,48 @@
   "icon": "🌍",
   "color": "#F57C00",
   "lang": "en",
-  "topics": []
+  "topics": [
+    {
+      "id": "001",
+      "title": "Unit 1",
+      "description": "My neighbourhood",
+      "icon": "🏘️",
+      "questionCount": 0
+    },
+    {
+      "id": "002",
+      "title": "Unit 2",
+      "description": "Road safety",
+      "icon": "🚦",
+      "questionCount": 0
+    },
+    {
+      "id": "003",
+      "title": "Unit 3",
+      "description": "Finding your way around",
+      "icon": "🗺️",
+      "questionCount": 0
+    },
+    {
+      "id": "004",
+      "title": "Unit 4",
+      "description": "Learning about landscapes",
+      "icon": "🏔️",
+      "questionCount": 0
+    },
+    {
+      "id": "005",
+      "title": "Unit 5",
+      "description": "The water and weather",
+      "icon": "🌧️",
+      "questionCount": 0
+    },
+    {
+      "id": "006",
+      "title": "Unit 6",
+      "description": "The sun, the earth and the moon",
+      "icon": "🌍",
+      "questionCount": 0
+    }
+  ]
 }

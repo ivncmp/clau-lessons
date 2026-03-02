@@ -17,7 +17,7 @@ export default function AppLayout() {
       sx={{
         minHeight: "100vh",
         background:
-          "linear-gradient(170deg, #0288D1 0%, #29B6F6 25%, #B3E5FC 55%, #E0F7FA 80%, #B2EBF2 100%)",
+          "linear-gradient(170deg, #1B4F72 0%, #2E86C1 25%, #5DADE2 55%, #AED6F1 80%, #D6EAF8 100%)",
         backgroundAttachment: "fixed",
       }}
     >
@@ -55,7 +55,7 @@ export default function AppLayout() {
             <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
               <Box
                 sx={{
-                  bgcolor: "#E3F2FD",
+                  bgcolor: "#D6EAF8",
                   px: 1.5,
                   py: 0.5,
                   borderRadius: "12px",
@@ -64,7 +64,7 @@ export default function AppLayout() {
               >
                 <Typography
                   variant="body2"
-                  sx={{ fontWeight: 600, color: "#1565C0" }}
+                  sx={{ fontWeight: 600, color: "#1B4F72" }}
                 >
                   {user.nombre}
                 </Typography>

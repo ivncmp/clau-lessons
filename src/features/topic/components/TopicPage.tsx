@@ -130,7 +130,7 @@ export default function TopicPage() {
               navigate(`/subject/${subjectId}/topic/${topicId}/slides`)
             }
             sx={{
-              background: "linear-gradient(135deg, #7B1FA2, #AB47BC)",
+              background: "linear-gradient(135deg, #E67E22, #F0A04B)",
               borderRadius: "24px",
               p: { xs: 3, sm: 4 },
               cursor: "pointer",
@@ -184,7 +184,7 @@ export default function TopicPage() {
               navigate(`/subject/${subjectId}/topic/${topicId}/exam`)
             }
             sx={{
-              background: "linear-gradient(135deg, #26C6DA, #0288D1)",
+              background: "linear-gradient(135deg, #5DADE2, #2E86C1)",
               borderRadius: "24px",
               p: { xs: 3, sm: 4 },
               cursor: "pointer",

@@ -175,6 +175,9 @@ export default function SubjectPage() {
                   {topic.description}
                 </Typography>
                 <Typography variant="caption" sx={{ color: "#90A4AE" }}>
+                  {topic.slideCount
+                    ? `${topic.slideCount} diapositivas · `
+                    : ""}
                   {topic.questionCount} preguntas
                 </Typography>
               </Box>

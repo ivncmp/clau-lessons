@@ -38,8 +38,11 @@ export default function MatchingQuestion({
 
   return (
     <Stack spacing={2}>
-      <Typography variant="h6" fontWeight={600} sx={{ mb: 1 }}>
+      <Typography variant="h6" fontWeight={600}>
         {question.emoji} {question.question}
+      </Typography>
+      <Typography variant="body2" sx={{ color: "#78909C", mb: 0.5 }}>
+        Selecciona la pareja correcta para cada elemento
       </Typography>
       {question.pairs.map((pair, index) => (
         <Box
@@ -55,7 +58,7 @@ export default function MatchingQuestion({
             sx={{
               minWidth: 120,
               flex: "1 1 120px",
-              bgcolor: "#E3F2FD",
+              bgcolor: "#D6EAF8",
               border: "2px solid #90CAF9",
               borderRadius: "12px",
               p: "10px 14px",

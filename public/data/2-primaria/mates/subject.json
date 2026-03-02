@@ -6,18 +6,68 @@
   "lang": "es",
   "topics": [
     {
+      "id": "001",
+      "title": "Unidad 1",
+      "description": "Vamos de excursión",
+      "icon": "🏕️",
+      "questionCount": 0
+    },
+    {
+      "id": "002",
+      "title": "Unidad 2",
+      "description": "Una carrera ciclista",
+      "icon": "🚴",
+      "questionCount": 0
+    },
+    {
+      "id": "003",
+      "title": "Unidad 3",
+      "description": "Una visita al acuario",
+      "icon": "🐠",
+      "questionCount": 0
+    },
+    {
+      "id": "004",
+      "title": "Unidad 4",
+      "description": "La revisión médica",
+      "icon": "🩺",
+      "questionCount": 0
+    },
+    {
       "id": "005",
       "title": "Unidad 5",
-      "description": "Números del 400 al 799 · Suma y resta de tres cifras · El kilogramo · Gráficos de barras",
+      "description": "En el mercado",
       "icon": "🔢",
       "questionCount": 28
     },
     {
       "id": "006",
       "title": "Unidad 6",
-      "description": "Números del 800 al 999 · Suma llevando · Punto y recta · Polígonos · El círculo",
+      "description": "Una tarde de juegos",
       "icon": "📐",
-      "questionCount": 28
+      "questionCount": 28,
+      "slideCount": 12
+    },
+    {
+      "id": "007",
+      "title": "Unidad 7",
+      "description": "Vamos de compras",
+      "icon": "🛒",
+      "questionCount": 0
+    },
+    {
+      "id": "008",
+      "title": "Unidad 8",
+      "description": "Nuestra clase",
+      "icon": "🏫",
+      "questionCount": 0
+    },
+    {
+      "id": "009",
+      "title": "Unidad 9",
+      "description": "¡Estamos en la playa!",
+      "icon": "🏖️",
+      "questionCount": 0
     }
   ]
 }

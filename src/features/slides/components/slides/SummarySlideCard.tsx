@@ -2,11 +2,11 @@ import { Box, Typography, Stack } from "@mui/material";
 import type { SummarySlide } from "@/types/data";
 
 const POINT_COLORS = [
-  { bg: "#E3F2FD", color: "#1565C0" },
+  { bg: "#D6EAF8", color: "#1B4F72" },
   { bg: "#E8F5E9", color: "#2E7D32" },
   { bg: "#FFF3E0", color: "#E65100" },
-  { bg: "#F3E5F5", color: "#6A1B9A" },
-  { bg: "#E0F7FA", color: "#00695C" },
+  { bg: "#FEF5E7", color: "#D4701A" },
+  { bg: "#D6EAF8", color: "#00695C" },
   { bg: "#FFF8E1", color: "#F57F17" },
 ];
 

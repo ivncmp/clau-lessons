@@ -140,7 +140,7 @@ export default function ExamResults({
             display: "inline-flex",
             alignItems: "center",
             gap: 1,
-            background: "linear-gradient(135deg, #26C6DA, #0288D1)",
+            background: "linear-gradient(135deg, #5DADE2, #2E86C1)",
             color: "white",
             borderRadius: "18px",
             px: 3,

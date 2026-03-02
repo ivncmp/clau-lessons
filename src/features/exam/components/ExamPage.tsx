@@ -7,6 +7,7 @@ import {
   CircularProgress,
   Container,
   IconButton,
+  Collapse,
 } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
@@ -63,7 +64,7 @@ export default function ExamPage() {
       .finally(() => setLoading(false));
   }, [subjectId, topicId, user, key]);
 
-  if (loading || !examData) {
+  if (loading || !examData || examData.questions.length === 0) {
     return (
       <Box
         sx={{
@@ -71,18 +72,30 @@ export default function ExamPage() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          background:
+            "linear-gradient(170deg, #1B4F72 0%, #2E86C1 25%, #5DADE2 55%, #AED6F1 80%, #D6EAF8 100%)",
         }}
       >
         {loading ? (
-          <CircularProgress />
+          <CircularProgress sx={{ color: "#1B4F72" }} />
         ) : (
-          <Box sx={{ textAlign: "center" }}>
-            <Typography variant="h5">Examen no encontrado</Typography>
+          <Box sx={{ textAlign: "center", px: 3 }}>
+            <Typography sx={{ fontSize: "3rem", mb: 1 }}>
+              {examData?.questions.length === 0 ? "📝" : "🔍"}
+            </Typography>
+            <Typography variant="h5" sx={{ color: "#01579B" }}>
+              {examData?.questions.length === 0
+                ? "Este examen aún no tiene preguntas"
+                : "Examen no encontrado"}
+            </Typography>
+            <Typography sx={{ color: "#1B4F72", mt: 1, opacity: 0.8 }}>
+              Estamos preparando el contenido, pronto estará listo
+            </Typography>
             <Button
               onClick={() =>
                 navigate(`/subject/${subjectId}/topic/${topicId}/lesson`)
               }
-              sx={{ mt: 2 }}
+              sx={{ mt: 3, color: "#1B4F72" }}
             >
               Volver
             </Button>
@@ -140,6 +153,7 @@ function ExamRunner({
   const savedProgress = getInProgressExam(userId, subjectId, topicId);
   const exam = useExam(examData.questions, savedProgress ?? undefined);
   const [saved, setSaved] = useState(false);
+  const [textOpen, setTextOpen] = useState(false);
 
   const handleFinish = useCallback(() => {
     exam.finish();
@@ -196,7 +210,7 @@ function ExamRunner({
         sx={{
           minHeight: "100vh",
           background:
-            "linear-gradient(170deg, #0288D1 0%, #29B6F6 25%, #B3E5FC 55%, #E0F7FA 80%, #B2EBF2 100%)",
+            "linear-gradient(170deg, #2E86C1 0%, #5DADE2 25%, #AED6F1 55%, #D6EAF8 80%, #AED6F1 100%)",
           backgroundAttachment: "fixed",
           py: 4,
         }}
@@ -222,7 +236,7 @@ function ExamRunner({
       sx={{
         minHeight: "100vh",
         background:
-          "linear-gradient(170deg, #0288D1 0%, #29B6F6 25%, #B3E5FC 55%, #E0F7FA 80%, #B2EBF2 100%)",
+          "linear-gradient(170deg, #2E86C1 0%, #5DADE2 25%, #AED6F1 55%, #D6EAF8 80%, #AED6F1 100%)",
         backgroundAttachment: "fixed",
       }}
     >
@@ -303,7 +317,7 @@ function ExamRunner({
             variant="body2"
             fontWeight={600}
             sx={{
-              bgcolor: "#E3F2FD",
+              bgcolor: "#D6EAF8",
               px: 1.5,
               py: 0.3,
               borderRadius: 2,
@@ -329,7 +343,7 @@ function ExamRunner({
               sx={{
                 height: "100%",
                 width: `${progress}%`,
-                background: "linear-gradient(90deg, #26C6DA, #0288D1, #00838F)",
+                background: "linear-gradient(90deg, #5DADE2, #2E86C1, #1A5276)",
                 borderRadius: "20px",
                 transition: "width 0.5s ease",
                 position: "relative",
@@ -364,43 +378,61 @@ function ExamRunner({
             boxShadow: "0 8px 32px rgba(0,0,0,0.1)",
           }}
         >
-          {/* Reading text */}
+          {/* Reading text (collapsible) */}
           {exam.currentQuestion.refText &&
             topicData?.texts[exam.currentQuestion.refText] && (
               <Box
                 sx={{
                   mb: 2.5,
-                  p: 2,
                   bgcolor: "#FFFDE7",
                   border: "2px solid #FDD835",
                   borderRadius: "16px",
+                  overflow: "hidden",
                 }}
               >
-                <Typography
-                  variant="subtitle2"
-                  fontWeight={700}
-                  sx={{ color: "#E65100", mb: 0.5 }}
-                >
-                  {topicData.texts[exam.currentQuestion.refText].title}
-                </Typography>
                 <Box
+                  onClick={() => setTextOpen((o) => !o)}
                   sx={{
-                    fontSize: "0.9rem",
-                    lineHeight: 1.65,
-                    maxHeight: 200,
-                    overflow: "auto",
-                    color: "#3E2723",
-                    "& .hl": {
-                      bgcolor: "#FFF9C4",
-                      px: 0.5,
-                      borderRadius: "4px",
-                      fontWeight: 700,
-                    },
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 1,
+                    p: 2,
+                    cursor: "pointer",
+                    userSelect: "none",
                   }}
-                  dangerouslySetInnerHTML={{
-                    __html: topicData.texts[exam.currentQuestion.refText].html,
-                  }}
-                />
+                >
+                  <Typography
+                    variant="subtitle2"
+                    fontWeight={700}
+                    sx={{ color: "#E65100", flex: 1 }}
+                  >
+                    {topicData.texts[exam.currentQuestion.refText].title}
+                  </Typography>
+                  <Typography sx={{ color: "#E65100", fontSize: "0.8rem" }}>
+                    {textOpen ? "Ocultar ▲" : "Leer texto ▼"}
+                  </Typography>
+                </Box>
+                <Collapse in={textOpen}>
+                  <Box
+                    sx={{
+                      px: 2,
+                      pb: 2,
+                      fontSize: "0.9rem",
+                      lineHeight: 1.65,
+                      color: "#3E2723",
+                      "& .hl": {
+                        bgcolor: "#FFF9C4",
+                        px: 0.5,
+                        borderRadius: "4px",
+                        fontWeight: 700,
+                      },
+                    }}
+                    dangerouslySetInnerHTML={{
+                      __html:
+                        topicData.texts[exam.currentQuestion.refText].html,
+                    }}
+                  />
+                </Collapse>
               </Box>
             )}
 
@@ -462,7 +494,7 @@ function ExamRunner({
               disabled={!exam.allAnswered}
               onClick={handleFinish}
               sx={{
-                background: "linear-gradient(135deg, #0288D1, #00838F)",
+                background: "linear-gradient(135deg, #2E86C1, #1A5276)",
                 color: "white",
                 borderRadius: "18px",
                 px: 4,
@@ -472,13 +504,13 @@ function ExamRunner({
                 textTransform: "none",
                 boxShadow: "0 4px 14px rgba(2,136,209,0.4)",
                 "&:hover": {
-                  background: "linear-gradient(135deg, #0277BD, #006064)",
+                  background: "linear-gradient(135deg, #1B4F72, #154360)",
                   transform: "translateY(-2px)",
                   boxShadow: "0 6px 20px rgba(2,136,209,0.5)",
                 },
                 "&.Mui-disabled": {
                   opacity: 0.4,
-                  background: "linear-gradient(135deg, #0288D1, #00838F)",
+                  background: "linear-gradient(135deg, #2E86C1, #1A5276)",
                   color: "white",
                 },
                 transition: "all 0.2s",
@@ -491,7 +523,7 @@ function ExamRunner({
               endIcon={<ArrowForwardIcon />}
               onClick={exam.next}
               sx={{
-                background: "linear-gradient(135deg, #26C6DA, #0288D1)",
+                background: "linear-gradient(135deg, #5DADE2, #2E86C1)",
                 color: "white",
                 borderRadius: "18px",
                 px: 3,
@@ -501,7 +533,7 @@ function ExamRunner({
                 textTransform: "none",
                 boxShadow: "0 4px 14px rgba(38,198,218,0.4)",
                 "&:hover": {
-                  background: "linear-gradient(135deg, #00BCD4, #0277BD)",
+                  background: "linear-gradient(135deg, #5DADE2, #1B4F72)",
                   transform: "translateY(-2px)",
                   boxShadow: "0 6px 20px rgba(38,198,218,0.5)",
                 },

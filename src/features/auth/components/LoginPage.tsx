@@ -52,7 +52,7 @@ export default function LoginPage() {
       sx={{
         minHeight: "100vh",
         background:
-          "linear-gradient(170deg, #0288D1 0%, #29B6F6 25%, #B3E5FC 55%, #E0F7FA 80%, #B2EBF2 100%)",
+          "linear-gradient(170deg, #2E86C1 0%, #5DADE2 25%, #AED6F1 55%, #D6EAF8 80%, #AED6F1 100%)",
         backgroundAttachment: "fixed",
         display: "flex",
         alignItems: "center",
@@ -102,12 +102,12 @@ export default function LoginPage() {
                     display: "flex",
                     alignItems: "center",
                     borderRadius: "16px",
-                    border: "2px solid #B3E5FC",
-                    bgcolor: "#E3F2FD",
+                    border: "2px solid #AED6F1",
+                    bgcolor: "#D6EAF8",
                     cursor: "pointer",
                     transition: "all 0.2s",
                     "&:hover": {
-                      borderColor: "#0288D1",
+                      borderColor: "#2E86C1",
                       transform: "translateX(4px)",
                     },
                   }}
@@ -143,14 +143,14 @@ export default function LoginPage() {
                   p: 1.8,
                   textAlign: "center",
                   borderRadius: "16px",
-                  border: "2px dashed #B3E5FC",
-                  color: "#0288D1",
+                  border: "2px dashed #AED6F1",
+                  color: "#2E86C1",
                   fontWeight: 700,
                   cursor: "pointer",
                   transition: "all 0.2s",
                   "&:hover": {
-                    bgcolor: "#E3F2FD",
-                    borderColor: "#0288D1",
+                    bgcolor: "#D6EAF8",
+                    borderColor: "#2E86C1",
                   },
                 }}
               >
@@ -211,7 +211,7 @@ export default function LoginPage() {
                   border: "none",
                   borderRadius: "18px",
                   background: isValid
-                    ? "linear-gradient(135deg, #26C6DA, #0288D1)"
+                    ? "linear-gradient(135deg, #5DADE2, #2E86C1)"
                     : "#E0E0E0",
                   color: isValid ? "white" : "#9E9E9E",
                   fontWeight: 700,
@@ -239,7 +239,7 @@ export default function LoginPage() {
                   sx={{
                     textAlign: "center",
                     mt: 2,
-                    color: "#0288D1",
+                    color: "#2E86C1",
                     fontWeight: 600,
                     cursor: "pointer",
                     "&:hover": { textDecoration: "underline" },

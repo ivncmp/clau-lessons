@@ -24,11 +24,11 @@ export default function ExampleSlideCard({
           color: "#37474F",
           mb: 2,
           "& .hl": {
-            bgcolor: "#E3F2FD",
+            bgcolor: "#D6EAF8",
             px: 0.5,
             borderRadius: "4px",
             fontWeight: 700,
-            color: "#1565C0",
+            color: "#1B4F72",
           },
         }}
         dangerouslySetInnerHTML={{ __html: slide.problem }}
@@ -39,13 +39,13 @@ export default function ExampleSlideCard({
           <Box
             key={i}
             sx={{
-              bgcolor: "#E3F2FD",
+              bgcolor: "#D6EAF8",
               borderRadius: "12px",
               px: 2.5,
               py: 1.5,
               fontSize: "1rem",
               fontWeight: 600,
-              color: "#1565C0",
+              color: "#1B4F72",
             }}
           >
             {step}

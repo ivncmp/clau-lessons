@@ -24,6 +24,7 @@ export interface SubjectSummary {
   color: string;
   lang: "es" | "en";
   topicCount: number;
+  disabled?: boolean;
 }
 
 // ─── Subject Detail (per curso) ────────────────────────────────
@@ -43,6 +44,7 @@ export interface TopicSummary {
   description: string;
   icon: string;
   questionCount: number;
+  slideCount?: number;
 }
 
 // ─── Topic ─────────────────────────────────────────────────────

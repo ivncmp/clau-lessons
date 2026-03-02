@@ -19,7 +19,20 @@ export default function WordBankFillQuestion({
 
   const shuffledBank = useMemo(() => shuffle(question.wordBank), [question]);
 
-  const usedWords = new Set(words.filter(Boolean) as string[]);
+  // Count how many times each word has been used
+  const usedCounts = new Map<string, number>();
+  for (const w of words) {
+    if (w) usedCounts.set(w, (usedCounts.get(w) ?? 0) + 1);
+  }
+
+  // Count how many times each word appears in the bank
+  const bankCounts = new Map<string, number>();
+  for (const w of question.wordBank) {
+    bankCounts.set(w, (bankCounts.get(w) ?? 0) + 1);
+  }
+
+  // Track which bank index is disabled (used up its quota)
+  const bankUsedSoFar = new Map<string, number>();
 
   const handleWordClick = (word: string) => {
     const firstEmpty = words.findIndex((w) => w === null);
@@ -42,8 +55,11 @@ export default function WordBankFillQuestion({
 
   return (
     <Stack spacing={2}>
-      <Typography variant="h6" fontWeight={600} sx={{ mb: 1 }}>
+      <Typography variant="h6" fontWeight={600}>
         {question.emoji} {question.question}
+      </Typography>
+      <Typography variant="body2" sx={{ color: "#78909C" }}>
+        Pulsa una letra para rellenar cada hueco
       </Typography>
 
       <Box
@@ -94,11 +110,13 @@ export default function WordBankFillQuestion({
       </Box>
 
       <Box sx={{ display: "flex", flexWrap: "wrap", gap: 1 }}>
-        {shuffledBank.map((word) => {
-          const used = usedWords.has(word);
+        {shuffledBank.map((word, index) => {
+          const seenSoFar = (bankUsedSoFar.get(word) ?? 0) + 1;
+          bankUsedSoFar.set(word, seenSoFar);
+          const used = seenSoFar <= (usedCounts.get(word) ?? 0);
           return (
             <Box
-              key={word}
+              key={`${word}-${index}`}
               onClick={used ? undefined : () => handleWordClick(word)}
               sx={{
                 bgcolor: used ? "#F5F5F5" : "#FFF9C4",

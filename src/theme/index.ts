@@ -3,14 +3,41 @@ import { createTheme } from "@mui/material";
 export const theme = createTheme({
   palette: {
     mode: "light",
-    primary: { main: "#1976d2" },
-    secondary: { main: "#7B1FA2" },
-    success: { main: "#66BB6A" },
-    error: { main: "#EF5350" },
-    warning: { main: "#FFA726" },
+    primary: { main: "#2E86C1" },
+    secondary: { main: "#E67E22" },
+    success: { main: "#76C7A5" },
+    error: { main: "#E74C3C" },
+    warning: { main: "#E67E22" },
   },
   typography: {
-    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+    fontFamily:
+      '"Bellota", "Quicksand", "Roboto", "Helvetica", "Arial", sans-serif',
+    fontSize: 16,
+    fontWeightRegular: 700,
+    h1: {
+      fontFamily: '"Quicksand", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontWeight: 300,
+    },
+    h2: {
+      fontFamily: '"Quicksand", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontWeight: 300,
+    },
+    h3: {
+      fontFamily: '"Quicksand", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontWeight: 300,
+    },
+    h4: {
+      fontFamily: '"Quicksand", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontWeight: 300,
+    },
+    h5: {
+      fontFamily: '"Quicksand", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontWeight: 300,
+    },
+    h6: {
+      fontFamily: '"Quicksand", "Roboto", "Helvetica", "Arial", sans-serif',
+      fontWeight: 300,
+    },
   },
   shape: {
     borderRadius: 12,

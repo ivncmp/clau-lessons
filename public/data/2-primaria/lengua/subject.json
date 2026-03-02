@@ -6,11 +6,88 @@
   "lang": "es",
   "topics": [
     {
+      "id": "001",
+      "title": "Unidad 1",
+      "description": "¿Cuál es tu sueño?",
+      "icon": "💭",
+      "questionCount": 0
+    },
+    {
+      "id": "002",
+      "title": "Unidad 2",
+      "description": "Nuestros derechos",
+      "icon": "⚖️",
+      "questionCount": 0
+    },
+    {
+      "id": "003",
+      "title": "Unidad 3",
+      "description": "¡Barreras fuera!",
+      "icon": "🚧",
+      "questionCount": 0
+    },
+    {
+      "id": "004",
+      "title": "Unidad 4",
+      "description": "Yo quiero ser",
+      "icon": "🌟",
+      "questionCount": 0
+    },
+    {
       "id": "005",
       "title": "Unidad 5",
-      "description": "¡SOS, salvemos el mar! · El adjetivo · Palabras con za, ce, ci, zo, zu",
+      "description": "¡SOS, salvemos el mar!",
       "icon": "🌊",
       "questionCount": 28
+    },
+    {
+      "id": "006",
+      "title": "Unidad 6",
+      "description": "Respetamos la naturaleza",
+      "icon": "🌿",
+      "questionCount": 0
+    },
+    {
+      "id": "007",
+      "title": "Unidad 7",
+      "description": "De ruta por el bosque",
+      "icon": "🌲",
+      "questionCount": 0
+    },
+    {
+      "id": "008",
+      "title": "Unidad 8",
+      "description": "Si lo cuido, yo me cuido",
+      "icon": "💚",
+      "questionCount": 0
+    },
+    {
+      "id": "009",
+      "title": "Unidad 9",
+      "description": "Mensajes a favor del planeta",
+      "icon": "🌎",
+      "questionCount": 0
+    },
+    {
+      "id": "010",
+      "title": "Unidad 10",
+      "description": "¡Cómo hemos avanzado!",
+      "icon": "🚀",
+      "questionCount": 0
+    },
+    {
+      "id": "011",
+      "title": "Unidad 11",
+      "description": "¡Lo que importa es la salud!",
+      "icon": "🏥",
+      "questionCount": 0
+    },
+    {
+      "id": "012",
+      "title": "Unidad 12",
+      "description": "¡Nos encanta aprender!",
+      "icon": "📚",
+      "questionCount": 0
     }
   ]
 }

@@ -67,17 +67,21 @@ export default function SlidesPage() {
           alignItems: "center",
           justifyContent: "center",
           background:
-            "linear-gradient(170deg, #7B1FA2 0%, #AB47BC 25%, #E1BEE7 55%, #F3E5F5 80%, #F8BBD0 100%)",
+            "linear-gradient(170deg, #E67E22 0%, #F0A04B 25%, #FAD7A0 55%, #FEF5E7 80%, #FDEBD0 100%)",
         }}
       >
         {loading ? (
           <CircularProgress sx={{ color: "white" }} />
         ) : (
-          <Box sx={{ textAlign: "center" }}>
+          <Box sx={{ textAlign: "center", px: 3 }}>
+            <Typography sx={{ fontSize: "3rem", mb: 1 }}>📖</Typography>
             <Typography variant="h5" sx={{ color: "white" }}>
               Diapositivas no disponibles
             </Typography>
-            <Button onClick={handleExit} sx={{ mt: 2, color: "white" }}>
+            <Typography sx={{ color: "rgba(255,255,255,0.8)", mt: 1 }}>
+              Estamos preparando el contenido, pronto estará listo
+            </Typography>
+            <Button onClick={handleExit} sx={{ mt: 3, color: "white" }}>
               Volver
             </Button>
           </Box>
@@ -122,7 +126,7 @@ function SlidesRunner({
       sx={{
         minHeight: "100vh",
         background:
-          "linear-gradient(170deg, #7B1FA2 0%, #AB47BC 25%, #E1BEE7 55%, #F3E5F5 80%, #F8BBD0 100%)",
+          "linear-gradient(170deg, #E67E22 0%, #F0A04B 25%, #FAD7A0 55%, #FEF5E7 80%, #FDEBD0 100%)",
         backgroundAttachment: "fixed",
       }}
     >
@@ -203,11 +207,11 @@ function SlidesRunner({
             variant="body2"
             fontWeight={600}
             sx={{
-              bgcolor: "#F3E5F5",
+              bgcolor: "#FEF5E7",
               px: 1.5,
               py: 0.3,
               borderRadius: 2,
-              color: "#7B1FA2",
+              color: "#E67E22",
               whiteSpace: "nowrap",
             }}
           >
@@ -229,7 +233,7 @@ function SlidesRunner({
               sx={{
                 height: "100%",
                 width: `${progress}%`,
-                background: "linear-gradient(90deg, #AB47BC, #7B1FA2, #4A148C)",
+                background: "linear-gradient(90deg, #F0A04B, #E67E22, #C56A12)",
                 borderRadius: "20px",
                 transition: "width 0.5s ease",
                 position: "relative",
@@ -304,7 +308,7 @@ function SlidesRunner({
             <Button
               onClick={onExit}
               sx={{
-                background: "linear-gradient(135deg, #7B1FA2, #4A148C)",
+                background: "linear-gradient(135deg, #E67E22, #C56A12)",
                 color: "white",
                 borderRadius: "18px",
                 px: 4,
@@ -314,7 +318,7 @@ function SlidesRunner({
                 textTransform: "none",
                 boxShadow: "0 4px 14px rgba(123,31,162,0.4)",
                 "&:hover": {
-                  background: "linear-gradient(135deg, #6A1B9A, #38006b)",
+                  background: "linear-gradient(135deg, #D4701A, #A85C13)",
                   transform: "translateY(-2px)",
                   boxShadow: "0 6px 20px rgba(123,31,162,0.5)",
                 },
@@ -328,7 +332,7 @@ function SlidesRunner({
               endIcon={<ArrowForwardIcon />}
               onClick={slides.next}
               sx={{
-                background: "linear-gradient(135deg, #AB47BC, #7B1FA2)",
+                background: "linear-gradient(135deg, #F0A04B, #E67E22)",
                 color: "white",
                 borderRadius: "18px",
                 px: 3,
@@ -338,7 +342,7 @@ function SlidesRunner({
                 textTransform: "none",
                 boxShadow: "0 4px 14px rgba(171,71,188,0.4)",
                 "&:hover": {
-                  background: "linear-gradient(135deg, #9C27B0, #6A1B9A)",
+                  background: "linear-gradient(135deg, #E67E22, #D4701A)",
                   transform: "translateY(-2px)",
                   boxShadow: "0 6px 20px rgba(171,71,188,0.5)",
                 },

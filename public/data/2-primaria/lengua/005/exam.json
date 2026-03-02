@@ -198,10 +198,10 @@
       "id": "q20",
       "type": "choice",
       "emoji": "✏️",
-      "question": "¿Cuál de estas palabras se escribe con «z»?",
-      "options": ["sereza", "zapato", "sapato", "cebra"],
+      "question": "¿Cuál de estas palabras está bien escrita?",
+      "options": ["sereza", "zapato", "sapato", "zebra"],
       "answer": 1,
-      "explanation": "Se escribe «zapato» con z. Delante de a, o, u se escribe z: za, zo, zu."
+      "explanation": "«Zapato» está bien escrita. Recuerda: delante de a, o, u se escribe z (za, zo, zu) y delante de e, i se escribe c (ce, ci)."
     },
     {
       "id": "q21",
