@@ -100,6 +100,56 @@ export default function AppLayout() {
       >
         <Outlet />
       </Container>
+
+      {/* Footer */}
+      <Box
+        sx={{
+          mt: 4,
+          py: 3,
+          px: 2,
+          bgcolor: "#1B4F72",
+          borderTop: "1px solid rgba(255,255,255,0.15)",
+        }}
+      >
+        <Container
+          maxWidth="lg"
+          sx={{
+            display: "flex",
+            flexDirection: { xs: "column", sm: "row" },
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: 1.5,
+          }}
+        >
+          <Box sx={{ display: "flex", alignItems: "center", gap: 1.5 }}>
+            <Box
+              component="img"
+              src="/greenwich.png"
+              alt="Greenwich School"
+              sx={{ height: 32, opacity: 0.9 }}
+            />
+            <Typography
+              variant="caption"
+              sx={{ color: "rgba(255,255,255,0.7)", fontSize: "0.75rem" }}
+            >
+              Greenwich School — Curso 2025/2026
+            </Typography>
+          </Box>
+          <Typography
+            variant="caption"
+            sx={{
+              color: "rgba(255,255,255,0.75)",
+              fontSize: "0.65rem",
+              textAlign: { xs: "center", sm: "right" },
+              maxWidth: 360,
+              lineHeight: 1.4,
+            }}
+          >
+            Proyecto educativo sin afiliaci&oacute;n oficial con Greenwich
+            School. Hecho con fines exclusivamente did&aacute;cticos.
+          </Typography>
+        </Container>
+      </Box>
     </Box>
   );
 }

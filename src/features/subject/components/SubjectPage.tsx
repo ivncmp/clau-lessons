@@ -1,27 +1,56 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Box, Typography, CircularProgress, Grid } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { loadSubjectDetail } from "../../../utils/dataLoader";
+import { loadSubjectDetail, loadCursoDetail } from "../../../utils/dataLoader";
 import { cursoToSlug } from "../../../utils/cursoSlug";
 import { getBestScore } from "../../../utils/storage";
 import { useAuth } from "../../auth/hooks/useAuth";
-import type { SubjectDetail } from "../../../types/data";
+import type { SubjectDetail, Evaluation } from "../../../types/data";
+import { getEvalColor } from "../../dashboard/components/DashboardPage";
 
 export default function SubjectPage() {
   const { subjectId } = useParams<{ subjectId: string }>();
   const { user } = useAuth();
   const navigate = useNavigate();
   const [subject, setSubject] = useState<SubjectDetail | null>(null);
+  const [evaluations, setEvaluations] = useState<Evaluation[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     if (!subjectId || !user) return;
-    loadSubjectDetail(cursoToSlug(user.curso), subjectId)
-      .then(setSubject)
+    const slug = cursoToSlug(user.curso);
+    Promise.all([
+      loadSubjectDetail(slug, subjectId),
+      loadCursoDetail(slug).then((d) => d.evaluations ?? []),
+    ])
+      .then(([subj, evals]) => {
+        setSubject(subj);
+        setEvaluations(evals);
+      })
       .catch(() => setSubject(null))
       .finally(() => setLoading(false));
   }, [subjectId, user]);
+
+  // Map topic ID (e.g. "003") → evaluation info for this subject
+  const topicEvalMap = useMemo(() => {
+    const map: Record<
+      string,
+      { evalName: string; date: string; evalIndex: number }
+    > = {};
+    if (!subjectId) return map;
+    for (let i = 0; i < evaluations.length; i++) {
+      const ev = evaluations[i];
+      const content = ev.content?.[subjectId];
+      const exam = ev.exams.find((e) => e.subjectId === subjectId);
+      if (!content?.units || !exam) continue;
+      for (const unit of content.units) {
+        const topicId = String(unit).padStart(3, "0");
+        map[topicId] = { evalName: ev.name, date: exam.date, evalIndex: i };
+      }
+    }
+    return map;
+  }, [evaluations, subjectId]);
 
   if (loading) {
     return (
@@ -152,21 +181,46 @@ export default function SubjectPage() {
                   <Typography sx={{ fontSize: "2rem" }}>
                     {topic.icon}
                   </Typography>
-                  {best !== null && (
-                    <Box
-                      sx={{
-                        bgcolor: best >= 0.7 ? "#E8F5E9" : "#FFF3E0",
-                        color: best >= 0.7 ? "#2E7D32" : "#E65100",
-                        borderRadius: "10px",
-                        px: 1.2,
-                        py: 0.3,
-                        fontWeight: 700,
-                        fontSize: "0.8rem",
-                      }}
-                    >
-                      {Math.round(best * 100)}%
-                    </Box>
-                  )}
+                  <Box sx={{ display: "flex", gap: 0.8, alignItems: "center" }}>
+                    {topicEvalMap[topic.id] &&
+                      (() => {
+                        const ec = getEvalColor(
+                          topicEvalMap[topic.id].evalIndex,
+                        );
+                        return (
+                          <Box
+                            sx={{
+                              bgcolor: ec.bg,
+                              color: ec.color,
+                              borderRadius: "10px",
+                              px: 1.2,
+                              py: 0.3,
+                              fontWeight: 700,
+                              fontSize: "0.7rem",
+                              fontFamily: '"Quicksand", sans-serif',
+                              whiteSpace: "nowrap",
+                            }}
+                          >
+                            {topicEvalMap[topic.id].evalName}
+                          </Box>
+                        );
+                      })()}
+                    {best !== null && (
+                      <Box
+                        sx={{
+                          bgcolor: best >= 0.7 ? "#E8F5E9" : "#FFF3E0",
+                          color: best >= 0.7 ? "#2E7D32" : "#E65100",
+                          borderRadius: "10px",
+                          px: 1.2,
+                          py: 0.3,
+                          fontWeight: 700,
+                          fontSize: "0.8rem",
+                        }}
+                      >
+                        {Math.round(best * 100)}%
+                      </Box>
+                    )}
+                  </Box>
                 </Box>
                 <Typography variant="h6" fontWeight={700} gutterBottom>
                   {topic.title}

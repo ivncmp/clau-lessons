@@ -1,6 +1,230 @@
 {
   "id": "2-primaria",
   "name": "2º Primaria",
+  "school": "Greenwich School",
+  "evaluations": [
+    {
+      "name": "1ª Evaluación",
+      "exams": [
+        { "date": "24 de octubre", "subjectId": "mates" },
+        { "date": "27 de octubre", "subjectId": "natural-science" },
+        { "date": "28 de octubre", "subjectId": "english" },
+        { "date": "29 de octubre", "subjectId": "social-science" },
+        { "date": "30 de octubre", "subjectId": "lengua" }
+      ],
+      "content": {
+        "lengua": {
+          "units": [1, 2],
+          "topics": [
+            "El abecedario",
+            "Ordenar palabras según abecedario",
+            "Las sílabas",
+            "Mayúsculas",
+            "Sinónimos"
+          ]
+        },
+        "mates": {
+          "units": [1, 2],
+          "topics": [
+            "Decenas y unidades",
+            "Decena más cercana",
+            "Signos < y >",
+            "Números ordinales",
+            "La centena",
+            "Números hasta 199",
+            "Problemas suma y resta",
+            "Cálculo de sumas con llevadas y restas sin llevar",
+            "Comprobación de la resta"
+          ]
+        },
+        "english": {
+          "units": [1, 2, 3, 4],
+          "topics": [
+            "Vocabulary: Flow, liquid, solid, gas, heat, steam, ice, freeze, melt, ice pop, balloon, kettle, popcorn, icicle, candle, cream, sugar, salt, pour, plastic bags, mixture, open, closed, freezer, coffee, tea, salad, fruit, vegetables, pasta",
+            "Simple past of verb To Be (was, wasn't, were, weren't)",
+            "Questions using simple past of verb to be"
+          ]
+        },
+        "natural-science": {
+          "units": [1],
+          "topics": [
+            "Parts of the body",
+            "Bones",
+            "Joints",
+            "Muscles",
+            "Nutrition (systems)",
+            "Interaction (senses)",
+            "Reproduction"
+          ]
+        },
+        "social-science": {
+          "units": [5],
+          "topics": [
+            "City, town, village",
+            "Mayor, Council, City Hall",
+            "Council services",
+            "Autonomous communities",
+            "Living in a community",
+            "Festival and traditions"
+          ]
+        }
+      }
+    },
+    {
+      "name": "2ª Evaluación",
+      "exams": [
+        { "date": "11 de diciembre", "subjectId": "lengua" },
+        { "date": "12 de diciembre", "subjectId": "mates" },
+        { "date": "15 de diciembre", "subjectId": "natural-science" },
+        { "date": "16 de diciembre", "subjectId": "english" },
+        { "date": "17 de diciembre", "subjectId": "social-science" }
+      ],
+      "content": {
+        "lengua": {
+          "units": [3, 4],
+          "topics": [
+            "Nombre común y propio",
+            "Antónimos",
+            "Interrogación y exclamación",
+            "Nombre individual y colectivo",
+            "Artículo determinado e indeterminado",
+            "Ca, co, cu, que, qui",
+            "Palabras polisémicas"
+          ]
+        },
+        "mates": {
+          "units": [3, 4],
+          "topics": [
+            "Descomposición centenas y decenas",
+            "Relacionar centenas, decenas y unidades gráficamente",
+            "Lectura y escritura números hasta 399",
+            "Números ordinales hasta el 29º",
+            "El litro",
+            "El metro y el centímetro",
+            "Número anterior y posterior",
+            "Series de números",
+            "Problemas suma y resta con llevadas",
+            "Cálculo: Sumas y restas con llevadas"
+          ]
+        },
+        "english": {
+          "units": [7, 8],
+          "topics": [
+            "Vocabulary: Minus sign, substraction, take away, column, row, test score, single-digit number, double-digit number, left, clean, dirty, tired, hungry, thirsty, full, let go, steal, dig up, hide, jar, greedy, bored, baker, cook, face, nose, hand, arm, foot, knee",
+            "Simple Past Irregular Verbs",
+            "Simple Past Irregular Verbs Questions"
+          ]
+        },
+        "natural-science": {
+          "units": [2],
+          "topics": [
+            "Where does our food come from?",
+            "A Healthy Diet",
+            "Take Care of your Health"
+          ]
+        },
+        "social-science": {
+          "units": [6],
+          "topics": [
+            "The Sun and the Planets",
+            "The Earth Rotates",
+            "The Earth Orbits",
+            "The Phases of the Moon"
+          ]
+        }
+      }
+    },
+    {
+      "name": "3ª Evaluación",
+      "exams": [
+        { "date": "23 de febrero", "subjectId": "natural-science" },
+        { "date": "24 de febrero", "subjectId": "english" },
+        { "date": "25 de febrero", "subjectId": "social-science" },
+        { "date": "26 de febrero", "subjectId": "lengua" },
+        { "date": "27 de febrero", "subjectId": "mates" }
+      ],
+      "content": {
+        "lengua": {
+          "units": [5, 6, 7],
+          "topics": [
+            "Palabras con za, ce, ci, zo, zu, ga, go, gu, gue, gui, güe, güi, ge, gi, je, ji",
+            "Familias de palabras",
+            "Adjetivos",
+            "Diminutivos y aumentativos",
+            "Determinantes: Posesivos y demostrativos"
+          ]
+        },
+        "mates": {
+          "units": [5, 6],
+          "topics": [
+            "Números hasta 999",
+            "El kilogramo",
+            "Serie de números con sumas y restas",
+            "Mayor que y menor que",
+            "Polígonos"
+          ]
+        },
+        "english": {
+          "units": [11, 12],
+          "topics": [
+            "Vocabulary: resources, wood, landfill, land, trash, smoke, sunlight, reduce, reuse, camp, bike, ride a horse, surf, fish, ski, carton, diary, paper, blow, shelf, recycling plant, machine, stationary store, rescue",
+            "Grammar: Prepositions of place + making questions with 'where is' and 'is there'",
+            "Telling the time"
+          ]
+        },
+        "natural-science": {
+          "units": [3],
+          "topics": [
+            "The bodies of animals",
+            "Main characteristics of: mammals, birds, fish, amphibians and reptiles",
+            "Feeding relationships",
+            "Main ecosystems"
+          ]
+        },
+        "social-science": {
+          "units": [3, 4],
+          "topics": [
+            "Spatial orientation",
+            "Plans",
+            "Maps",
+            "World Maps (Continents & Oceans)",
+            "Mountains",
+            "Plains",
+            "Coast",
+            "Environmental Problems"
+          ]
+        }
+      }
+    },
+    {
+      "name": "4ª Evaluación",
+      "exams": [
+        { "date": "18 de mayo", "subjectId": "natural-science" },
+        { "date": "19 de mayo", "subjectId": "english" },
+        { "date": "20 de mayo", "subjectId": "social-science" },
+        { "date": "21 de mayo", "subjectId": "lengua" },
+        { "date": "22 de mayo", "subjectId": "mates" }
+      ]
+    },
+    {
+      "name": "Evaluación Final",
+      "note": "Las fechas de la evaluación final pueden modificarse una vez planificado el curso",
+      "exams": [
+        { "date": "8 de junio", "subjectId": "natural-science" },
+        { "date": "9 de junio", "subjectId": "english" },
+        { "date": "10 de junio", "subjectId": "social-science" },
+        { "date": "11 de junio", "subjectId": "lengua" },
+        { "date": "12 de junio", "subjectId": "mates" }
+      ]
+    }
+  ],
+  "gradingScale": [
+    { "code": "IN", "name": "Insuficiente", "passing": false },
+    { "code": "SU", "name": "Suficiente", "passing": true },
+    { "code": "BI", "name": "Bien", "passing": true },
+    { "code": "NT", "name": "Notable", "passing": true },
+    { "code": "SB", "name": "Sobresaliente", "passing": true }
+  ],
   "subjects": [
     {
       "id": "lengua",

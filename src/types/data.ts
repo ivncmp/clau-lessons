@@ -15,6 +15,24 @@ export interface CursoDetail {
   id: string;
   name: string;
   subjects: SubjectSummary[];
+  evaluations?: Evaluation[];
+}
+
+export interface Evaluation {
+  name: string;
+  note?: string;
+  exams: EvalExam[];
+  content?: Record<string, EvalSubjectContent>;
+}
+
+export interface EvalExam {
+  date: string;
+  subjectId: string;
+}
+
+export interface EvalSubjectContent {
+  units: number[];
+  topics: string[];
 }
 
 export interface SubjectSummary {
