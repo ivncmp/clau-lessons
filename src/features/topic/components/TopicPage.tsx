@@ -1,14 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Box, Typography, CircularProgress, Grid } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import QuizIcon from "@mui/icons-material/Quiz";
-import { loadTopicData } from "../../../utils/dataLoader";
-import { cursoToSlug } from "../../../utils/cursoSlug";
+import { useTopicData } from "@/hooks/useDataQueries";
+import { courseToSlug } from "../../../utils/cursoSlug";
 import { markTopicViewed } from "../../../utils/storage";
 import { useAuth } from "../../auth/hooks/useAuth";
-import type { TopicData } from "../../../types/data";
 
 export default function TopicPage() {
   const { subjectId, topicId } = useParams<{
@@ -17,19 +16,19 @@ export default function TopicPage() {
   }>();
   const { user } = useAuth();
   const navigate = useNavigate();
-  const [topic, setTopic] = useState<TopicData | null>(null);
-  const [loading, setLoading] = useState(true);
+  const slug = courseToSlug(user?.course);
+
+  const { data: topic, isPending: loading } = useTopicData(
+    slug || undefined,
+    subjectId,
+    topicId,
+  );
 
   useEffect(() => {
-    if (!subjectId || !topicId || !user) return;
-    loadTopicData(cursoToSlug(user.course), subjectId, topicId)
-      .then((data) => {
-        setTopic(data);
-        markTopicViewed(user.id, subjectId, topicId);
-      })
-      .catch(() => setTopic(null))
-      .finally(() => setLoading(false));
-  }, [subjectId, topicId, user]);
+    if (topic && user && subjectId && topicId) {
+      markTopicViewed(user.id, subjectId, topicId);
+    }
+  }, [topic, user, subjectId, topicId]);
 
   if (loading) {
     return (

@@ -14,39 +14,34 @@ import {
 } from "@mui/material";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 import { useAuth } from "../hooks/useAuth";
-import { loadCursosIndex, loadCursoDetail } from "../../../utils/dataLoader";
-import { cursoToSlug } from "../../../utils/cursoSlug";
+import { useCursosIndex, useCursoDetail } from "@/hooks/useDataQueries";
+import { courseToSlug } from "../../../utils/cursoSlug";
 import FloatingDecorations from "../../../components/FloatingDecorations";
-import type { CursoSummary } from "../../../types/data";
 
 export default function LoginPage() {
   const { users, login, createUser, deleteUser } = useAuth();
-  const [cursos, setCursos] = useState<CursoSummary[]>([]);
+  const { data: cursosData } = useCursosIndex();
+  const cursos = cursosData?.cursos ?? [];
 
-  useEffect(() => {
-    loadCursosIndex()
-      .then((data) => setCursos(data.cursos))
-      .catch(() => setCursos([]));
-  }, []);
   const navigate = useNavigate();
   const [showForm, setShowForm] = useState(users.length === 0);
   const [nombre, setNombre] = useState("");
   const [curso, setCurso] = useState("");
   const [clase, setClase] = useState("");
-  const [clases, setClases] = useState<string[]>([]);
+
+  const selectedSlug = curso
+    ? (() => {
+        const obj = cursos.find((c) => c.name === curso);
+        return obj ? courseToSlug(obj.name) : undefined;
+      })()
+    : undefined;
+
+  const { data: cursoDetail } = useCursoDetail(selectedSlug);
+  const clases = cursoDetail?.classes ?? [];
 
   useEffect(() => {
-    if (!curso) {
-      setClases([]);
-      setClase("");
-      return;
-    }
-    const cursoObj = cursos.find((c) => c.name === curso);
-    if (!cursoObj) return;
-    loadCursoDetail(cursoToSlug(cursoObj.name))
-      .then((data) => setClases(data.classes ?? []))
-      .catch(() => setClases([]));
-  }, [curso, cursos]);
+    setClase("");
+  }, [curso]);
 
   const handleLogin = (userId: string) => {
     login(userId);

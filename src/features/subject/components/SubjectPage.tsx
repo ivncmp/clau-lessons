@@ -1,36 +1,29 @@
-import { useEffect, useState, useMemo } from "react";
+import { useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Box, Typography, CircularProgress, Grid } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { loadSubjectDetail, loadEvaluations } from "../../../utils/dataLoader";
-import { cursoToSlug } from "../../../utils/cursoSlug";
+import { useSubjectDetail, useEvaluations } from "@/hooks/useDataQueries";
+import { courseToSlug } from "../../../utils/cursoSlug";
 import { getBestScore } from "../../../utils/storage";
 import { useAuth } from "../../auth/hooks/useAuth";
-import type { SubjectDetail, Evaluation } from "../../../types/data";
 import { getEvalColor } from "../../dashboard/components/DashboardPage";
 
 export default function SubjectPage() {
   const { subjectId } = useParams<{ subjectId: string }>();
   const { user } = useAuth();
   const navigate = useNavigate();
-  const [subject, setSubject] = useState<SubjectDetail | null>(null);
-  const [evaluations, setEvaluations] = useState<Evaluation[]>([]);
-  const [loading, setLoading] = useState(true);
+  const slug = courseToSlug(user?.course);
 
-  useEffect(() => {
-    if (!subjectId || !user) return;
-    const slug = cursoToSlug(user.course);
-    Promise.all([
-      loadSubjectDetail(slug, subjectId),
-      user.classId ? loadEvaluations(slug, user.classId) : Promise.resolve([]),
-    ])
-      .then(([subj, evals]) => {
-        setSubject(subj);
-        setEvaluations(evals);
-      })
-      .catch(() => setSubject(null))
-      .finally(() => setLoading(false));
-  }, [subjectId, user]);
+  const { data: subject, isPending: subjectLoading } = useSubjectDetail(
+    slug || undefined,
+    subjectId,
+  );
+  const { data: evaluations = [], isPending: evalsLoading } = useEvaluations(
+    slug || undefined,
+    user?.classId || undefined,
+  );
+
+  const loading = subjectLoading || evalsLoading;
 
   // Map topic ID (e.g. "003") → evaluation info for this subject
   const topicEvalMap = useMemo(() => {

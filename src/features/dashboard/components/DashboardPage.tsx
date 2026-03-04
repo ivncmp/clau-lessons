@@ -1,15 +1,14 @@
-import { useEffect, useState, useMemo } from "react";
+import { useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { Box, Typography, CircularProgress, alpha, Chip } from "@mui/material";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import QuizIcon from "@mui/icons-material/Quiz";
 import StarIcon from "@mui/icons-material/Star";
-import { loadCursoDetail, loadEvaluations } from "../../../utils/dataLoader";
-import { cursoToSlug } from "../../../utils/cursoSlug";
+import { useCursoDetail, useEvaluations } from "@/hooks/useDataQueries";
+import { courseToSlug } from "../../../utils/cursoSlug";
 import { useAuth } from "../../auth/hooks/useAuth";
 import { getProgress } from "../../../utils/storage";
-import type { SubjectSummary, Evaluation } from "../../../types/data";
 
 // Evaluation color palette (by index)
 const EVAL_COLORS = [
@@ -72,25 +71,19 @@ function formatDateFull(dateStr: string): string {
 
 export default function DashboardPage() {
   const { user } = useAuth();
-  const [subjects, setSubjects] = useState<SubjectSummary[]>([]);
-  const [evaluations, setEvaluations] = useState<Evaluation[]>([]);
-  const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
+  const slug = courseToSlug(user?.course);
 
-  useEffect(() => {
-    if (!user) return;
-    const slug = cursoToSlug(user.course);
-    Promise.all([
-      loadCursoDetail(slug),
-      user.classId ? loadEvaluations(slug, user.classId) : Promise.resolve([]),
-    ])
-      .then(([data, evals]) => {
-        setSubjects(data.subjects);
-        setEvaluations(evals);
-      })
-      .catch(() => setSubjects([]))
-      .finally(() => setLoading(false));
-  }, [user]);
+  const { data: cursoData, isPending: cursoLoading } = useCursoDetail(
+    slug || undefined,
+  );
+  const { data: evaluations = [], isPending: evalsLoading } = useEvaluations(
+    slug || undefined,
+    user?.classId || undefined,
+  );
+
+  const subjects = cursoData?.subjects ?? [];
+  const loading = cursoLoading || evalsLoading;
 
   const nextEvalIndex = useMemo(() => {
     if (evaluations.length === 0) return -1;

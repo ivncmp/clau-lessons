@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import {
   Box,
@@ -12,11 +11,11 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import CloseIcon from "@mui/icons-material/Close";
 import {
-  loadSlidesData,
-  loadTopicData,
-  loadSubjectDetail,
-} from "@/utils/dataLoader";
-import { cursoToSlug } from "@/utils/cursoSlug";
+  useSlidesData,
+  useTopicData,
+  useSubjectDetail,
+} from "@/hooks/useDataQueries";
+import { courseToSlug } from "@/utils/cursoSlug";
 import { useAuth } from "../../auth/hooks/useAuth";
 import { useSlides } from "../hooks/useSlides";
 import SlideRenderer from "./SlideRenderer";
@@ -29,31 +28,19 @@ export default function SlidesPage() {
   }>();
   const { user } = useAuth();
   const navigate = useNavigate();
-  const [slidesData, setSlidesData] = useState<SlidesData | null>(null);
-  const [topicData, setTopicData] = useState<TopicData | null>(null);
-  const [subjectData, setSubjectData] = useState<SubjectDetail | null>(null);
-  const [loading, setLoading] = useState(true);
+  const slug = courseToSlug(user?.course);
 
-  useEffect(() => {
-    if (!subjectId || !topicId || !user) return;
-    const slug = cursoToSlug(user.course);
-    Promise.all([
-      loadSlidesData(slug, subjectId, topicId),
-      loadTopicData(slug, subjectId, topicId),
-      loadSubjectDetail(slug, subjectId),
-    ])
-      .then(([slides, topic, subject]) => {
-        setSlidesData(slides);
-        setTopicData(topic);
-        setSubjectData(subject);
-      })
-      .catch(() => {
-        setSlidesData(null);
-        setTopicData(null);
-        setSubjectData(null);
-      })
-      .finally(() => setLoading(false));
-  }, [subjectId, topicId, user]);
+  const { data: slidesData, isPending: loading } = useSlidesData(
+    slug || undefined,
+    subjectId,
+    topicId,
+  );
+  const { data: topicData } = useTopicData(
+    slug || undefined,
+    subjectId,
+    topicId,
+  );
+  const { data: subjectData } = useSubjectDetail(slug || undefined, subjectId);
 
   const handleExit = () =>
     navigate(`/subject/${subjectId}/topic/${topicId}/lesson`);
@@ -93,8 +80,8 @@ export default function SlidesPage() {
   return (
     <SlidesRunner
       slidesData={slidesData}
-      topicData={topicData}
-      subjectData={subjectData}
+      topicData={topicData ?? null}
+      subjectData={subjectData ?? null}
       course={user!.course}
       onExit={handleExit}
     />

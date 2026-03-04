@@ -13,11 +13,11 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import CloseIcon from "@mui/icons-material/Close";
 import {
-  loadExamData,
-  loadTopicData,
-  loadSubjectDetail,
-} from "../../../utils/dataLoader";
-import { cursoToSlug } from "../../../utils/cursoSlug";
+  useExamData,
+  useTopicData,
+  useSubjectDetail,
+} from "@/hooks/useDataQueries";
+import { courseToSlug } from "../../../utils/cursoSlug";
 import {
   recordExamAttempt,
   getInProgressExam,
@@ -37,32 +37,22 @@ export default function ExamPage() {
   }>();
   const { user } = useAuth();
   const navigate = useNavigate();
-  const [examData, setExamData] = useState<ExamData | null>(null);
-  const [topicData, setTopicData] = useState<TopicData | null>(null);
-  const [subjectData, setSubjectData] = useState<SubjectDetail | null>(null);
-  const [loading, setLoading] = useState(true);
+  const slug = courseToSlug(user?.course);
   const [key, setKey] = useState(0);
 
-  useEffect(() => {
-    if (!subjectId || !topicId || !user) return;
-    const slug = cursoToSlug(user.course);
-    Promise.all([
-      loadExamData(slug, subjectId, topicId),
-      loadTopicData(slug, subjectId, topicId),
-      loadSubjectDetail(slug, subjectId),
-    ])
-      .then(([exam, topic, subject]) => {
-        setExamData(exam);
-        setTopicData(topic);
-        setSubjectData(subject);
-      })
-      .catch(() => {
-        setExamData(null);
-        setTopicData(null);
-        setSubjectData(null);
-      })
-      .finally(() => setLoading(false));
-  }, [subjectId, topicId, user, key]);
+  const { data: examData, isPending: examLoading } = useExamData(
+    slug || undefined,
+    subjectId,
+    topicId,
+  );
+  const { data: topicData } = useTopicData(
+    slug || undefined,
+    subjectId,
+    topicId,
+  );
+  const { data: subjectData } = useSubjectDetail(slug || undefined, subjectId);
+
+  const loading = examLoading;
 
   if (loading || !examData || examData.questions.length === 0) {
     return (
@@ -109,8 +99,8 @@ export default function ExamPage() {
     <ExamRunner
       key={key}
       examData={examData}
-      topicData={topicData}
-      subjectData={subjectData}
+      topicData={topicData ?? null}
+      subjectData={subjectData ?? null}
       course={user!.course}
       subjectId={subjectId!}
       topicId={topicId!}
@@ -118,7 +108,6 @@ export default function ExamPage() {
       onExit={() => navigate(`/subject/${subjectId}/topic/${topicId}/lesson`)}
       onRestart={() => {
         clearInProgressExam(user!.id, subjectId!, topicId!);
-        setLoading(true);
         setKey((k) => k + 1);
       }}
     />
