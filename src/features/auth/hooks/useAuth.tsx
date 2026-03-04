@@ -29,7 +29,7 @@ interface AuthContextValue {
     avatar?: string,
   ) => UserProfile;
   updateProfile: (
-    updates: Partial<Pick<UserProfile, "name" | "avatar">>,
+    updates: Partial<Pick<UserProfile, "name" | "avatar" | "classId">>,
   ) => void;
   logout: () => void;
   deleteUser: (userId: string) => void;
@@ -81,7 +81,7 @@ export default function AuthProvider({
   );
 
   const updateUserProfile = useCallback(
-    (updates: Partial<Pick<UserProfile, "name" | "avatar">>) => {
+    (updates: Partial<Pick<UserProfile, "name" | "avatar" | "classId">>) => {
       if (!user) return;
       const updated = storageUpdateProfile(user.id, updates);
       if (updated) setUser(updated);

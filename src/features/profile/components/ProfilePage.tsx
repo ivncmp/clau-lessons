@@ -7,10 +7,16 @@ import {
   Dialog,
   DialogTitle,
   DialogContent,
+  FormControl,
+  InputLabel,
+  Select,
+  MenuItem,
 } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import CheckIcon from "@mui/icons-material/Check";
 import { useAuth } from "../../auth/hooks/useAuth";
+import { useCursoDetail } from "@/hooks/useDataQueries";
+import { courseToSlug } from "../../../utils/cursoSlug";
 
 const AVATARS = [
   // Caras
@@ -115,14 +121,22 @@ export default function ProfilePage() {
 
   const [name, setName] = useState(user?.name ?? "");
   const [avatar, setAvatar] = useState(user?.avatar ?? "😊");
+  const [classId, setClassId] = useState(user?.classId ?? "");
   const [avatarOpen, setAvatarOpen] = useState(false);
   const [saved, setSaved] = useState(false);
 
-  const hasChanges = name !== user?.name || avatar !== (user?.avatar ?? "😊");
+  const slug = courseToSlug(user?.course);
+  const { data: cursoDetail } = useCursoDetail(slug || undefined);
+  const clases = cursoDetail?.classes ?? [];
+
+  const hasChanges =
+    name !== user?.name ||
+    avatar !== (user?.avatar ?? "😊") ||
+    classId !== (user?.classId ?? "");
 
   const handleSave = () => {
     if (!name.trim()) return;
-    updateProfile({ name: name.trim(), avatar });
+    updateProfile({ name: name.trim(), avatar, classId });
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   };
@@ -171,7 +185,7 @@ export default function ProfilePage() {
         }}
       >
         {user?.course}
-        {user?.classId ? ` · ${user.classId}` : ""}
+        {classId ? ` · ${classId}` : ""}
       </Typography>
 
       <Box
@@ -235,6 +249,43 @@ export default function ProfilePage() {
             "& .MuiOutlinedInput-root": { borderRadius: "14px" },
           }}
         />
+
+        {/* Course (disabled) */}
+        <TextField
+          fullWidth
+          label="Curso"
+          value={user?.course ?? ""}
+          disabled
+          sx={{
+            mb: 3,
+            "& .MuiOutlinedInput-root": { borderRadius: "14px" },
+          }}
+        />
+
+        {/* Class selector */}
+        {clases.length > 0 && (
+          <FormControl
+            fullWidth
+            sx={{
+              mb: 3,
+              "& .MuiOutlinedInput-root": { borderRadius: "14px" },
+            }}
+          >
+            <InputLabel id="clase-label">Clase</InputLabel>
+            <Select
+              labelId="clase-label"
+              value={classId}
+              label="Clase"
+              onChange={(e) => setClassId(e.target.value)}
+            >
+              {clases.map((c) => (
+                <MenuItem key={c} value={c}>
+                  {c}
+                </MenuItem>
+              ))}
+            </Select>
+          </FormControl>
+        )}
 
         {/* Save button */}
         <Box

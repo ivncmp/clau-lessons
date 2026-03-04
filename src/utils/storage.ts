@@ -106,13 +106,14 @@ export function deleteUser(userId: string): void {
 
 export function updateProfile(
   userId: string,
-  updates: Partial<Pick<UserProfile, "name" | "avatar">>,
+  updates: Partial<Pick<UserProfile, "name" | "avatar" | "classId">>,
 ): UserProfile | null {
   const store = getStore();
   const user = store.users[userId];
   if (!user) return null;
   if (updates.name !== undefined) user.profile.name = updates.name.trim();
   if (updates.avatar !== undefined) user.profile.avatar = updates.avatar;
+  if (updates.classId !== undefined) user.profile.classId = updates.classId;
   saveStore(store);
   return user.profile;
 }

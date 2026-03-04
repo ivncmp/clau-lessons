@@ -14,11 +14,11 @@ export default function SubjectPage() {
   const navigate = useNavigate();
   const slug = courseToSlug(user?.course);
 
-  const { data: subject, isPending: subjectLoading } = useSubjectDetail(
+  const { data: subject, isLoading: subjectLoading } = useSubjectDetail(
     slug || undefined,
     subjectId,
   );
-  const { data: evaluations = [], isPending: evalsLoading } = useEvaluations(
+  const { data: evaluations = [], isLoading: evalsLoading } = useEvaluations(
     slug || undefined,
     user?.classId || undefined,
   );
