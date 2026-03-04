@@ -1,1 +1,272 @@
-{"topicId":"002","subjectId":"english","questions":[]}
+{
+  "topicId": "002",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What animals are Leo and Lily?",
+      "options": ["Cats", "Frogs", "Mice", "Birds"],
+      "answer": 2,
+      "refText": "adventure",
+      "explanation": "The text says: 'Leo and Lily were two little mice.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "How did Leo and Lily cross the river?",
+      "options": ["They swam", "They used a leaf as a boat", "They jumped", "They flew"],
+      "answer": 1,
+      "refText": "adventure",
+      "explanation": "The frog gave them a big leaf and they floated across the river."
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "In the story, the frog was unfriendly.",
+      "answer": false,
+      "refText": "adventure",
+      "explanation": "The text says the frog was 'friendly' and helped them cross the river."
+    },
+    {
+      "id": "q04",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Where did Leo and Lily hide from the cat?",
+      "options": ["Behind a tree", "Behind a prehistoric rock", "Inside a cave", "Under a leaf"],
+      "answer": 1,
+      "refText": "adventure",
+      "explanation": "The text says: 'They hid behind a prehistoric rock.'"
+    },
+    {
+      "id": "q05",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Leo was calm when he saw the cat.",
+      "answer": false,
+      "refText": "adventure",
+      "explanation": "The text says Leo was scared, but Lily was calm."
+    },
+    {
+      "id": "q06",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "According to the text, which animal is described as gentle?",
+      "options": ["Lions", "Bears", "Rabbits", "Tigers"],
+      "answer": 2,
+      "refText": "describing",
+      "explanation": "The text says: 'Rabbits are very gentle.'"
+    },
+    {
+      "id": "q07",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Dolphins are described as smart animals.",
+      "answer": true,
+      "refText": "describing",
+      "explanation": "The text says: 'Dolphins are very smart. They can learn tricks.'"
+    },
+    {
+      "id": "q08",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What does 'patient' mean in the text?",
+      "options": ["Very fast", "Able to wait a long time", "Very big", "Very strong"],
+      "answer": 1,
+      "refText": "describing",
+      "explanation": "The text says crocodiles wait a long time for their food. Patient = able to wait."
+    },
+    {
+      "id": "q09",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each animal with the word that describes it.",
+      "pairs": [
+        { "left": "Elephant", "right": "strong" },
+        { "left": "Rabbit", "right": "gentle" },
+        { "left": "Lion", "right": "fierce" },
+        { "left": "Dolphin", "right": "smart" }
+      ],
+      "rightOptions": ["strong", "gentle", "fierce", "smart", "slow"]
+    },
+    {
+      "id": "q10",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these words: are they describing words or animals?",
+      "words": ["gentle", "frog", "fierce", "eagle", "patient", "rabbit"],
+      "slots": [
+        { "label": "Describing words", "accepts": ["gentle", "fierce", "patient"] },
+        { "label": "Animals", "accepts": ["frog", "eagle", "rabbit"] }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which word means 'all the time'?",
+      "options": ["never", "sometimes", "always", "usually"],
+      "answer": 2,
+      "explanation": "'Always' means all the time, every time."
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which word means 'not ever'?",
+      "options": ["always", "usually", "sometimes", "never"],
+      "answer": 3,
+      "explanation": "'Never' means not ever, at no time."
+    },
+    {
+      "id": "q13",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct adverb of frequency.",
+      "sentence": "I _____ brush my teeth. I do it every morning and every night.",
+      "blanks": ["always"],
+      "wordBank": ["always", "never", "sometimes", "rarely"]
+    },
+    {
+      "id": "q14",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct adverb of frequency.",
+      "sentence": "She _____ eats fish. She doesn't like it at all!",
+      "blanks": ["never"],
+      "wordBank": ["always", "never", "usually", "sometimes"]
+    },
+    {
+      "id": "q15",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each adverb of frequency with its meaning.",
+      "pairs": [
+        { "left": "always", "right": "100% of the time" },
+        { "left": "usually", "right": "most of the time" },
+        { "left": "sometimes", "right": "now and then" },
+        { "left": "never", "right": "0% of the time" }
+      ],
+      "rightOptions": ["100% of the time", "most of the time", "now and then", "0% of the time", "half the time"]
+    },
+    {
+      "id": "q16",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'How _____ do you go to the park?' Which word completes the question?",
+      "options": ["many", "much", "often", "long"],
+      "answer": 2,
+      "explanation": "'How often' is used to ask about frequency."
+    },
+    {
+      "id": "q17",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["usually", "I", "to", "walk", "school"],
+      "answer": "I usually walk to school"
+    },
+    {
+      "id": "q18",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["often", "How", "read", "you", "do", "books"],
+      "answer": "How often do you read books"
+    },
+    {
+      "id": "q19",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "'Usually' means the same as 'never'.",
+      "answer": false,
+      "explanation": "'Usually' means most of the time. 'Never' means not at all."
+    },
+    {
+      "id": "q20",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Where does the adverb of frequency go in a sentence?",
+      "options": ["At the end", "Before the main verb", "After the object", "Before the subject"],
+      "answer": 1,
+      "explanation": "Adverbs of frequency go before the main verb: 'I always eat breakfast.'"
+    },
+    {
+      "id": "q21",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct word.",
+      "sentence": "Eagles are very _____. They fly high in the _____.",
+      "blanks": ["fast", "sky"],
+      "wordBank": ["fast", "sky", "slow", "water"]
+    },
+    {
+      "id": "q22",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "In the story, what does 'fierce' mean?",
+      "options": ["Kind and friendly", "Dangerous and aggressive", "Small and quiet", "Funny and happy"],
+      "answer": 1,
+      "refText": "adventure",
+      "explanation": "The fierce cat was dangerous. Leo was scared of it."
+    },
+    {
+      "id": "q23",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these adverbs: how often do they happen?",
+      "words": ["always", "never", "usually", "sometimes"],
+      "slots": [
+        { "label": "Very often", "accepts": ["always", "usually"] },
+        { "label": "Not very often", "accepts": ["never", "sometimes"] }
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "In the story, Leo and Lily forgot their adventure.",
+      "answer": false,
+      "refText": "adventure",
+      "explanation": "The text says: 'They never forgot their big adventure.'"
+    },
+    {
+      "id": "q25",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete the sentence.",
+      "sentence": "Crocodiles are very patient. They _____ wait a long time for food.",
+      "blanks": ["always"],
+      "wordBank": ["always", "never", "sometimes", "rarely"]
+    },
+    {
+      "id": "q26",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'prehistoric' mean?",
+      "options": ["Very new", "Very old, from a long time ago", "Very small", "Very pretty"],
+      "answer": 1,
+      "explanation": "'Prehistoric' means from a very long time ago, before written history."
+    },
+    {
+      "id": "q27",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["are", "Rabbits", "gentle", "very"],
+      "answer": "Rabbits are very gentle"
+    },
+    {
+      "id": "q28",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'Lions _____ fight to protect their babies.' Which word fits best?",
+      "options": ["never", "sometimes", "always", "rarely"],
+      "answer": 1,
+      "explanation": "The text says lions 'sometimes fight to protect their babies'."
+    }
+  ]
+}

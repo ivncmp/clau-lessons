@@ -14,7 +14,21 @@
       "Bash(git commit --amend --no-edit)",
       "Bash(npm install @dnd-kit/core @dnd-kit/sortable @dnd-kit/utilities)",
       "Bash(npm run check)",
-      "Bash(npx tsc -b --noEmit)"
+      "Bash(npx tsc -b --noEmit)",
+      "Bash(wc -c /Users/ivan/Documents/Development/Ingeniorum/clau-lessons/public/data/2-primaria/english/*/topic.json)",
+      "Bash(for f in /Users/ivan/Documents/Development/Ingeniorum/clau-lessons/public/data/2-primaria/english/017/topic.json /Users/ivan/Documents/Development/Ingeniorum/clau-lessons/public/data/2-primaria/english/017/exam.json /Users/ivan/Documents/Development/Ingeniorum/clau-lessons/public/data/2-primaria/english/018/topic.json /Users/ivan/Documents/Development/Ingeniorum/clau-lessons/public/data/2-primaria/english/018/exam.json)",
+      "Bash(do echo \"=== $f ===\")",
+      "Bash(done)",
+      "Bash(for f in /Users/ivan/Documents/Development/Ingeniorum/clau-lessons/public/data/2-primaria/english/013/topic.json /Users/ivan/Documents/Development/Ingeniorum/clau-lessons/public/data/2-primaria/english/013/exam.json /Users/ivan/Documents/Development/Ingeniorum/clau-lessons/public/data/2-primaria/english/015/topic.json /Users/ivan/Documents/Development/Ingeniorum/clau-lessons/public/data/2-primaria/english/015/exam.json /Users/ivan/Documents/Development/Ingeniorum/clau-lessons/public/data/2-primaria/english/016/topic.json /Users/ivan/Documents/Development/Ingeniorum/clau-lessons/public/data/2-primaria/english/016/exam.json /Users/ivan/Documents/Development/Ingeniorum/clau-lessons/public/data/2-primaria/english/subject.json)",
+      "Bash(do python3 -c \"import json; json.load\\(open\\(''$f''\\)\\)\")",
+      "Bash(echo \"OK: $f\")",
+      "Bash(echo \"FAIL: $f\")",
+      "Bash(node -e \":*)",
+      "Bash(for i in 001 002 003 004 005 006)",
+      "Bash(do echo \"=== $i ===\")",
+      "Bash(for i in 013 014 015 016 017 018)",
+      "Bash(do echo -n \"$i: \")",
+      "Bash(xargs cat)"
     ]
   }
 }

@@ -1,1 +1,18 @@
-{"id":"013","subjectId":"english","title":"Unit 13","description":"How Music Makes Us Feel","icon":"🎵","texts":{},"images":{}}
+{
+  "id": "013",
+  "subjectId": "english",
+  "title": "Unit 13",
+  "description": "How Music Makes Us Feel",
+  "icon": "🎵",
+  "texts": {
+    "feelings": {
+      "title": "🎵 How Music Makes Us Feel",
+      "html": "<p>Music gives us many <span class='hl'>feelings</span>. When we listen to fast music, we feel <span class='hl'>excited</span>. We want to dance and move! When we listen to slow, soft music, we feel calm and sometimes <span class='hl'>sleepy</span>.</p><p>Some music makes us feel <span class='hl'>nervous</span>. Scary music in films makes our hearts beat fast! But beautiful, quiet music gives us <span class='hl'>peace</span>. We feel <span class='hl'>peaceful</span> and relaxed.</p><p>Happy music makes us <span class='hl'>smile</span>. Sad music can make us <span class='hl'>cry</span>. When we feel sad, slow music can help us feel better. When we feel <span class='hl'>unhappy</span>, listening to our favourite song always helps!</p><p>Music can also make us feel <span class='hl'>proud</span>. When we hear our country's song, we feel proud and strong. Music is special because it changes how we feel. It can make us feel <span class='hl'>well</span> when we are not feeling good.</p><p>We listen to music <span class='hl'>live</span> at concerts. We also listen to music at home, in the car, or at school. There is always a <span class='hl'>light</span>, happy song to make our day better!</p>"
+    },
+    "concert": {
+      "title": "🎶 The School Concert",
+      "html": "<p>It was Friday afternoon. The school concert was <span class='hl'>at</span> four o'clock. All the children were <span class='hl'>excited</span>! Emma was <span class='hl'>nervous</span> because she was singing <span class='hl'>in</span> the choir.</p><p>'When does the concert start?' asked Tom. 'It starts <span class='hl'>at</span> four o'clock <span class='hl'>on</span> Friday,' said the teacher. 'The next concert is <span class='hl'>in</span> March.'</p><p>First, the choir sang a happy song. The audience started to <span class='hl'>smile</span>. Then, Lily played the piano. The music was soft and <span class='hl'>peaceful</span>. Some parents felt <span class='hl'>sleepy</span> because it was so calm!</p><p>Next, Sam played the drums. The music was fast and loud! Everyone felt <span class='hl'>excited</span>. The <span class='hl'>light</span> on the stage was bright and colourful.</p><p>At the end, all the children sang together. The parents felt very <span class='hl'>proud</span>. Some parents were so happy that they started to <span class='hl'>cry</span>! Emma did not feel <span class='hl'>nervous</span> anymore. She felt <span class='hl'>well</span> and happy.</p><p>'How often do you have concerts?' asked a parent. 'We have concerts <span class='hl'>in</span> December and <span class='hl'>in</span> June,' said the teacher. It was a wonderful <span class='hl'>live</span> concert!</p>"
+    }
+  },
+  "images": {}
+}

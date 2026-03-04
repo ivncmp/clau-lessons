@@ -1,1 +1,281 @@
-{"topicId":"001","subjectId":"english","questions":[]}
+{
+  "topicId": "001",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What do mammals have on their skin?",
+      "options": ["Scales", "Feathers", "Fur or hair", "Gills"],
+      "answer": 2,
+      "refText": "animals",
+      "explanation": "The text says: 'Mammals have fur or hair on their skin.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What do fish use to breathe underwater?",
+      "options": ["Wings", "Lungs", "Scales", "Gills"],
+      "answer": 3,
+      "refText": "animals",
+      "explanation": "The text says: 'They have gills to breathe underwater.'"
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "All birds can fly.",
+      "answer": false,
+      "refText": "animals",
+      "explanation": "The text says that penguins cannot fly. They use their wings to swim."
+    },
+    {
+      "id": "q04",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Amphibians can live in water and on land.",
+      "answer": true,
+      "refText": "animals",
+      "explanation": "The text says: 'They can live in water and on land.'"
+    },
+    {
+      "id": "q05",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Which animals lay eggs?",
+      "options": ["Only birds", "Only fish", "Birds, fish, reptiles and amphibians", "Only mammals"],
+      "answer": 2,
+      "refText": "animals",
+      "explanation": "The text says: 'Birds, fish, reptiles and amphibians all lay eggs.'"
+    },
+    {
+      "id": "q06",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Most mammals lay eggs.",
+      "answer": false,
+      "refText": "animals",
+      "explanation": "The text says: 'Most mammals do not lay eggs — they have live babies.'"
+    },
+    {
+      "id": "q07",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What do animals use their eyes for?",
+      "options": ["To eat", "To hear", "To see", "To fly"],
+      "answer": 2,
+      "refText": "bodyparts",
+      "explanation": "The text says: 'Animals have a head with eyes to see.'"
+    },
+    {
+      "id": "q08",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Snakes have no legs.",
+      "answer": true,
+      "refText": "bodyparts",
+      "explanation": "The text says: 'Snakes have no legs at all! They use their long body to move.'"
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Why do rabbits have long ears?",
+      "options": ["To fly", "To swim", "To hear danger", "To eat food"],
+      "answer": 2,
+      "refText": "bodyparts",
+      "explanation": "The text says: 'They have long ears to hear danger.'"
+    },
+    {
+      "id": "q10",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these animals into the correct group.",
+      "words": ["dog", "eagle", "frog", "shark", "cat", "penguin"],
+      "slots": [
+        { "label": "Mammals", "accepts": ["dog", "cat"] },
+        { "label": "Birds", "accepts": ["eagle", "penguin"] },
+        { "label": "Amphibians", "accepts": ["frog"] },
+        { "label": "Fish", "accepts": ["shark"] }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each animal group with its body covering.",
+      "pairs": [
+        { "left": "Mammals", "right": "fur" },
+        { "left": "Birds", "right": "feathers" },
+        { "left": "Fish", "right": "scales" }
+      ],
+      "rightOptions": ["fur", "feathers", "scales", "shells"]
+    },
+    {
+      "id": "q12",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each body part with what it does.",
+      "pairs": [
+        { "left": "Eyes", "right": "see" },
+        { "left": "Ears", "right": "hear" },
+        { "left": "Mouth", "right": "eat" },
+        { "left": "Legs", "right": "walk" }
+      ],
+      "rightOptions": ["see", "hear", "eat", "walk", "fly"]
+    },
+    {
+      "id": "q13",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which is a subject pronoun?",
+      "options": ["me", "him", "they", "us"],
+      "answer": 2,
+      "explanation": "Subject pronouns are: I, you, he, she, it, we, they. 'They' is a subject pronoun."
+    },
+    {
+      "id": "q14",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which is an object pronoun?",
+      "options": ["she", "we", "I", "him"],
+      "answer": 3,
+      "explanation": "Object pronouns are: me, you, him, her, it, us, them. 'Him' is an object pronoun."
+    },
+    {
+      "id": "q15",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'The dog is big. _____ has brown fur.' Which pronoun completes the sentence?",
+      "options": ["Him", "It", "Me", "Them"],
+      "answer": 1,
+      "explanation": "'It' is the subject pronoun for animals and things."
+    },
+    {
+      "id": "q16",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each subject pronoun with its object pronoun.",
+      "pairs": [
+        { "left": "I", "right": "me" },
+        { "left": "he", "right": "him" },
+        { "left": "she", "right": "her" },
+        { "left": "we", "right": "us" }
+      ],
+      "rightOptions": ["me", "him", "her", "us", "it"]
+    },
+    {
+      "id": "q17",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct pronoun.",
+      "sentence": "The cats are hungry. Please feed _____.",
+      "blanks": ["them"],
+      "wordBank": ["they", "them", "it", "him"]
+    },
+    {
+      "id": "q18",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct pronoun.",
+      "sentence": "My sister likes birds. _____ watches them every day.",
+      "blanks": ["She"],
+      "wordBank": ["She", "Her", "Him", "They"]
+    },
+    {
+      "id": "q19",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'I like elephants. _____ are amazing!' Which pronoun completes the sentence?",
+      "options": ["It", "Them", "They", "Us"],
+      "answer": 2,
+      "explanation": "'They' is the subject pronoun for plural: 'They are amazing!'"
+    },
+    {
+      "id": "q20",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What is a compound noun?",
+      "options": ["A very long word", "Two words put together to make a new word", "A word with many syllables", "A word that rhymes"],
+      "answer": 1,
+      "explanation": "A compound noun is made of two words together, like 'sun' + 'flower' = 'sunflower'."
+    },
+    {
+      "id": "q21",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the words to make compound nouns.",
+      "pairs": [
+        { "left": "gold", "right": "fish" },
+        { "left": "butter", "right": "fly" },
+        { "left": "sea", "right": "horse" },
+        { "left": "rain", "right": "bow" }
+      ],
+      "rightOptions": ["fish", "fly", "horse", "bow", "bird"]
+    },
+    {
+      "id": "q22",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "Which is a compound noun?",
+      "options": ["beautiful", "starfish", "swimming", "quickly"],
+      "answer": 1,
+      "explanation": "'Starfish' is a compound noun: 'star' + 'fish'."
+    },
+    {
+      "id": "q23",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these words into body parts and animal types.",
+      "words": ["head", "mammal", "leg", "amphibian", "eye", "bird"],
+      "slots": [
+        { "label": "Body parts", "accepts": ["head", "leg", "eye"] },
+        { "label": "Animal types", "accepts": ["mammal", "amphibian", "bird"] }
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete the sentences about animals.",
+      "sentence": "Fish have _____ to breathe. Birds have _____ to fly.",
+      "blanks": ["gills", "wings"],
+      "wordBank": ["gills", "wings", "fur", "legs"]
+    },
+    {
+      "id": "q25",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["have", "Mammals", "on", "fur", "skin", "their"],
+      "answer": "Mammals have fur on their skin"
+    },
+    {
+      "id": "q26",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["can", "Frogs", "in", "live", "and", "water", "on", "land"],
+      "answer": "Frogs can live in water and on land"
+    },
+    {
+      "id": "q27",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "'Them' is a subject pronoun.",
+      "answer": false,
+      "explanation": "'Them' is an object pronoun. The subject pronoun is 'they'."
+    },
+    {
+      "id": "q28",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'The teacher gave _____ a book.' Which pronoun completes the sentence?",
+      "options": ["I", "she", "me", "they"],
+      "answer": 2,
+      "explanation": "After a verb we use object pronouns. 'Me' is the object pronoun for 'I'."
+    }
+  ]
+}

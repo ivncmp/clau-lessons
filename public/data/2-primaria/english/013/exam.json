@@ -1,1 +1,274 @@
-{"topicId":"013","subjectId":"english","questions":[]}
+{
+  "topicId": "013",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "How do we feel when we listen to fast music?",
+      "options": ["Sleepy", "Excited", "Nervous", "Sad"],
+      "answer": 1,
+      "refText": "feelings",
+      "explanation": "The text says: 'When we listen to fast music, we feel excited.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What kind of music makes us feel calm and sleepy?",
+      "options": ["Fast music", "Loud music", "Slow, soft music", "Scary music"],
+      "answer": 2,
+      "refText": "feelings",
+      "explanation": "The text says: 'When we listen to slow, soft music, we feel calm and sometimes sleepy.'"
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Scary music makes us feel peaceful.",
+      "answer": false,
+      "refText": "feelings",
+      "explanation": "The text says scary music makes us feel nervous, not peaceful."
+    },
+    {
+      "id": "q04",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What makes us feel proud according to the text?",
+      "options": ["Scary music", "Our country's song", "Drum music", "Sad music"],
+      "answer": 1,
+      "refText": "feelings",
+      "explanation": "The text says: 'When we hear our country's song, we feel proud and strong.'"
+    },
+    {
+      "id": "q05",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Happy music makes us smile.",
+      "answer": true,
+      "refText": "feelings",
+      "explanation": "The text says: 'Happy music makes us smile.'"
+    },
+    {
+      "id": "q06",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What time did the school concert start?",
+      "options": ["At three o'clock", "At four o'clock", "At five o'clock", "At six o'clock"],
+      "answer": 1,
+      "refText": "concert",
+      "explanation": "The text says: 'The school concert was at four o'clock.'"
+    },
+    {
+      "id": "q07",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Why was Emma nervous?",
+      "options": ["She was playing drums", "She was late", "She was singing in the choir", "She forgot her homework"],
+      "answer": 2,
+      "refText": "concert",
+      "explanation": "The text says: 'Emma was nervous because she was singing in the choir.'"
+    },
+    {
+      "id": "q08",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Sam played the piano at the concert.",
+      "answer": false,
+      "refText": "concert",
+      "explanation": "Lily played the piano. Sam played the drums."
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "The concert is _____ four o'clock. Which preposition fits?",
+      "options": ["in", "on", "at", "by"],
+      "answer": 2,
+      "explanation": "We use 'at' with exact times: 'at four o'clock'."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "The concert is _____ Friday. Which preposition fits?",
+      "options": ["at", "on", "in", "by"],
+      "answer": 1,
+      "explanation": "We use 'on' with days of the week: 'on Friday'."
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "The next concert is _____ March. Which preposition fits?",
+      "options": ["at", "on", "in", "by"],
+      "answer": 2,
+      "explanation": "We use 'in' with months: 'in March'."
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "I play football _____ the afternoon. Which preposition fits?",
+      "options": ["at", "on", "in", "by"],
+      "answer": 2,
+      "explanation": "We use 'in' with parts of the day: 'in the afternoon'."
+    },
+    {
+      "id": "q13",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify: do we use AT, ON or IN?",
+      "words": ["3 o'clock", "Monday", "June", "the morning", "Saturday", "noon"],
+      "slots": [
+        { "label": "AT", "accepts": ["3 o'clock", "noon"] },
+        { "label": "ON", "accepts": ["Monday", "Saturday"] },
+        { "label": "IN", "accepts": ["June", "the morning"] }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with 'at', 'on' or 'in'.",
+      "sentence": "The music class is _____ Tuesday. It starts _____ ten o'clock _____ the morning.",
+      "blanks": ["on", "at", "in"],
+      "wordBank": ["on", "at", "in", "by", "to"]
+    },
+    {
+      "id": "q15",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["does", "When", "the", "start", "concert"],
+      "answer": "When does the concert start"
+    },
+    {
+      "id": "q16",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["often", "How", "you", "do", "listen", "to", "music"],
+      "answer": "How often do you listen to music"
+    },
+    {
+      "id": "q17",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'When _____ the class start?' Which word fits?",
+      "options": ["do", "does", "is", "are"],
+      "answer": 1,
+      "explanation": "We use 'does' with he/she/it: 'When does the class start?'"
+    },
+    {
+      "id": "q18",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'How often _____ you play music?' Which word fits?",
+      "options": ["does", "is", "do", "are"],
+      "answer": 2,
+      "explanation": "We use 'do' with you/we/they: 'How often do you play music?'"
+    },
+    {
+      "id": "q19",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each feeling with the right music.",
+      "pairs": [
+        { "left": "Fast music", "right": "excited" },
+        { "left": "Slow music", "right": "calm" },
+        { "left": "Scary music", "right": "nervous" },
+        { "left": "Happy music", "right": "smile" }
+      ],
+      "rightOptions": ["excited", "calm", "nervous", "smile", "hungry"]
+    },
+    {
+      "id": "q20",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the preposition with the correct time word.",
+      "pairs": [
+        { "left": "at", "right": "six o'clock" },
+        { "left": "on", "right": "Wednesday" },
+        { "left": "in", "right": "January" },
+        { "left": "in", "right": "the evening" }
+      ],
+      "rightOptions": ["six o'clock", "Wednesday", "January", "the evening", "today"]
+    },
+    {
+      "id": "q21",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'nervous' mean?",
+      "options": ["Very happy", "A little scared or worried", "Very tired", "Very angry"],
+      "answer": 1,
+      "explanation": "'Nervous' means feeling a little scared or worried about something."
+    },
+    {
+      "id": "q22",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'peaceful' mean?",
+      "options": ["Very fast", "Very loud", "Calm and quiet", "Very funny"],
+      "answer": 2,
+      "explanation": "'Peaceful' means calm, quiet and relaxed."
+    },
+    {
+      "id": "q23",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'live' music mean?",
+      "options": ["Music from a phone", "Music played in front of you", "Music from the TV", "Music from a CD"],
+      "answer": 1,
+      "explanation": "'Live' music is performed in front of an audience, like at a concert."
+    },
+    {
+      "id": "q24",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these words: happy feelings or sad feelings?",
+      "words": ["excited", "proud", "unhappy", "peaceful", "nervous", "cry"],
+      "slots": [
+        { "label": "Happy feelings", "accepts": ["excited", "proud", "peaceful"] },
+        { "label": "Sad feelings", "accepts": ["unhappy", "nervous", "cry"] }
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct feeling word.",
+      "sentence": "Fast music makes me feel _____. Soft music makes me feel _____.",
+      "blanks": ["excited", "peaceful"],
+      "wordBank": ["excited", "peaceful", "hungry", "angry"]
+    },
+    {
+      "id": "q26",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "We use 'on' with months like January or March.",
+      "answer": false,
+      "explanation": "We use 'in' with months: 'in January', 'in March'. We use 'on' with days."
+    },
+    {
+      "id": "q27",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "How did the parents feel at the end of the school concert?",
+      "options": ["Nervous", "Angry", "Proud", "Sleepy"],
+      "answer": 2,
+      "refText": "concert",
+      "explanation": "The text says: 'The parents felt very proud.'"
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct preposition.",
+      "sentence": "The concert is _____ Saturday _____ seven o'clock _____ the evening.",
+      "blanks": ["on", "at", "in"],
+      "wordBank": ["on", "at", "in", "by", "to"]
+    }
+  ]
+}

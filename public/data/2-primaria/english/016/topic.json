@@ -1,1 +1,18 @@
-{"id":"016","subjectId":"english","title":"Unit 16","description":"Two Stubborn Little Goats","icon":"🐐","texts":{},"images":{}}
+{
+  "id": "016",
+  "subjectId": "english",
+  "title": "Unit 16",
+  "description": "Two Stubborn Little Goats",
+  "icon": "🐐",
+  "texts": {
+    "goats": {
+      "title": "🐐 Two Stubborn Little Goats",
+      "html": "<p>Once upon a time, there were two little <span class='hl'>goat</span>s. They lived on a big <span class='hl'>mountain</span>. One goat lived on one side and the other goat lived on the other side.</p><p>In the middle of the mountain, there was a river. A very narrow bridge crossed the river. Only one goat could cross the bridge at a time.</p><p>One day, both goats wanted to cross the bridge at the same time. They met in the middle. 'Move! I want to cross!' said the first goat. She was very <span class='hl'>stubborn</span>. 'No! YOU move! I was here first!' said the second goat. He was <span class='hl'>angry</span>.</p><p>The two <span class='hl'>stubborn</span> goats pushed and pushed. They were both very <span class='hl'>angry</span>. Neither goat wanted to go back. They pushed harder and harder, and then... SPLASH! Both goats fell into the river!</p><p>The goats were <span class='hl'>wet</span> and cold. They climbed out of the water. 'That was silly,' said the first goat. 'Next time, let's take turns,' said the second goat. And from that day, the goats were never <span class='hl'>stubborn</span> again!</p><p>The lesson of this story is: it is better to be kind than to be <span class='hl'>stubborn</span>. When two people both want to go first, nobody wins!</p>"
+    },
+    "sports": {
+      "title": "🏆 The Best in Sports",
+      "html": "<p>Children love playing sports! Some children play <span class='hl'>football</span> and <span class='hl'>basketball</span>. Others play <span class='hl'>tennis</span>, <span class='hl'>baseball</span> or <span class='hl'>golf</span>. There are so many <span class='hl'>fast</span> and exciting sports to try!</p><p>In our class, Tom is the tallest boy. He is the best at <span class='hl'>basketball</span> because he can reach the hoop. Emma is the fastest runner. She always wins the race! She is faster than everyone.</p><p>Who is the best at <span class='hl'>football</span>? Sam is the best! He can kick the ball the farthest. He is the strongest kicker in the team. Lily is the best at <span class='hl'>tennis</span>. She is the fastest at hitting the ball back.</p><p>In <span class='hl'>golf</span>, you need to be very calm. It is the quietest sport. You have to hit a small ball into a small hole. It is the hardest sport to learn!</p><p>In <span class='hl'>baseball</span>, you need to be the fastest at running to the bases. You also need to throw the ball the farthest. <span class='hl'>Soccer</span> is the most popular sport in Spain. It is the most exciting to watch!</p><p>Every sport is special. The most important thing is to have fun and play together. Being <span class='hl'>stubborn</span> or <span class='hl'>angry</span> does not help in sports. The best players are always kind to their team!</p>"
+    }
+  },
+  "images": {}
+}

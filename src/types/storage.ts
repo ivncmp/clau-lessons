@@ -16,6 +16,7 @@ export interface UserData {
 export interface UserProfile {
   id: string;
   name: string;
+  avatar?: string;
   course: string;
   classId: string;
   createdAt: string;
@@ -24,8 +25,15 @@ export interface UserProfile {
 
 // ─── Progress ──────────────────────────────────────────────────
 
+export interface MentalMathStats {
+  rounds: number;
+  totalCorrect: number;
+  totalAttempted: number;
+}
+
 export interface UserProgress {
   subjects: Record<string, SubjectProgress>;
+  mentalMath?: MentalMathStats;
 }
 
 export interface SubjectProgress {
@@ -56,7 +64,8 @@ export type UserAnswer =
   | { type: "matching"; selections: Record<number, string> }
   | { type: "word-bank-classify"; placements: Record<number, string[]> }
   | { type: "word-bank-fill"; words: (string | null)[] }
-  | { type: "word-bank-order"; arranged: string };
+  | { type: "word-bank-order"; arranged: string }
+  | { type: "math-operation"; value: number | null };
 
 // ─── Export/Import ─────────────────────────────────────────────
 

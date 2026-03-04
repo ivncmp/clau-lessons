@@ -1,1 +1,18 @@
-{"id":"018","subjectId":"english","title":"Unit 18","description":"Origami","icon":"📄","texts":{},"images":{}}
+{
+  "id": "018",
+  "subjectId": "english",
+  "title": "Unit 18",
+  "description": "Origami",
+  "icon": "📄",
+  "texts": {
+    "origami": {
+      "title": "📄 How to Make an Origami Dog",
+      "html": "<p>Origami is the art of folding paper. You don't need <span class='hl'>scissors</span> or <span class='hl'>glue</span> — just one square piece of paper!</p><p>Let's make an origami dog. Follow these steps:</p><p><strong>Step 1:</strong> Start with a square piece of paper. <span class='hl'>Fold</span> it in half to make a triangle. Make sure the <span class='hl'>edges</span> are straight.</p><p><strong>Step 2:</strong> Find the top <span class='hl'>corner</span> of the triangle. This will be the dog's head.</p><p><strong>Step 3:</strong> <span class='hl'>Fold</span> the left corner down. This is one ear! Now fold the right corner down. That is the other ear!</p><p><strong>Step 4:</strong> <span class='hl'>Fold</span> the bottom corner up a little bit. This is the dog's nose!</p><p><strong>Step 5:</strong> Turn the paper over. Draw two eyes and a mouth. Your origami dog is ready!</p><p>Remember: be careful with the paper. Don't <span class='hl'>crumple</span> it! <span class='hl'>Fold</span> slowly and press the edges flat. If you make a mistake, unfold and try again.</p>"
+    },
+    "materials": {
+      "title": "🖌️ Art Tools and Materials",
+      "html": "<p>Art is fun! But do you know what tools you need? Let's learn about art materials.</p><p><span class='hl'>Markers</span> are like thick pens. They have bright colours — red, blue, green, yellow and more. You use markers to draw and colour.</p><p><span class='hl'>Watercolours</span> are special paints. You need water and a brush. Mix the paint with water and paint beautiful pictures! Watercolours are soft and light.</p><p><span class='hl'>Chalk</span> is white or coloured. You can draw on a blackboard or on the pavement outside. Chalk is fun because you can erase it easily!</p><p>Do you need <span class='hl'>scissors</span>? You use scissors to cut paper. Be careful — scissors are sharp! Do you need <span class='hl'>glue</span>? You use glue to stick paper together.</p><p>'Do I need <span class='hl'>markers</span> for this activity?' asks Sam. 'No, you don't need markers. You need <span class='hl'>watercolours</span>,' says the teacher.</p><p>'Do I need scissors?' asks Emma. 'No, you don't need scissors today. You need paper, <span class='hl'>chalk</span> and your hands!'</p><p>Every artist uses different tools. What do you like to use? <span class='hl'>Markers</span>, <span class='hl'>watercolours</span>, <span class='hl'>chalk</span> or something else?</p>"
+    }
+  },
+  "images": {}
+}

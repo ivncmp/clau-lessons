@@ -1,1 +1,278 @@
-{"topicId":"009","subjectId":"english","questions":[]}
+{
+  "topicId": "009",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Why are rules important?",
+      "options": ["They make things boring", "They help us stay safe and be kind", "They are only for children", "They are not important"],
+      "answer": 1,
+      "refText": "rules",
+      "explanation": "The text says: 'They help us stay safe and be kind to each other.'"
+    },
+    {
+      "id": "q02",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "At school, we should take turns when we speak.",
+      "answer": true,
+      "refText": "rules",
+      "explanation": "The text says: 'We take turns when we speak.'"
+    },
+    {
+      "id": "q03",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What should you wait for before crossing the street?",
+      "options": ["The red light", "The green light", "A car", "A bus"],
+      "answer": 1,
+      "refText": "rules",
+      "explanation": "The text says: 'We wait for the green light before crossing.'"
+    },
+    {
+      "id": "q04",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What should you do in an emergency?",
+      "options": ["Run and scream", "Stay calm and listen to adults", "Hide under a table", "Call your friends"],
+      "answer": 1,
+      "refText": "rules",
+      "explanation": "The text says: 'We stay calm, we listen to adults, and we go to a safe place.'"
+    },
+    {
+      "id": "q05",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each place with its rule.",
+      "pairs": [
+        { "left": "Kitchen", "right": "Don't run" },
+        { "left": "Classroom", "right": "Raise your hand" },
+        { "left": "Cafeteria", "right": "Wait in line" },
+        { "left": "Playground", "right": "Share the swings" }
+      ],
+      "rightOptions": ["Don't run", "Raise your hand", "Wait in line", "Share the swings", "Wear sports clothes"]
+    },
+    {
+      "id": "q06",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these places in a school.",
+      "words": ["classroom", "cafeteria", "playground", "gym", "kitchen", "living room"],
+      "slots": [
+        { "label": "At school", "accepts": ["classroom", "cafeteria", "playground", "gym"] },
+        { "label": "At home", "accepts": ["kitchen", "living room"] }
+      ]
+    },
+    {
+      "id": "q07",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "In the gym, you should wear your normal clothes.",
+      "answer": false,
+      "refText": "places",
+      "explanation": "The text says: 'In the gym, we wear sports clothes.'"
+    },
+    {
+      "id": "q08",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'Is this _____ bag?' 'Yes, it is mine.' Which word completes the question?",
+      "options": ["my", "your", "mine", "yours"],
+      "answer": 1,
+      "explanation": "'Your' is used before a noun: 'Is this your bag?'"
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'Whose book is this?' 'It is _____.' Which word completes the answer?",
+      "options": ["my", "I", "mine", "me"],
+      "answer": 2,
+      "explanation": "'Mine' is a possessive pronoun (without a noun after it): 'It is mine.'"
+    },
+    {
+      "id": "q10",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each possessive adjective with its possessive pronoun.",
+      "pairs": [
+        { "left": "my", "right": "mine" },
+        { "left": "your", "right": "yours" },
+        { "left": "her", "right": "hers" },
+        { "left": "our", "right": "ours" }
+      ],
+      "rightOptions": ["mine", "yours", "hers", "ours", "theirs"]
+    },
+    {
+      "id": "q11",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct possessive word.",
+      "sentence": "This is _____ pencil. It is _____.",
+      "blanks": ["my", "mine"],
+      "wordBank": ["my", "mine", "your", "yours"]
+    },
+    {
+      "id": "q12",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct possessive word.",
+      "sentence": "Is this _____ book? No, it is _____.",
+      "blanks": ["your", "hers"],
+      "wordBank": ["your", "hers", "you", "her"]
+    },
+    {
+      "id": "q13",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which sentence is correct?",
+      "options": ["This is mine bag.", "This bag is my.", "This is my bag.", "This bag is I."],
+      "answer": 2,
+      "explanation": "We use 'my' before a noun: 'This is my bag.' (or 'This bag is mine.')"
+    },
+    {
+      "id": "q14",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "'Mine' is used before a noun.",
+      "answer": false,
+      "explanation": "'My' goes before a noun: 'my book'. 'Mine' stands alone: 'It is mine.'"
+    },
+    {
+      "id": "q15",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify: possessive adjective or possessive pronoun?",
+      "words": ["my", "mine", "your", "yours", "her", "hers"],
+      "slots": [
+        { "label": "Adjective (before noun)", "accepts": ["my", "your", "her"] },
+        { "label": "Pronoun (alone)", "accepts": ["mine", "yours", "hers"] }
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'Whose keys are these?' 'They are _____.'",
+      "options": ["their", "theirs", "them", "they"],
+      "answer": 1,
+      "explanation": "'Theirs' is the possessive pronoun for 'they': 'They are theirs.'"
+    },
+    {
+      "id": "q17",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["Whose", "is", "book", "this"],
+      "answer": "Whose book is this"
+    },
+    {
+      "id": "q18",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["rules", "We", "follow", "the"],
+      "answer": "We follow the rules"
+    },
+    {
+      "id": "q19",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'permission' mean?",
+      "options": ["A type of food", "Asking if you can do something", "A game to play", "Running very fast"],
+      "answer": 1,
+      "explanation": "Permission means asking if you are allowed to do something: 'May I go?'"
+    },
+    {
+      "id": "q20",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'disrespectful' mean?",
+      "options": ["Very polite", "Not kind or rude", "Very quiet", "Very fast"],
+      "answer": 1,
+      "explanation": "'Disrespectful' means not showing respect, being rude to others."
+    },
+    {
+      "id": "q21",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each vocabulary word with its meaning.",
+      "pairs": [
+        { "left": "take turns", "right": "one at a time" },
+        { "left": "share", "right": "give some to others" },
+        { "left": "polite", "right": "kind and respectful" },
+        { "left": "emergency", "right": "a dangerous situation" }
+      ],
+      "rightOptions": ["one at a time", "give some to others", "kind and respectful", "a dangerous situation", "a type of game"]
+    },
+    {
+      "id": "q22",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct word.",
+      "sentence": "In the cafeteria, we wait in _____. On the playground, we _____ the swings.",
+      "blanks": ["line", "share"],
+      "wordBank": ["line", "share", "turn", "clean"]
+    },
+    {
+      "id": "q23",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "It is okay to push other children on the playground.",
+      "answer": false,
+      "refText": "places",
+      "explanation": "The text says: 'We don't push other children.'"
+    },
+    {
+      "id": "q24",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "What is a phrasal verb?",
+      "options": ["A very long verb", "A verb + another word that changes its meaning", "A verb in the past", "A verb that is very important"],
+      "answer": 1,
+      "explanation": "A phrasal verb is a verb + particle: 'clean up', 'take turns', 'let go'."
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each phrasal verb with its meaning.",
+      "pairs": [
+        { "left": "clean up", "right": "make tidy" },
+        { "left": "take turns", "right": "do one at a time" },
+        { "left": "let go", "right": "stop holding" },
+        { "left": "look after", "right": "take care of" }
+      ],
+      "rightOptions": ["make tidy", "do one at a time", "stop holding", "take care of", "run fast"]
+    },
+    {
+      "id": "q26",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["clean up", "We", "ourselves", "after"],
+      "answer": "We clean up after ourselves"
+    },
+    {
+      "id": "q27",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What should we do in the classroom before speaking?",
+      "options": ["Stand up", "Raise our hand", "Close our eyes", "Open the door"],
+      "answer": 1,
+      "refText": "places",
+      "explanation": "The text says: 'we raise our hand before speaking.'"
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct possessive pronoun.",
+      "sentence": "These are our rules. We all follow _____. This is her bag. It is _____.",
+      "blanks": ["them", "hers"],
+      "wordBank": ["them", "hers", "mine", "ours"]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "topicId": "002",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "📖",
+      "title": "Describing Words",
+      "content": "<p>We use special words to describe animals and people:</p><p>🦁 <span class='hl'>fierce</span> — scary and strong (lions are fierce)</p><p>😌 <span class='hl'>calm</span> — quiet and not worried (the sea is calm today)</p><p>💪 <span class='hl'>strong</span> — has a lot of power (elephants are strong)</p><p>🐰 <span class='hl'>gentle</span> — soft and kind (rabbits are gentle)</p><p>🧠 <span class='hl'>smart</span> — very clever (dolphins are smart)</p>"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "🗺️",
+      "title": "Adventure Vocabulary",
+      "content": "<p>Let's learn some words about adventures!</p><p>🗺️ <span class='hl'>adventure</span> — an exciting trip or experience</p><p>🙈 <span class='hl'>hide</span> — to go where nobody can see you</p><p>🦴 <span class='hl'>prehistoric</span> — from a very, very long time ago (like dinosaurs!)</p><p>🔍 <span class='hl'>discover</span> — to find something new</p>",
+      "tip": "Prehistoric means 'before history was written down'. Dinosaurs are prehistoric animals!"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "🔄",
+      "title": "Adverbs of Frequency",
+      "content": "<p><span class='hl'>Adverbs of frequency</span> tell us HOW OFTEN something happens:</p><p>✅✅✅ <span class='hl'>always</span> — 100% of the time<br/>✅✅ <span class='hl'>usually</span> — most of the time<br/>✅ <span class='hl'>often</span> — many times<br/>⚡ <span class='hl'>sometimes</span> — a few times<br/>❌ <span class='hl'>never</span> — 0% of the time</p><p>They go <span class='hl'>before</span> the main verb: I <span class='hl'>always</span> eat breakfast.</p>",
+      "tip": "Think of a scale from 0% to 100%: never → sometimes → often → usually → always"
+    },
+    {
+      "id": "s04",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "Where Does the Adverb Go?",
+      "problem": "<p>Put the adverb in the correct place:</p><p>1. I ___ brush my teeth. (always)<br/>2. She ___ eats fish. (never)<br/>3. We ___ play in the park. (sometimes)</p>",
+      "steps": [
+        "1️⃣ The adverb goes BEFORE the verb → I always brush my teeth.",
+        "2️⃣ Before the verb → She never eats fish.",
+        "3️⃣ Before the verb → We sometimes play in the park."
+      ],
+      "answer": "1. I always brush my teeth. 2. She never eats fish. 3. We sometimes play in the park."
+    },
+    {
+      "id": "s05",
+      "type": "story",
+      "emoji": "🐭",
+      "title": "Leo and Lily's Adventure",
+      "html": "<p>Leo and Lily were two little mice who lived in a big forest. One day, they decided to go on an <span class='hl'>adventure</span>.</p><p>They walked and walked until they saw a river. A friendly frog said: 'I <span class='hl'>always</span> swim across!' The frog gave them a big leaf to use as a boat.</p><p>On the other side, they met a <span class='hl'>fierce</span> cat! Lily was <span class='hl'>calm</span>. 'Let's <span class='hl'>hide</span>!' she whispered. They hid behind a <span class='hl'>prehistoric</span> rock.</p><p>The cat walked away. Leo said: 'I will <span class='hl'>never</span> forget this adventure!'</p>"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "🐾",
+      "title": "Describing Animals",
+      "content": "<p>We can describe animals using adjectives:</p><p>🐘 Elephants are <span class='hl'>strong</span>. <span class='hl'>They</span> are very big.</p><p>🐰 Rabbits are <span class='hl'>gentle</span>. <span class='hl'>They</span> are soft too.</p><p>🦁 Lions are <span class='hl'>fierce</span>. <span class='hl'>They</span> <span class='hl'>sometimes</span> fight to protect their babies.</p><p>🐬 Dolphins are <span class='hl'>smart</span>. <span class='hl'>They</span> can learn tricks.</p><p>🐊 Crocodiles are <span class='hl'>patient</span>. <span class='hl'>They</span> wait a long time for food.</p>"
+    },
+    {
+      "id": "s07",
+      "type": "example",
+      "emoji": "🔄",
+      "title": "Choose the Right Adverb",
+      "problem": "<p>Complete with <span class='hl'>always</span>, <span class='hl'>usually</span>, <span class='hl'>sometimes</span> or <span class='hl'>never</span>:</p><p>1. Fish ___ live in water. (100%)<br/>2. I ___ eat pizza for breakfast. (0%)<br/>3. We ___ go to the park on Sundays. (most of the time)</p>",
+      "steps": [
+        "1️⃣ 100% of the time → always",
+        "2️⃣ 0% of the time → never",
+        "3️⃣ Most of the time → usually"
+      ],
+      "answer": "1. Fish always live in water. 2. I never eat pizza for breakfast. 3. We usually go to the park on Sundays."
+    },
+    {
+      "id": "s08",
+      "type": "story",
+      "emoji": "🦅",
+      "title": "The Eagle and the Rabbit",
+      "html": "<p>High up in the mountains, there lived a <span class='hl'>fierce</span> eagle. <span class='hl'>It</span> <span class='hl'>always</span> flew very fast with its strong <span class='hl'>wings</span>.</p><p>Down in the valley, there lived a <span class='hl'>gentle</span> rabbit. <span class='hl'>It</span> <span class='hl'>usually</span> stayed near its home.</p><p>One day, the rabbit was lost. The eagle saw it. But the eagle was not hungry. <span class='hl'>It</span> <span class='hl'>sometimes</span> helped other animals.</p><p>'Follow me!' said the eagle. <span class='hl'>It</span> flew slowly so the rabbit could follow. The rabbit found its way home.</p><p>'Thank you!' said the rabbit. 'You are <span class='hl'>fierce</span> but also very kind!'</p>"
+    },
+    {
+      "id": "s09",
+      "type": "concept",
+      "emoji": "📝",
+      "title": "Adverbs with 'To Be'",
+      "content": "<p>With most verbs, the adverb goes <span class='hl'>before</span> the verb:</p><p>I <span class='hl'>always</span> eat breakfast. She <span class='hl'>never</span> runs.</p><p>But with the verb <span class='hl'>to be</span> (am, is, are), the adverb goes <span class='hl'>after</span>:</p><p>I <span class='hl'>am</span> always happy. ✅<br/>She <span class='hl'>is</span> usually calm. ✅<br/>They <span class='hl'>are</span> never late. ✅</p>",
+      "tip": "Remember: before normal verbs, but AFTER am/is/are!"
+    },
+    {
+      "id": "s10",
+      "type": "example",
+      "emoji": "🧩",
+      "title": "Before or After?",
+      "problem": "<p>Put the adverb in the right place:</p><p>1. He ___ is ___ happy. (always)<br/>2. They ___ play ___ football. (often)<br/>3. She ___ is ___ late. (never)</p>",
+      "steps": [
+        "1️⃣ 'is' is the verb to be → adverb goes AFTER → He is always happy.",
+        "2️⃣ 'play' is a normal verb → adverb goes BEFORE → They often play football.",
+        "3️⃣ 'is' is the verb to be → adverb goes AFTER → She is never late."
+      ],
+      "answer": "1. He is always happy. 2. They often play football. 3. She is never late."
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "🦁 Describing words: fierce (scary), calm (quiet), gentle (kind), smart (clever)",
+        "🗺️ Adventure words: adventure, hide, prehistoric, discover",
+        "🔄 Adverbs of frequency: always, usually, often, sometimes, never",
+        "📝 Adverbs go BEFORE normal verbs: I always eat breakfast",
+        "📝 Adverbs go AFTER 'to be': She is usually calm",
+        "⚡ Scale: never (0%) → sometimes → often → usually → always (100%)"
+      ]
+    }
+  ]
+}

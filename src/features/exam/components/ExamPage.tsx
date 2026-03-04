@@ -8,10 +8,16 @@ import {
   Container,
   IconButton,
   Collapse,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogContentText,
+  DialogActions,
 } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import CloseIcon from "@mui/icons-material/Close";
+import RestartAltIcon from "@mui/icons-material/RestartAlt";
 import {
   useExamData,
   useTopicData,
@@ -143,6 +149,7 @@ function ExamRunner({
   const exam = useExam(examData.questions, savedProgress ?? undefined);
   const [saved, setSaved] = useState(false);
   const [textOpen, setTextOpen] = useState(false);
+  const [restartOpen, setRestartOpen] = useState(false);
 
   const handleFinish = useCallback(() => {
     exam.finish();
@@ -150,7 +157,8 @@ function ExamRunner({
 
   // Persist in-progress answers to localStorage on every change
   useEffect(() => {
-    if (exam.status === "in-progress") {
+    const answered = Object.keys(exam.answers).length;
+    if (exam.status === "in-progress" && answered > 0) {
       saveInProgressExam(userId, subjectId, topicId, {
         answers: exam.answers,
         currentIndex: exam.currentIndex,
@@ -257,6 +265,17 @@ function ExamRunner({
               }}
             >
               <CloseIcon fontSize="small" />
+            </IconButton>
+            <IconButton
+              onClick={() => setRestartOpen(true)}
+              size="small"
+              sx={{
+                bgcolor: "rgba(211,47,47,0.08)",
+                color: "#D32F2F",
+                "&:hover": { bgcolor: "rgba(211,47,47,0.15)" },
+              }}
+            >
+              <RestartAltIcon fontSize="small" />
             </IconButton>
             <Typography
               variant="body2"
@@ -534,6 +553,52 @@ function ExamRunner({
           )}
         </Box>
       </Container>
+
+      {/* Restart confirmation dialog */}
+      <Dialog
+        open={restartOpen}
+        onClose={() => setRestartOpen(false)}
+        PaperProps={{
+          sx: { borderRadius: "20px", p: 1 },
+        }}
+      >
+        <DialogTitle sx={{ fontWeight: 700 }}>Empezar de cero</DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+            Se borrarán todas tus respuestas y empezarás el examen desde la
+            primera pregunta. ¿Estás seguro?
+          </DialogContentText>
+        </DialogContent>
+        <DialogActions sx={{ px: 3, pb: 2 }}>
+          <Button
+            onClick={() => setRestartOpen(false)}
+            sx={{
+              borderRadius: "12px",
+              textTransform: "none",
+              fontWeight: 600,
+              color: "#546E7A",
+            }}
+          >
+            Cancelar
+          </Button>
+          <Button
+            onClick={() => {
+              setRestartOpen(false);
+              onRestart();
+            }}
+            sx={{
+              borderRadius: "12px",
+              textTransform: "none",
+              fontWeight: 700,
+              bgcolor: "#D32F2F",
+              color: "white",
+              "&:hover": { bgcolor: "#B71C1C" },
+            }}
+          >
+            Sí, empezar de cero
+          </Button>
+        </DialogActions>
+      </Dialog>
     </Box>
   );
 }

@@ -1,0 +1,109 @@
+{
+  "topicId": "013",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "😊",
+      "title": "Feelings Vocabulary",
+      "content": "<p>Music can make us feel many different things! Let's learn some <span class='hl'>feelings</span> words:</p><p>😄 <span class='hl'>excited</span> — very happy and full of energy<br/>😴 <span class='hl'>sleepy</span> — feeling tired, ready for bed<br/>😰 <span class='hl'>nervous</span> — a bit worried or scared<br/>😢 <span class='hl'>unhappy</span> — sad, not feeling good<br/>😌 <span class='hl'>peaceful</span> — calm and relaxed</p>",
+      "tip": "Feelings words describe how we feel inside. Ask yourself: How does this song make me feel?"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "🎵",
+      "title": "More Feelings Words",
+      "content": "<p>Here are more words about how music makes us feel:</p><p>😊 <span class='hl'>smile</span> — when your mouth goes up because you are happy<br/>😢 <span class='hl'>cry</span> — when tears come from your eyes because you are sad<br/>🥇 <span class='hl'>proud</span> — feeling good about something you did well<br/>✨ <span class='hl'>peace</span> — a feeling of calm, no worries<br/>👍 <span class='hl'>well</span> — feeling good and healthy</p>",
+      "tip": "Proud = orgulloso/a. You feel proud when you do something great!"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "💡",
+      "title": "Action Words with Music",
+      "content": "<p>Some important <span class='hl'>verbs</span> for talking about music:</p><p>🎤 <span class='hl'>live</span> — to perform music in front of people (a <span class='hl'>live</span> concert)<br/>💡 <span class='hl'>light</span> — not heavy; also something that shines (the <span class='hl'>light</span> in the room)</p><p>Example: <em>The band plays <span class='hl'>live</span> music. The <span class='hl'>light</span> makes me feel happy.</em></p>"
+    },
+    {
+      "id": "s04",
+      "type": "story",
+      "emoji": "🎶",
+      "title": "Music at School",
+      "html": "<p>Today is the school concert! Emma feels <span class='hl'>excited</span> because she is going to sing <span class='hl'>live</span> on stage.</p><p>Her friend Tom feels a bit <span class='hl'>nervous</span>. He is playing the drums for the first time!</p><p>The first song is slow and <span class='hl'>peaceful</span>. Some people <span class='hl'>smile</span> and close their eyes. The second song is fast and fun. Everyone feels <span class='hl'>excited</span> and claps their hands!</p><p>At the end, Tom feels <span class='hl'>proud</span>. He didn't make any mistakes! Emma gives him a big <span class='hl'>smile</span>.</p>"
+    },
+    {
+      "id": "s05",
+      "type": "concept",
+      "emoji": "⏰",
+      "title": "Prepositions of Time: AT",
+      "content": "<p>We use <span class='hl'>at</span> with <span class='hl'>exact times</span>:</p><p>⏰ <span class='hl'>at</span> 3 o'clock<br/>⏰ <span class='hl'>at</span> half past five<br/>⏰ <span class='hl'>at</span> 10:15</p><p>Example: <em>The concert starts <span class='hl'>at</span> 6 o'clock.</em></p>",
+      "tip": "AT = exact time. Think of pointing AT the clock!"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "📅",
+      "title": "Prepositions of Time: ON",
+      "content": "<p>We use <span class='hl'>on</span> with <span class='hl'>days</span> of the week:</p><p>📅 <span class='hl'>on</span> Monday<br/>📅 <span class='hl'>on</span> Friday<br/>📅 <span class='hl'>on</span> Saturday morning</p><p>Example: <em>We have music class <span class='hl'>on</span> Wednesday.</em></p>",
+      "tip": "ON = days. Think of a day ON the calendar!"
+    },
+    {
+      "id": "s07",
+      "type": "concept",
+      "emoji": "📆",
+      "title": "Prepositions of Time: IN",
+      "content": "<p>We use <span class='hl'>in</span> with <span class='hl'>months</span> and <span class='hl'>parts of the day</span>:</p><p>📆 <span class='hl'>in</span> January / <span class='hl'>in</span> March / <span class='hl'>in</span> December<br/>🌅 <span class='hl'>in</span> the morning<br/>☀️ <span class='hl'>in</span> the afternoon<br/>🌙 <span class='hl'>in</span> the evening</p><p>Example: <em>The school play is <span class='hl'>in</span> June. I practise piano <span class='hl'>in</span> the afternoon.</em></p>",
+      "tip": "IN = months and parts of the day. We are IN a big period of time!"
+    },
+    {
+      "id": "s08",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "Choose: at, on, or in?",
+      "problem": "<p>Fill in the gaps with <span class='hl'>at</span>, <span class='hl'>on</span> or <span class='hl'>in</span>:</p><p>1. The concert is _____ Tuesday.<br/>2. I wake up _____ 7 o'clock.<br/>3. We go on holiday _____ July.<br/>4. I read books _____ the evening.</p>",
+      "steps": [
+        "1. Tuesday is a day --> ON Tuesday",
+        "2. 7 o'clock is an exact time --> AT 7 o'clock",
+        "3. July is a month --> IN July",
+        "4. The evening is a part of the day --> IN the evening"
+      ],
+      "answer": "1. on  2. at  3. in  4. in"
+    },
+    {
+      "id": "s09",
+      "type": "story",
+      "emoji": "🎸",
+      "title": "A Special Day",
+      "html": "<p><span class='hl'>On</span> Saturday, Mia went to a <span class='hl'>live</span> concert with her family. The concert started <span class='hl'>at</span> 5 o'clock <span class='hl'>in</span> the afternoon.</p><p>The first song was slow and <span class='hl'>peaceful</span>. Mia felt calm. Then the band played a fast song. Mia felt <span class='hl'>excited</span> and wanted to dance!</p><p>A sad song made her mum <span class='hl'>cry</span> a little. But then a happy song made everyone <span class='hl'>smile</span> again. <span class='hl'>In</span> the evening, they drove home. Mia felt <span class='hl'>sleepy</span> but very happy.</p>"
+    },
+    {
+      "id": "s10",
+      "type": "example",
+      "emoji": "🎯",
+      "title": "Feelings Match",
+      "problem": "<p>Match each sentence with the correct <span class='hl'>feeling</span>:</p><p>1. I have a test tomorrow. I feel _____.<br/>2. It's my birthday! I feel _____.<br/>3. I did my best in the race. I feel _____.<br/>4. The lullaby is soft. I feel _____.</p>",
+      "steps": [
+        "1. A test makes you worried --> nervous",
+        "2. A birthday makes you very happy --> excited",
+        "3. Doing your best makes you feel good about yourself --> proud",
+        "4. A lullaby is calm and gentle --> sleepy"
+      ],
+      "answer": "1. nervous  2. excited  3. proud  4. sleepy"
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "😊 Feelings: excited, sleepy, nervous, peaceful, unhappy, proud",
+        "😄 smile = happy face; cry = tears when sad",
+        "⏰ AT + exact time: at 3 o'clock",
+        "📅 ON + day: on Monday",
+        "📆 IN + month or part of day: in June, in the morning",
+        "🎵 Music can make us feel many different things!"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,273 @@
-{"topicId":"005","subjectId":"english","questions":[]}
+{
+  "topicId": "005",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "How did people travel long ago?",
+      "options": ["By airplane", "By car", "By horse", "By metro"],
+      "answer": 2,
+      "refText": "thenandnow",
+      "explanation": "The text says: 'In the past, people traveled by horse.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "How did people communicate long ago?",
+      "options": ["By e-mail", "By letters", "By video call", "By Internet"],
+      "answer": 1,
+      "refText": "thenandnow",
+      "explanation": "The text says: 'people sent letters to talk to people far away.'"
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "In the past, there were televisions in every home.",
+      "answer": false,
+      "refText": "thenandnow",
+      "explanation": "The text says: 'In the past, there were no televisions.'"
+    },
+    {
+      "id": "q04",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "People listened to the radio for news in the past.",
+      "answer": true,
+      "refText": "thenandnow",
+      "explanation": "The text says: 'People listened to the radio for news.'"
+    },
+    {
+      "id": "q05",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Which transport arrived first?",
+      "options": ["Cars", "Airplanes", "Trains", "Motorcycles"],
+      "answer": 2,
+      "refText": "transport",
+      "explanation": "The text says: 'Trains arrived first.'"
+    },
+    {
+      "id": "q06",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "At first, everyone could afford a car.",
+      "answer": false,
+      "refText": "transport",
+      "explanation": "The text says: 'At first, only rich people owned cars.'"
+    },
+    {
+      "id": "q07",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match 'then' (past) with 'now' (present).",
+      "pairs": [
+        { "left": "Letters", "right": "E-mail" },
+        { "left": "Horse", "right": "Car" },
+        { "left": "Radio", "right": "Television" },
+        { "left": "Walking", "right": "Airplane" }
+      ],
+      "rightOptions": ["E-mail", "Car", "Television", "Airplane", "Bicycle"]
+    },
+    {
+      "id": "q08",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these things: past or present?",
+      "words": ["letters", "e-mail", "horse travel", "Internet", "radio only", "tablet"],
+      "slots": [
+        { "label": "Then (past)", "accepts": ["letters", "horse travel", "radio only"] },
+        { "label": "Now (present)", "accepts": ["e-mail", "Internet", "tablet"] }
+      ]
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'She _____ to school yesterday.' Which word completes the sentence?",
+      "options": ["walk", "walks", "walked", "walking"],
+      "answer": 2,
+      "explanation": "We add -ed to regular verbs in the past: walk → walked."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'They _____ a movie last night.' Which word completes the sentence?",
+      "options": ["watch", "watched", "watches", "watching"],
+      "answer": 1,
+      "explanation": "We add -ed to regular verbs in the past: watch → watched."
+    },
+    {
+      "id": "q11",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each verb with its past form.",
+      "pairs": [
+        { "left": "travel", "right": "traveled" },
+        { "left": "play", "right": "played" },
+        { "left": "visit", "right": "visited" },
+        { "left": "listen", "right": "listened" }
+      ],
+      "rightOptions": ["traveled", "played", "visited", "listened", "walked"]
+    },
+    {
+      "id": "q12",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the past form of the verb.",
+      "sentence": "People _____ by horse. Children _____ outside all day.",
+      "blanks": ["traveled", "played"],
+      "wordBank": ["traveled", "played", "travel", "play"]
+    },
+    {
+      "id": "q13",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "How do we make the past tense of regular verbs?",
+      "options": ["Add -ing", "Add -ed", "Add -s", "Add -er"],
+      "answer": 1,
+      "explanation": "We add -ed to regular verbs: play → played, walk → walked."
+    },
+    {
+      "id": "q14",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct past tense.",
+      "sentence": "She _____ her grandma last weekend. He _____ to music.",
+      "blanks": ["visited", "listened"],
+      "wordBank": ["visited", "listened", "visit", "listen"]
+    },
+    {
+      "id": "q15",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "'Played' is the past tense of 'play'.",
+      "answer": true,
+      "explanation": "We add -ed to 'play' to make the past: played."
+    },
+    {
+      "id": "q16",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'_____ they travel by train?' How do we ask about the past?",
+      "options": ["Do", "Does", "Did", "Are"],
+      "answer": 2,
+      "explanation": "We use 'Did' to make questions in the past: 'Did they travel by train?'"
+    },
+    {
+      "id": "q17",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["traveled", "People", "horse", "by"],
+      "answer": "People traveled by horse"
+    },
+    {
+      "id": "q18",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["Did", "watch", "a", "they", "movie"],
+      "answer": "Did they watch a movie"
+    },
+    {
+      "id": "q19",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'communications' mean?",
+      "options": ["Types of food", "Ways to travel", "Ways to share information", "Types of animals"],
+      "answer": 2,
+      "explanation": "Communications are the ways people share information: letters, phone, e-mail, Internet."
+    },
+    {
+      "id": "q20",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "Put these words in alphabetical order. Which comes first?",
+      "options": ["train", "airplane", "bus", "car"],
+      "answer": 1,
+      "explanation": "'Airplane' starts with 'a', which comes first in the alphabet."
+    },
+    {
+      "id": "q21",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these types of transport.",
+      "words": ["bus", "airplane", "motorcycle", "train", "truck", "cable car"],
+      "slots": [
+        { "label": "On the road", "accepts": ["bus", "motorcycle", "truck"] },
+        { "label": "Not on the road", "accepts": ["airplane", "train", "cable car"] }
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each verb with its past form.",
+      "pairs": [
+        { "left": "arrive", "right": "arrived" },
+        { "left": "change", "right": "changed" },
+        { "left": "invent", "right": "invented" },
+        { "left": "love", "right": "loved" }
+      ],
+      "rightOptions": ["arrived", "changed", "invented", "loved", "walked"]
+    },
+    {
+      "id": "q23",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct past tense.",
+      "sentence": "Trains _____ first. Cars _____ later.",
+      "blanks": ["arrived", "appeared"],
+      "wordBank": ["arrived", "appeared", "arrive", "appear"]
+    },
+    {
+      "id": "q24",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Airplanes changed how people travel.",
+      "answer": true,
+      "refText": "transport",
+      "explanation": "The text says: 'Airplanes changed everything.'"
+    },
+    {
+      "id": "q25",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which sentence is correct?",
+      "options": ["She walkd to school.", "She walked to school.", "She walkied to school.", "She walken to school."],
+      "answer": 1,
+      "explanation": "The correct past form is 'walked' (walk + ed)."
+    },
+    {
+      "id": "q26",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["changed", "Airplanes", "everything"],
+      "answer": "Airplanes changed everything"
+    },
+    {
+      "id": "q27",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What did people use to get news in the past?",
+      "options": ["Television", "Internet", "Radio", "Tablet"],
+      "answer": 2,
+      "refText": "thenandnow",
+      "explanation": "The text says: 'People listened to the radio for news.'"
+    },
+    {
+      "id": "q28",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "In the question 'Did they travel?', the verb stays in the base form.",
+      "answer": true,
+      "explanation": "After 'Did', we use the base form: 'Did they travel?' (not 'Did they traveled?')."
+    }
+  ]
+}

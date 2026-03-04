@@ -1,1 +1,276 @@
-{"topicId":"011","subjectId":"english","questions":[]}
+{
+  "topicId": "011",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What are natural resources?",
+      "options": ["Things we buy at the shop", "Things the Earth gives us", "Things we make in factories", "Things that are very expensive"],
+      "answer": 1,
+      "refText": "resources",
+      "explanation": "The text says: 'The Earth gives us many things we need to live. These things are called natural resources.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Where does wood come from?",
+      "options": ["Rocks", "Water", "Trees", "Sand"],
+      "answer": 2,
+      "refText": "resources",
+      "explanation": "The text says: 'Wood comes from trees.'"
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "A landfill is a big area of land full of rubbish.",
+      "answer": true,
+      "refText": "resources",
+      "explanation": "The text says: 'A landfill is a big area of land full of rubbish.'"
+    },
+    {
+      "id": "q04",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Smoke makes the air clean.",
+      "answer": false,
+      "refText": "resources",
+      "explanation": "The text says: 'Smoke makes the air dirty.' Not clean!"
+    },
+    {
+      "id": "q05",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What does 'reduce' mean?",
+      "options": ["Use more", "Use less", "Throw away", "Buy new things"],
+      "answer": 1,
+      "refText": "resources",
+      "explanation": "The text says: 'We can reduce — that means use less.'"
+    },
+    {
+      "id": "q06",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What does 'reuse' mean?",
+      "options": ["Throw things away", "Break things", "Use things again", "Buy new things"],
+      "answer": 2,
+      "refText": "resources",
+      "explanation": "The text says: 'We can reuse — that means use things again.'"
+    },
+    {
+      "id": "q07",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "When you camp, you sleep in a tent.",
+      "answer": true,
+      "refText": "activities",
+      "explanation": "The text says: 'When you camp, you sleep in a tent.'"
+    },
+    {
+      "id": "q08",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Where is the campfire?",
+      "options": ["Behind the tent", "Next to the river", "In front of the tent", "Between the trees"],
+      "answer": 2,
+      "refText": "activities",
+      "explanation": "The text says: 'The campfire is in front of the tent.'"
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "The cat is _____ the two dogs.",
+      "options": ["in front of", "behind", "between", "across from"],
+      "answer": 2,
+      "explanation": "'Between' means in the middle of two things."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "The tree is _____ the house. (You can see it from the front door.)",
+      "options": ["behind", "between", "next to", "in front of"],
+      "answer": 3,
+      "explanation": "'In front of' means you can see it when you look forward."
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "The park is _____ the school. (It is on the other side of the street.)",
+      "options": ["behind", "across from", "between", "next to"],
+      "answer": 1,
+      "explanation": "'Across from' means on the other side, facing something."
+    },
+    {
+      "id": "q12",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct preposition.",
+      "sentence": "The dog is sitting _____ the chair. You cannot see the dog from the front.",
+      "blanks": ["behind"],
+      "wordBank": ["behind", "between", "in front of", "across from"]
+    },
+    {
+      "id": "q13",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct preposition.",
+      "sentence": "The library is _____ the bakery. They are side by side.",
+      "blanks": ["next to"],
+      "wordBank": ["next to", "behind", "between", "across from"]
+    },
+    {
+      "id": "q14",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "_____ a park near your house?",
+      "options": ["Where is", "Is there", "There is", "Where are"],
+      "answer": 1,
+      "explanation": "We use 'Is there...?' to ask if something exists in a place."
+    },
+    {
+      "id": "q15",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "_____ the supermarket?",
+      "options": ["Is there", "Where is", "There is", "Is it"],
+      "answer": 1,
+      "explanation": "We use 'Where is...?' to ask about the location of something."
+    },
+    {
+      "id": "q16",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["is", "Where", "the", "school", "?"],
+      "answer": "Where is the school ?"
+    },
+    {
+      "id": "q17",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["there", "Is", "a", "hospital", "here", "?"],
+      "answer": "Is there a hospital here ?"
+    },
+    {
+      "id": "q18",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each natural resource with how we use it.",
+      "pairs": [
+        { "left": "Water", "right": "drink and cook" },
+        { "left": "Wood", "right": "build houses" },
+        { "left": "Sunlight", "right": "grow food" }
+      ],
+      "rightOptions": ["drink and cook", "build houses", "grow food", "make clothes"]
+    },
+    {
+      "id": "q19",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each preposition with its meaning.",
+      "pairs": [
+        { "left": "in front of", "right": "facing you" },
+        { "left": "behind", "right": "at the back" },
+        { "left": "next to", "right": "side by side" },
+        { "left": "between", "right": "in the middle of two" }
+      ],
+      "rightOptions": ["facing you", "at the back", "side by side", "in the middle of two", "on the other side"]
+    },
+    {
+      "id": "q20",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these words into the correct group.",
+      "words": ["wood", "camp", "sunlight", "surf", "water", "ski"],
+      "slots": [
+        { "label": "Natural resources", "accepts": ["wood", "sunlight", "water"] },
+        { "label": "Nature activities", "accepts": ["camp", "surf", "ski"] }
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these as good or bad for the Earth.",
+      "words": ["reduce", "trash", "reuse", "smoke", "landfill", "bike"],
+      "slots": [
+        { "label": "Good for Earth", "accepts": ["reduce", "reuse", "bike"] },
+        { "label": "Bad for Earth", "accepts": ["trash", "smoke", "landfill"] }
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What is a 'landfill'?",
+      "options": ["A farm with animals", "A place full of rubbish", "A type of garden", "A swimming pool"],
+      "answer": 1,
+      "explanation": "A landfill is a big area of land full of rubbish."
+    },
+    {
+      "id": "q23",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "Which activity can you do in the mountains in winter?",
+      "options": ["Surf", "Fish", "Ski", "Camp"],
+      "answer": 2,
+      "refText": "activities",
+      "explanation": "The text says: 'In winter, you can ski in the mountains.'"
+    },
+    {
+      "id": "q24",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "You can surf on a lake.",
+      "answer": false,
+      "refText": "activities",
+      "explanation": "The text says you surf on waves at the beach, not on a lake. You fish in the lake."
+    },
+    {
+      "id": "q25",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete the sentences about nature.",
+      "sentence": "We use _____ to grow food. Cars make _____ that is bad for the air.",
+      "blanks": ["sunlight", "smoke"],
+      "wordBank": ["sunlight", "smoke", "wood", "trash"]
+    },
+    {
+      "id": "q26",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["can", "We", "and", "reduce", "reuse"],
+      "answer": "We can reduce and reuse"
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each activity with where you do it.",
+      "pairs": [
+        { "left": "Surf", "right": "at the beach" },
+        { "left": "Ski", "right": "in the mountains" },
+        { "left": "Fish", "right": "in the lake" },
+        { "left": "Camp", "right": "in the forest" }
+      ],
+      "rightOptions": ["at the beach", "in the mountains", "in the lake", "in the forest", "in the city"]
+    },
+    {
+      "id": "q28",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'ride a horse' mean?",
+      "options": ["Feed a horse", "Sit on a horse and move", "Draw a horse", "Watch a horse run"],
+      "answer": 1,
+      "explanation": "'Ride a horse' means to sit on a horse while it walks or runs."
+    }
+  ]
+}

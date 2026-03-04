@@ -1,0 +1,116 @@
+{
+  "topicId": "016",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "🐐",
+      "title": "Story Vocabulary",
+      "content": "<p>Let's learn the key words from the story of the two goats:</p><p>🐐 <span class='hl'>goat</span> — an animal with horns that lives on mountains<br/>🏔️ <span class='hl'>mountain</span> — a very high, rocky place<br/>😤 <span class='hl'>stubborn</span> — not wanting to change your mind<br/>😡 <span class='hl'>angry</span> — feeling mad, not happy at all<br/>💧 <span class='hl'>wet</span> — covered in water</p>",
+      "tip": "Stubborn = terco/a. A stubborn person never wants to move or change!"
+    },
+    {
+      "id": "s02",
+      "type": "story",
+      "emoji": "📖",
+      "title": "Two Stubborn Little Goats",
+      "html": "<p>Two little <span class='hl'>goats</span> lived on a <span class='hl'>mountain</span>. One day, they met on a narrow bridge over a river.</p><p>&ldquo;Move! I want to cross!&rdquo; said the first goat. She was very <span class='hl'>stubborn</span>.</p><p>&ldquo;No, YOU move!&rdquo; said the second goat. He was <span class='hl'>stubborn</span> too!</p><p>They both got <span class='hl'>angry</span>. They pushed and pushed. Then... SPLASH! They both fell into the river and got very <span class='hl'>wet</span>!</p><p>The lesson? Don't be too <span class='hl'>stubborn</span>. It's better to share!</p>"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "🏆",
+      "title": "Superlative Adjectives",
+      "content": "<p><span class='hl'>Superlative adjectives</span> compare one thing to ALL the others in a group:</p><p>For <span class='hl'>short adjectives</span>, add <span class='hl'>the + -est</span>:</p><p>📏 tall → <span class='hl'>the tallest</span><br/>🚀 fast → <span class='hl'>the fastest</span><br/>💪 strong → <span class='hl'>the strongest</span></p><p>Example: <em>The giraffe is <span class='hl'>the tallest</span> animal.</em></p>",
+      "tip": "Superlative = THE BEST of all! Use THE before the superlative."
+    },
+    {
+      "id": "s04",
+      "type": "concept",
+      "emoji": "⭐",
+      "title": "Irregular and Long Superlatives",
+      "content": "<p>Some superlatives are <span class='hl'>irregular</span> — they don't follow the rules:</p><p>👍 good → <span class='hl'>the best</span> (NOT the goodest!)</p><p>For <span class='hl'>long adjectives</span> (2+ syllables), use <span class='hl'>the most</span>:</p><p>🌟 popular → <span class='hl'>the most popular</span><br/>🎢 exciting → <span class='hl'>the most exciting</span></p><p>Example: <em>Football is <span class='hl'>the most popular</span> sport in Spain.</em></p>",
+      "tip": "Short adjectives: the + adjective + -est. Long adjectives: the most + adjective."
+    },
+    {
+      "id": "s05",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "Write the Superlative",
+      "problem": "<p>Write the <span class='hl'>superlative</span> form of each adjective:</p><p>1. tall → _____<br/>2. fast → _____<br/>3. good → _____<br/>4. popular → _____<br/>5. exciting → _____</p>",
+      "steps": [
+        "1. tall is short (1 syllable) --> the tallest",
+        "2. fast is short (1 syllable) --> the fastest",
+        "3. good is irregular --> the best",
+        "4. popular is long (3 syllables) --> the most popular",
+        "5. exciting is long (3 syllables) --> the most exciting"
+      ],
+      "answer": "1. the tallest  2. the fastest  3. the best  4. the most popular  5. the most exciting"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "📊",
+      "title": "Comparative vs Superlative",
+      "content": "<p>What's the difference?</p><p>📏 <span class='hl'>Comparative</span> = compares <span class='hl'>TWO</span> things:<br/><em>A goat is <span class='hl'>faster</span> than a turtle.</em></p><p>🏆 <span class='hl'>Superlative</span> = compares ONE to <span class='hl'>ALL</span> the rest:<br/><em>The cheetah is <span class='hl'>the fastest</span> animal.</em></p><p>Comparative: adjective + <span class='hl'>-er</span> + than<br/>Superlative: <span class='hl'>the</span> + adjective + <span class='hl'>-est</span></p>"
+    },
+    {
+      "id": "s07",
+      "type": "example",
+      "emoji": "🎯",
+      "title": "Comparative or Superlative?",
+      "problem": "<p>Choose the correct form:</p><p>1. An elephant is _____ (big) than a dog.<br/>2. The blue whale is _____ (big) animal in the world.<br/>3. This book is _____ (exciting) than that one.<br/>4. This is _____ (good) day of my life!</p>",
+      "steps": [
+        "1. Comparing TWO things --> comparative: bigger",
+        "2. Comparing to ALL animals --> superlative: the biggest",
+        "3. Comparing TWO books (long adjective) --> comparative: more exciting",
+        "4. Comparing to ALL days (irregular) --> superlative: the best"
+      ],
+      "answer": "1. bigger  2. the biggest  3. more exciting  4. the best"
+    },
+    {
+      "id": "s08",
+      "type": "story",
+      "emoji": "🐐",
+      "title": "The Mountain Race",
+      "html": "<p>Three goats lived on a <span class='hl'>mountain</span>: Billy, Nanny, and Kid.</p><p>Billy was <span class='hl'>the strongest</span> goat. Nanny was <span class='hl'>the fastest</span>. And Kid was <span class='hl'>the smallest</span> but also <span class='hl'>the most popular</span> because he was kind to everyone.</p><p>One day they had a race. Nanny was <span class='hl'>faster</span> than Billy. Billy was <span class='hl'>stronger</span> than Kid. But Kid had <span class='hl'>the best</span> idea: &ldquo;Let's all cross the bridge together!&rdquo;</p><p>Nobody got <span class='hl'>angry</span>. Nobody got <span class='hl'>wet</span>. It was <span class='hl'>the most exciting</span> day on the mountain!</p>"
+    },
+    {
+      "id": "s09",
+      "type": "concept",
+      "emoji": "📝",
+      "title": "Spelling Rules for Superlatives",
+      "content": "<p>Watch out for these spelling rules:</p><p>🔹 Adjectives ending in <span class='hl'>-e</span>: just add <span class='hl'>-st</span><br/>large → the large<span class='hl'>st</span></p><p>🔹 Adjectives ending in consonant + <span class='hl'>-y</span>: change y to <span class='hl'>-iest</span><br/>happy → the happ<span class='hl'>iest</span></p><p>🔹 Short adjectives ending in one vowel + one consonant: <span class='hl'>double</span> the consonant<br/>big → the bi<span class='hl'>ggest</span></p>",
+      "tip": "These are the same spelling rules as comparatives, but with -est instead of -er!"
+    },
+    {
+      "id": "s10",
+      "type": "example",
+      "emoji": "📝",
+      "title": "Superlative Spelling Practice",
+      "problem": "<p>Write the superlative with the correct spelling:</p><p>1. happy → _____<br/>2. big → _____<br/>3. nice → _____<br/>4. strong → _____</p>",
+      "steps": [
+        "1. happy ends in consonant + y --> change y to i + est = the happiest",
+        "2. big ends in vowel + consonant --> double the g = the biggest",
+        "3. nice ends in -e --> just add -st = the nicest",
+        "4. strong is regular --> add -est = the strongest"
+      ],
+      "answer": "1. the happiest  2. the biggest  3. the nicest  4. the strongest"
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "🐐 Vocabulary: goat, mountain, stubborn, angry, wet",
+        "🏆 Superlatives compare ONE thing to ALL the rest",
+        "📏 Short adjectives: the + adjective + -est (the tallest, the fastest)",
+        "🌟 Long adjectives: the most + adjective (the most popular, the most exciting)",
+        "⭐ Irregular: good --> the best",
+        "📊 Comparative = two things (-er). Superlative = all things (the -est)"
+      ]
+    }
+  ]
+}

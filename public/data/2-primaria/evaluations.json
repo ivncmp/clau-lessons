@@ -25,11 +25,11 @@
           { "date": "30 de octubre", "subjectId": "lengua" }
         ],
         "D": [
-          { "subjectId": "mates" },
-          { "subjectId": "natural-science" },
-          { "subjectId": "english" },
-          { "subjectId": "social-science" },
-          { "subjectId": "lengua" }
+          { "date": "24 de octubre", "subjectId": "english" },
+          { "date": "27 de octubre", "subjectId": "social-science" },
+          { "date": "28 de octubre", "subjectId": "lengua" },
+          { "date": "29 de octubre", "subjectId": "natural-science" },
+          { "date": "30 de octubre", "subjectId": "mates" }
         ],
         "E": [
           { "subjectId": "mates" },
@@ -122,11 +122,11 @@
           { "date": "17 de diciembre", "subjectId": "social-science" }
         ],
         "D": [
-          { "subjectId": "lengua" },
-          { "subjectId": "mates" },
-          { "subjectId": "natural-science" },
-          { "subjectId": "english" },
-          { "subjectId": "social-science" }
+          { "date": "11 de diciembre", "subjectId": "mates" },
+          { "date": "12 de diciembre", "subjectId": "english" },
+          { "date": "15 de diciembre", "subjectId": "social-science" },
+          { "date": "16 de diciembre", "subjectId": "lengua" },
+          { "date": "17 de diciembre", "subjectId": "natural-science" }
         ],
         "E": [
           { "subjectId": "lengua" },
@@ -216,11 +216,11 @@
           { "date": "27 de febrero", "subjectId": "mates" }
         ],
         "D": [
-          { "subjectId": "natural-science" },
-          { "subjectId": "english" },
-          { "subjectId": "social-science" },
-          { "subjectId": "lengua" },
-          { "subjectId": "mates" }
+          { "date": "23 de febrero", "subjectId": "social-science" },
+          { "date": "24 de febrero", "subjectId": "lengua" },
+          { "date": "25 de febrero", "subjectId": "natural-science" },
+          { "date": "26 de febrero", "subjectId": "mates" },
+          { "date": "27 de febrero", "subjectId": "english" }
         ],
         "E": [
           { "subjectId": "natural-science" },
@@ -308,11 +308,11 @@
           { "date": "22 de mayo", "subjectId": "mates" }
         ],
         "D": [
-          { "subjectId": "natural-science" },
-          { "subjectId": "english" },
-          { "subjectId": "social-science" },
-          { "subjectId": "lengua" },
-          { "subjectId": "mates" }
+          { "date": "18 de mayo", "subjectId": "social-science" },
+          { "date": "19 de mayo", "subjectId": "lengua" },
+          { "date": "20 de mayo", "subjectId": "natural-science" },
+          { "date": "21 de mayo", "subjectId": "mates" },
+          { "date": "22 de mayo", "subjectId": "english" }
         ],
         "E": [
           { "subjectId": "natural-science" },
@@ -349,11 +349,11 @@
           { "date": "12 de junio", "subjectId": "mates" }
         ],
         "D": [
-          { "subjectId": "natural-science" },
-          { "subjectId": "english" },
-          { "subjectId": "social-science" },
-          { "subjectId": "lengua" },
-          { "subjectId": "mates" }
+          { "date": "8 de junio", "subjectId": "social-science" },
+          { "date": "9 de junio", "subjectId": "lengua" },
+          { "date": "10 de junio", "subjectId": "natural-science" },
+          { "date": "11 de junio", "subjectId": "mates" },
+          { "date": "12 de junio", "subjectId": "english" }
         ],
         "E": [
           { "subjectId": "natural-science" },

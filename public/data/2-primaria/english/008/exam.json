@@ -1,1 +1,274 @@
-{"topicId":"008","subjectId":"english","questions":[]}
+{
+  "topicId": "008",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Why couldn't Bandar pull his hand out of the jar?",
+      "options": ["The jar was too small", "His hand was too full of nuts", "The jar was broken", "He was too tired"],
+      "answer": 1,
+      "refText": "bandar",
+      "explanation": "The text says: 'His hand was too full! He couldn't pull it out of the jar.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What does 'greedy' mean?",
+      "options": ["Very kind", "Always wanting more", "Very happy", "Very fast"],
+      "answer": 1,
+      "refText": "bandar",
+      "explanation": "The text says Bandar was greedy — 'he always wanted more and more food!'"
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Bandar learned that being greedy makes you happy.",
+      "answer": false,
+      "refText": "bandar",
+      "explanation": "The text says: 'He learned that being greedy doesn't make you happy!'"
+    },
+    {
+      "id": "q04",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Who owned the jar of nuts?",
+      "options": ["A cook", "A teacher", "A baker", "A farmer"],
+      "answer": 2,
+      "refText": "bandar",
+      "explanation": "The text says: 'said the baker who owned the jar.'"
+    },
+    {
+      "id": "q05",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Bandar stole more nuts after learning his lesson.",
+      "answer": false,
+      "refText": "bandar",
+      "explanation": "The text says: 'He didn't steal anymore.'"
+    },
+    {
+      "id": "q06",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each body part with what we use it for.",
+      "pairs": [
+        { "left": "Hands", "right": "hold and write" },
+        { "left": "Nose", "right": "smell" },
+        { "left": "Feet", "right": "walk and run" },
+        { "left": "Knees", "right": "bend legs" }
+      ],
+      "rightOptions": ["hold and write", "smell", "walk and run", "bend legs", "hear"]
+    },
+    {
+      "id": "q07",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these body parts.",
+      "words": ["face", "hand", "nose", "arm", "foot", "knee"],
+      "slots": [
+        { "label": "Upper body", "accepts": ["face", "hand", "nose", "arm"] },
+        { "label": "Lower body", "accepts": ["foot", "knee"] }
+      ]
+    },
+    {
+      "id": "q08",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'Karen _____ like fruit salad.' Which word completes the sentence?",
+      "options": ["don't", "doesn't", "didn't", "wasn't"],
+      "answer": 1,
+      "explanation": "For present tense with she/he/it, we use 'doesn't': 'Karen doesn't like fruit salad.'"
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'Bandar _____ let go of the candy.' Which word makes this past tense negative?",
+      "options": ["don't", "doesn't", "didn't", "wasn't"],
+      "answer": 2,
+      "explanation": "For past tense negative, we use 'didn't': 'Bandar didn't let go of the candy.'"
+    },
+    {
+      "id": "q10",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each irregular verb with its past form.",
+      "pairs": [
+        { "left": "run", "right": "ran" },
+        { "left": "fall", "right": "fell" },
+        { "left": "come", "right": "came" },
+        { "left": "say", "right": "said" }
+      ],
+      "rightOptions": ["ran", "fell", "came", "said", "went"]
+    },
+    {
+      "id": "q11",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct irregular past tense.",
+      "sentence": "I _____ in the park. My friend _____ down and hurt his knee.",
+      "blanks": ["ran", "fell"],
+      "wordBank": ["ran", "fell", "run", "fall"]
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'She _____ she was sorry.' Which word fits?",
+      "options": ["say", "says", "said", "saying"],
+      "answer": 2,
+      "explanation": "'Said' is the irregular past tense of 'say'."
+    },
+    {
+      "id": "q13",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with 'didn't' + the base form.",
+      "sentence": "Bandar _____ let go. He _____ steal anymore.",
+      "blanks": ["didn't", "didn't"],
+      "wordBank": ["didn't", "didn't", "doesn't", "don't"]
+    },
+    {
+      "id": "q14",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "We use 'didn't' + past tense verb for negative sentences about the past.",
+      "answer": false,
+      "explanation": "We use 'didn't' + BASE form: 'He didn't eat' (not 'He didn't ate')."
+    },
+    {
+      "id": "q15",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which sentence is correct?",
+      "options": ["She didn't went home.", "She didn't go home.", "She didn't goes home.", "She no go home."],
+      "answer": 1,
+      "explanation": "After 'didn't', use the base form: 'She didn't go home.'"
+    },
+    {
+      "id": "q16",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["didn't", "Bandar", "the", "let go of", "nuts"],
+      "answer": "Bandar didn't let go of the nuts"
+    },
+    {
+      "id": "q17",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["Did", "his", "he", "hurt", "knee"],
+      "answer": "Did he hurt his knee"
+    },
+    {
+      "id": "q18",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What lesson did Bandar learn?",
+      "options": ["Nuts are not good to eat", "Being greedy doesn't make you happy", "Jars are dangerous", "Bakers are mean"],
+      "answer": 1,
+      "refText": "bandar",
+      "explanation": "The text says: 'He learned that being greedy doesn't make you happy!'"
+    },
+    {
+      "id": "q19",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify: regular or irregular past tense?",
+      "words": ["ran", "helped", "fell", "smiled", "came", "learned"],
+      "slots": [
+        { "label": "Regular (-ed)", "accepts": ["helped", "smiled", "learned"] },
+        { "label": "Irregular", "accepts": ["ran", "fell", "came"] }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each word with its meaning.",
+      "pairs": [
+        { "left": "greedy", "right": "wants too much" },
+        { "left": "bored", "right": "not interested" },
+        { "left": "hungry", "right": "wants food" },
+        { "left": "steal", "right": "take without asking" }
+      ],
+      "rightOptions": ["wants too much", "not interested", "wants food", "take without asking", "very happy"]
+    },
+    {
+      "id": "q21",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct feeling word.",
+      "sentence": "Bandar was _____ because he couldn't play. He was _____ because he couldn't eat.",
+      "blanks": ["bored", "hungry"],
+      "wordBank": ["bored", "hungry", "happy", "tired"]
+    },
+    {
+      "id": "q22",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'The teacher _____ and helped him.' Which word fits?",
+      "options": ["come", "comes", "came", "coming"],
+      "answer": 2,
+      "explanation": "'Came' is the irregular past tense of 'come'."
+    },
+    {
+      "id": "q23",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "A cook uses their hands to make food.",
+      "answer": true,
+      "refText": "bodyactions",
+      "explanation": "The text says: 'A cook uses their hands to make food.'"
+    },
+    {
+      "id": "q24",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["was", "Bandar", "monkey", "a", "greedy"],
+      "answer": "Bandar was a greedy monkey"
+    },
+    {
+      "id": "q25",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'I _____ my homework yesterday.' Which word fits?",
+      "options": ["do", "did", "does", "doing"],
+      "answer": 1,
+      "explanation": "'Did' is the irregular past tense of 'do': 'I did my homework.'"
+    },
+    {
+      "id": "q26",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct past form.",
+      "sentence": "The teacher _____ to help. She _____ kind words.",
+      "blanks": ["came", "said"],
+      "wordBank": ["came", "said", "come", "say"]
+    },
+    {
+      "id": "q27",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "'Fell' is the past tense of 'fall'.",
+      "answer": true,
+      "explanation": "'Fall' is irregular: fall → fell."
+    },
+    {
+      "id": "q28",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What did Bandar do at the end of the story?",
+      "options": ["He kept all the nuts", "He broke the jar", "He took just a few nuts and was happy", "He ran away"],
+      "answer": 2,
+      "refText": "bandar",
+      "explanation": "The text says: 'He took just a few and was happy.'"
+    }
+  ]
+}

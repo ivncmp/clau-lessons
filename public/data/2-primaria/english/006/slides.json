@@ -1,0 +1,108 @@
+{
+  "topicId": "006",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "👴",
+      "title": "Vocabulary: Old Objects",
+      "content": "<p>Let's learn words about objects from the past:</p><p>🕰️ <span class='hl'>clock</span> — a machine that tells the time</p><p>💡 <span class='hl'>lamp</span> — gives light (old lamps used oil, not electricity!)</p><p>🪑 <span class='hl'>chair</span> — a seat with a back</p><p>🧥 <span class='hl'>bathrobe</span> — a soft coat you wear at home after a bath</p><p>👔 <span class='hl'>suit</span> — smart clothes (jacket and trousers)</p><p>🏛️ <span class='hl'>museum</span> — a place where you can see old and interesting things</p>"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "📝",
+      "title": "More Past Tense Verbs",
+      "content": "<p>Let's practise more regular verbs in the <span class='hl'>Simple Past</span>:</p><p>arrive → <span class='hl'>arrived</span> (Grandpa arrived at school early.)</p><p>clean → <span class='hl'>cleaned</span> (He cleaned the house.)</p><p>climb → <span class='hl'>climbed</span> (He climbed trees.)</p><p>check → <span class='hl'>checked</span> (He checked the clock.)</p><p>sail → <span class='hl'>sailed</span> (Grandma sailed a boat.)</p><p>ask → <span class='hl'>asked</span> (Emma asked a question.)</p>",
+      "tip": "All these verbs are regular: just add -ed (or -d if they end in 'e')."
+    },
+    {
+      "id": "s03",
+      "type": "story",
+      "emoji": "👴",
+      "title": "Grandpa's Story",
+      "html": "<p>'Grandpa, tell me a story about when you were young!' said Emma.</p><p>Grandpa smiled. 'When I was a boy, I <span class='hl'>arrived</span> at school very early every morning. I <span class='hl'>walked</span> two kilometres because there were no buses.'</p><p>'That is far!' said Emma.</p><p>'After school, I <span class='hl'>cleaned</span> the house and <span class='hl'>visited</span> my grandmother. She <span class='hl'>sailed</span> a little boat on the river every day.'</p><p>'What about toys?' <span class='hl'>asked</span> Emma.</p><p>'We <span class='hl'>played</span> outside. I <span class='hl'>climbed</span> trees and <span class='hl'>checked</span> the <span class='hl'>clock</span> to make sure I was home before dark.'</p>"
+    },
+    {
+      "id": "s04",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "What Did They Do?",
+      "problem": "<p>Put these verbs in the <span class='hl'>past tense</span>:</p><p>1. Grandpa (arrive) at school early.<br/>2. He (clean) the house after school.<br/>3. Grandma (sail) a boat on the river.<br/>4. Emma (ask) about toys.</p>",
+      "steps": [
+        "1️⃣ arrive → arrived (ends in 'e', add -d)",
+        "2️⃣ clean → cleaned (add -ed)",
+        "3️⃣ sail → sailed (add -ed)",
+        "4️⃣ ask → asked (add -ed)"
+      ],
+      "answer": "1. Grandpa arrived at school early. 2. He cleaned the house. 3. Grandma sailed a boat. 4. Emma asked about toys."
+    },
+    {
+      "id": "s05",
+      "type": "concept",
+      "emoji": "🏛️",
+      "title": "At the Museum",
+      "content": "<p>A <span class='hl'>museum</span> is a place where we can see things from the past.</p><p>In a museum you can see:</p><p>🕰️ Old <span class='hl'>clocks</span> — they were very big!</p><p>💡 Old <span class='hl'>lamps</span> — they used oil, not electricity.</p><p>🪑 Old <span class='hl'>chairs</span> — people sat on chairs like these long ago.</p><p>👔 Old <span class='hl'>suits</span> and <span class='hl'>bathrobes</span> — clothes were different!</p><p>Museums help us learn about how people <span class='hl'>lived</span> in the past.</p>"
+    },
+    {
+      "id": "s06",
+      "type": "story",
+      "emoji": "🏛️",
+      "title": "A Class Trip to the Museum",
+      "html": "<p>Today the class <span class='hl'>visited</span> a museum about life long ago.</p><p>'Look at this old <span class='hl'>clock</span>!' said Tom. 'It is very big!'</p><p>'And look at this old <span class='hl'>chair</span>!' said Sara. 'People sat on chairs like this one.'</p><p>They saw an old <span class='hl'>lamp</span>. It used oil, not electricity! They also saw an old <span class='hl'>bathrobe</span> and a beautiful <span class='hl'>suit</span> from a hundred years ago.</p><p>The teacher <span class='hl'>asked</span>: 'How did people travel a hundred years ago?'</p><p>'They <span class='hl'>walked</span> or used horses,' said Lucy.</p><p>'People <span class='hl'>arrived</span> at places very slowly. Now we can travel fast!'</p>"
+    },
+    {
+      "id": "s07",
+      "type": "concept",
+      "emoji": "🔍",
+      "title": "Finding the Past Tense",
+      "content": "<p>How do you know a verb is in the <span class='hl'>past tense</span>?</p><p>Look for the <span class='hl'>-ed</span> ending!</p><p>✅ <span class='hl'>walked</span>, <span class='hl'>played</span>, <span class='hl'>cleaned</span> → all past tense</p><p>Look for <span class='hl'>time words</span> that tell you it is the past:</p><p>📅 yesterday, last week, long ago, when I was young</p><p>Example: <span class='hl'>Yesterday</span>, I <span class='hl'>climbed</span> a tree.</p>",
+      "tip": "If you hear or see -ed at the end of a verb, it is probably in the past tense!"
+    },
+    {
+      "id": "s08",
+      "type": "example",
+      "emoji": "🧩",
+      "title": "Past Tense Story",
+      "problem": "<p>Complete the story with the past form of the verbs:</p><p>Last weekend, we (visit) ___ Grandma. She (cook) ___ a big lunch. After lunch, I (climb) ___ a tree and my brother (play) ___ with the dog. We (check) ___ the time and (walk) ___ home.</p>",
+      "steps": [
+        "1️⃣ visit → visited",
+        "2️⃣ cook → cooked",
+        "3️⃣ climb → climbed",
+        "4️⃣ play → played",
+        "5️⃣ check → checked, walk → walked"
+      ],
+      "answer": "Last weekend, we visited Grandma. She cooked a big lunch. I climbed a tree and my brother played with the dog. We checked the time and walked home."
+    },
+    {
+      "id": "s09",
+      "type": "concept",
+      "emoji": "🗣️",
+      "title": "How to Pronounce -ed",
+      "content": "<p>The <span class='hl'>-ed</span> ending has three different sounds:</p><p>🔹 /t/ — after voiceless sounds (k, p, s, sh):<br/><span class='hl'>walked</span>, <span class='hl'>asked</span>, <span class='hl'>checked</span></p><p>🔹 /d/ — after voiced sounds (l, n, v, m, r):<br/><span class='hl'>climbed</span>, <span class='hl'>cleaned</span>, <span class='hl'>sailed</span></p><p>🔹 /ɪd/ — after 't' or 'd' sounds:<br/><span class='hl'>visited</span>, <span class='hl'>arrived</span></p>",
+      "tip": "Say the words out loud. Can you hear the difference? 'walked' (t), 'cleaned' (d), 'visited' (id)."
+    },
+    {
+      "id": "s10",
+      "type": "story",
+      "emoji": "📖",
+      "title": "Grandma's Favourite Day",
+      "html": "<p>Emma <span class='hl'>asked</span> Grandma about her favourite day when she was young.</p><p>'One summer day, I <span class='hl'>sailed</span> on a boat with my father,' said Grandma. 'We <span class='hl'>arrived</span> at a beautiful island.'</p><p>'We <span class='hl'>climbed</span> a small mountain and looked at the sea. Then we <span class='hl'>walked</span> on the beach and <span class='hl'>played</span> in the water.'</p><p>'In the evening, my father <span class='hl'>checked</span> the <span class='hl'>clock</span> and said it was time to go home. I <span class='hl'>cleaned</span> the sand off my feet and we <span class='hl'>sailed</span> back.'</p><p>'It was the best day ever!' said Grandma with a big smile.</p>"
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "🕰️ Vocabulary: clock, lamp, chair, bathrobe, suit, museum",
+        "📝 More past tense verbs: arrived, cleaned, climbed, checked, sailed, asked",
+        "🔤 Regular verbs: add -ed (or -d if the verb ends in 'e')",
+        "🔍 Look for -ed endings and time words (yesterday, long ago) to spot the past",
+        "🗣️ Three -ed sounds: /t/ (walked), /d/ (cleaned), /ɪd/ (visited)",
+        "🏛️ Museums help us learn about how people lived in the past"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,18 @@
-{"id":"005","subjectId":"english","title":"Unit 5","description":"Then and Now","icon":"⏳","texts":{},"images":{}}
+{
+  "id": "005",
+  "subjectId": "english",
+  "title": "Unit 5",
+  "description": "Then and Now",
+  "icon": "⏳",
+  "texts": {
+    "thenandnow": {
+      "title": "⏳ Then and Now",
+      "html": "<p>The world is very different now from long ago. In the past, people <span class='hl'>traveled</span> by horse. Now we travel by car, bus and <span class='hl'>airplane</span>.</p><p>Long ago, people sent <span class='hl'>letters</span> to talk to people far away. It <span class='hl'>was</span> very slow! Now we use the <span class='hl'>Internet</span> and <span class='hl'>e-mail</span>. We can also use a <span class='hl'>tablet</span> to video call our friends.</p><p>In the past, there were no televisions. People <span class='hl'>listened</span> to the radio for <span class='hl'>news</span>. Children <span class='hl'>played</span> outside all day.</p><p>Many things <span class='hl'>changed</span> because of <span class='hl'>communications</span>. Now we can talk to anyone in the world in seconds! People <span class='hl'>visited</span> other countries more easily because of airplanes.</p><p>What do you think the world will be like in the future?</p>"
+    },
+    "transport": {
+      "title": "🚌 Getting Around: Then and Now",
+      "html": "<p>How did people get around long ago? They <span class='hl'>walked</span> or <span class='hl'>used</span> horses. Some people <span class='hl'>traveled</span> by boat on rivers.</p><p>Then people <span class='hl'>invented</span> new ways to travel. Trains <span class='hl'>arrived</span> first. People <span class='hl'>loved</span> trains because they were fast!</p><p>Cars <span class='hl'>appeared</span> later. At first, only rich people <span class='hl'>owned</span> cars. Now many families have a car.</p><p>Today we have many ways to get around. We can take a <span class='hl'>bus</span>, a <span class='hl'>truck</span>, a <span class='hl'>motorcycle</span> or a <span class='hl'>cable car</span>. In big cities, people use the metro too.</p><p>Airplanes <span class='hl'>changed</span> everything. Now people can fly to the other side of the world in just one day!</p>"
+    }
+  },
+  "images": {}
+}

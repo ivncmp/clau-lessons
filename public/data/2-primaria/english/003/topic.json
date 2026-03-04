@@ -1,1 +1,18 @@
-{"id":"003","subjectId":"english","title":"Unit 3","description":"What Is Our World Made Of?","icon":"🌎","texts":{},"images":{}}
+{
+  "id": "003",
+  "subjectId": "english",
+  "title": "Unit 3",
+  "description": "What Is Our World Made Of?",
+  "icon": "🌎",
+  "texts": {
+    "states": {
+      "title": "🌡️ States of Matter",
+      "html": "<p>Everything around us is made of matter. Matter can be a <span class='hl'>solid</span>, a <span class='hl'>liquid</span>, or a <span class='hl'>gas</span>.</p><p><strong>Solids</strong> have a shape. A table, a book and <span class='hl'>ice</span> are solids. You can hold them in your hands.</p><p><strong>Liquids</strong> can <span class='hl'>flow</span>. Water, juice and milk are liquids. They take the shape of their container.</p><p><strong>Gases</strong> are all around us but we cannot see most of them. The air we breathe is a gas. <span class='hl'>Steam</span> from a <span class='hl'>kettle</span> is water that has become a gas.</p><p>Matter can change! When you <span class='hl'>heat</span> ice, it <span class='hl'>melts</span> and becomes water. When you <span class='hl'>freeze</span> water, it becomes ice again. When you heat water a lot, it becomes steam!</p>"
+    },
+    "changes": {
+      "title": "🔬 How Things Change",
+      "html": "<p>Things around us change all the time. <span class='hl'>Heat</span> can make things change.</p><p>When you heat <span class='hl'>popcorn</span>, the small hard seeds pop and become big and fluffy! When you heat a <span class='hl'>candle</span>, the wax <span class='hl'>melts</span> and becomes a liquid.</p><p>Cold can make things change too. When you put water in the <span class='hl'>freezer</span>, it becomes ice. An <span class='hl'>icicle</span> forms when water freezes as it drips down.</p><p>A <span class='hl'>balloon</span> is full of gas. If you heat a balloon, the gas inside gets bigger. If you cool it, the gas gets smaller.</p><p>Ice cream <span class='hl'>was</span> a liquid before it <span class='hl'>was</span> frozen. Ice pops <span class='hl'>were</span> juice before they <span class='hl'>were</span> put in the freezer. Many things around us <span class='hl'>were</span> different before!</p>"
+    }
+  },
+  "images": {}
+}

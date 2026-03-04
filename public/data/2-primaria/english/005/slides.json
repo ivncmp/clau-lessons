@@ -1,0 +1,111 @@
+{
+  "topicId": "005",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "⏳",
+      "title": "Then and Now Vocabulary",
+      "content": "<p>The world has changed a lot! Let's learn some words:</p><p>✈️ <span class='hl'>airplane</span> — a machine that flies in the sky</p><p>✉️ <span class='hl'>letters</span> — messages written on paper and sent by post</p><p>🌐 <span class='hl'>Internet</span> — connects computers all around the world</p><p>📱 <span class='hl'>tablet</span> — a flat computer you can hold in your hands</p><p>📡 <span class='hl'>communications</span> — ways to send and receive messages</p><p>📰 <span class='hl'>news</span> — new information about what is happening</p>"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "📝",
+      "title": "Simple Past: Regular Verbs",
+      "content": "<p>To talk about the past, we add <span class='hl'>-ed</span> to regular verbs:</p><p>walk → <span class='hl'>walked</span><br/>play → <span class='hl'>played</span><br/>listen → <span class='hl'>listened</span><br/>visit → <span class='hl'>visited</span><br/>change → <span class='hl'>changed</span></p><p>We use the same form for ALL subjects: I walked, she walked, they walked.</p>",
+      "tip": "If the verb ends in 'e', just add 'd': change → changed, live → lived."
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "🔤",
+      "title": "Spelling Rules for -ed",
+      "content": "<p>How to add <span class='hl'>-ed</span> correctly:</p><p>📌 Most verbs: just add -ed<br/><span class='hl'>walked</span>, <span class='hl'>played</span>, <span class='hl'>listened</span></p><p>📌 Verbs ending in 'e': just add -d<br/><span class='hl'>changed</span>, <span class='hl'>lived</span>, <span class='hl'>loved</span></p><p>📌 Verbs ending in consonant + 'y': change 'y' to 'i' and add -ed<br/>carry → <span class='hl'>carried</span>, study → <span class='hl'>studied</span></p><p>📌 Short verbs ending in consonant-vowel-consonant: double the last letter<br/>stop → <span class='hl'>stopped</span>, plan → <span class='hl'>planned</span></p>"
+    },
+    {
+      "id": "s04",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "Add -ed to These Verbs",
+      "problem": "<p>Write the past form of these verbs:</p><p>1. walk → ___<br/>2. change → ___<br/>3. visit → ___<br/>4. play → ___</p>",
+      "steps": [
+        "1️⃣ walk → just add -ed → walked",
+        "2️⃣ change → ends in 'e', just add -d → changed",
+        "3️⃣ visit → just add -ed → visited",
+        "4️⃣ play → just add -ed → played"
+      ],
+      "answer": "1. walked 2. changed 3. visited 4. played"
+    },
+    {
+      "id": "s05",
+      "type": "story",
+      "emoji": "⏳",
+      "title": "Life Long Ago",
+      "html": "<p>Grandma told Tom about life long ago.</p><p>'When I was young, people <span class='hl'>traveled</span> by horse,' she said. 'There were no cars!'</p><p>'People <span class='hl'>listened</span> to the radio for <span class='hl'>news</span> because there were no televisions. Children <span class='hl'>played</span> outside all day.'</p><p>'How did people talk to friends far away?' asked Tom.</p><p>'We wrote <span class='hl'>letters</span>!' said Grandma. 'It was very slow. Now you use the <span class='hl'>Internet</span> and <span class='hl'>tablets</span>. Everything <span class='hl'>changed</span> because of <span class='hl'>communications</span>.'</p><p>'I <span class='hl'>visited</span> other countries by boat,' said Grandma. 'Now people fly in <span class='hl'>airplanes</span>!'</p>"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "🚌",
+      "title": "Transport: Then and Now",
+      "content": "<p>How did people get around in the past?</p><p>🐴 Long ago, people <span class='hl'>walked</span> or used horses.</p><p>🚂 Then trains arrived. People <span class='hl'>traveled</span> by train.</p><p>🚗 Later, cars appeared. People <span class='hl'>loved</span> cars!</p><p>✈️ <span class='hl'>Airplanes</span> <span class='hl'>changed</span> everything. Now people can fly anywhere in the world!</p><p>Today we have buses, trucks, motorcycles, cable cars and the metro too.</p>"
+    },
+    {
+      "id": "s07",
+      "type": "example",
+      "emoji": "🧩",
+      "title": "Past or Present?",
+      "problem": "<p>Choose the correct form of the verb:</p><p>1. Long ago, people (travel / traveled) by horse.<br/>2. Now, children (play / played) with tablets.<br/>3. Grandpa (listen / listened) to the radio when he was young.</p>",
+      "steps": [
+        "1️⃣ 'Long ago' = past → traveled",
+        "2️⃣ 'Now' = present → play",
+        "3️⃣ 'when he was young' = past → listened"
+      ],
+      "answer": "1. Long ago, people traveled by horse. 2. Now, children play with tablets. 3. Grandpa listened to the radio when he was young."
+    },
+    {
+      "id": "s08",
+      "type": "story",
+      "emoji": "📡",
+      "title": "How We Talk Today",
+      "html": "<p>A hundred years ago, people <span class='hl'>walked</span> to their neighbours' houses to talk to them.</p><p>Then someone invented the telephone. People <span class='hl'>called</span> each other on the phone. They <span class='hl'>talked</span> and <span class='hl'>listened</span> for hours!</p><p>Later, people <span class='hl'>used</span> computers. They <span class='hl'>typed</span> emails to friends all over the world.</p><p>Now we have smartphones and <span class='hl'>tablets</span>. We can video call anyone! The <span class='hl'>Internet</span> <span class='hl'>changed</span> <span class='hl'>communications</span> forever.</p><p>People <span class='hl'>visited</span> other countries more easily because of <span class='hl'>airplanes</span>. The world feels smaller now!</p>"
+    },
+    {
+      "id": "s09",
+      "type": "concept",
+      "emoji": "🗓️",
+      "title": "Time Words for the Past",
+      "content": "<p>We use special words to talk about the past:</p><p>📅 <span class='hl'>yesterday</span> — the day before today</p><p>📅 <span class='hl'>last week</span> / <span class='hl'>last year</span> — the week or year before this one</p><p>⏳ <span class='hl'>long ago</span> — a very long time in the past</p><p>⏳ <span class='hl'>in the past</span> — before now</p><p>Example: <span class='hl'>Yesterday</span>, I <span class='hl'>walked</span> to school.</p>",
+      "tip": "When you see time words like 'yesterday' or 'long ago', use the past tense!"
+    },
+    {
+      "id": "s10",
+      "type": "example",
+      "emoji": "📝",
+      "title": "Write About the Past",
+      "problem": "<p>Complete the sentences using the past form (-ed):</p><p>1. Yesterday, I ___ (walk) to school.<br/>2. Last year, we ___ (visit) London.<br/>3. Long ago, people ___ (listen) to the radio.</p>",
+      "steps": [
+        "1️⃣ walk + ed → walked",
+        "2️⃣ visit + ed → visited",
+        "3️⃣ listen + ed → listened"
+      ],
+      "answer": "1. Yesterday, I walked to school. 2. Last year, we visited London. 3. Long ago, people listened to the radio."
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "⏳ Vocabulary: airplane, letters, Internet, tablet, communications, news",
+        "📝 Simple Past regular verbs: add -ed (walked, played, listened, visited, changed)",
+        "🔤 Spelling: verbs ending in 'e' just add -d (changed, lived)",
+        "🚌 Transport changed: horses → trains → cars → airplanes",
+        "📡 Communications changed: letters → telephone → email → Internet",
+        "🗓️ Time words for the past: yesterday, last week, long ago, in the past"
+      ]
+    }
+  ]
+}

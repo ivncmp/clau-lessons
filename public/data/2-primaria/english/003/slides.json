@@ -1,0 +1,104 @@
+{
+  "topicId": "003",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "🌡️",
+      "title": "States of Matter",
+      "content": "<p>Everything around us is made of <span class='hl'>matter</span>. Matter can be in three states:</p><p>🧊 <span class='hl'>Solid</span> — has a fixed shape. A table, a book and <span class='hl'>ice</span> are solids.</p><p>💧 <span class='hl'>Liquid</span> — can <span class='hl'>flow</span> and takes the shape of its container. Water and juice are liquids.</p><p>💨 <span class='hl'>Gas</span> — spreads out everywhere. The air we breathe is a gas. <span class='hl'>Steam</span> from a <span class='hl'>kettle</span> is a gas too.</p>"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "🔥",
+      "title": "Changing States",
+      "content": "<p>Matter can change from one state to another!</p><p>🔥 When you <span class='hl'>heat</span> ice, it <span class='hl'>melts</span> and becomes water (solid → liquid).</p><p>❄️ When you <span class='hl'>freeze</span> water, it becomes ice (liquid → solid).</p><p>🔥🔥 When you heat water a lot, it becomes <span class='hl'>steam</span> (liquid → gas).</p><p>Heat makes things change!</p>",
+      "tip": "Ice cream melts when it is hot. That is a solid changing into a liquid!"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "📖",
+      "title": "Matter Vocabulary",
+      "content": "<p>Let's learn important words about matter:</p><p>🧊 <span class='hl'>ice</span> — frozen water (a solid)</p><p>💨 <span class='hl'>steam</span> — very hot water that becomes a gas</p><p>🫗 <span class='hl'>flow</span> — to move like water</p><p>🔥 <span class='hl'>heat</span> — to make something hotter</p><p>🫠 <span class='hl'>melt</span> — when a solid becomes a liquid</p><p>🥶 <span class='hl'>freeze</span> — when a liquid becomes a solid</p><p>🫖 <span class='hl'>kettle</span> — a container to boil water</p>"
+    },
+    {
+      "id": "s04",
+      "type": "story",
+      "emoji": "🍿",
+      "title": "Changes in the Kitchen",
+      "html": "<p>Mum was in the kitchen. She put the <span class='hl'>kettle</span> on the stove to <span class='hl'>heat</span> water for tea. Soon, <span class='hl'>steam</span> came out of the kettle. The water <span class='hl'>was</span> very hot!</p><p>'Look!' said Mum. 'The water <span class='hl'>was</span> a <span class='hl'>liquid</span>, and now some of it is becoming a <span class='hl'>gas</span>!'</p><p>Then she took <span class='hl'>ice</span> from the freezer. The ice <span class='hl'>was</span> a <span class='hl'>solid</span>. She put it in a glass. Slowly, the ice started to <span class='hl'>melt</span>.</p><p>'The ice <span class='hl'>was</span> a solid, but now it is a liquid!' said Tom. 'Matter is amazing!'</p>"
+    },
+    {
+      "id": "s05",
+      "type": "concept",
+      "emoji": "⏰",
+      "title": "Simple Past of 'To Be'",
+      "content": "<p>The verb <span class='hl'>to be</span> in the past has two forms:</p><p>👤 <span class='hl'>was</span> — for I, he, she, it:<br/>I <span class='hl'>was</span> happy. She <span class='hl'>was</span> at school. It <span class='hl'>was</span> cold.</p><p>👥 <span class='hl'>were</span> — for you, we, they:<br/>You <span class='hl'>were</span> tall. We <span class='hl'>were</span> friends. They <span class='hl'>were</span> at the park.</p>",
+      "tip": "was = singular (one person/thing). were = plural (more than one) or 'you'."
+    },
+    {
+      "id": "s06",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "Was or Were?",
+      "problem": "<p>Complete with <span class='hl'>was</span> or <span class='hl'>were</span>:</p><p>1. The water ___ a solid. Now it is a liquid.<br/>2. The ice pops ___ juice before they ___ frozen.<br/>3. I ___ at school yesterday.</p>",
+      "steps": [
+        "1️⃣ 'The water' is singular (it) → was",
+        "2️⃣ 'The ice pops' is plural (they) → were; 'they' → were",
+        "3️⃣ 'I' always uses → was"
+      ],
+      "answer": "1. The water was a solid. 2. The ice pops were juice before they were frozen. 3. I was at school yesterday."
+    },
+    {
+      "id": "s07",
+      "type": "concept",
+      "emoji": "❌",
+      "title": "Negative: wasn't / weren't",
+      "content": "<p>To make the past of 'to be' <span class='hl'>negative</span>, add <span class='hl'>not</span>:</p><p>👤 was + not = <span class='hl'>wasn't</span><br/>I <span class='hl'>wasn't</span> tired. It <span class='hl'>wasn't</span> hot.</p><p>👥 were + not = <span class='hl'>weren't</span><br/>They <span class='hl'>weren't</span> at home. We <span class='hl'>weren't</span> late.</p>"
+    },
+    {
+      "id": "s08",
+      "type": "example",
+      "emoji": "🧩",
+      "title": "Practice: Was / Were / Wasn't / Weren't",
+      "problem": "<p>Fill in the gaps:</p><p>1. The ice cream ___ (not) a liquid. It ___ a solid.<br/>2. The children ___ (not) sad. They ___ happy!<br/>3. Yesterday ___ Sunday. It ___ (not) Monday.</p>",
+      "steps": [
+        "1️⃣ 'Ice cream' = it → wasn't (negative) and was (positive)",
+        "2️⃣ 'Children' = they → weren't (negative) and were (positive)",
+        "3️⃣ 'Yesterday' = it → was (positive) and wasn't (negative)"
+      ],
+      "answer": "1. The ice cream wasn't a liquid. It was a solid. 2. The children weren't sad. They were happy! 3. Yesterday was Sunday. It wasn't Monday."
+    },
+    {
+      "id": "s09",
+      "type": "story",
+      "emoji": "🧪",
+      "title": "The Science Experiment",
+      "html": "<p>Today in class, the teacher did an experiment about states of matter.</p><p>She put <span class='hl'>ice</span> on the table. 'This <span class='hl'>was</span> water before I put it in the freezer,' she said. 'I froze it and it became a <span class='hl'>solid</span>.'</p><p>Then she <span class='hl'>heated</span> the ice. It <span class='hl'>melted</span> and became a <span class='hl'>liquid</span> again. 'Look! It <span class='hl'>was</span> a solid, and now it is a liquid!'</p><p>Finally, she heated the water in a <span class='hl'>kettle</span>. <span class='hl'>Steam</span> came out. 'The water <span class='hl'>was</span> a liquid, and now it is becoming a <span class='hl'>gas</span>!'</p><p>'The experiments <span class='hl'>were</span> amazing!' said the children.</p>"
+    },
+    {
+      "id": "s10",
+      "type": "concept",
+      "emoji": "🔍",
+      "title": "Solids, Liquids and Gases Around Us",
+      "content": "<p>Can you find solids, liquids and gases around you?</p><p>🧊 <span class='hl'>Solids</span>: your desk, your pencil, your book, ice cubes</p><p>💧 <span class='hl'>Liquids</span>: water in your bottle, milk, juice, soup</p><p>💨 <span class='hl'>Gases</span>: the air you breathe, steam from hot food, the gas inside a balloon</p><p>Remember: heat can change a solid into a liquid, and a liquid into a gas!</p>"
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "🧊 Three states of matter: solid, liquid and gas",
+        "🔥 Heat melts solids into liquids and turns liquids into gas (steam)",
+        "❄️ Freezing turns liquids into solids",
+        "💧 Key vocabulary: ice, steam, flow, heat, melt, freeze, kettle",
+        "⏰ Past of 'to be': was (I/he/she/it) and were (you/we/they)",
+        "❌ Negatives: wasn't and weren't"
+      ]
+    }
+  ]
+}

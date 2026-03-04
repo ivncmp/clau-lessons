@@ -1,0 +1,122 @@
+{
+  "topicId": "001",
+  "subjectId": "calculo",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "➖",
+      "title": "Repaso: la resta",
+      "content": "<p>Restar es <span class='hl'>quitar</span> una cantidad a otra.</p><p>Ejemplo: si tienes <span class='hl'>9 caramelos</span> y das <span class='hl'>3</span>, te quedan <span class='hl'>6</span>.</p><p>9 − 3 = <span class='hl'>6</span></p><p>Las partes de la resta son:</p><p>🔹 <span class='hl'>Minuendo</span>: el número al que quitamos (9)<br/>🔹 <span class='hl'>Sustraendo</span>: lo que quitamos (3)<br/>🔹 <span class='hl'>Diferencia</span>: el resultado (6)</p>",
+      "tip": "El minuendo siempre es el número más grande en las restas que hacemos ahora."
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "🔄",
+      "title": "Resta con llevada",
+      "content": "<p>A veces, la cifra de las <span class='hl'>unidades de arriba</span> es <span class='hl'>más pequeña</span> que la de abajo.</p><p>Cuando eso pasa, <span class='hl'>pedimos prestada 1 decena</span> a la cifra de las decenas. Esa decena vale <span class='hl'>10 unidades</span>.</p><p>🔸 Sumamos 10 a las unidades de arriba.<br/>🔸 Restamos 1 a las decenas de arriba (la «llevada»).</p><p>¡Así podemos restar sin problema!</p>",
+      "tip": "Fíjate en las unidades: si la de arriba es menor que la de abajo, ¡hay llevada!"
+    },
+    {
+      "id": "s03",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "Ejemplo: 34 − 18",
+      "problem": "<p>Vamos a restar <span class='hl'>34 − 18</span> paso a paso.</p>",
+      "steps": [
+        "1️⃣ Unidades: 4 − 8 → ¡no se puede! Pedimos prestado",
+        "2️⃣ El 4 se convierte en 14: 14 − 8 = 6",
+        "3️⃣ Decenas: como prestamos, el 3 pasa a 2: 2 − 1 = 1"
+      ],
+      "answer": "34 − 18 = 16 ✅"
+    },
+    {
+      "id": "s04",
+      "type": "concept",
+      "emoji": "📐",
+      "title": "Resta en vertical",
+      "content": "<p>Para restar números grandes es más fácil colocarlos <span class='hl'>en vertical</span> (en columna).</p><p>🔹 Coloca las <span class='hl'>unidades debajo de las unidades</span>.<br/>🔹 Coloca las <span class='hl'>decenas debajo de las decenas</span>.<br/>🔹 Coloca las <span class='hl'>centenas debajo de las centenas</span>.</p><p>Siempre empezamos a restar por la <span class='hl'>derecha</span> (las unidades).</p>",
+      "tip": "¡Coloca los números bien alineados! Si no, los resultados salen mal."
+    },
+    {
+      "id": "s05",
+      "type": "example",
+      "emoji": "📐",
+      "title": "Ejemplo: 76 − 29",
+      "problem": "<p>Vamos a restar <span class='hl'>76 − 29</span> en vertical.</p>",
+      "steps": [
+        "1️⃣ Colocamos: 76 arriba, 29 abajo (unidades con unidades)",
+        "2️⃣ Unidades: 6 − 9 → ¡no se puede! Pedimos prestado: 16 − 9 = 7",
+        "3️⃣ Decenas: 7 pasa a 6 (por la llevada): 6 − 2 = 4"
+      ],
+      "answer": "76 − 29 = 47 ✅"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "🔢",
+      "title": "Series descendentes",
+      "content": "<p>Una <span class='hl'>serie descendente</span> es una lista de números que van <span class='hl'>bajando</span> siempre la misma cantidad.</p><p>Ejemplo: <span class='hl'>10, 8, 6, 4, 2</span> → restamos 2 cada vez.</p><p>Para completar una serie:</p><p>🔹 Mira la diferencia entre dos números seguidos.<br/>🔹 Resta siempre <span class='hl'>esa misma cantidad</span> para encontrar el siguiente.</p>",
+      "tip": "Si la serie baja de 2 en 2, ¡solo hay números pares (o solo impares)!"
+    },
+    {
+      "id": "s07",
+      "type": "story",
+      "emoji": "🧁",
+      "title": "Las magdalenas del taller",
+      "html": "<p>Mei y sus compañeros hicieron un taller de <span class='hl'>magdalenas</span>. Tenían <span class='hl'>60 euros</span> para comprar ingredientes: 3 billetes de 10 €, 4 de 5 € y 10 monedas de 1 €.</p><p>Gastaron <span class='hl'>43 euros</span> en total. ¿Cuánto les sobró? Como 60 − 43 necesita llevada en las unidades (0 − 3), pedimos prestado: 10 − 3 = 7, y 5 − 4 = 1. Les sobraron <span class='hl'>17 euros</span>.</p><p>El taller duró <span class='hl'>3 horas</span>: 1 hora preparando, 30 minutos horneando y 1 hora y 30 minutos empaquetando.</p>"
+    },
+    {
+      "id": "s08",
+      "type": "concept",
+      "emoji": "💯",
+      "title": "Restas de 3 cifras con llevada",
+      "content": "<p>Cuando restamos números de <span class='hl'>3 cifras</span>, el proceso es el mismo, pero con <span class='hl'>una columna más</span>.</p><p>🔸 Empezamos por las <span class='hl'>unidades</span>.<br/>🔸 Seguimos con las <span class='hl'>decenas</span>.<br/>🔸 Terminamos con las <span class='hl'>centenas</span>.</p><p>Puede haber llevada en las unidades, en las decenas, ¡o en las dos!</p>",
+      "tip": "Puede haber llevada en más de una columna. ¡Fíjate bien en cada paso!"
+    },
+    {
+      "id": "s09",
+      "type": "example",
+      "emoji": "💯",
+      "title": "Ejemplo: 752 − 123",
+      "problem": "<p>Vamos a restar <span class='hl'>752 − 123</span> paso a paso.</p>",
+      "steps": [
+        "1️⃣ Unidades: 2 − 3 → ¡no se puede! Pedimos prestado: 12 − 3 = 9",
+        "2️⃣ Decenas: 5 pasa a 4 (por la llevada): 4 − 2 = 2",
+        "3️⃣ Centenas: 7 − 1 = 6"
+      ],
+      "answer": "752 − 123 = 629 ✅"
+    },
+    {
+      "id": "s10",
+      "type": "concept",
+      "emoji": "🔄",
+      "title": "Completar restas",
+      "content": "<p>A veces nos dan el resultado y uno de los números, y tenemos que <span class='hl'>encontrar el que falta</span>.</p><p>Si falta el sustraendo: <span class='hl'>minuendo − resultado = sustraendo</span>.</p><p>Ejemplo: ☐ − 5 = 2 → pensamos: ¿qué número menos 5 da 2? → <span class='hl'>7</span></p><p>Si falta el minuendo: <span class='hl'>resultado + sustraendo = minuendo</span>.</p><p>Ejemplo: ☐ − 3 = 6 → pensamos: 6 + 3 = <span class='hl'>9</span></p>",
+      "tip": "Para encontrar el número que falta, ¡la suma es tu mejor amiga! Suma el resultado con lo que se resta."
+    },
+    {
+      "id": "s11",
+      "type": "concept",
+      "emoji": "🧠",
+      "title": "Truco: restar decenas enteras",
+      "content": "<p>Para restar <span class='hl'>decenas enteras</span> (10, 20, 30...) es muy fácil:</p><p>🔸 Solo cambia la <span class='hl'>cifra de las decenas</span>. Las unidades quedan igual.</p><p>Ejemplo: <span class='hl'>86 − 30</span><br/>Las unidades no cambian: 6<br/>Las decenas: 8 − 3 = 5<br/>Resultado: <span class='hl'>56</span></p><p>Otro: <span class='hl'>74 − 40</span> = <span class='hl'>34</span> (solo cambian las decenas: 7 − 4 = 3)</p>",
+      "tip": "¡Si restas decenas enteras, las unidades no se tocan!"
+    },
+    {
+      "id": "s12",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "¡Repasamos todo!",
+      "points": [
+        "➖ Restar es quitar: minuendo − sustraendo = diferencia",
+        "🔄 Resta con llevada: si la cifra de arriba es menor, pedimos prestado a la siguiente columna",
+        "📐 En vertical: unidades debajo de unidades, decenas debajo de decenas",
+        "🔢 Series descendentes: restas siempre la misma cantidad",
+        "💯 Restas de 3 cifras: mismo proceso, una columna más (puede haber doble llevada)",
+        "🧠 Truco: al restar decenas enteras, ¡las unidades no cambian!"
+      ]
+    }
+  ]
+}

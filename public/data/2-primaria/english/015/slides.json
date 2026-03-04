@@ -1,0 +1,109 @@
+{
+  "topicId": "015",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "💪",
+      "title": "Forces Vocabulary",
+      "content": "<p>A <span class='hl'>force</span> is a push or a pull that makes things move. Let's learn the key words:</p><p>👉 <span class='hl'>push</span> — when you move something away from you<br/>👈 <span class='hl'>pull</span> — when you move something towards you<br/>🏃 <span class='hl'>movement</span> — when something changes position<br/>🌍 <span class='hl'>ground</span> — the surface of the earth we walk on</p>",
+      "tip": "Push = empujar. Pull = tirar. Forces make things start, stop, or change direction!"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "⚡",
+      "title": "More Forces Words",
+      "content": "<p>More vocabulary about forces and movement:</p><p>🏐 <span class='hl'>throw</span> — to send something through the air with your hand<br/>🚀 <span class='hl'>speed</span> — how fast something moves<br/>🛑 <span class='hl'>brakes</span> — the parts of a bike or car that make it stop</p><p>Examples:<br/><em>I <span class='hl'>throw</span> the ball to my friend.</em><br/><em>The car has great <span class='hl'>speed</span>.</em><br/><em>Use the <span class='hl'>brakes</span> to stop your bike!</em></p>"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "🖥️",
+      "title": "Things We Push and Pull",
+      "content": "<p>We use forces every day with these objects:</p><p>🖱️ <span class='hl'>computer mouse</span> — you <span class='hl'>push</span> it across the desk<br/>📱 <span class='hl'>tablet</span> — you <span class='hl'>push</span> the screen with your finger<br/>🧳 <span class='hl'>suitcase</span> — you <span class='hl'>pull</span> it behind you</p><p>Everything that moves needs a <span class='hl'>force</span>!</p>",
+      "tip": "Look around you! Can you find things you push and things you pull?"
+    },
+    {
+      "id": "s04",
+      "type": "story",
+      "emoji": "🏫",
+      "title": "Forces in the Playground",
+      "html": "<p>At break time, the children use <span class='hl'>forces</span> everywhere!</p><p>Leo <span class='hl'>pushes</span> the swing to make it go forward. Sara <span class='hl'>pulls</span> the rope in a tug-of-war game. Max <span class='hl'>throws</span> a ball high into the air.</p><p>The ball goes up, slows down, and then falls back to the <span class='hl'>ground</span>. That's because gravity <span class='hl'>pulls</span> everything down!</p><p>When the bell rings, everyone runs back inside. They use the <span class='hl'>brakes</span> on their feet to stop at the door!</p>"
+    },
+    {
+      "id": "s05",
+      "type": "concept",
+      "emoji": "📏",
+      "title": "Comparative Adjectives",
+      "content": "<p><span class='hl'>Comparative adjectives</span> help us compare two things:</p><p>For <span class='hl'>short adjectives</span> (1 syllable), add <span class='hl'>-er</span>:</p><p>🚀 fast → <span class='hl'>faster</span><br/>🐢 slow → <span class='hl'>slower</span><br/>🏋️ heavy → heavi<span class='hl'>er</span><br/>🪶 light → <span class='hl'>lighter</span></p><p>Example: <em>A car is <span class='hl'>faster</span> than a bike.</em></p>",
+      "tip": "Short adjective + ER + than. Remember: if the adjective ends in -y, change it to -ier!"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "📐",
+      "title": "More Comparatives",
+      "content": "<p>Some more <span class='hl'>comparative</span> adjectives:</p><p>😊 easy → <span class='hl'>easier</span><br/>😓 hard → <span class='hl'>harder</span></p><p>We always use <span class='hl'>than</span> after the comparative:</p><p><em>Pushing a box is <span class='hl'>easier</span> than pulling it.</em><br/><em>Stopping a truck is <span class='hl'>harder</span> than stopping a bike.</em></p>",
+      "tip": "Comparative = we compare TWO things. Always use THAN between them!"
+    },
+    {
+      "id": "s07",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "Compare the Objects",
+      "problem": "<p>Complete the sentences with the <span class='hl'>comparative</span> form:</p><p>1. A feather is _____ (light) than a book.<br/>2. A train is _____ (fast) than a car.<br/>3. An elephant is _____ (heavy) than a cat.<br/>4. Running is _____ (hard) than walking.</p>",
+      "steps": [
+        "1. light + er = lighter",
+        "2. fast + er = faster",
+        "3. heavy --> change y to i + er = heavier",
+        "4. hard + er = harder"
+      ],
+      "answer": "1. lighter  2. faster  3. heavier  4. harder"
+    },
+    {
+      "id": "s08",
+      "type": "story",
+      "emoji": "🚲",
+      "title": "The Big Race",
+      "html": "<p>Tom and Lily have a race on their bikes. Tom's bike is <span class='hl'>faster</span> than Lily's bike, but Lily's bike is <span class='hl'>lighter</span> than Tom's.</p><p>Going downhill, Tom is <span class='hl'>faster</span> because his bike is <span class='hl'>heavier</span>. But going uphill, Lily is <span class='hl'>faster</span> because her bike is <span class='hl'>lighter</span>!</p><p>At the end, they both use their <span class='hl'>brakes</span> to stop. Stopping a <span class='hl'>heavier</span> bike is <span class='hl'>harder</span> than stopping a <span class='hl'>lighter</span> one. Tom needs to <span class='hl'>push</span> his brakes <span class='hl'>harder</span>!</p>"
+    },
+    {
+      "id": "s09",
+      "type": "example",
+      "emoji": "🎯",
+      "title": "Push or Pull?",
+      "problem": "<p>Decide if each action is a <span class='hl'>push</span> or a <span class='hl'>pull</span>:</p><p>1. Opening a drawer.<br/>2. Kicking a football.<br/>3. Dragging a suitcase.<br/>4. Pressing a button on a tablet.</p>",
+      "steps": [
+        "1. You move the drawer towards you --> pull",
+        "2. You move the ball away from you with your foot --> push",
+        "3. You move the suitcase towards you --> pull",
+        "4. You press the screen away from you --> push"
+      ],
+      "answer": "1. pull  2. push  3. pull  4. push"
+    },
+    {
+      "id": "s10",
+      "type": "concept",
+      "emoji": "🔄",
+      "title": "Forces Change Movement",
+      "content": "<p>Forces can change how things move:</p><p>▶️ A <span class='hl'>push</span> or <span class='hl'>pull</span> can make something <span class='hl'>start</span> moving<br/>⏹️ A force can make something <span class='hl'>stop</span> (like <span class='hl'>brakes</span>)<br/>⏫ A force can make something go <span class='hl'>faster</span> (more <span class='hl'>speed</span>)<br/>⏬ A force can make something go <span class='hl'>slower</span><br/>↩️ A force can change <span class='hl'>direction</span></p>",
+      "tip": "Without forces, nothing would ever move or stop!"
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "💪 Forces: push (away from you) and pull (towards you)",
+        "🏃 Vocabulary: movement, ground, throw, speed, brakes",
+        "🖥️ We push: computer mouse, tablet. We pull: suitcase",
+        "📏 Comparatives: short adjective + -er + than",
+        "🚀 faster, slower, heavier, lighter, easier, harder",
+        "🔄 Forces can start, stop, speed up, slow down, or change direction"
+      ]
+    }
+  ]
+}

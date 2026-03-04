@@ -1,0 +1,113 @@
+{
+  "topicId": "017",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "🔺",
+      "title": "Shapes Vocabulary",
+      "content": "<p>Let's learn the names of <span class='hl'>shapes</span> we see in art:</p><p>🔺 <span class='hl'>triangle</span> — a shape with 3 sides<br/>🔷 <span class='hl'>diamond</span> — a shape like a square turned on its side<br/>🥚 <span class='hl'>oval</span> — a shape like a stretched circle (like an egg)<br/>🌀 <span class='hl'>spiral</span> — a line that goes round and round, getting bigger</p>",
+      "tip": "Triangle = tri (three) + angle. A triangle always has THREE sides!"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "🎨",
+      "title": "Art and Nature Words",
+      "content": "<p>More vocabulary about shapes in art and nature:</p><p>🔁 <span class='hl'>pattern</span> — a design that repeats again and again<br/>📏 <span class='hl'>straight</span> — not curved, going in one direction<br/>📸 <span class='hl'>photograph</span> — a picture taken with a camera<br/>🌿 <span class='hl'>nature</span> — the world around us (trees, flowers, animals)</p>",
+      "tip": "Look for patterns in nature! Flowers, leaves, and shells all have beautiful patterns."
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "✂️",
+      "title": "Art Project Words",
+      "content": "<p>Words for making art:</p><p>📐 <span class='hl'>size</span> — how big or small something is<br/>✏️ <span class='hl'>drawing</span> — a picture made with a pencil or pen<br/>🎠 <span class='hl'>mobile</span> — a hanging decoration that moves in the air<br/>🦢 <span class='hl'>origami</span> — the art of folding paper into shapes</p><p>Example: <em>We made a <span class='hl'>mobile</span> with <span class='hl'>origami</span> birds of different <span class='hl'>sizes</span>.</em></p>"
+    },
+    {
+      "id": "s04",
+      "type": "story",
+      "emoji": "🖼️",
+      "title": "Shapes Everywhere",
+      "html": "<p>Miss Taylor asked her class to find <span class='hl'>shapes</span> in <span class='hl'>nature</span>.</p><p>Emma took a <span class='hl'>photograph</span> of a spider's web. It had a beautiful <span class='hl'>spiral</span> <span class='hl'>pattern</span>! Jack found <span class='hl'>triangles</span> in the mountains and <span class='hl'>ovals</span> in the leaves.</p><p>Back in class, they made <span class='hl'>drawings</span> of what they found. Lily drew a flower with <span class='hl'>diamond</span> shapes for petals. She used <span class='hl'>straight</span> lines for the stem.</p><p>Then they made a <span class='hl'>mobile</span> with all their shapes in different <span class='hl'>sizes</span>. It was beautiful!</p>"
+    },
+    {
+      "id": "s05",
+      "type": "concept",
+      "emoji": "❓",
+      "title": "Are there any...?",
+      "content": "<p>We use <span class='hl'>Are there any...?</span> to ask about things in a place:</p><p>❓ <span class='hl'>Are there any</span> triangles in this picture?<br/>✅ Yes, there are.<br/>❌ No, there aren't.</p><p>We use <span class='hl'>There isn't any...</span> and <span class='hl'>There aren't any...</span> to say there is NONE:</p><p>🔹 <span class='hl'>There isn't any</span> paper. (singular/uncountable)<br/>🔹 <span class='hl'>There aren't any</span> circles. (plural)</p>",
+      "tip": "ANY is used in questions and negative sentences. Use SOME in positive sentences!"
+    },
+    {
+      "id": "s06",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "Questions with Any",
+      "problem": "<p>Complete the sentences with <span class='hl'>Are there any</span>, <span class='hl'>There isn't any</span> or <span class='hl'>There aren't any</span>:</p><p>1. _____ spirals in the drawing?<br/>2. _____ diamonds in this pattern.<br/>3. _____ glue on the table.<br/>4. _____ ovals in the photograph?</p>",
+      "steps": [
+        "1. A question about plural shapes --> Are there any",
+        "2. Negative sentence, plural (diamonds) --> There aren't any",
+        "3. Negative sentence, singular/uncountable (glue) --> There isn't any",
+        "4. A question about plural shapes --> Are there any"
+      ],
+      "answer": "1. Are there any  2. There aren't any  3. There isn't any  4. Are there any"
+    },
+    {
+      "id": "s07",
+      "type": "concept",
+      "emoji": "🔊",
+      "title": "Homophones",
+      "content": "<p><span class='hl'>Homophones</span> are words that <span class='hl'>sound the same</span> but have <span class='hl'>different meanings</span> and <span class='hl'>different spellings</span>:</p><p>👀 <span class='hl'>see</span> / <span class='hl'>sea</span> — to look / the ocean<br/>🌺 <span class='hl'>flower</span> / <span class='hl'>flour</span> — a plant / white powder for baking<br/>✍️ <span class='hl'>write</span> / <span class='hl'>right</span> — to put words on paper / correct<br/>👂 <span class='hl'>hear</span> / <span class='hl'>here</span> — to listen / in this place</p>",
+      "tip": "Homo = same, phone = sound. Homophones sound the same but mean different things!"
+    },
+    {
+      "id": "s08",
+      "type": "example",
+      "emoji": "🎯",
+      "title": "Choose the Right Homophone",
+      "problem": "<p>Choose the correct word:</p><p>1. I can (see / sea) a triangle in the picture.<br/>2. Can you (hear / here) the music?<br/>3. Please (write / right) your name.<br/>4. We need (flower / flour) to make a cake.</p>",
+      "steps": [
+        "1. Looking at something --> see",
+        "2. Listening to something --> hear",
+        "3. Putting words on paper --> write",
+        "4. White powder for baking --> flour"
+      ],
+      "answer": "1. see  2. hear  3. write  4. flour"
+    },
+    {
+      "id": "s09",
+      "type": "story",
+      "emoji": "🎨",
+      "title": "The Art Class",
+      "html": "<p>&ldquo;<span class='hl'>Are there any</span> scissors?&rdquo; asked Tom. &ldquo;Yes, <span class='hl'>here</span> they are,&rdquo; said Miss Taylor.</p><p>Today they are making <span class='hl'>origami</span> shapes. Tom makes a <span class='hl'>diamond</span>. &ldquo;Can you <span class='hl'>see</span> the <span class='hl'>pattern</span>?&rdquo; he asks.</p><p>&ldquo;<span class='hl'>There aren't any</span> <span class='hl'>triangles</span> in my <span class='hl'>drawing</span>,&rdquo; says Emma. &ldquo;I only have <span class='hl'>spirals</span> and <span class='hl'>ovals</span>.&rdquo;</p><p>&ldquo;That's <span class='hl'>right</span>!&rdquo; says Miss Taylor. &ldquo;<span class='hl'>Write</span> the name of each shape under your <span class='hl'>drawing</span>.&rdquo;</p>"
+    },
+    {
+      "id": "s10",
+      "type": "example",
+      "emoji": "🔍",
+      "title": "Find the Shapes",
+      "problem": "<p>Look at this description and answer the questions:</p><p><em>The picture has 3 triangles, 2 ovals, and 1 spiral. There are no diamonds or straight lines.</em></p><p>1. Are there any triangles?<br/>2. Are there any diamonds?<br/>3. Are there any spirals?</p>",
+      "steps": [
+        "1. The picture has 3 triangles --> Yes, there are.",
+        "2. There are no diamonds --> No, there aren't.",
+        "3. The picture has 1 spiral --> Yes, there is."
+      ],
+      "answer": "1. Yes, there are.  2. No, there aren't.  3. Yes, there is."
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "🔺 Shapes: triangle, diamond, oval, spiral",
+        "🎨 Art words: pattern, straight, photograph, nature, size, drawing, mobile, origami",
+        "❓ Are there any...? --> Yes, there are. / No, there aren't.",
+        "🚫 There isn't any... (singular) / There aren't any... (plural)",
+        "🔊 Homophones: words that sound the same but have different meanings (see/sea, write/right, hear/here, flower/flour)"
+      ]
+    }
+  ]
+}

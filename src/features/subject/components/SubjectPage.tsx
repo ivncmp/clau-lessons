@@ -4,7 +4,7 @@ import { Box, Typography, CircularProgress, Grid } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { useSubjectDetail, useEvaluations } from "@/hooks/useDataQueries";
 import { courseToSlug } from "../../../utils/cursoSlug";
-import { getBestScore } from "../../../utils/storage";
+import { getBestScore, getInProgressCount } from "../../../utils/storage";
 import { useAuth } from "../../auth/hooks/useAuth";
 import { getEvalColor } from "../../dashboard/components/DashboardPage";
 
@@ -113,7 +113,9 @@ export default function SubjectPage() {
         className="fade-in-up stagger-2"
         sx={{ display: "flex", alignItems: "center", gap: 2, mb: 0.5 }}
       >
-        <Typography sx={{ fontSize: "2.4rem" }}>{subject.icon}</Typography>
+        <Typography sx={{ fontSize: { xs: "1.8rem", sm: "2.4rem" } }}>
+          {subject.icon}
+        </Typography>
         <Typography
           variant="h4"
           component="h1"
@@ -128,7 +130,12 @@ export default function SubjectPage() {
       </Box>
       <Typography
         className="fade-in-up stagger-3"
-        sx={{ mb: 4, color: "rgba(255,255,255,0.8)", fontWeight: 500 }}
+        sx={{
+          mb: { xs: 2, sm: 4 },
+          color: "rgba(255,255,255,0.8)",
+          fontWeight: 500,
+          fontSize: { xs: "0.85rem", sm: "1rem" },
+        }}
       >
         {user?.course}
       </Typography>
@@ -139,42 +146,129 @@ export default function SubjectPage() {
             user && subjectId
               ? getBestScore(user.id, subjectId, topic.id)
               : null;
+          const inProgress =
+            user && subjectId
+              ? getInProgressCount(user.id, subjectId, topic.id)
+              : null;
 
           return (
             <Grid key={topic.id} size={{ xs: 12, sm: 6, md: 4 }}>
-              <Box
-                className={`fade-in-up stagger-${i + 4}`}
-                onClick={() =>
-                  navigate(`/subject/${subjectId}/topic/${topic.id}/lesson`)
-                }
-                sx={{
-                  bgcolor: "rgba(255,255,255,0.93)",
-                  backdropFilter: "blur(10px)",
-                  borderRadius: "24px",
-                  p: 3,
-                  cursor: "pointer",
-                  boxShadow: "0 8px 32px rgba(0,0,0,0.1)",
-                  transition: "all 0.2s",
-                  border: "2px solid transparent",
-                  "&:hover": {
-                    transform: "translateY(-4px)",
-                    boxShadow: "0 12px 40px rgba(0,0,0,0.15)",
-                    borderColor: subject.color,
-                  },
-                }}
-              >
+              <Box className={`fade-in-up stagger-${Math.min(i + 4, 12)}`}>
                 <Box
+                  onClick={() =>
+                    navigate(`/subject/${subjectId}/topic/${topic.id}/lesson`)
+                  }
                   sx={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "flex-start",
-                    mb: 1.5,
+                    bgcolor: "rgba(255,255,255,0.93)",
+                    backdropFilter: "blur(10px)",
+                    borderRadius: "24px",
+                    p: 3,
+                    cursor: "pointer",
+                    boxShadow: "0 8px 32px rgba(0,0,0,0.1)",
+                    transition: "all 0.2s",
+                    border: "2px solid transparent",
+                    opacity:
+                      topic.questionCount > 0 && (topic.slideCount ?? 0) > 0
+                        ? 1
+                        : 0.75,
+                    filter:
+                      topic.questionCount > 0 && (topic.slideCount ?? 0) > 0
+                        ? "none"
+                        : "grayscale(1)",
+                    "&:hover": {
+                      opacity: 1,
+                      filter: "none",
+                      transform: "translateY(-4px)",
+                      boxShadow: "0 12px 40px rgba(0,0,0,0.15)",
+                      borderColor: subject.color,
+                    },
                   }}
                 >
-                  <Typography sx={{ fontSize: "2rem" }}>
-                    {topic.icon}
-                  </Typography>
-                  <Box sx={{ display: "flex", gap: 0.8, alignItems: "center" }}>
+                  <Box
+                    sx={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "flex-start",
+                      mb: 1.5,
+                    }}
+                  >
+                    <Typography sx={{ fontSize: "2rem" }}>
+                      {topic.icon}
+                    </Typography>
+                    <Box
+                      sx={{ display: "flex", gap: 0.8, alignItems: "center" }}
+                    >
+                      {(() => {
+                        const ready =
+                          topic.questionCount > 0 &&
+                          (topic.slideCount ?? 0) > 0;
+                        return (
+                          <Box
+                            sx={{
+                              bgcolor: ready ? "#E8F5E9" : "#ECEFF1",
+                              color: ready ? "#2E7D32" : "#78909C",
+                              border: ready
+                                ? "1px solid #A5D6A7"
+                                : "1px solid #CFD8DC",
+                              borderRadius: "10px",
+                              px: 1.2,
+                              py: 0.3,
+                              fontWeight: 700,
+                              fontSize: "0.7rem",
+                            }}
+                          >
+                            {ready ? "Lista" : "Pendiente"}
+                          </Box>
+                        );
+                      })()}
+                      {inProgress !== null && best === null && (
+                        <Box
+                          sx={{
+                            bgcolor: "#E3F2FD",
+                            color: "#1565C0",
+                            border: "1px solid #90CAF9",
+                            borderRadius: "10px",
+                            px: 1.2,
+                            py: 0.3,
+                            fontWeight: 700,
+                            fontSize: "0.7rem",
+                          }}
+                        >
+                          ✏️ En curso
+                        </Box>
+                      )}
+                      {best !== null && (
+                        <Box
+                          sx={{
+                            bgcolor: best >= 0.7 ? "#E8F5E9" : "#FFF3E0",
+                            color: best >= 0.7 ? "#2E7D32" : "#E65100",
+                            border:
+                              best >= 0.7
+                                ? "1px solid #A5D6A7"
+                                : "1px solid #FFCC80",
+                            borderRadius: "10px",
+                            px: 1.2,
+                            py: 0.3,
+                            fontWeight: 700,
+                            fontSize: "0.8rem",
+                          }}
+                        >
+                          {Math.round(best * 100)}%
+                        </Box>
+                      )}
+                    </Box>
+                  </Box>
+                  <Box
+                    sx={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 1,
+                      mb: 0.5,
+                    }}
+                  >
+                    <Typography variant="h6" fontWeight={700} sx={{ mb: 0 }}>
+                      {topic.title}
+                    </Typography>
                     {topicEvalMap[topic.id] &&
                       (() => {
                         const ec = getEvalColor(
@@ -185,6 +279,7 @@ export default function SubjectPage() {
                             sx={{
                               bgcolor: ec.bg,
                               color: ec.color,
+                              border: `1px solid ${ec.border}`,
                               borderRadius: "10px",
                               px: 1.2,
                               py: 0.3,
@@ -198,35 +293,17 @@ export default function SubjectPage() {
                           </Box>
                         );
                       })()}
-                    {best !== null && (
-                      <Box
-                        sx={{
-                          bgcolor: best >= 0.7 ? "#E8F5E9" : "#FFF3E0",
-                          color: best >= 0.7 ? "#2E7D32" : "#E65100",
-                          borderRadius: "10px",
-                          px: 1.2,
-                          py: 0.3,
-                          fontWeight: 700,
-                          fontSize: "0.8rem",
-                        }}
-                      >
-                        {Math.round(best * 100)}%
-                      </Box>
-                    )}
                   </Box>
+                  <Typography variant="body2" sx={{ color: "#546E7A", mb: 1 }}>
+                    {topic.description}
+                  </Typography>
+                  <Typography variant="caption" sx={{ color: "#90A4AE" }}>
+                    {topic.slideCount
+                      ? `${topic.slideCount} diapositivas · `
+                      : ""}
+                    {topic.questionCount} preguntas
+                  </Typography>
                 </Box>
-                <Typography variant="h6" fontWeight={700} gutterBottom>
-                  {topic.title}
-                </Typography>
-                <Typography variant="body2" sx={{ color: "#546E7A", mb: 1 }}>
-                  {topic.description}
-                </Typography>
-                <Typography variant="caption" sx={{ color: "#90A4AE" }}>
-                  {topic.slideCount
-                    ? `${topic.slideCount} diapositivas · `
-                    : ""}
-                  {topic.questionCount} preguntas
-                </Typography>
               </Box>
             </Grid>
           );

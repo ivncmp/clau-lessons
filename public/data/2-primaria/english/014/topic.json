@@ -1,1 +1,18 @@
-{"id":"014","subjectId":"english","title":"Unit 14","description":"Olga's Flute","icon":"🎶","texts":{},"images":{}}
+{
+  "id": "014",
+  "subjectId": "english",
+  "title": "Unit 14",
+  "description": "Olga's Flute",
+  "icon": "🎶",
+  "texts": {
+    "olga": {
+      "title": "🎶 Olga's Flute",
+      "html": "<p>Olga loved music. She played the <span class='hl'>flute</span> every day after school. She wanted to play in the school concert.</p><p>One day, the music teacher said: 'There is a <span class='hl'>solo</span> in the concert. Who wants to play it?' Olga raised her hand. 'I do!' she said.</p><p>Olga practiced every day. She practiced <span class='hl'>in</span> the morning and <span class='hl'>in</span> the afternoon. Sometimes her notes were <span class='hl'>wet</span> because she was so <span class='hl'>nervous</span> her hands were sweaty!</p><p>But Olga didn't give up. She said: 'I will memorize it by Monday morning.' She practiced <span class='hl'>every day</span> — that's an adverb of time!</p><p>On the day of the concert, Olga walked on stage. She took a deep breath and played beautifully. She didn't make a single mistake! Everyone clapped. Olga felt very <span class='hl'>proud</span>. She <span class='hl'>already</span> knew she wanted to play again next year.</p>"
+    },
+    "instruments": {
+      "title": "🎸 Musical Instruments",
+      "html": "<p>There are many musical instruments. Let's learn about some of them!</p><p>The <span class='hl'>flute</span> makes a sweet, high sound. You blow into it and cover the holes with your fingers. The <span class='hl'>cork</span> on some instruments helps keep them together.</p><p>People <span class='hl'>have lunch</span> and then go to music class. Some children <span class='hl'>give a concert</span> at the end of the year. Others <span class='hl'>make a mistake</span> sometimes, but that's okay — everyone learns!</p><p>You can <span class='hl'>do an art project</span> about music. Draw your favourite instrument! You can also <span class='hl'>tell a lie</span> about what instrument you play — just kidding! Always be honest.</p><p>The best musicians practice <span class='hl'>every day</span>. They <span class='hl'>already</span> know their songs by heart. They practice <span class='hl'>in the morning</span> or <span class='hl'>in the evening</span>.</p>"
+    }
+  },
+  "images": {}
+}

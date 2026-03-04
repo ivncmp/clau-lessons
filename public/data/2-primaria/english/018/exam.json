@@ -1,1 +1,271 @@
-{"topicId":"018","subjectId":"english","questions":[]}
+{
+  "topicId": "018",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What do you need to make origami?",
+      "options": ["Scissors and glue", "Just one piece of paper", "Paint and a brush", "Markers and chalk"],
+      "answer": 1,
+      "refText": "origami",
+      "explanation": "The text says: 'You don't need scissors or glue — just one square piece of paper!'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What shape is the paper at the start?",
+      "options": ["A circle", "A triangle", "A square", "A rectangle"],
+      "answer": 2,
+      "refText": "origami",
+      "explanation": "The text says: 'Start with a square piece of paper.'"
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "In Step 1, you fold the paper to make a circle.",
+      "answer": false,
+      "refText": "origami",
+      "explanation": "The text says: 'Fold it in half to make a triangle.' Not a circle!"
+    },
+    {
+      "id": "q04",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What are the folded corners of the triangle?",
+      "options": ["The dog's nose", "The dog's tail", "The dog's ears", "The dog's eyes"],
+      "answer": 2,
+      "refText": "origami",
+      "explanation": "The text says: 'Fold the left corner down. This is one ear! Now fold the right corner down. That is the other ear!'"
+    },
+    {
+      "id": "q05",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "The bottom corner of the triangle becomes the dog's nose.",
+      "answer": true,
+      "refText": "origami",
+      "explanation": "The text says: 'Fold the bottom corner up a little bit. This is the dog's nose!'"
+    },
+    {
+      "id": "q06",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What should you NOT do with the paper?",
+      "options": ["Fold it", "Press the edges flat", "Crumple it", "Turn it over"],
+      "answer": 2,
+      "refText": "origami",
+      "explanation": "The text says: 'Don't crumple it!'"
+    },
+    {
+      "id": "q07",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What do you need to use watercolours?",
+      "options": ["Scissors and glue", "Water and a brush", "Markers and chalk", "Paper and tape"],
+      "answer": 1,
+      "refText": "materials",
+      "explanation": "The text says: 'You need water and a brush.'"
+    },
+    {
+      "id": "q08",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Chalk is hard to erase.",
+      "answer": false,
+      "refText": "materials",
+      "explanation": "The text says: 'Chalk is fun because you can erase it easily!'"
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "_____ I need markers for this activity?",
+      "options": ["Are", "Is", "Do", "Does"],
+      "answer": 2,
+      "explanation": "We use 'Do I need...?' to ask about things we need (with 'I')."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "No, you _____ need scissors today.",
+      "options": ["doesn't", "don't", "aren't", "isn't"],
+      "answer": 1,
+      "explanation": "We use 'you don't' with 'you' to say something is not needed."
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "_____ I need glue for origami?",
+      "options": ["Do", "Does", "Is", "Are"],
+      "answer": 0,
+      "explanation": "We use 'Do I need...?' to ask if something is necessary."
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "You _____ need paint. You need chalk.",
+      "options": ["doesn't", "isn't", "don't", "aren't"],
+      "answer": 2,
+      "explanation": "'You don't need...' tells someone that something is not necessary."
+    },
+    {
+      "id": "q13",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete the conversation about art materials.",
+      "sentence": "'_____ I need watercolours?' 'No, you _____ need watercolours. You need markers.'",
+      "blanks": ["Do", "don't"],
+      "wordBank": ["Do", "don't", "Does", "doesn't"]
+    },
+    {
+      "id": "q14",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["Do", "I", "need", "scissors", "?"],
+      "answer": "Do I need scissors ?"
+    },
+    {
+      "id": "q15",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["don't", "You", "need", "glue", "today"],
+      "answer": "You don't need glue today"
+    },
+    {
+      "id": "q16",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which sentence uses commas correctly in a list?",
+      "options": ["I need markers scissors and glue.", "I need markers, scissors, and glue.", "I need, markers, scissors and, glue.", "I need markers scissors, and glue."],
+      "answer": 1,
+      "explanation": "In a list, we put a comma after each item: 'markers, scissors, and glue.'"
+    },
+    {
+      "id": "q17",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Where do the commas go? 'I have chalk ___ watercolours ___ markers ___ and pencils.'",
+      "options": ["chalk, watercolours, markers, and pencils", "chalk watercolours, markers and, pencils", "chalk, watercolours markers, and pencils", "chalk watercolours markers and pencils"],
+      "answer": 0,
+      "explanation": "In a list, put a comma after each item before 'and': chalk, watercolours, markers, and pencils."
+    },
+    {
+      "id": "q18",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which list has the commas in the right place?",
+      "options": ["fold, press and, cut", "fold press, and cut", "fold, press, and cut", "fold, press and cut,"],
+      "answer": 2,
+      "explanation": "The correct comma pattern in a list is: fold, press, and cut."
+    },
+    {
+      "id": "q19",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'fold' mean?",
+      "options": ["To cut with scissors", "To bend paper over", "To stick with glue", "To draw a line"],
+      "answer": 1,
+      "explanation": "'Fold' means to bend something, like paper, over on itself."
+    },
+    {
+      "id": "q20",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'crumple' mean?",
+      "options": ["To fold carefully", "To cut in a straight line", "To crush into a ball", "To paint with colours"],
+      "answer": 2,
+      "explanation": "'Crumple' means to squeeze or crush something into a messy ball."
+    },
+    {
+      "id": "q21",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What is an 'edge'?",
+      "options": ["The middle of the paper", "The side or border of something", "A type of colour", "A folding tool"],
+      "answer": 1,
+      "explanation": "An 'edge' is the outer side or border of something, like the edge of a piece of paper."
+    },
+    {
+      "id": "q22",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each art tool with what you do with it.",
+      "pairs": [
+        { "left": "Markers", "right": "draw and colour" },
+        { "left": "Watercolours", "right": "paint with water" },
+        { "left": "Scissors", "right": "cut paper" },
+        { "left": "Glue", "right": "stick things together" }
+      ],
+      "rightOptions": ["draw and colour", "paint with water", "cut paper", "stick things together", "erase mistakes"]
+    },
+    {
+      "id": "q23",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the origami step with what it makes.",
+      "pairs": [
+        { "left": "Fold paper in half", "right": "a triangle" },
+        { "left": "Fold left and right corners down", "right": "the ears" },
+        { "left": "Fold bottom corner up", "right": "the nose" }
+      ],
+      "rightOptions": ["a triangle", "the ears", "the nose", "the tail"]
+    },
+    {
+      "id": "q24",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these into art tools or origami actions.",
+      "words": ["fold", "markers", "crumple", "scissors", "glue", "corner"],
+      "slots": [
+        { "label": "Art tools", "accepts": ["markers", "scissors", "glue"] },
+        { "label": "Origami words", "accepts": ["fold", "crumple", "corner"] }
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify: which materials do you need water for?",
+      "words": ["watercolours", "chalk", "markers", "glue"],
+      "slots": [
+        { "label": "Need water", "accepts": ["watercolours"] },
+        { "label": "No water needed", "accepts": ["chalk", "markers", "glue"] }
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete the origami instructions.",
+      "sentence": "First, _____ the paper in half. Make sure the _____ are straight. Don't _____ the paper!",
+      "blanks": ["fold", "edges", "crumple"],
+      "wordBank": ["fold", "edges", "crumple", "corner", "glue"]
+    },
+    {
+      "id": "q27",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Markers are like thick pens with bright colours.",
+      "answer": true,
+      "refText": "materials",
+      "explanation": "The text says: 'Markers are like thick pens. They have bright colours.'"
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the origami steps in order. Which comes first?",
+      "words": ["Fold", "the", "paper", "in", "half"],
+      "answer": "Fold the paper in half"
+    }
+  ]
+}

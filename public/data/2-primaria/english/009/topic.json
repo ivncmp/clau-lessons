@@ -1,1 +1,18 @@
-{"id":"009","subjectId":"english","title":"Unit 9","description":"Following Rules","icon":"📋","texts":{},"images":{}}
+{
+  "id": "009",
+  "subjectId": "english",
+  "title": "Unit 9",
+  "description": "Following Rules",
+  "icon": "📋",
+  "texts": {
+    "rules": {
+      "title": "📋 Following Rules",
+      "html": "<p>Rules are important! They help us stay safe and be kind to each other.</p><p>At school, we follow many rules. We <span class='hl'>take turns</span> when we speak. We <span class='hl'>share</span> our things with friends. We <span class='hl'>listen</span> to the teacher and we <span class='hl'>clean up</span> after ourselves.</p><p>On the street, we follow <span class='hl'>traffic</span> rules. We wait for the green <span class='hl'>light</span> before crossing. We look left and right. We are always <span class='hl'>polite</span> to other people.</p><p>It is important to ask for <span class='hl'>permission</span>. We say 'May I...?' or 'Can I...?' before doing something. Being <span class='hl'>disrespectful</span> means not following the rules or being rude to others.</p><p>In an <span class='hl'>emergency</span>, we must follow special rules. We stay calm, we listen to adults, and we go to a safe place.</p>"
+    },
+    "places": {
+      "title": "🏠 Rules in Different Places",
+      "html": "<p>Different places have different rules. Let's learn about them!</p><p>In the <span class='hl'>kitchen</span>, we don't run. We are careful with hot things. We wash <span class='hl'>our</span> hands before cooking.</p><p>In the <span class='hl'>living room</span>, we don't jump on the sofa. We keep <span class='hl'>our</span> things tidy.</p><p>In the <span class='hl'>classroom</span>, we raise <span class='hl'>our</span> hand before speaking. We don't talk when the teacher is talking.</p><p>In the <span class='hl'>cafeteria</span>, we wait in line. We say 'please' and 'thank you'. We clean up after eating.</p><p>On the <span class='hl'>playground</span>, we share the swings. We don't push other children. In the <span class='hl'>gym</span>, we wear sports clothes and follow the coach's instructions.</p><p>Whose bag is this? It is <span class='hl'>mine</span>. Is this <span class='hl'>your</span> book? No, it is <span class='hl'>hers</span>. These are <span class='hl'>our</span> rules. We all follow <span class='hl'>them</span>.</p>"
+    }
+  },
+  "images": {}
+}

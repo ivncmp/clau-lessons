@@ -1,0 +1,18 @@
+{
+  "id": "002",
+  "subjectId": "calculo",
+  "title": "Unidad 2",
+  "description": "Operaciones de suma y resta",
+  "icon": "➕",
+  "texts": {
+    "playa": {
+      "title": "🏖️ ¡Limpiamos la playa!",
+      "html": "<p>¡Cuánto plástico hay en la playa! El plástico no se debería tirar a los mares, afecta a la vida submarina y contamina.</p><p>Nos hemos juntado <span class='hl'>24 amigos</span> para limpiar la playa. Si cada uno hemos estado <span class='hl'>30 minutos</span> limpiando, ¿cuántas horas hemos sumado entre todos? <span class='hl'>12 horas</span>.</p><p>Hemos recogido <span class='hl'>10 kg de botellas</span> y <span class='hl'>5 kg de latas</span>, que vamos a vender a una empresa para luego donar ese dinero. Las botellas a <span class='hl'>3 €/kg</span> y las latas a <span class='hl'>1 €/kg</span>. En total hemos recaudado <span class='hl'>35 euros</span>.</p><p>Mario y Juan han decidido crear un grupo para limpiar las playas más. Mario tiene <span class='hl'>254 €</span> y Juan <span class='hl'>298 €</span>. Si juntan el dinero y el primer día de limpieza gastan <span class='hl'>389 €</span> en material, ¿cuánto dinero les queda? Les quedan <span class='hl'>163 euros</span>.</p>"
+    },
+    "sumaresta": {
+      "title": "📝 Sumar y restar: ¡las dos operaciones!",
+      "html": "<p>En esta unidad trabajamos con <span class='hl'>sumas y restas juntas</span>. A veces hay que sumar, otras hay que restar, ¡y a veces las dos cosas!</p><p>La <span class='hl'>suma</span> es juntar cantidades: 37 + 62 = <span class='hl'>99</span>.</p><p>La <span class='hl'>resta</span> es quitar cantidades: 64 − 29 = <span class='hl'>35</span>.</p><p>Es importante fijarse bien en el <span class='hl'>signo</span>: el <span class='hl'>+</span> significa sumar y el <span class='hl'>−</span> significa restar. ¡No los confundas!</p><p>Cuando los números tienen <span class='hl'>3 cifras</span>, hacemos lo mismo pero con una columna más: centenas, decenas y unidades.</p>"
+    }
+  },
+  "images": {}
+}

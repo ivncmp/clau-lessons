@@ -1,1 +1,18 @@
-{"id":"001","subjectId":"english","title":"Unit 1","description":"Amazing Animals","icon":"🐘","texts":{},"images":{}}
+{
+  "id": "001",
+  "subjectId": "english",
+  "title": "Unit 1",
+  "description": "Amazing Animals",
+  "icon": "🐘",
+  "texts": {
+    "animals": {
+      "title": "🐾 Amazing Animals",
+      "html": "<p>There are many kinds of animals in the world. Some animals are <span class='hl'>mammals</span>. Mammals have <span class='hl'>fur</span> or hair on their <span class='hl'>skin</span>. Dogs, cats and elephants are mammals.</p><p>Some animals are birds. Birds have <span class='hl'>feathers</span> and <span class='hl'>wings</span>. Most birds can fly, but penguins cannot fly. They use their wings to swim!</p><p>Some animals are fish. Fish live in water. They have <span class='hl'>scales</span> on their skin and <span class='hl'>gills</span> to breathe underwater.</p><p>Some animals are <span class='hl'>amphibians</span>. Frogs and toads are amphibians. They can live in water and on land. Baby frogs live in water, but adult frogs can jump on land too!</p><p>Some animals lay <span class='hl'>eggs</span>. Birds, fish, reptiles and amphibians all lay eggs. But most mammals do not lay eggs — they have live babies.</p>"
+    },
+    "bodyparts": {
+      "title": "🦁 Animal Body Parts",
+      "html": "<p>Every animal has a body with different parts. Animals use their body parts to survive.</p><p>Animals have a <span class='hl'>head</span> with <span class='hl'>eyes</span> to see. They have <span class='hl'>ears</span> to hear sounds around them. They have a <span class='hl'>mouth</span> to eat food.</p><p>Most animals have <span class='hl'>legs</span> to walk or run. Dogs have four legs. Birds have two legs. But snakes have no legs at all! They use their long <span class='hl'>body</span> to move.</p><p>Some animals have special body parts. Eagles have feathers and strong wings to fly very fast. Rabbits are very gentle. <span class='hl'>They</span> have long ears to hear danger. Elephants are very strong. <span class='hl'>They</span> use their long trunk to drink water and pick up food.</p>"
+    }
+  },
+  "images": {}
+}

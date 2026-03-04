@@ -4,5 +4,10 @@
   "icon": "🧮",
   "color": "#0277BD",
   "lang": "es",
-  "topics": []
+  "topics": [
+    { "id": "001", "title": "Unidad 1", "description": "Restas con llevada", "icon": "➖", "questionCount": 50, "slideCount": 12 },
+    { "id": "002", "title": "Unidad 2", "description": "Operaciones de suma y resta", "icon": "➕", "questionCount": 50, "slideCount": 12 },
+    { "id": "003", "title": "Unidad 3", "description": "Problemas Matemáticas 2", "icon": "🧩", "questionCount": 0 },
+    { "id": "004", "title": "Unidad 4", "description": "Problemas Matemáticas 3", "icon": "🧠", "questionCount": 0 }
+  ]
 }

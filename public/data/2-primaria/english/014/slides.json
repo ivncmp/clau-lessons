@@ -1,0 +1,117 @@
+{
+  "topicId": "014",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "🎵",
+      "title": "Olga's Flute Vocabulary",
+      "content": "<p>Let's learn new words from Olga's story:</p><p>🎶 <span class='hl'>flute</span> — a musical instrument you blow into<br/>🎤 <span class='hl'>solo</span> — playing or singing alone, by yourself<br/>💧 <span class='hl'>wet</span> — covered in water, not dry<br/>😰 <span class='hl'>nervous</span> — worried, a bit scared<br/>🔌 <span class='hl'>cork</span> — a small piece that blocks a hole<br/>🥇 <span class='hl'>proud</span> — feeling good about what you did</p>",
+      "tip": "A flute = una flauta. Solo means doing something on your own!"
+    },
+    {
+      "id": "s02",
+      "type": "story",
+      "emoji": "📖",
+      "title": "Olga's Big Concert",
+      "html": "<p>Olga plays the <span class='hl'>flute</span> at school. She practises <span class='hl'>every day</span> after lunch.</p><p>Today is the school concert! Olga has a <span class='hl'>solo</span> — she has to play all by herself. She feels very <span class='hl'>nervous</span>.</p><p>Oh no! Her hands are <span class='hl'>wet</span> because she is so nervous. She drops the <span class='hl'>cork</span> from her flute! But she picks it up quickly and starts to play.</p><p>The music is beautiful! Everyone claps. Olga feels so <span class='hl'>proud</span>. She <span class='hl'>already</span> wants to play again!</p>"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "⏰",
+      "title": "Adverbs of Time",
+      "content": "<p><span class='hl'>Adverbs of time</span> tell us <span class='hl'>when</span> something happens:</p><p>📅 <span class='hl'>every day</span> — each day, again and again<br/>✅ <span class='hl'>already</span> — it happened before now<br/>🌅 <span class='hl'>in the morning</span> — the early part of the day<br/>🌙 <span class='hl'>in the evening</span> — the late part of the day</p><p>Example: <em>I practise the flute <span class='hl'>every day</span>. I have <span class='hl'>already</span> finished my homework.</em></p>",
+      "tip": "Adverbs of time answer the question: When?"
+    },
+    {
+      "id": "s04",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "When Does It Happen?",
+      "problem": "<p>Choose the correct adverb of time:</p><p>1. I brush my teeth _____ (every day / already).<br/>2. She has _____ (in the morning / already) eaten breakfast.<br/>3. We play football _____ (in the evening / already).<br/>4. He reads a story _____ (every day / in the morning) before bed.</p>",
+      "steps": [
+        "1. Brushing teeth is a daily habit --> every day",
+        "2. She finished eating before now --> already",
+        "3. Playing after school in the late part of the day --> in the evening",
+        "4. Reading before bed is a daily habit --> every day"
+      ],
+      "answer": "1. every day  2. already  3. in the evening  4. every day"
+    },
+    {
+      "id": "s05",
+      "type": "concept",
+      "emoji": "🔗",
+      "title": "Phrasal Verbs (Part 1)",
+      "content": "<p>A <span class='hl'>phrasal verb</span> is two words that go together with a special meaning:</p><p>🍽️ <span class='hl'>have lunch</span> — to eat the midday meal<br/>🎵 <span class='hl'>give a concert</span> — to perform music for an audience<br/>❌ <span class='hl'>make a mistake</span> — to do something wrong</p><p>Examples:<br/><em>We <span class='hl'>have lunch</span> at 1 o'clock.</em><br/><em>The school band will <span class='hl'>give a concert</span> on Friday.</em><br/><em>Don't worry if you <span class='hl'>make a mistake</span>!</em></p>"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "🔗",
+      "title": "Phrasal Verbs (Part 2)",
+      "content": "<p>More <span class='hl'>phrasal verbs</span> to learn:</p><p>🎨 <span class='hl'>do an art project</span> — to work on a creative task<br/>🤥 <span class='hl'>tell a lie</span> — to say something that is not true</p><p>Examples:<br/><em>We <span class='hl'>do an art project</span> every Wednesday.</em><br/><em>You must not <span class='hl'>tell a lie</span>. Always tell the truth!</em></p>",
+      "tip": "Be careful! We say MAKE a mistake, but DO a project. We say GIVE a concert, but TELL a lie."
+    },
+    {
+      "id": "s07",
+      "type": "example",
+      "emoji": "🎯",
+      "title": "Choose the Right Verb",
+      "problem": "<p>Complete with <span class='hl'>have</span>, <span class='hl'>give</span>, <span class='hl'>make</span>, <span class='hl'>do</span> or <span class='hl'>tell</span>:</p><p>1. We _____ lunch at school.<br/>2. The band will _____ a concert.<br/>3. Don't _____ a mistake!<br/>4. We _____ an art project today.<br/>5. You must not _____ a lie.</p>",
+      "steps": [
+        "1. Lunch goes with HAVE --> have lunch",
+        "2. Concert goes with GIVE --> give a concert",
+        "3. Mistake goes with MAKE --> make a mistake",
+        "4. Art project goes with DO --> do an art project",
+        "5. Lie goes with TELL --> tell a lie"
+      ],
+      "answer": "1. have  2. give  3. make  4. do  5. tell"
+    },
+    {
+      "id": "s08",
+      "type": "story",
+      "emoji": "🎶",
+      "title": "A Busy Day",
+      "html": "<p><span class='hl'>In the morning</span>, Olga practises her <span class='hl'>flute</span>. She plays her <span class='hl'>solo</span> three times. She has <span class='hl'>already</span> learnt all the notes!</p><p>At 12 o'clock, she goes to <span class='hl'>have lunch</span> with her friends. After lunch, they <span class='hl'>do an art project</span> — they paint pictures of musical instruments.</p><p><span class='hl'>In the evening</span>, the school band will <span class='hl'>give a concert</span>. Olga feels a bit <span class='hl'>nervous</span>, but she doesn't <span class='hl'>make a mistake</span>! Her parents feel very <span class='hl'>proud</span>.</p>"
+    },
+    {
+      "id": "s09",
+      "type": "concept",
+      "emoji": "⚠️",
+      "title": "Common Mistakes",
+      "content": "<p>Be careful with these phrasal verbs! Students often mix them up:</p><p>✅ <span class='hl'>have</span> lunch — NOT <em>do lunch</em><br/>✅ <span class='hl'>give</span> a concert — NOT <em>make a concert</em><br/>✅ <span class='hl'>make</span> a mistake — NOT <em>do a mistake</em><br/>✅ <span class='hl'>do</span> a project — NOT <em>make a project</em><br/>✅ <span class='hl'>tell</span> a lie — NOT <em>say a lie</em></p>",
+      "tip": "Try to learn each phrasal verb as one piece, like a puzzle that always goes together!"
+    },
+    {
+      "id": "s10",
+      "type": "example",
+      "emoji": "📝",
+      "title": "Olga's Diary",
+      "problem": "<p>Fill in the gaps in Olga's diary entry:</p><p><em>Today I _____ a concert at school. I was very _____ but I didn't _____ any mistakes. My hands were _____ but I played my _____ perfectly. I feel so _____!</em></p>",
+      "steps": [
+        "Concert goes with GIVE --> gave a concert",
+        "Worried before playing --> nervous",
+        "Doing something wrong goes with MAKE --> make",
+        "Hands covered in water --> wet",
+        "Playing alone --> solo",
+        "Feeling good about yourself --> proud"
+      ],
+      "answer": "gave, nervous, make, wet, solo, proud"
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "🎶 Vocabulary: flute, solo, wet, nervous, cork, proud",
+        "⏰ Adverbs of time: every day, already, in the morning, in the evening",
+        "🍽️ have lunch, 🎵 give a concert, ❌ make a mistake",
+        "🎨 do an art project, 🤥 tell a lie",
+        "⚠️ Each phrasal verb uses a specific verb — learn them together!"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,275 @@
-{"topicId":"016","subjectId":"english","questions":[]}
+{
+  "topicId": "016",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Where did the two goats live?",
+      "options": ["In a forest", "On a mountain", "By the sea", "In a city"],
+      "answer": 1,
+      "refText": "goats",
+      "explanation": "The text says: 'They lived on a big mountain.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Why could only one goat cross the bridge at a time?",
+      "options": ["The bridge was too long", "The bridge was very narrow", "The bridge was broken", "The bridge was too high"],
+      "answer": 1,
+      "refText": "goats",
+      "explanation": "The text says: 'A very narrow bridge crossed the river. Only one goat could cross at a time.'"
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "The two goats decided to take turns on the bridge.",
+      "answer": false,
+      "refText": "goats",
+      "explanation": "The goats did NOT take turns. They both pushed and fell into the river. They only learned after falling."
+    },
+    {
+      "id": "q04",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What happened to the goats when they pushed each other?",
+      "options": ["They flew away", "They fell into the river", "They climbed the mountain", "They ran home"],
+      "answer": 1,
+      "refText": "goats",
+      "explanation": "The text says: 'Both goats fell into the river!'"
+    },
+    {
+      "id": "q05",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What is the lesson of the goat story?",
+      "options": ["Goats can swim", "It is better to be kind than stubborn", "Bridges are dangerous", "Mountains are fun"],
+      "answer": 1,
+      "refText": "goats",
+      "explanation": "The text says: 'It is better to be kind than to be stubborn.'"
+    },
+    {
+      "id": "q06",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "The goats were happy after falling in the river.",
+      "answer": false,
+      "refText": "goats",
+      "explanation": "The goats were wet and cold after falling in the river. They learned their lesson."
+    },
+    {
+      "id": "q07",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Who is the tallest boy in the class?",
+      "options": ["Sam", "Tom", "Lily", "Emma"],
+      "answer": 1,
+      "refText": "sports",
+      "explanation": "The text says: 'Tom is the tallest boy.'"
+    },
+    {
+      "id": "q08",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Which sport is the most popular in Spain?",
+      "options": ["Tennis", "Golf", "Basketball", "Soccer"],
+      "answer": 3,
+      "refText": "sports",
+      "explanation": "The text says: 'Soccer is the most popular sport in Spain.'"
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Tom is _____ boy in the class. Which word fits?",
+      "options": ["tall", "taller", "the tallest", "more tall"],
+      "answer": 2,
+      "explanation": "We use 'the + -est' for superlatives: 'the tallest' (comparing with all)."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Emma is _____ runner in the school. Which word fits?",
+      "options": ["fast", "faster", "the fastest", "more fast"],
+      "answer": 2,
+      "explanation": "We use 'the + -est' for superlatives: 'the fastest'."
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Golf is _____ sport to learn. Which word fits?",
+      "options": ["hard", "harder", "the hardest", "more hard"],
+      "answer": 2,
+      "explanation": "We use 'the + -est' for superlatives: 'the hardest'."
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Sam is _____ kicker in the team. Which word fits?",
+      "options": ["strong", "stronger", "the strongest", "more strong"],
+      "answer": 2,
+      "explanation": "We use 'the + -est' for superlatives: 'the strongest'."
+    },
+    {
+      "id": "q13",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct superlative.",
+      "sentence": "Tom is _____ boy. Emma is _____ girl.",
+      "blanks": ["the tallest", "the fastest"],
+      "wordBank": ["the tallest", "the fastest", "taller", "faster", "the biggest"]
+    },
+    {
+      "id": "q14",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct superlative.",
+      "sentence": "Golf is _____ sport. Soccer is _____ sport in Spain.",
+      "blanks": ["the quietest", "the most popular"],
+      "wordBank": ["the quietest", "the most popular", "quieter", "more popular", "the biggest"]
+    },
+    {
+      "id": "q15",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the adjective with its superlative form.",
+      "pairs": [
+        { "left": "tall", "right": "the tallest" },
+        { "left": "fast", "right": "the fastest" },
+        { "left": "big", "right": "the biggest" },
+        { "left": "strong", "right": "the strongest" }
+      ],
+      "rightOptions": ["the tallest", "the fastest", "the biggest", "the strongest", "the smallest"]
+    },
+    {
+      "id": "q16",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each person with their sport.",
+      "pairs": [
+        { "left": "Tom", "right": "basketball" },
+        { "left": "Emma", "right": "running" },
+        { "left": "Sam", "right": "football" },
+        { "left": "Lily", "right": "tennis" }
+      ],
+      "rightOptions": ["basketball", "running", "football", "tennis", "golf"]
+    },
+    {
+      "id": "q17",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["is", "Tom", "the", "tallest", "boy"],
+      "answer": "Tom is the tallest boy"
+    },
+    {
+      "id": "q18",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["is", "the", "Golf", "hardest", "sport"],
+      "answer": "Golf is the hardest sport"
+    },
+    {
+      "id": "q19",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify: comparative (-er) or superlative (the -est)?",
+      "words": ["taller", "the tallest", "faster", "the fastest", "bigger", "the biggest"],
+      "slots": [
+        { "label": "Comparative (-er)", "accepts": ["taller", "faster", "bigger"] },
+        { "label": "Superlative (the -est)", "accepts": ["the tallest", "the fastest", "the biggest"] }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'stubborn' mean?",
+      "options": ["Very kind", "Not wanting to change your mind", "Very quiet", "Very tall"],
+      "answer": 1,
+      "explanation": "'Stubborn' means not wanting to change your mind or let others go first."
+    },
+    {
+      "id": "q21",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'angry' mean?",
+      "options": ["Very happy", "Very sad", "Very mad or upset", "Very tired"],
+      "answer": 2,
+      "explanation": "'Angry' means feeling very mad or upset about something."
+    },
+    {
+      "id": "q22",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'wet' mean?",
+      "options": ["Covered in water", "Very hot", "Very cold", "Very dry"],
+      "answer": 0,
+      "explanation": "'Wet' means covered in water — the opposite of dry."
+    },
+    {
+      "id": "q23",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these sports: team sports or individual sports?",
+      "words": ["football", "tennis", "basketball", "golf", "soccer", "baseball"],
+      "slots": [
+        { "label": "Team sports", "accepts": ["football", "basketball", "soccer", "baseball"] },
+        { "label": "Individual sports", "accepts": ["tennis", "golf"] }
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "We say 'the most popular' for long adjectives in the superlative.",
+      "answer": true,
+      "explanation": "For long adjectives, we use 'the most + adjective': 'the most popular', 'the most exciting'."
+    },
+    {
+      "id": "q25",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Soccer is _____ sport in Spain. Which fits?",
+      "options": ["popular", "more popular", "the most popular", "popularest"],
+      "answer": 2,
+      "explanation": "For long adjectives, the superlative is 'the most + adjective': 'the most popular'."
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the vocabulary word with its meaning.",
+      "pairs": [
+        { "left": "stubborn", "right": "won't change mind" },
+        { "left": "angry", "right": "very mad" },
+        { "left": "goat", "right": "animal on mountain" },
+        { "left": "wet", "right": "covered in water" }
+      ],
+      "rightOptions": ["won't change mind", "very mad", "animal on mountain", "covered in water", "very happy"]
+    },
+    {
+      "id": "q27",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "We say 'the most big' for the superlative of 'big'.",
+      "answer": false,
+      "explanation": "'Big' is a short adjective. The superlative is 'the biggest', not 'the most big'."
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["is", "Soccer", "most", "the", "exciting", "sport"],
+      "answer": "Soccer is the most exciting sport"
+    }
+  ]
+}

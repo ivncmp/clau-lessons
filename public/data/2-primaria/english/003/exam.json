@@ -1,1 +1,276 @@
-{"topicId":"003","subjectId":"english","questions":[]}
+{
+  "topicId": "003",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What are the three states of matter?",
+      "options": ["Hot, cold and warm", "Solid, liquid and gas", "Big, medium and small", "Hard, soft and wet"],
+      "answer": 1,
+      "refText": "states",
+      "explanation": "The text says: 'Matter can be a solid, a liquid, or a gas.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What happens when you heat ice?",
+      "options": ["It becomes a gas", "It melts and becomes water", "It gets harder", "It becomes steam"],
+      "answer": 1,
+      "refText": "states",
+      "explanation": "The text says: 'When you heat ice, it melts and becomes water.'"
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Liquids have a fixed shape.",
+      "answer": false,
+      "refText": "states",
+      "explanation": "The text says liquids 'take the shape of their container'."
+    },
+    {
+      "id": "q04",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Steam is water that has become a gas.",
+      "answer": true,
+      "refText": "states",
+      "explanation": "The text says: 'Steam from a kettle is water that has become a gas.'"
+    },
+    {
+      "id": "q05",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What happens when you freeze water?",
+      "options": ["It becomes a gas", "It becomes steam", "It becomes ice", "It disappears"],
+      "answer": 2,
+      "refText": "states",
+      "explanation": "The text says: 'When you freeze water, it becomes ice again.'"
+    },
+    {
+      "id": "q06",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these things into the correct state of matter.",
+      "words": ["ice", "water", "steam", "milk", "air", "book"],
+      "slots": [
+        { "label": "Solid", "accepts": ["ice", "book"] },
+        { "label": "Liquid", "accepts": ["water", "milk"] },
+        { "label": "Gas", "accepts": ["steam", "air"] }
+      ]
+    },
+    {
+      "id": "q07",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What happens when you heat popcorn seeds?",
+      "options": ["They melt", "They pop and become big", "They freeze", "They disappear"],
+      "answer": 1,
+      "refText": "changes",
+      "explanation": "The text says: 'the small hard seeds pop and become big and fluffy!'"
+    },
+    {
+      "id": "q08",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "An icicle forms when water freezes as it drips down.",
+      "answer": true,
+      "refText": "changes",
+      "explanation": "The text says: 'An icicle forms when water freezes as it drips down.'"
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What is inside a balloon?",
+      "options": ["Water", "Ice", "Gas", "Sand"],
+      "answer": 2,
+      "refText": "changes",
+      "explanation": "The text says: 'A balloon is full of gas.'"
+    },
+    {
+      "id": "q10",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the cause with its effect.",
+      "pairs": [
+        { "left": "Heat ice", "right": "It melts" },
+        { "left": "Freeze water", "right": "It becomes ice" },
+        { "left": "Heat water a lot", "right": "It becomes steam" },
+        { "left": "Heat a candle", "right": "The wax melts" }
+      ],
+      "rightOptions": ["It melts", "It becomes ice", "It becomes steam", "The wax melts", "It gets cold"]
+    },
+    {
+      "id": "q11",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each vocabulary word with its meaning.",
+      "pairs": [
+        { "left": "flow", "right": "move like water" },
+        { "left": "melt", "right": "change from solid to liquid" },
+        { "left": "freeze", "right": "change from liquid to solid" },
+        { "left": "heat", "right": "make something hot" }
+      ],
+      "rightOptions": ["move like water", "change from solid to liquid", "change from liquid to solid", "make something hot", "make something big"]
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'I _____ at the park yesterday.' Which word completes the sentence?",
+      "options": ["am", "is", "was", "were"],
+      "answer": 2,
+      "explanation": "We use 'was' with I, he, she, it in the past. 'I was at the park yesterday.'"
+    },
+    {
+      "id": "q13",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'They _____ at school this morning.' Which word completes the sentence?",
+      "options": ["was", "is", "am", "were"],
+      "answer": 3,
+      "explanation": "We use 'were' with you, we, they in the past. 'They were at school.'"
+    },
+    {
+      "id": "q14",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'It _____ cold yesterday.' Which form is correct?",
+      "options": ["wasn't", "weren't", "isn't", "aren't"],
+      "answer": 0,
+      "explanation": "We use 'wasn't' (was not) with I, he, she, it in the negative past."
+    },
+    {
+      "id": "q15",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with 'was' or 'were'.",
+      "sentence": "The ice cream _____ a liquid before it _____ frozen.",
+      "blanks": ["was", "was"],
+      "wordBank": ["was", "was", "were", "is"]
+    },
+    {
+      "id": "q16",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with 'was' or 'were'.",
+      "sentence": "The children _____ happy. The weather _____ sunny.",
+      "blanks": ["were", "was"],
+      "wordBank": ["were", "was", "is", "are"]
+    },
+    {
+      "id": "q17",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each subject with the correct past form of 'to be'.",
+      "pairs": [
+        { "left": "I", "right": "was" },
+        { "left": "She", "right": "was" },
+        { "left": "They", "right": "were" },
+        { "left": "We", "right": "were" }
+      ],
+      "rightOptions": ["was", "was", "were", "were", "is"]
+    },
+    {
+      "id": "q18",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "We use 'were' with 'I' in the past tense.",
+      "answer": false,
+      "explanation": "We use 'was' with 'I': 'I was happy.' We use 'were' with you, we, they."
+    },
+    {
+      "id": "q19",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'_____ you at home last night?' Which word completes the question?",
+      "options": ["Was", "Were", "Is", "Are"],
+      "answer": 1,
+      "explanation": "We use 'Were' with 'you' to make questions in the past: 'Were you at home?'"
+    },
+    {
+      "id": "q20",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["was", "It", "yesterday", "cold"],
+      "answer": "It was cold yesterday"
+    },
+    {
+      "id": "q21",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["at", "Was", "she", "school", "yesterday"],
+      "answer": "Was she at school yesterday"
+    },
+    {
+      "id": "q22",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'flow' mean?",
+      "options": ["To stop", "To move like water", "To freeze", "To break"],
+      "answer": 1,
+      "explanation": "'Flow' means to move smoothly, like water in a river."
+    },
+    {
+      "id": "q23",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify: use 'was' or 'were'?",
+      "words": ["I", "they", "she", "we", "he", "you"],
+      "slots": [
+        { "label": "was", "accepts": ["I", "she", "he"] },
+        { "label": "were", "accepts": ["they", "we", "you"] }
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete the sentences about changes.",
+      "sentence": "When you _____ ice, it melts. When you _____ water, it becomes ice.",
+      "blanks": ["heat", "freeze"],
+      "wordBank": ["heat", "freeze", "flow", "melt"]
+    },
+    {
+      "id": "q25",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "You can see most gases.",
+      "answer": false,
+      "refText": "states",
+      "explanation": "The text says: 'we cannot see most of them.'"
+    },
+    {
+      "id": "q26",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'How _____ your day?' Which word completes the question about yesterday?",
+      "options": ["is", "was", "were", "are"],
+      "answer": 1,
+      "explanation": "'How was your day?' uses 'was' because 'day' is singular."
+    },
+    {
+      "id": "q27",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["becomes", "ice", "Water", "you", "when", "it", "freeze"],
+      "answer": "Water becomes ice when you freeze it"
+    },
+    {
+      "id": "q28",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Ice pops were juice before they were put in the freezer.",
+      "answer": true,
+      "refText": "changes",
+      "explanation": "The text says: 'Ice pops were juice before they were put in the freezer.'"
+    }
+  ]
+}

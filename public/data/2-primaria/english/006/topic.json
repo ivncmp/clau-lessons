@@ -1,1 +1,18 @@
-{"id":"006","subjectId":"english","title":"Unit 6","description":"Tell Me a Story, Grandpa","icon":"👴","texts":{},"images":{}}
+{
+  "id": "006",
+  "subjectId": "english",
+  "title": "Unit 6",
+  "description": "Tell Me a Story, Grandpa",
+  "icon": "👴",
+  "texts": {
+    "grandpa": {
+      "title": "👴 Tell Me a Story, Grandpa",
+      "html": "<p>'Grandpa, tell me a story about when you were young!' said Emma.</p><p>Grandpa smiled. 'When I was a boy, I <span class='hl'>arrived</span> at school very early every morning. I <span class='hl'>walked</span> two kilometres because there were no buses.'</p><p>'That is far!' said Emma.</p><p>'Yes! And after school, I <span class='hl'>cleaned</span> the house and <span class='hl'>visited</span> my grandmother. She lived in a small house near the river. She <span class='hl'>sailed</span> a little boat on the river every day.'</p><p>'What about toys?' <span class='hl'>asked</span> Emma.</p><p>'We didn't have many toys. We <span class='hl'>played</span> outside with sticks and stones. I <span class='hl'>climbed</span> trees and <span class='hl'>checked</span> the <span class='hl'>clock</span> to make sure I was home before dark.'</p><p>'Things were so different!' said Emma.</p>"
+    },
+    "museum": {
+      "title": "🏛️ In a Museum",
+      "html": "<p>Today the class <span class='hl'>visited</span> a museum about life long ago. They saw many old things.</p><p>'Look at this old <span class='hl'>clock</span>!' said Tom. 'It is very big.' 'And look at this old <span class='hl'>chair</span>!' said Sara. 'People <span class='hl'>sat</span> on chairs like this one.'</p><p>They saw an old <span class='hl'>lamp</span>. It used oil, not electricity! They also saw an old <span class='hl'>bathrobe</span> and a beautiful <span class='hl'>suit</span> from a hundred years ago.</p><p>The teacher <span class='hl'>asked</span>: 'How did people travel a hundred years ago?' 'They <span class='hl'>walked</span> or <span class='hl'>used</span> horses,' said Lucy.</p><p>'That's right! People <span class='hl'>arrived</span> at places very slowly. Now we can travel fast. But some things are the same — people still love their families, just like then!'</p>"
+    }
+  },
+  "images": {}
+}

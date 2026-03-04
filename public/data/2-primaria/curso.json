@@ -12,12 +12,13 @@
   ],
   "subjects": [
     {
-      "id": "lengua",
-      "name": "Lengua",
-      "icon": "📝",
-      "color": "#7B1FA2",
-      "lang": "es",
-      "topicCount": 12
+      "id": "english",
+      "name": "English",
+      "icon": "🇬🇧",
+      "color": "#C62828",
+      "lang": "en",
+      "topicCount": 18,
+      "status": "ready"
     },
     {
       "id": "mates",
@@ -25,7 +26,8 @@
       "icon": "🔢",
       "color": "#1565C0",
       "lang": "es",
-      "topicCount": 9
+      "topicCount": 9,
+      "status": "building"
     },
     {
       "id": "calculo",
@@ -33,8 +35,17 @@
       "icon": "🧮",
       "color": "#0277BD",
       "lang": "es",
-      "topicCount": 0,
-      "disabled": true
+      "topicCount": 4,
+      "status": "building"
+    },
+    {
+      "id": "lengua",
+      "name": "Lengua",
+      "icon": "📝",
+      "color": "#7B1FA2",
+      "lang": "es",
+      "topicCount": 12,
+      "status": "pending"
     },
     {
       "id": "natural-science",
@@ -42,7 +53,8 @@
       "icon": "🔬",
       "color": "#2E7D32",
       "lang": "en",
-      "topicCount": 6
+      "topicCount": 6,
+      "status": "pending"
     },
     {
       "id": "social-science",
@@ -50,15 +62,8 @@
       "icon": "🌍",
       "color": "#F57C00",
       "lang": "en",
-      "topicCount": 6
-    },
-    {
-      "id": "english",
-      "name": "English",
-      "icon": "🇬🇧",
-      "color": "#C62828",
-      "lang": "en",
-      "topicCount": 18
+      "topicCount": 6,
+      "status": "pending"
     }
   ]
 }

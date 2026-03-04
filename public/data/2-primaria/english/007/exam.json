@@ -1,1 +1,278 @@
-{"topicId":"007","subjectId":"english","questions":[]}
+{
+  "topicId": "007",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What does subtraction mean?",
+      "options": ["Put together", "Take away", "Multiply", "Share equally"],
+      "answer": 1,
+      "refText": "subtraction",
+      "explanation": "The text says: 'Subtraction means take away.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What sign do we use for subtraction?",
+      "options": ["Plus sign (+)", "Minus sign (−)", "Equals sign (=)", "Times sign (×)"],
+      "answer": 1,
+      "refText": "subtraction",
+      "explanation": "The text says: 'We use a minus sign (−) for subtraction.'"
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "A single-digit number has two digits.",
+      "answer": false,
+      "refText": "subtraction",
+      "explanation": "A single-digit number has ONE digit (like 5 or 9). A double-digit number has two."
+    },
+    {
+      "id": "q04",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "How many stickers does Tom have after giving 6 away?",
+      "options": ["6", "9", "15", "21"],
+      "answer": 1,
+      "refText": "problems",
+      "explanation": "Tom had 15 and gave 6 away: 15 − 6 = 9."
+    },
+    {
+      "id": "q05",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "How many apples are left after the family ate 8?",
+      "options": ["8", "10", "12", "20"],
+      "answer": 2,
+      "refText": "problems",
+      "explanation": "Sara had 20 apples and the family ate 8: 20 − 8 = 12."
+    },
+    {
+      "id": "q06",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "When using columns, we start subtracting from the left side.",
+      "answer": false,
+      "refText": "subtraction",
+      "explanation": "The text says: 'We start subtracting from the right side.'"
+    },
+    {
+      "id": "q07",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each subtraction word with its meaning.",
+      "pairs": [
+        { "left": "minus", "right": "take away" },
+        { "left": "single-digit", "right": "one number (1-9)" },
+        { "left": "double-digit", "right": "two numbers (10-99)" },
+        { "left": "column", "right": "numbers one under the other" }
+      ],
+      "rightOptions": ["take away", "one number (1-9)", "two numbers (10-99)", "numbers one under the other", "put together"]
+    },
+    {
+      "id": "q08",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these numbers.",
+      "words": ["5", "42", "9", "15", "3", "78"],
+      "slots": [
+        { "label": "Single-digit", "accepts": ["5", "9", "3"] },
+        { "label": "Double-digit", "accepts": ["42", "15", "78"] }
+      ]
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'She _____ a cake yesterday.' Which word completes the sentence?",
+      "options": ["eat", "eats", "ate", "eating"],
+      "answer": 2,
+      "explanation": "'Ate' is the irregular past tense of 'eat'. She ate a cake yesterday."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'He _____ 10 out of 10 on the test.' Which word fits?",
+      "options": ["get", "gets", "got", "getting"],
+      "answer": 2,
+      "explanation": "'Got' is the irregular past tense of 'get'. He got 10 out of 10."
+    },
+    {
+      "id": "q11",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each verb with its irregular past form.",
+      "pairs": [
+        { "left": "eat", "right": "ate" },
+        { "left": "get", "right": "got" },
+        { "left": "have", "right": "had" },
+        { "left": "give", "right": "gave" }
+      ],
+      "rightOptions": ["ate", "got", "had", "gave", "went"]
+    },
+    {
+      "id": "q12",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct irregular past tense.",
+      "sentence": "Tom _____ 15 stickers. He _____ 6 to his friend.",
+      "blanks": ["had", "gave"],
+      "wordBank": ["had", "gave", "has", "gives"]
+    },
+    {
+      "id": "q13",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'They _____ to the park last weekend.' Which word fits?",
+      "options": ["go", "goes", "went", "going"],
+      "answer": 2,
+      "explanation": "'Went' is the irregular past tense of 'go'."
+    },
+    {
+      "id": "q14",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "The past tense of 'eat' is 'eated'.",
+      "answer": false,
+      "explanation": "'Eat' is irregular. The past tense is 'ate', not 'eated'."
+    },
+    {
+      "id": "q15",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the irregular past tense.",
+      "sentence": "Sara _____ 20 apples. Her family _____ 8 of them.",
+      "blanks": ["bought", "ate"],
+      "wordBank": ["bought", "ate", "buy", "eat"]
+    },
+    {
+      "id": "q16",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'She _____ a new book at the shop.' Which word fits?",
+      "options": ["buy", "buys", "bought", "buying"],
+      "answer": 2,
+      "explanation": "'Bought' is the irregular past tense of 'buy'."
+    },
+    {
+      "id": "q17",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify: regular or irregular past tense?",
+      "words": ["walked", "ate", "played", "got", "visited", "gave"],
+      "slots": [
+        { "label": "Regular (-ed)", "accepts": ["walked", "played", "visited"] },
+        { "label": "Irregular", "accepts": ["ate", "got", "gave"] }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["had", "Tom", "stickers", "15"],
+      "answer": "Tom had 15 stickers"
+    },
+    {
+      "id": "q19",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each word with its opposite.",
+      "pairs": [
+        { "left": "clean", "right": "dirty" },
+        { "left": "tired", "right": "energetic" },
+        { "left": "hungry", "right": "full" },
+        { "left": "thirsty", "right": "not thirsty" }
+      ],
+      "rightOptions": ["dirty", "energetic", "full", "not thirsty", "happy"]
+    },
+    {
+      "id": "q20",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct word.",
+      "sentence": "After running, I am very _____. I need some water because I am _____.",
+      "blanks": ["tired", "thirsty"],
+      "wordBank": ["tired", "thirsty", "clean", "hungry"]
+    },
+    {
+      "id": "q21",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'_____ she eat lunch yesterday?' Which word starts the question?",
+      "options": ["Do", "Does", "Did", "Was"],
+      "answer": 2,
+      "explanation": "We use 'Did' for past tense questions: 'Did she eat lunch yesterday?'"
+    },
+    {
+      "id": "q22",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["Did", "go", "they", "the", "to", "park"],
+      "answer": "Did they go to the park"
+    },
+    {
+      "id": "q23",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which sentence is correct?",
+      "options": ["I goed to school.", "I went to school.", "I goed school.", "I go to school yesterday."],
+      "answer": 1,
+      "explanation": "'Went' is the correct past tense of 'go': 'I went to school.'"
+    },
+    {
+      "id": "q24",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each irregular verb with its past form.",
+      "pairs": [
+        { "left": "come", "right": "came" },
+        { "left": "buy", "right": "bought" },
+        { "left": "go", "right": "went" },
+        { "left": "see", "right": "saw" }
+      ],
+      "rightOptions": ["came", "bought", "went", "saw", "had"]
+    },
+    {
+      "id": "q25",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct past form.",
+      "sentence": "18 students _____ to school. 7 students were absent.",
+      "blanks": ["came"],
+      "wordBank": ["came", "come", "went", "go"]
+    },
+    {
+      "id": "q26",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "After 'Did', we use the base form of the verb.",
+      "answer": true,
+      "explanation": "'Did they go?' (not 'Did they went?'). After 'Did', use the base form."
+    },
+    {
+      "id": "q27",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "How many students came to school if 7 out of 25 were absent?",
+      "options": ["7", "15", "18", "25"],
+      "answer": 2,
+      "refText": "problems",
+      "explanation": "25 − 7 = 18. 18 students came to school."
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["ate", "family", "apples", "The", "8"],
+      "answer": "The family ate 8 apples"
+    }
+  ]
+}

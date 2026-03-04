@@ -1,1 +1,18 @@
-{"id":"015","subjectId":"english","title":"Unit 15","description":"Forces and Movement","icon":"💨","texts":{},"images":{}}
+{
+  "id": "015",
+  "subjectId": "english",
+  "title": "Unit 15",
+  "description": "Forces and Movement",
+  "icon": "💨",
+  "texts": {
+    "forces": {
+      "title": "💪 Forces and Movement",
+      "html": "<p>Things move when a force acts on them. A force is a <span class='hl'>push</span> or a <span class='hl'>pull</span>. When you kick a ball, you push it. When you open a door, you pull it. Both are forces that create <span class='hl'>movement</span>.</p><p>Gravity is a force that pulls everything down to the <span class='hl'>ground</span>. When you <span class='hl'>throw</span> a ball up in the air, gravity pulls it back down. That is why we do not float away!</p><p>Forces can change the <span class='hl'>speed</span> of things. A strong push makes a ball go fast. A gentle push makes it go slow. <span class='hl'>Brakes</span> on a bicycle use force to stop the wheels. When you press the brakes, you slow down and stop.</p><p>Some things are easy to push and some are hard. A light ball is easier to push than a heavy one. A big box is harder to move than a small box. The heavier something is, the more force you need to move it.</p><p>We use forces every day! When you use a <span class='hl'>computer mouse</span>, you push it. When you swipe a <span class='hl'>tablet</span>, you push the screen. Forces are everywhere!</p>"
+    },
+    "everyday": {
+      "title": "🏃 Forces in Everyday Life",
+      "html": "<p>We use <span class='hl'>push</span> and <span class='hl'>pull</span> forces all the time. Think about a <span class='hl'>suitcase</span> with wheels. You pull the suitcase behind you at the airport. It is easier to pull a suitcase with wheels than to carry it!</p><p>In sports, we use forces too. When you throw a ball, you push it with your hand. A football player kicks the ball — that is a <span class='hl'>push</span> with the foot. A tennis player hits the ball with a racket — that is also a push.</p><p>Cars use <span class='hl'>brakes</span> to stop. The brakes push against the wheels and the car slows down. Without brakes, cars could not stop! That is why brakes are very important for safety.</p><p>Is a car faster than a bicycle? Yes! A car has more <span class='hl'>speed</span>. Is a bicycle faster than walking? Yes! A bicycle is faster than walking but slower than a car.</p><p>A <span class='hl'>tablet</span> is lighter than a <span class='hl'>computer</span>. A feather is lighter than a book. A <span class='hl'>suitcase</span> is heavier than a backpack. We use comparisons every day to describe the world around us!</p><p>Forces are amazing! Every time you <span class='hl'>push</span> a door, <span class='hl'>pull</span> a drawer, or <span class='hl'>throw</span> a ball, you are using forces. The <span class='hl'>ground</span> pushes back on your feet when you jump. Forces make <span class='hl'>movement</span> happen!</p>"
+    }
+  },
+  "images": {}
+}

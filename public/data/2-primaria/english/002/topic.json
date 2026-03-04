@@ -1,1 +1,18 @@
-{"id":"002","subjectId":"english","title":"Unit 2","description":"Leo and Lily's Adventure","icon":"🗺️","texts":{},"images":{}}
+{
+  "id": "002",
+  "subjectId": "english",
+  "title": "Unit 2",
+  "description": "Leo and Lily's Adventure",
+  "icon": "🗺️",
+  "texts": {
+    "adventure": {
+      "title": "🗺️ Leo and Lily's Adventure",
+      "html": "<p>Leo and Lily were two little mice who lived in a big forest. One day, they decided to go on an adventure.</p><p>They walked and walked until they saw a river. 'How do we cross it?' asked Lily. A friendly <span class='hl'>frog</span> jumped out. 'I <span class='hl'>always</span> swim across,' said the frog. 'But you are too small. Wait here.'</p><p>The frog came back with a big leaf. 'Use this as a boat!' Leo and Lily climbed on the leaf and floated across the river.</p><p>On the other side, they met a <span class='hl'>fierce</span> cat. Leo was scared, but Lily was <span class='hl'>calm</span>. 'Let's <span class='hl'>hide</span>!' she whispered. They hid behind a <span class='hl'>prehistoric</span> rock that was very, very old.</p><p>The cat walked away. 'That was close!' said Leo. They <span class='hl'>never</span> forgot their big adventure.</p>"
+    },
+    "describing": {
+      "title": "🐾 Describing Animals",
+      "html": "<p>We can describe animals using special words. These words tell us what animals are like.</p><p>Some animals are <span class='hl'>strong</span>. Elephants and bears are very strong. Some animals are <span class='hl'>gentle</span>. Rabbits are very gentle. <span class='hl'>They</span> are very soft too.</p><p>Some animals are <span class='hl'>fierce</span>. Lions and tigers are fierce. They <span class='hl'>sometimes</span> <span class='hl'>fight</span> to protect their babies.</p><p>Some animals are <span class='hl'>smart</span>. Dolphins are very smart. They can learn tricks. Some animals are <span class='hl'>patient</span>. Crocodiles wait a long time for their food.</p><p>Eagles have feathers and wings to help <span class='hl'>them</span> fly. <span class='hl'>They</span> are very fast. How <span class='hl'>often</span> do you see eagles? In some places, people <span class='hl'>usually</span> see them in the mountains.</p>"
+    }
+  },
+  "images": {}
+}

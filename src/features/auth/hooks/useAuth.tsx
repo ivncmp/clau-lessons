@@ -14,6 +14,7 @@ import {
   logout as storageLogout,
   deleteUser as storageDeleteUser,
   getAllUsers,
+  updateProfile as storageUpdateProfile,
 } from "../../../utils/storage";
 
 interface AuthContextValue {
@@ -21,7 +22,15 @@ interface AuthContextValue {
   users: UserProfile[];
   loading: boolean;
   login: (userId: string) => void;
-  createUser: (name: string, course: string, classId: string) => UserProfile;
+  createUser: (
+    name: string,
+    course: string,
+    classId: string,
+    avatar?: string,
+  ) => UserProfile;
+  updateProfile: (
+    updates: Partial<Pick<UserProfile, "name" | "avatar">>,
+  ) => void;
   logout: () => void;
   deleteUser: (userId: string) => void;
   refreshUsers: () => void;
@@ -62,13 +71,23 @@ export default function AuthProvider({
   );
 
   const createNewUser = useCallback(
-    (name: string, course: string, classId: string) => {
-      const profile = createStorageUser(name, course, classId);
+    (name: string, course: string, classId: string, avatar?: string) => {
+      const profile = createStorageUser(name, course, classId, avatar);
       setUser(profile);
       refreshUsers();
       return profile;
     },
     [refreshUsers],
+  );
+
+  const updateUserProfile = useCallback(
+    (updates: Partial<Pick<UserProfile, "name" | "avatar">>) => {
+      if (!user) return;
+      const updated = storageUpdateProfile(user.id, updates);
+      if (updated) setUser(updated);
+      refreshUsers();
+    },
+    [user, refreshUsers],
   );
 
   const logout = useCallback(() => {
@@ -94,6 +113,7 @@ export default function AuthProvider({
       loading,
       login,
       createUser: createNewUser,
+      updateProfile: updateUserProfile,
       logout,
       deleteUser: deleteExistingUser,
       refreshUsers,
@@ -104,6 +124,7 @@ export default function AuthProvider({
       loading,
       login,
       createNewUser,
+      updateUserProfile,
       logout,
       deleteExistingUser,
       refreshUsers,

@@ -1,0 +1,111 @@
+{
+  "topicId": "004",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "🍦",
+      "title": "Food Vocabulary",
+      "content": "<p>Let's learn words about food and cooking!</p><p>🥛 <span class='hl'>cream</span> — a thick, white liquid from milk</p><p>🍬 <span class='hl'>sugar</span> — sweet white powder</p><p>🧂 <span class='hl'>salt</span> — makes food taste salty</p><p>🫗 <span class='hl'>pour</span> — to make a liquid flow out of a container</p><p>🥣 <span class='hl'>mixture</span> — two or more things mixed together</p>",
+      "tip": "A mixture is when you combine things. A fruit salad is a mixture of different fruits!"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "🥗",
+      "title": "More Food Words",
+      "content": "<p>More useful words about food:</p><p>🥬 <span class='hl'>vegetables</span> — lettuce, tomatoes, carrots, peppers</p><p>🥗 <span class='hl'>salad</span> — a mixture of vegetables (or fruit)</p><p>🍝 <span class='hl'>pasta</span> — spaghetti, macaroni, penne</p><p>🍎 <span class='hl'>fruit</span> — apples, bananas, oranges, strawberries</p><p>We eat different food every day to stay healthy!</p>"
+    },
+    {
+      "id": "s03",
+      "type": "story",
+      "emoji": "🍦",
+      "title": "Making Ice Cream at Home",
+      "html": "<p>Today, Tom and his mum made ice cream at home!</p><p>First, Tom <span class='hl'>poured</span> some <span class='hl'>cream</span> into a small plastic bag. He added <span class='hl'>sugar</span> and closed the bag.</p><p>Then, Mum put ice and <span class='hl'>salt</span> in a big bag. Tom put the small bag inside the big bag.</p><p>'Now shake it for ten minutes!' said Mum. Tom shook and shook the bags.</p><p>The salt made the ice very cold. The cold <span class='hl'>mixture</span> froze the cream.</p><p>'<span class='hl'>Was</span> it easy?' asked Mum. 'Yes, it <span class='hl'>was</span>!' said Tom. 'And it is delicious!'</p>"
+    },
+    {
+      "id": "s04",
+      "type": "concept",
+      "emoji": "❓",
+      "title": "Questions with Was / Were",
+      "content": "<p>To ask questions in the past with <span class='hl'>to be</span>, put <span class='hl'>was</span> or <span class='hl'>were</span> at the beginning:</p><p>👤 <span class='hl'>Was</span> it cold? — Yes, it <span class='hl'>was</span>. / No, it <span class='hl'>wasn't</span>.</p><p>👤 <span class='hl'>Was</span> she happy? — Yes, she <span class='hl'>was</span>. / No, she <span class='hl'>wasn't</span>.</p><p>👥 <span class='hl'>Were</span> they at school? — Yes, they <span class='hl'>were</span>. / No, they <span class='hl'>weren't</span>.</p><p>👥 <span class='hl'>Were</span> you tired? — Yes, I <span class='hl'>was</span>. / No, I <span class='hl'>wasn't</span>.</p>",
+      "tip": "Just flip the order! 'It was cold' becomes 'Was it cold?'"
+    },
+    {
+      "id": "s05",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "Making Questions",
+      "problem": "<p>Turn these sentences into <span class='hl'>questions</span>:</p><p>1. It was fun.<br/>2. They were at the park.<br/>3. She was hungry.</p>",
+      "steps": [
+        "1️⃣ Move 'was' to the front → Was it fun?",
+        "2️⃣ Move 'were' to the front → Were they at the park?",
+        "3️⃣ Move 'was' to the front → Was she hungry?"
+      ],
+      "answer": "1. Was it fun? 2. Were they at the park? 3. Was she hungry?"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "✅",
+      "title": "Short Answers with Was / Were",
+      "content": "<p>We answer yes/no questions with <span class='hl'>short answers</span>:</p><p>❓ <span class='hl'>Was</span> it easy?<br/>✅ Yes, it <span class='hl'>was</span>. / ❌ No, it <span class='hl'>wasn't</span>.</p><p>❓ <span class='hl'>Were</span> they happy?<br/>✅ Yes, they <span class='hl'>were</span>. / ❌ No, they <span class='hl'>weren't</span>.</p><p>❓ <span class='hl'>Was</span> he at home?<br/>✅ Yes, he <span class='hl'>was</span>. / ❌ No, he <span class='hl'>wasn't</span>.</p>",
+      "tip": "In short answers, we do NOT repeat the full sentence. Just say 'Yes, it was' not 'Yes, it was easy'."
+    },
+    {
+      "id": "s07",
+      "type": "example",
+      "emoji": "🧩",
+      "title": "Answer the Questions",
+      "problem": "<p>Answer these questions with short answers:</p><p>1. Was the ice cream delicious? (yes)<br/>2. Were the vegetables fresh? (yes)<br/>3. Was the pasta cold? (no)</p>",
+      "steps": [
+        "1️⃣ Was → Yes, it was.",
+        "2️⃣ Were → Yes, they were.",
+        "3️⃣ Was → No, it wasn't."
+      ],
+      "answer": "1. Yes, it was. 2. Yes, they were. 3. No, it wasn't."
+    },
+    {
+      "id": "s08",
+      "type": "story",
+      "emoji": "🥗",
+      "title": "The Cooking Class",
+      "html": "<p>Today the children had a cooking class. They made a <span class='hl'>salad</span> with <span class='hl'>vegetables</span>.</p><p>'<span class='hl'>Was</span> the lettuce fresh?' asked the teacher. 'Yes, it <span class='hl'>was</span>!' said Sara.</p><p>Then they made <span class='hl'>pasta</span> with tomato sauce. It <span class='hl'>was</span> a delicious <span class='hl'>mixture</span>!</p><p>'<span class='hl'>Were</span> the results good?' asked the teacher. 'Yes, they <span class='hl'>were</span>!' said the children.</p><p>'<span class='hl'>Was</span> the experiment fun?' 'Yes, it <span class='hl'>was</span> great!'</p><p>Tom <span class='hl'>poured</span> juice for everyone. It <span class='hl'>was</span> the best class ever!</p>"
+    },
+    {
+      "id": "s09",
+      "type": "concept",
+      "emoji": "🔢",
+      "title": "Mixtures",
+      "content": "<p>A <span class='hl'>mixture</span> is when you put two or more things together:</p><p>🥗 A <span class='hl'>salad</span> is a mixture of vegetables.</p><p>🍝 <span class='hl'>Pasta</span> with sauce is a mixture.</p><p>☕ Tea with milk and <span class='hl'>sugar</span> is a mixture.</p><p>Some mixtures can be <span class='hl'>separated</span>: you can pick fruit out of a fruit salad.</p><p>Some mixtures <span class='hl'>cannot</span> be separated: you cannot take sugar out of water!</p>"
+    },
+    {
+      "id": "s10",
+      "type": "example",
+      "emoji": "❓",
+      "title": "Questions and Answers Practice",
+      "problem": "<p>Write questions and short answers:</p><p>1. The mixture / good → ___? Yes, ___.<br/>2. The children / happy → ___? Yes, ___.<br/>3. The salt / in the bag → ___? No, ___.</p>",
+      "steps": [
+        "1️⃣ 'The mixture' is singular → Was the mixture good? Yes, it was.",
+        "2️⃣ 'The children' is plural → Were the children happy? Yes, they were.",
+        "3️⃣ 'The salt' is singular → Was the salt in the bag? No, it wasn't."
+      ],
+      "answer": "1. Was the mixture good? Yes, it was. 2. Were the children happy? Yes, they were. 3. Was the salt in the bag? No, it wasn't."
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "🍦 Food vocabulary: cream, sugar, salt, pour, mixture",
+        "🥗 More food: vegetables, salad, pasta, fruit",
+        "❓ Questions with was/were: put was/were at the beginning",
+        "✅ Short answers: Yes, it was. / No, it wasn't. / Yes, they were. / No, they weren't.",
+        "🥣 A mixture is two or more things combined together",
+        "🔄 Some mixtures can be separated, some cannot"
+      ]
+    }
+  ]
+}

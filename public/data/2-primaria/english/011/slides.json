@@ -1,0 +1,105 @@
+{
+  "topicId": "011",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "🌿",
+      "title": "What Are Natural Resources?",
+      "content": "<p>The Earth gives us many things we need to live. These are called <span class='hl'>natural resources</span>.</p><p><span class='hl'>Sunlight</span> - helps plants grow and gives us energy<br/><span class='hl'>Water</span> - we drink, cook, and wash with it<br/><span class='hl'>Wood</span> - comes from trees, used for building and paper</p><p>Natural resources come from nature, not from factories!</p>",
+      "tip": "Natural = from nature. Resources = things we use."
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "🗑️",
+      "title": "Trash and Landfills",
+      "content": "<p>Sometimes people are not careful with resources.</p><p>People throw away a lot of <span class='hl'>trash</span>. Trash is rubbish - things we don't want anymore.</p><p>The trash goes to a <span class='hl'>landfill</span>. A landfill is a big area of <span class='hl'>land</span> full of rubbish.</p><p>Landfills are very bad for the Earth. They take up space and pollute the ground.</p>"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "🏭",
+      "title": "Smoke and Pollution",
+      "content": "<p>Cars and factories make <span class='hl'>smoke</span>. Smoke makes the air dirty.</p><p>Dirty air is bad for people and animals. It can make us ill.</p><p>We can help by walking or cycling instead of going by car!</p>"
+    },
+    {
+      "id": "s04",
+      "type": "concept",
+      "emoji": "♻️",
+      "title": "Reduce and Reuse",
+      "content": "<p>We can help the Earth in two important ways:</p><p><span class='hl'>Reduce</span> = use LESS. Turn off the lights. Use less water. Don't waste food.</p><p><span class='hl'>Reuse</span> = use things AGAIN. Use a water bottle again. Give old toys to friends. Use both sides of paper.</p><p>If we all <span class='hl'>reduce</span> and <span class='hl'>reuse</span>, we can take care of our planet!</p>",
+      "tip": "Reduce = less. Reuse = again. Two easy ways to help!"
+    },
+    {
+      "id": "s05",
+      "type": "concept",
+      "emoji": "📍",
+      "title": "Prepositions of Place",
+      "content": "<p><span class='hl'>Prepositions of place</span> tell us WHERE something is.</p><p><span class='hl'>In front of</span> - the tree is in front of the house<br/><span class='hl'>Behind</span> - the garden is behind the house<br/><span class='hl'>Next to</span> - the shop is next to the school<br/><span class='hl'>Across from</span> - the park is across from the library<br/><span class='hl'>Between</span> - the cat is between the two boxes</p>",
+      "tip": "Prepositions answer the question: WHERE is it?"
+    },
+    {
+      "id": "s06",
+      "type": "example",
+      "emoji": "📍",
+      "title": "Example: Prepositions of Place",
+      "problem": "<p>Look at the picture in your mind: a tent, a campfire, and tall trees.</p><p>Fill in the blanks:<br/>1. The campfire is _____ the tent.<br/>2. The tall trees are _____ the tent.<br/>3. The duck is swimming _____ the two rocks.</p>",
+      "steps": [
+        "1. The campfire is IN FRONT OF the tent.",
+        "2. The tall trees are BEHIND the tent.",
+        "3. The duck is swimming BETWEEN the two rocks."
+      ],
+      "answer": "in front of, behind, between"
+    },
+    {
+      "id": "s07",
+      "type": "concept",
+      "emoji": "❓",
+      "title": "Where Is...? Is There...?",
+      "content": "<p>We use <span class='hl'>Where is...?</span> to ask about the location of something.</p><p>'<span class='hl'>Where is</span> the park?' - 'It is next to the school.'</p><p>We use <span class='hl'>Is there...?</span> to ask if something exists in a place.</p><p>'<span class='hl'>Is there</span> a park near your house?' - 'Yes, there is!' or 'No, there isn't.'</p>"
+    },
+    {
+      "id": "s08",
+      "type": "example",
+      "emoji": "❓",
+      "title": "Example: Where Is / Is There",
+      "problem": "<p>Complete with <span class='hl'>Where is</span> or <span class='hl'>Is there</span>:</p><p>1. _____ the library?<br/>2. _____ a swimming pool near here?<br/>3. _____ your house?</p>",
+      "steps": [
+        "1. WHERE IS the library? (asking for location)",
+        "2. IS THERE a swimming pool near here? (asking if it exists)",
+        "3. WHERE IS your house? (asking for location)"
+      ],
+      "answer": "Where is, Is there, Where is"
+    },
+    {
+      "id": "s09",
+      "type": "story",
+      "emoji": "🏕️",
+      "title": "A Day in Nature",
+      "html": "<p>Last Saturday, the family went camping! They set up the tent <span class='hl'>next to</span> a beautiful river.</p><p>The campfire was <span class='hl'>in front of</span> the tent. The tall trees were <span class='hl'>behind</span> them. A little bridge was <span class='hl'>across from</span> the campsite.</p><p>'<span class='hl'>Where is</span> the best place to swim?' asked Tom. 'The lake is <span class='hl'>between</span> those two hills,' said Dad.</p><p>'<span class='hl'>Is there</span> a bin for our <span class='hl'>trash</span>?' asked Mum. 'We must <span class='hl'>reduce</span> our rubbish and <span class='hl'>reuse</span> our bottles!'</p><p>They picked up all their <span class='hl'>trash</span> before leaving. They love nature and want to take care of it!</p>"
+    },
+    {
+      "id": "s10",
+      "type": "story",
+      "emoji": "🌳",
+      "title": "Our School Garden",
+      "html": "<p>'<span class='hl'>Is there</span> a garden at your school?' asked the teacher. 'Yes, there is! It's <span class='hl'>behind</span> the gym.'</p><p>The children went to the garden. The flowers were <span class='hl'>in front of</span> the vegetable patch. The compost bin was <span class='hl'>next to</span> the shed.</p><p>'<span class='hl'>Where is</span> the watering can?' asked Sara. 'It's <span class='hl'>between</span> the two plant pots,' said the teacher.</p><p>The children learned about <span class='hl'>natural resources</span>. Plants need <span class='hl'>sunlight</span> and water to grow. <span class='hl'>Wood</span> comes from trees. We should <span class='hl'>reduce</span> waste and <span class='hl'>reuse</span> things to help the Earth!</p>"
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "🌿 Natural resources: sunlight, water, wood - things from nature we use",
+        "🗑️ Trash goes to landfills - big areas of land full of rubbish",
+        "🏭 Smoke from cars and factories pollutes the air",
+        "♻️ Reduce = use less, Reuse = use again",
+        "📍 Prepositions: in front of, behind, next to, across from, between",
+        "❓ Where is...? = asks for location. Is there...? = asks if it exists"
+      ]
+    }
+  ]
+}

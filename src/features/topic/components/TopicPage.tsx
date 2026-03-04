@@ -4,7 +4,8 @@ import { Box, Typography, CircularProgress, Grid } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import QuizIcon from "@mui/icons-material/Quiz";
-import { useTopicData } from "@/hooks/useDataQueries";
+import WarningAmberIcon from "@mui/icons-material/WarningAmber";
+import { useTopicData, useSubjectDetail } from "@/hooks/useDataQueries";
 import { courseToSlug } from "../../../utils/cursoSlug";
 import { markTopicViewed } from "../../../utils/storage";
 import { useAuth } from "../../auth/hooks/useAuth";
@@ -23,6 +24,14 @@ export default function TopicPage() {
     subjectId,
     topicId,
   );
+  const { data: subjectDetail } = useSubjectDetail(
+    slug || undefined,
+    subjectId,
+  );
+  const topicSummary = subjectDetail?.topics.find((t) => t.id === topicId);
+  const hasSlides = topicSummary != null && (topicSummary.slideCount ?? 0) > 0;
+  const hasQuestions = topicSummary != null && topicSummary.questionCount > 0;
+  const isReady = hasSlides && hasQuestions;
 
   useEffect(() => {
     if (topic && user && subjectId && topicId) {
@@ -119,113 +128,151 @@ export default function TopicPage() {
         </Box>
       </Box>
 
+      {/* Status alert — only when not ready */}
+      {topicSummary && !isReady && (
+        <Box
+          className="fade-in-up stagger-3"
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            gap: 1.5,
+            mb: 3,
+            p: 2,
+            borderRadius: "16px",
+            bgcolor: "#FFF3E0",
+            border: "1px solid #FFCC80",
+          }}
+        >
+          <WarningAmberIcon sx={{ color: "#E65100" }} />
+          <Typography
+            sx={{
+              fontWeight: 600,
+              color: "#E65100",
+              fontSize: "0.9rem",
+            }}
+          >
+            Esta unidad aún no está completa
+          </Typography>
+        </Box>
+      )}
+
       {/* CTA Cards */}
       <Grid container spacing={2.5}>
         {/* Estudiar */}
         <Grid size={{ xs: 12, sm: 6 }}>
-          <Box
-            className="fade-in-up stagger-3"
-            onClick={() =>
-              navigate(`/subject/${subjectId}/topic/${topicId}/slides`)
-            }
-            sx={{
-              background: "linear-gradient(135deg, #E67E22, #F0A04B)",
-              borderRadius: "24px",
-              p: { xs: 3, sm: 4 },
-              cursor: "pointer",
-              transition: "all 0.2s",
-              boxShadow: "0 6px 20px rgba(123,31,162,0.3)",
-              "&:hover": {
-                transform: "translateY(-4px)",
-                boxShadow: "0 10px 30px rgba(123,31,162,0.4)",
-              },
-              minHeight: 180,
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "space-between",
-            }}
-          >
-            <Box>
-              <AutoStoriesIcon
-                sx={{ fontSize: 48, color: "rgba(255,255,255,0.9)", mb: 1.5 }}
-              />
-              <Typography
-                variant="h5"
-                fontWeight={800}
-                sx={{ color: "white", mb: 0.5 }}
-              >
-                Estudiar
-              </Typography>
-              <Typography
-                sx={{ color: "rgba(255,255,255,0.8)", fontSize: "0.95rem" }}
-              >
-                Aprende los conceptos paso a paso
-              </Typography>
-            </Box>
-            <Typography
+          <Box className="fade-in-up stagger-4">
+            <Box
+              onClick={() =>
+                navigate(`/subject/${subjectId}/topic/${topicId}/slides`)
+              }
               sx={{
-                color: "rgba(255,255,255,0.6)",
-                fontSize: "0.85rem",
-                mt: 2,
-                fontWeight: 600,
+                background: "linear-gradient(135deg, #E67E22, #F0A04B)",
+                borderRadius: "24px",
+                p: { xs: 3, sm: 4 },
+                cursor: "pointer",
+                transition: "all 0.2s",
+                boxShadow: "0 6px 20px rgba(123,31,162,0.3)",
+                opacity: hasSlides ? 1 : 0.75,
+                filter: hasSlides ? "none" : "grayscale(1)",
+                "&:hover": {
+                  transform: "translateY(-4px)",
+                  boxShadow: "0 10px 30px rgba(123,31,162,0.4)",
+                  opacity: 1,
+                  filter: "none",
+                },
+                minHeight: 180,
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between",
               }}
             >
-              Empezar →
-            </Typography>
+              <Box>
+                <AutoStoriesIcon
+                  sx={{ fontSize: 48, color: "rgba(255,255,255,0.9)", mb: 1.5 }}
+                />
+                <Typography
+                  variant="h5"
+                  fontWeight={800}
+                  sx={{ color: "white", mb: 0.5 }}
+                >
+                  Estudiar
+                </Typography>
+                <Typography
+                  sx={{ color: "rgba(255,255,255,0.8)", fontSize: "0.95rem" }}
+                >
+                  Aprende los conceptos paso a paso
+                </Typography>
+              </Box>
+              <Typography
+                sx={{
+                  color: "rgba(255,255,255,0.6)",
+                  fontSize: "0.85rem",
+                  mt: 2,
+                  fontWeight: 600,
+                }}
+              >
+                Empezar →
+              </Typography>
+            </Box>
           </Box>
         </Grid>
 
         {/* Hacer examen */}
         <Grid size={{ xs: 12, sm: 6 }}>
-          <Box
-            className="fade-in-up stagger-4"
-            onClick={() =>
-              navigate(`/subject/${subjectId}/topic/${topicId}/exam`)
-            }
-            sx={{
-              background: "linear-gradient(135deg, #5DADE2, #2E86C1)",
-              borderRadius: "24px",
-              p: { xs: 3, sm: 4 },
-              cursor: "pointer",
-              transition: "all 0.2s",
-              boxShadow: "0 6px 20px rgba(38,198,218,0.3)",
-              "&:hover": {
-                transform: "translateY(-4px)",
-                boxShadow: "0 10px 30px rgba(38,198,218,0.4)",
-              },
-              minHeight: 180,
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "space-between",
-            }}
-          >
-            <Box>
-              <QuizIcon
-                sx={{ fontSize: 48, color: "rgba(255,255,255,0.9)", mb: 1.5 }}
-              />
-              <Typography
-                variant="h5"
-                fontWeight={800}
-                sx={{ color: "white", mb: 0.5 }}
-              >
-                Hacer examen
-              </Typography>
-              <Typography
-                sx={{ color: "rgba(255,255,255,0.8)", fontSize: "0.95rem" }}
-              >
-                Comprueba lo que has aprendido
-              </Typography>
-            </Box>
-            <Typography
+          <Box className="fade-in-up stagger-5">
+            <Box
+              onClick={() =>
+                navigate(`/subject/${subjectId}/topic/${topicId}/exam`)
+              }
               sx={{
-                color: "rgba(255,255,255,0.6)",
-                fontSize: "0.85rem",
-                mt: 2,
-                fontWeight: 600,
+                background: "linear-gradient(135deg, #5DADE2, #2E86C1)",
+                borderRadius: "24px",
+                p: { xs: 3, sm: 4 },
+                cursor: "pointer",
+                transition: "all 0.2s",
+                boxShadow: "0 6px 20px rgba(38,198,218,0.3)",
+                opacity: hasQuestions ? 1 : 0.75,
+                filter: hasQuestions ? "none" : "grayscale(1)",
+                "&:hover": {
+                  transform: "translateY(-4px)",
+                  boxShadow: "0 10px 30px rgba(38,198,218,0.4)",
+                  opacity: 1,
+                  filter: "none",
+                },
+                minHeight: 180,
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between",
               }}
             >
-              Empezar →
-            </Typography>
+              <Box>
+                <QuizIcon
+                  sx={{ fontSize: 48, color: "rgba(255,255,255,0.9)", mb: 1.5 }}
+                />
+                <Typography
+                  variant="h5"
+                  fontWeight={800}
+                  sx={{ color: "white", mb: 0.5 }}
+                >
+                  Hacer examen
+                </Typography>
+                <Typography
+                  sx={{ color: "rgba(255,255,255,0.8)", fontSize: "0.95rem" }}
+                >
+                  Comprueba lo que has aprendido
+                </Typography>
+              </Box>
+              <Typography
+                sx={{
+                  color: "rgba(255,255,255,0.6)",
+                  fontSize: "0.85rem",
+                  mt: 2,
+                  fontWeight: 600,
+                }}
+              >
+                Empezar →
+              </Typography>
+            </Box>
           </Box>
         </Grid>
       </Grid>

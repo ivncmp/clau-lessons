@@ -1,1 +1,273 @@
-{"topicId":"010","subjectId":"english","questions":[]}
+{
+  "topicId": "010",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What do we say when we want something?",
+      "options": ["Give me!", "Please", "Now!", "Hurry up!"],
+      "answer": 1,
+      "refText": "manners",
+      "explanation": "The text says: 'When we want something, we say please.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What do we say when someone helps us?",
+      "options": ["Goodbye", "Sorry", "Thank you", "Hello"],
+      "answer": 2,
+      "refText": "manners",
+      "explanation": "The text says: 'When someone helps us, we say thank you.'"
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "It is polite to grab things from others.",
+      "answer": false,
+      "refText": "manners",
+      "explanation": "The text says: 'It is rude to grab things from others. We should ask first!'"
+    },
+    {
+      "id": "q04",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What should you do before entering a room?",
+      "options": ["Scream", "Push the door open", "Knock", "Run in"],
+      "answer": 2,
+      "refText": "manners",
+      "explanation": "The text says: 'we knock before entering.'"
+    },
+    {
+      "id": "q05",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Which is more polite?",
+      "options": ["Can I go?", "May I go?", "I want to go!", "I go now!"],
+      "answer": 1,
+      "refText": "manners",
+      "explanation": "The text says: 'May I...? sounds more formal' and is more polite."
+    },
+    {
+      "id": "q06",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "We should put away our phone when someone is talking to us.",
+      "answer": true,
+      "refText": "technology",
+      "explanation": "The text says: 'We should put away our phone when someone is talking to us.'"
+    },
+    {
+      "id": "q07",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each technology device with what it does.",
+      "pairs": [
+        { "left": "Camera", "right": "takes photos" },
+        { "left": "Recorder", "right": "records sounds" },
+        { "left": "Laptop", "right": "helps us learn" },
+        { "left": "Cell phone", "right": "calls and texts" }
+      ],
+      "rightOptions": ["takes photos", "records sounds", "helps us learn", "calls and texts", "plays music only"]
+    },
+    {
+      "id": "q08",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these words: good manners or bad manners?",
+      "words": ["say please", "grab things", "say thank you", "be rude", "knock", "push"],
+      "slots": [
+        { "label": "Good manners", "accepts": ["say please", "say thank you", "knock"] },
+        { "label": "Bad manners", "accepts": ["grab things", "be rude", "push"] }
+      ]
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'_____ I borrow your pen, please?' Which word fits?",
+      "options": ["Do", "Am", "Can", "Are"],
+      "answer": 2,
+      "explanation": "We use 'Can I...?' to ask for permission: 'Can I borrow your pen?'"
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'_____ I use the computer?' Which word makes this very polite?",
+      "options": ["Do", "Can", "May", "Will"],
+      "answer": 2,
+      "explanation": "'May I...?' is the most polite way to ask for permission."
+    },
+    {
+      "id": "q11",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with 'Can' or 'May'.",
+      "sentence": "'_____ I have some water, please?' '_____ I go to the library?' asked the student politely.",
+      "blanks": ["Can", "May"],
+      "wordBank": ["Can", "May", "Do", "Will"]
+    },
+    {
+      "id": "q12",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "'Can I...?' and 'May I...?' both ask for permission.",
+      "answer": true,
+      "explanation": "Both 'Can I...?' and 'May I...?' ask for permission. 'May I...?' is more formal."
+    },
+    {
+      "id": "q13",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which sentence asks for permission correctly?",
+      "options": ["I use the phone.", "Can I use the phone?", "I can the phone use.", "Use I can phone?"],
+      "answer": 1,
+      "explanation": "The correct way to ask is: 'Can I use the phone?'"
+    },
+    {
+      "id": "q14",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a polite question.",
+      "words": ["May", "go", "I", "please", "outside"],
+      "answer": "May I go outside please"
+    },
+    {
+      "id": "q15",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a polite question.",
+      "words": ["Can", "your", "I", "borrow", "pencil"],
+      "answer": "Can I borrow your pencil"
+    },
+    {
+      "id": "q16",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the polite word with when to use it.",
+      "pairs": [
+        { "left": "Please", "right": "when asking for something" },
+        { "left": "Thank you", "right": "when someone helps you" },
+        { "left": "Sorry", "right": "when you make a mistake" },
+        { "left": "Excuse me", "right": "when you want attention" }
+      ],
+      "rightOptions": ["when asking for something", "when someone helps you", "when you make a mistake", "when you want attention", "when you are angry"]
+    },
+    {
+      "id": "q17",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'thoughtful' mean?",
+      "options": ["Thinking a lot about homework", "Kind and caring about others", "Thinking about food", "Worried about something"],
+      "answer": 1,
+      "explanation": "'Thoughtful' means being kind and thinking about how to help others."
+    },
+    {
+      "id": "q18",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'rude' mean?",
+      "options": ["Very kind", "Not polite or respectful", "Very happy", "Very tired"],
+      "answer": 1,
+      "explanation": "'Rude' means not being polite or respectful to others."
+    },
+    {
+      "id": "q19",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these technology devices.",
+      "words": ["laptop", "tablet", "camera", "cell phone", "computer", "recorder"],
+      "slots": [
+        { "label": "For working/learning", "accepts": ["laptop", "tablet", "computer"] },
+        { "label": "For recording/photos", "accepts": ["camera", "cell phone", "recorder"] }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct polite words.",
+      "sentence": "_____ pass the salt, _____.",
+      "blanks": ["Please", "thank you"],
+      "wordBank": ["Please", "thank you", "Give me", "now"]
+    },
+    {
+      "id": "q21",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'You _____ use my computer.' (giving permission) Which word fits?",
+      "options": ["can", "can't", "must", "don't"],
+      "answer": 0,
+      "explanation": "To give permission, we say 'You can...': 'You can use my computer.'"
+    },
+    {
+      "id": "q22",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "We should ask before taking a photo of someone.",
+      "answer": true,
+      "refText": "technology",
+      "explanation": "The text says: 'we should always ask: Can I take your photo?'"
+    },
+    {
+      "id": "q23",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct word.",
+      "sentence": "We should _____ our work before playing. We should _____ devices with others.",
+      "blanks": ["finish", "share"],
+      "wordBank": ["finish", "share", "start", "take"]
+    },
+    {
+      "id": "q24",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the vocabulary word with its meaning.",
+      "pairs": [
+        { "left": "knock", "right": "tap on a door" },
+        { "left": "grab", "right": "take quickly" },
+        { "left": "pass", "right": "give to someone" },
+        { "left": "put away", "right": "store in its place" }
+      ],
+      "rightOptions": ["tap on a door", "take quickly", "give to someone", "store in its place", "throw away"]
+    },
+    {
+      "id": "q25",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which is a polite way to ask for water?",
+      "options": ["Water now!", "Give me water.", "Can I have some water, please?", "I want water."],
+      "answer": 2,
+      "explanation": "'Can I have some water, please?' uses both 'Can I' and 'please'."
+    },
+    {
+      "id": "q26",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["should", "We", "polite", "be", "always"],
+      "answer": "We should always be polite"
+    },
+    {
+      "id": "q27",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "'Can I...?' is ONLY used to ask about ability, never for permission.",
+      "answer": false,
+      "explanation": "'Can I...?' is used both for ability AND permission: 'Can I go to the park?'"
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete the polite sentences.",
+      "sentence": "_____ I take your photo? Yes, you _____!",
+      "blanks": ["Can", "can"],
+      "wordBank": ["Can", "can", "May", "do"]
+    }
+  ]
+}

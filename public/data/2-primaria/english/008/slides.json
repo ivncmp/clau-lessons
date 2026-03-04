@@ -1,0 +1,106 @@
+{
+  "topicId": "008",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "🐒",
+      "title": "Meet Bandar the Monkey",
+      "content": "<p><span class='hl'>Bandar</span> was a little monkey who lived in the jungle. He was very <span class='hl'>greedy</span> - he always wanted more and more food!</p><p><span class='hl'>Greedy</span> means wanting too much of something.</p><p>Have you ever been greedy? Maybe you wanted all the sweets!</p>",
+      "tip": "Greedy = wanting MORE than you need."
+    },
+    {
+      "id": "s02",
+      "type": "story",
+      "emoji": "🏺",
+      "title": "The Jar of Nuts",
+      "html": "<p>One day, Bandar found a <span class='hl'>jar</span> full of nuts. A <span class='hl'>jar</span> is a big container, like a vase.</p><p>Bandar put his <span class='hl'>hand</span> inside and grabbed as many nuts as he could. But his hand was too full! He couldn't pull it out of the jar.</p><p>'<span class='hl'>Let go</span> of some nuts!' said the <span class='hl'>baker</span> who owned the jar. But Bandar didn't want to <span class='hl'>let go</span>. He wanted ALL the nuts!</p>"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "📖",
+      "title": "Key Vocabulary",
+      "content": "<p><span class='hl'>Greedy</span> - wanting too much<br/><span class='hl'>Jar</span> - a big container for food<br/><span class='hl'>Hand</span> - the part of your body at the end of your arm<br/><span class='hl'>Baker</span> - a person who makes bread and cakes<br/><span class='hl'>Bored</span> - not having fun, nothing to do<br/><span class='hl'>Hungry</span> - wanting food<br/><span class='hl'>Let go</span> - to stop holding something</p>"
+    },
+    {
+      "id": "s04",
+      "type": "concept",
+      "emoji": "😴",
+      "title": "Bored and Hungry",
+      "content": "<p>Bandar sat there all day with his hand stuck in the jar.</p><p>He was <span class='hl'>bored</span> because he couldn't play. <span class='hl'>Bored</span> means you have nothing fun to do.</p><p>He was <span class='hl'>hungry</span> because he couldn't eat! <span class='hl'>Hungry</span> means you want food.</p><p>Finally, Bandar <span class='hl'>let go</span> of the nuts. He took just a few and was happy!</p>",
+      "tip": "The lesson: if you are too greedy, you end up with nothing!"
+    },
+    {
+      "id": "s05",
+      "type": "concept",
+      "emoji": "🏃",
+      "title": "Parts of the Body",
+      "content": "<p>Let's learn the parts of our body!</p><p><span class='hl'>Face</span> - we use it to show feelings (smile, frown)<br/><span class='hl'>Nose</span> - it helps us smell things<br/><span class='hl'>Hands</span> - we hold things, write and draw<br/><span class='hl'>Arms</span> - we carry things and hug friends<br/><span class='hl'>Feet</span> - they help us walk, run and jump<br/><span class='hl'>Knees</span> - we bend our legs with them</p>"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "📖",
+      "title": "Simple Past: Didn't",
+      "content": "<p>To make <span class='hl'>negative sentences</span> in the past, we use <span class='hl'>didn't</span> + the base verb.</p><p>Bandar <span class='hl'>didn't steal</span> anymore. (NOT: didn't stole)<br/>He <span class='hl'>didn't want</span> to let go. (NOT: didn't wanted)</p><p>After <span class='hl'>didn't</span>, the verb goes back to its <span class='hl'>base form</span>!</p>",
+      "tip": "Didn't + base form. Always! The verb does NOT change after didn't."
+    },
+    {
+      "id": "s07",
+      "type": "example",
+      "emoji": "📖",
+      "title": "Example: Didn't + Base Verb",
+      "problem": "<p>Make these sentences negative using <span class='hl'>didn't</span>.</p><p>1. Bandar stole the nuts.<br/>2. The monkey wanted to let go.<br/>3. He came home early.</p>",
+      "steps": [
+        "1. Bandar DIDN'T STEAL the nuts. (steal, not stole)",
+        "2. The monkey DIDN'T WANT to let go. (want, not wanted)",
+        "3. He DIDN'T COME home early. (come, not came)"
+      ],
+      "answer": "didn't steal, didn't want, didn't come"
+    },
+    {
+      "id": "s08",
+      "type": "story",
+      "emoji": "🤸",
+      "title": "A Day at the Park",
+      "html": "<p>Yesterday, I went to the park with my friends. I <span class='hl'>ran</span> very fast! My friend Tom <span class='hl'>fell</span> down and hurt his <span class='hl'>knees</span>.</p><p>The teacher <span class='hl'>came</span> and helped him. She touched his <span class='hl'>face</span> and said: 'Don't worry!'</p><p>Tom <span class='hl'>didn't want</span> to cry. He was brave! He used his <span class='hl'>hands</span> to get up and his <span class='hl'>arms</span> to brush off the dirt.</p><p>Then we all played again. We used our <span class='hl'>feet</span> to kick the ball. What a fun day!</p>"
+    },
+    {
+      "id": "s09",
+      "type": "example",
+      "emoji": "🏃",
+      "title": "Example: Body Parts in Action",
+      "problem": "<p>Match each body part to what we do with it:</p><p><span class='hl'>hands</span> - ?<br/><span class='hl'>feet</span> - ?<br/><span class='hl'>nose</span> - ?<br/><span class='hl'>knees</span> - ?</p>",
+      "steps": [
+        "Hands -> we hold things, write and draw",
+        "Feet -> we walk, run and jump",
+        "Nose -> we smell things",
+        "Knees -> we bend our legs"
+      ],
+      "answer": "hands = hold/write, feet = walk/run, nose = smell, knees = bend"
+    },
+    {
+      "id": "s10",
+      "type": "concept",
+      "emoji": "💡",
+      "title": "The Moral of the Story",
+      "content": "<p>Bandar learned an important lesson:</p><p>Being <span class='hl'>greedy</span> doesn't make you happy. If you try to take everything, you might end up with nothing!</p><p>It is better to take what you need and <span class='hl'>share</span> with others.</p><p>Bandar <span class='hl'>didn't steal</span> anymore after that day. He was much happier!</p>"
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "🐒 Bandar was a greedy monkey who got his hand stuck in a jar",
+        "📖 Key words: greedy, jar, hand, baker, bored, hungry, let go",
+        "🏃 Body parts: face, nose, hands, arms, feet, knees",
+        "📖 Didn't + base verb: didn't steal (NOT didn't stole)",
+        "📖 After 'didn't', the verb always goes back to its base form",
+        "💡 Moral: being greedy doesn't make you happy!"
+      ]
+    }
+  ]
+}

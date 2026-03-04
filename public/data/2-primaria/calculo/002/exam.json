@@ -1,0 +1,495 @@
+{
+  "topicId": "002",
+  "subjectId": "calculo",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Calcula esta suma.",
+      "operands": [37, 62],
+      "operator": "+",
+      "answer": 99,
+      "explanation": "37 + 62 = 99. Unidades: 7 + 2 = 9. Decenas: 3 + 6 = 9."
+    },
+    {
+      "id": "q02",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Calcula esta resta con llevada.",
+      "operands": [64, 29],
+      "operator": "-",
+      "answer": 35,
+      "explanation": "Unidades: 14 − 9 = 5 (con llevada). Decenas: 5 − 2 = 3. Resultado: 35."
+    },
+    {
+      "id": "q03",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Suma en vertical.",
+      "operands": [83, 47],
+      "operator": "+",
+      "answer": 130,
+      "explanation": "Unidades: 3 + 7 = 10 → escribo 0, llevo 1. Decenas: 8 + 4 + 1 = 13. Resultado: 130."
+    },
+    {
+      "id": "q04",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Resta en vertical.",
+      "operands": [92, 47],
+      "operator": "-",
+      "answer": 45,
+      "explanation": "Unidades: 12 − 7 = 5 (con llevada). Decenas: 8 − 4 = 4. Resultado: 45."
+    },
+    {
+      "id": "q05",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "La suma 48 + 35 da 83.",
+      "answer": true,
+      "explanation": "Correcto. Unidades: 8 + 5 = 13 → escribo 3, llevo 1. Decenas: 4 + 3 + 1 = 8. Resultado: 83."
+    },
+    {
+      "id": "q06",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Suma de 3 cifras.",
+      "operands": [273, 245],
+      "operator": "+",
+      "answer": 518,
+      "explanation": "Unidades: 3 + 5 = 8. Decenas: 7 + 4 = 11 → escribo 1, llevo 1. Centenas: 2 + 2 + 1 = 5. Resultado: 518."
+    },
+    {
+      "id": "q07",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Suma de 3 cifras con llevada.",
+      "operands": [486, 127],
+      "operator": "+",
+      "answer": 613,
+      "explanation": "Unidades: 6 + 7 = 13 → escribo 3, llevo 1. Decenas: 8 + 2 + 1 = 11 → escribo 1, llevo 1. Centenas: 4 + 1 + 1 = 6. Resultado: 613."
+    },
+    {
+      "id": "q08",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Resta de 3 cifras.",
+      "operands": [644, 118],
+      "operator": "-",
+      "answer": 526,
+      "explanation": "Unidades: 14 − 8 = 6 (con llevada). Decenas: 3 − 1 = 2. Centenas: 6 − 1 = 5. Resultado: 526."
+    },
+    {
+      "id": "q09",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada operación con su resultado.",
+      "pairs": [
+        { "left": "42 + 38", "right": "80" },
+        { "left": "74 − 37", "right": "37" },
+        { "left": "56 + 16", "right": "72" },
+        { "left": "91 − 27", "right": "64" }
+      ],
+      "rightOptions": ["80", "37", "72", "64", "53"]
+    },
+    {
+      "id": "q10",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Suma de 3 cifras con llevada.",
+      "operands": [238, 388],
+      "operator": "+",
+      "answer": 626,
+      "explanation": "Unidades: 8 + 8 = 16 → escribo 6, llevo 1. Decenas: 3 + 8 + 1 = 12 → escribo 2, llevo 1. Centenas: 2 + 3 + 1 = 6. Resultado: 626."
+    },
+    {
+      "id": "q11",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Resta de 3 cifras con llevada.",
+      "operands": [712, 184],
+      "operator": "-",
+      "answer": 528,
+      "explanation": "Unidades: 12 − 4 = 8 (con llevada). Decenas: 0 − 8 → pedimos prestado: 10 − 8 = 2. Centenas: 6 − 1 = 5. Resultado: 528."
+    },
+    {
+      "id": "q12",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "514 − 247 = 267.",
+      "answer": true,
+      "explanation": "Correcto. Unidades: 14 − 7 = 7 (con llevada). Decenas: 0 − 4 → pedimos prestado: 10 − 4 = 6. Centenas: 4 − 2 = 2. Resultado: 267."
+    },
+    {
+      "id": "q13",
+      "type": "word-bank-classify",
+      "emoji": "📊",
+      "question": "Clasifica estas operaciones según sean sumas o restas.",
+      "words": ["37 + 62", "83 − 56", "486 + 127", "712 − 184", "273 + 245"],
+      "slots": [
+        { "label": "Sumas", "accepts": ["37 + 62", "486 + 127", "273 + 245"] },
+        { "label": "Restas", "accepts": ["83 − 56", "712 − 184"] }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "choice",
+      "emoji": "⚖️",
+      "question": "¿Qué signo va en el hueco? 23 ☐ 56",
+      "options": [">", "<", "="],
+      "answer": 1,
+      "explanation": "23 es menor que 56, así que el signo correcto es <."
+    },
+    {
+      "id": "q15",
+      "type": "choice",
+      "emoji": "⚖️",
+      "question": "¿Qué signo va en el hueco? 87 ☐ 78",
+      "options": [">", "<", "="],
+      "answer": 0,
+      "explanation": "87 es mayor que 78, así que el signo correcto es >."
+    },
+    {
+      "id": "q16",
+      "type": "matching",
+      "emoji": "⚖️",
+      "question": "Compara estos pares de números con el signo correcto.",
+      "pairs": [
+        { "left": "46 y 78", "right": "<" },
+        { "left": "101 y 110", "right": "<" },
+        { "left": "87 y 21", "right": ">" },
+        { "left": "35 y 53", "right": "<" }
+      ],
+      "rightOptions": ["<", "<", ">", "<", "="]
+    },
+    {
+      "id": "q17",
+      "type": "word-bank-order",
+      "emoji": "📊",
+      "question": "Ordena de menor a mayor: medio kilo, cuarto kilo, 2 kilos.",
+      "words": ["2 kilos", "cuarto kilo", "medio kilo"],
+      "answer": "cuarto kilo, medio kilo, 2 kilos",
+      "explanation": "Cuarto kilo (250 g) < medio kilo (500 g) < 2 kilos (2000 g)."
+    },
+    {
+      "id": "q18",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "¿Qué número sigue en la serie? 70, 80, 90, __",
+      "options": ["95", "100", "110", "80"],
+      "answer": 1,
+      "explanation": "La serie sube de 10 en 10: 70, 80, 90, 100."
+    },
+    {
+      "id": "q19",
+      "type": "math-operation",
+      "emoji": "🔢",
+      "question": "Calcula esta suma.",
+      "operands": [70, 70],
+      "operator": "+",
+      "answer": 140,
+      "explanation": "70 + 70 = 140."
+    },
+    {
+      "id": "q20",
+      "type": "math-operation",
+      "emoji": "🔢",
+      "question": "Calcula esta suma.",
+      "operands": [60, 80],
+      "operator": "+",
+      "answer": 140,
+      "explanation": "60 + 80 = 140."
+    },
+    {
+      "id": "q21",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "En la serie 30, 50, 70, 90 se suma 20 cada vez.",
+      "answer": true,
+      "explanation": "Correcto. 50 − 30 = 20, 70 − 50 = 20, 90 − 70 = 20."
+    },
+    {
+      "id": "q22",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Suma de 3 cifras con llevada.",
+      "operands": [389, 194],
+      "operator": "+",
+      "answer": 583,
+      "explanation": "Unidades: 9 + 4 = 13 → escribo 3, llevo 1. Decenas: 8 + 9 + 1 = 18 → escribo 8, llevo 1. Centenas: 3 + 1 + 1 = 5. Resultado: 583."
+    },
+    {
+      "id": "q23",
+      "type": "choice",
+      "emoji": "🔄",
+      "question": "¿Qué número falta? 134 + ☐ = 214",
+      "options": ["70", "80", "90", "100"],
+      "answer": 1,
+      "explanation": "Si 134 + ☐ = 214, entonces ☐ = 214 − 134 = 80."
+    },
+    {
+      "id": "q24",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "La resta 618 − 189 = 429.",
+      "answer": true,
+      "explanation": "Unidades: 18 − 9 = 9 (con llevada). Decenas: 0 − 8 → pedimos: 10 − 8 = 2 (con llevada). Centenas: 5 − 1 = 4. Resultado: 429."
+    },
+    {
+      "id": "q25",
+      "type": "word-bank-classify",
+      "emoji": "📊",
+      "question": "Clasifica estos números según sean pares o impares.",
+      "words": ["12", "7", "8", "15", "10", "3"],
+      "slots": [
+        { "label": "Pares", "accepts": ["12", "8", "10"] },
+        { "label": "Impares", "accepts": ["7", "15", "3"] }
+      ]
+    },
+    {
+      "id": "q26",
+      "type": "choice",
+      "emoji": "🏖️",
+      "question": "Mario tiene 254 € y Juan 298 €. ¿Cuánto dinero tienen juntos?",
+      "refText": "playa",
+      "options": ["542 €", "552 €", "452 €", "562 €"],
+      "answer": 1,
+      "explanation": "254 + 298 = 552 €."
+    },
+    {
+      "id": "q27",
+      "type": "choice",
+      "emoji": "🏖️",
+      "question": "Si Mario y Juan juntan 552 € y gastan 389 € en material, ¿cuánto les queda?",
+      "refText": "playa",
+      "options": ["173 €", "163 €", "153 €", "263 €"],
+      "answer": 1,
+      "explanation": "552 − 389 = 163 €."
+    },
+    {
+      "id": "q28",
+      "type": "math-operation",
+      "emoji": "🧠",
+      "question": "Cálculo mental: suma 10.",
+      "operands": [234, 10],
+      "operator": "+",
+      "answer": 244,
+      "explanation": "Al sumar 10, solo cambia la decena: 3 → 4. Resultado: 244."
+    },
+    {
+      "id": "q29",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Calcula esta suma.",
+      "operands": [56, 27],
+      "operator": "+",
+      "answer": 83,
+      "explanation": "Unidades: 6 + 7 = 13 → escribo 3, llevo 1. Decenas: 5 + 2 + 1 = 8. Resultado: 83."
+    },
+    {
+      "id": "q30",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Calcula esta resta.",
+      "operands": [73, 38],
+      "operator": "-",
+      "answer": 35,
+      "explanation": "Unidades: 13 − 8 = 5 (con llevada). Decenas: 6 − 3 = 3. Resultado: 35."
+    },
+    {
+      "id": "q31",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Suma de 3 cifras.",
+      "operands": [345, 278],
+      "operator": "+",
+      "answer": 623,
+      "explanation": "Unidades: 5 + 8 = 13 → escribo 3, llevo 1. Decenas: 4 + 7 + 1 = 12 → escribo 2, llevo 1. Centenas: 3 + 2 + 1 = 6. Resultado: 623."
+    },
+    {
+      "id": "q32",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Resta de 3 cifras.",
+      "operands": [856, 279],
+      "operator": "-",
+      "answer": 577,
+      "explanation": "Unidades: 16 − 9 = 7 (con llevada). Decenas: 4 − 7 → pedimos: 14 − 7 = 7. Centenas: 7 − 2 = 5. Resultado: 577."
+    },
+    {
+      "id": "q33",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Suma de 3 cifras con llevada.",
+      "operands": [467, 355],
+      "operator": "+",
+      "answer": 822,
+      "explanation": "Unidades: 7 + 5 = 12 → escribo 2, llevo 1. Decenas: 6 + 5 + 1 = 12 → escribo 2, llevo 1. Centenas: 4 + 3 + 1 = 8. Resultado: 822."
+    },
+    {
+      "id": "q34",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "La suma 295 + 148 = 443.",
+      "answer": true,
+      "explanation": "Unidades: 5 + 8 = 13 → escribo 3, llevo 1. Decenas: 9 + 4 + 1 = 14 → escribo 4, llevo 1. Centenas: 2 + 1 + 1 = 4. Resultado: 443."
+    },
+    {
+      "id": "q35",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "356 − 10 = 346.",
+      "answer": true,
+      "explanation": "Correcto. Al restar 10, solo baja la decena: 5 → 4. Resultado: 346."
+    },
+    {
+      "id": "q36",
+      "type": "choice",
+      "emoji": "⚖️",
+      "question": "¿Qué signo va en el hueco? 350 ☐ 305",
+      "options": [">", "<", "="],
+      "answer": 0,
+      "explanation": "350 es mayor que 305. Mismas centenas (3), pero 5 decenas > 0 decenas."
+    },
+    {
+      "id": "q37",
+      "type": "choice",
+      "emoji": "⚖️",
+      "question": "¿Qué signo va en el hueco? 499 ☐ 501",
+      "options": [">", "<", "="],
+      "answer": 1,
+      "explanation": "499 es menor que 501. 4 centenas < 5 centenas."
+    },
+    {
+      "id": "q38",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada operación con su resultado.",
+      "pairs": [
+        { "left": "125 + 375", "right": "500" },
+        { "left": "800 − 250", "right": "550" },
+        { "left": "333 + 167", "right": "500" },
+        { "left": "999 − 499", "right": "500" }
+      ],
+      "rightOptions": ["500", "550", "500", "500", "450"]
+    },
+    {
+      "id": "q39",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Suma de 3 cifras.",
+      "operands": [534, 289],
+      "operator": "+",
+      "answer": 823,
+      "explanation": "Unidades: 4 + 9 = 13 → escribo 3, llevo 1. Decenas: 3 + 8 + 1 = 12 → escribo 2, llevo 1. Centenas: 5 + 2 + 1 = 8. Resultado: 823."
+    },
+    {
+      "id": "q40",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Resta de 3 cifras con llevada.",
+      "operands": [500, 163],
+      "operator": "-",
+      "answer": 337,
+      "explanation": "Unidades: 10 − 3 = 7 (con llevada). Decenas: 9 − 6 = 3 (con llevada de centenas). Centenas: 4 − 1 = 3. Resultado: 337."
+    },
+    {
+      "id": "q41",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "¿Qué número sigue en la serie? 100, 120, 140, __",
+      "options": ["150", "155", "160", "170"],
+      "answer": 2,
+      "explanation": "La serie sube de 20 en 20: 100, 120, 140, 160."
+    },
+    {
+      "id": "q42",
+      "type": "word-bank-classify",
+      "emoji": "📊",
+      "question": "Clasifica estas operaciones según su resultado sea mayor o menor que 500.",
+      "words": ["234 + 189", "800 − 250", "312 + 205", "999 − 501", "150 + 400"],
+      "slots": [
+        { "label": "Resultado ≥ 500", "accepts": ["800 − 250", "312 + 205", "999 − 501", "150 + 400"] },
+        { "label": "Resultado < 500", "accepts": ["234 + 189"] }
+      ]
+    },
+    {
+      "id": "q43",
+      "type": "choice",
+      "emoji": "🔄",
+      "question": "¿Qué número falta? ☐ − 45 = 155",
+      "options": ["190", "200", "210", "110"],
+      "answer": 1,
+      "explanation": "Si ☐ − 45 = 155, entonces ☐ = 155 + 45 = 200."
+    },
+    {
+      "id": "q44",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Suma en vertical.",
+      "operands": [78, 65],
+      "operator": "+",
+      "answer": 143,
+      "explanation": "Unidades: 8 + 5 = 13 → escribo 3, llevo 1. Decenas: 7 + 6 + 1 = 14. Resultado: 143."
+    },
+    {
+      "id": "q45",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Resta en vertical.",
+      "operands": [84, 56],
+      "operator": "-",
+      "answer": 28,
+      "explanation": "Unidades: 14 − 6 = 8 (con llevada). Decenas: 7 − 5 = 2. Resultado: 28."
+    },
+    {
+      "id": "q46",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "La suma 467 + 355 da 812.",
+      "answer": false,
+      "explanation": "Falso. 467 + 355 = 822, no 812."
+    },
+    {
+      "id": "q47",
+      "type": "choice",
+      "emoji": "🏖️",
+      "question": "En la limpieza de la playa recogieron 10 kg de botellas a 3 €/kg y 5 kg de latas a 1 €/kg. ¿Cuánto recaudaron en total?",
+      "refText": "playa",
+      "options": ["25 €", "30 €", "35 €", "40 €"],
+      "answer": 2,
+      "explanation": "Botellas: 10 × 3 = 30 €. Latas: 5 × 1 = 5 €. Total: 30 + 5 = 35 €."
+    },
+    {
+      "id": "q48",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Suma de 3 cifras con doble llevada.",
+      "operands": [597, 268],
+      "operator": "+",
+      "answer": 865,
+      "explanation": "Unidades: 7 + 8 = 15 → escribo 5, llevo 1. Decenas: 9 + 6 + 1 = 16 → escribo 6, llevo 1. Centenas: 5 + 2 + 1 = 8. Resultado: 865."
+    },
+    {
+      "id": "q49",
+      "type": "math-operation",
+      "emoji": "🧠",
+      "question": "Cálculo mental: resta 10.",
+      "operands": [456, 10],
+      "operator": "-",
+      "answer": 446,
+      "explanation": "Al restar 10, solo baja la decena: 5 → 4. Resultado: 446."
+    },
+    {
+      "id": "q50",
+      "type": "choice",
+      "emoji": "🏖️",
+      "question": "Si 24 amigos limpiaron 30 minutos cada uno, ¿cuántas horas de limpieza sumaron entre todos?",
+      "refText": "playa",
+      "options": ["10 horas", "12 horas", "15 horas", "24 horas"],
+      "answer": 1,
+      "explanation": "24 × 30 minutos = 720 minutos = 12 horas."
+    }
+  ]
+}

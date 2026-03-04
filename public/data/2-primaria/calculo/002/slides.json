@@ -1,0 +1,123 @@
+{
+  "topicId": "002",
+  "subjectId": "calculo",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "➕",
+      "title": "Repaso: suma con llevada",
+      "content": "<p>Cuando las unidades (o decenas) <span class='hl'>suman más de 9</span>, hay que <span class='hl'>llevar</span>.</p><p>🔸 Sumamos las <span class='hl'>unidades</span>. Si pasan de 9, escribimos las unidades y llevamos 1.</p><p>🔸 Sumamos las <span class='hl'>decenas</span> (+ lo que llevamos).</p><p>Ejemplo: <span class='hl'>37 + 62</span><br/>Unidades: 7 + 2 = 9<br/>Decenas: 3 + 6 = 9<br/>Resultado: <span class='hl'>99</span> (sin llevada)</p><p>Ejemplo: <span class='hl'>48 + 35</span><br/>Unidades: 8 + 5 = 13 → escribo 3, llevo 1<br/>Decenas: 4 + 3 + 1 = 8<br/>Resultado: <span class='hl'>83</span></p>",
+      "tip": "¡Llevar significa que hemos formado un grupo de 10 y lo pasamos a la siguiente columna!"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "🔢",
+      "title": "Suma de 3 cifras con llevada",
+      "content": "<p>Con números de <span class='hl'>3 cifras</span>, el proceso es igual pero con <span class='hl'>una columna más</span>: las centenas.</p><p>🔹 Empezamos por las <span class='hl'>unidades</span>.<br/>🔹 Seguimos con las <span class='hl'>decenas</span>.<br/>🔹 Terminamos con las <span class='hl'>centenas</span>.</p><p>Puede haber llevada en las unidades, en las decenas, ¡o en las dos!</p>",
+      "tip": "Coloca siempre las cifras bien alineadas: unidades con unidades, decenas con decenas, centenas con centenas."
+    },
+    {
+      "id": "s03",
+      "type": "example",
+      "emoji": "➕",
+      "title": "Ejemplo: 273 + 245",
+      "problem": "<p>Vamos a sumar <span class='hl'>273 + 245</span> paso a paso.</p>",
+      "steps": [
+        "1️⃣ Unidades: 3 + 5 = 8",
+        "2️⃣ Decenas: 7 + 4 = 11 → escribo 1, llevo 1",
+        "3️⃣ Centenas: 2 + 2 + 1 = 5"
+      ],
+      "answer": "273 + 245 = 518 ✅"
+    },
+    {
+      "id": "s04",
+      "type": "concept",
+      "emoji": "➖",
+      "title": "Resta de 3 cifras con llevada",
+      "content": "<p>Restar números de <span class='hl'>3 cifras</span> funciona igual que con 2 cifras, pero con <span class='hl'>centenas</span>.</p><p>🔸 Si la cifra de arriba es <span class='hl'>menor</span>, pedimos prestado a la columna siguiente.</p><p>🔸 Puede haber llevada en <span class='hl'>unidades</span>, en <span class='hl'>decenas</span>, ¡o en ambas!</p><p>Siempre empezamos por la <span class='hl'>derecha</span> (unidades).</p>",
+      "tip": "Si hay que pedir prestado dos veces, ¡no te líes! Ve paso a paso, columna por columna."
+    },
+    {
+      "id": "s05",
+      "type": "example",
+      "emoji": "➖",
+      "title": "Ejemplo: 644 − 118",
+      "problem": "<p>Vamos a restar <span class='hl'>644 − 118</span> paso a paso.</p>",
+      "steps": [
+        "1️⃣ Unidades: 4 − 8 → ¡no se puede! Pedimos: 14 − 8 = 6",
+        "2️⃣ Decenas: 4 pasa a 3 (por la llevada): 3 − 1 = 2",
+        "3️⃣ Centenas: 6 − 1 = 5"
+      ],
+      "answer": "644 − 118 = 526 ✅"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "⚖️",
+      "title": "Comparar con > y <",
+      "content": "<p>El símbolo <span class='hl'>></span> significa <span class='hl'>mayor que</span>.<br/>El símbolo <span class='hl'><</span> significa <span class='hl'>menor que</span>.</p><p>🔹 23 <span class='hl'>></span> 19 → veintitrés es mayor que diecinueve<br/>🔹 46 <span class='hl'><</span> 78 → cuarenta y seis es menor que setenta y ocho</p><p>Truco: el signo siempre <span class='hl'>«se abre» hacia el número más grande</span>.</p><p>Con 3 cifras, compara primero las <span class='hl'>centenas</span>. Si son iguales, mira las <span class='hl'>decenas</span>. Si son iguales, mira las <span class='hl'>unidades</span>.</p>",
+      "tip": "Piensa en el signo como una boca de cocodrilo: ¡siempre quiere comerse el número más grande!"
+    },
+    {
+      "id": "s07",
+      "type": "story",
+      "emoji": "🏖️",
+      "title": "Limpiamos la playa",
+      "html": "<p>Un grupo de <span class='hl'>24 amigos</span> se juntó para limpiar la playa. Recogieron <span class='hl'>10 kg de botellas</span> y <span class='hl'>5 kg de latas</span>.</p><p>Vendieron las botellas a 3 €/kg: 10 × 3 = <span class='hl'>30 €</span>. Y las latas a 1 €/kg: 5 × 1 = <span class='hl'>5 €</span>. En total: 30 + 5 = <span class='hl'>35 €</span>.</p><p>Mario tiene <span class='hl'>254 €</span> y Juan <span class='hl'>298 €</span>. Si juntan todo: 254 + 298 = <span class='hl'>552 €</span>. Si gastan 389 € en material: 552 − 389 = <span class='hl'>163 €</span> les quedan.</p><p>¡Este problema mezcla <span class='hl'>sumas y restas</span>!</p>"
+    },
+    {
+      "id": "s08",
+      "type": "concept",
+      "emoji": "📊",
+      "title": "Ordenar números",
+      "content": "<p>Podemos ordenar números de dos formas:</p><p>🔸 De <span class='hl'>menor a mayor</span>: del más pequeño al más grande.<br/>Ejemplo: 35, 53, 78, 87, 110</p><p>🔸 De <span class='hl'>mayor a menor</span>: del más grande al más pequeño.<br/>Ejemplo: 110, 87, 78, 53, 35</p><p>Para ordenar, <span class='hl'>compara primero las centenas</span>. Si son iguales, compara las decenas, y luego las unidades.</p>",
+      "tip": "Primero busca el más grande (o el más pequeño), ¡y ve sacándolos de uno en uno!"
+    },
+    {
+      "id": "s09",
+      "type": "concept",
+      "emoji": "🔢",
+      "title": "Series numéricas",
+      "content": "<p>Una <span class='hl'>serie numérica</span> es una lista de números que siguen una <span class='hl'>regla</span>.</p><p>🔹 <span class='hl'>Ascendente</span> (sube): 70, 80, 90, 100 → sumamos 10 cada vez<br/>🔹 <span class='hl'>Descendente</span> (baja): 60, 50, 40, 30 → restamos 10 cada vez</p><p>Para encontrar la regla: <span class='hl'>resta dos números seguidos</span> y mira cuánto hay de diferencia.</p>",
+      "tip": "Si la serie sube, ¡estás sumando! Si baja, ¡estás restando!"
+    },
+    {
+      "id": "s10",
+      "type": "example",
+      "emoji": "🔢",
+      "title": "Ejemplo: completar serie",
+      "problem": "<p>Completa la serie: <span class='hl'>30, 50, 70, __, __</span></p>",
+      "steps": [
+        "1️⃣ Busco la regla: 50 − 30 = 20 → sumamos 20",
+        "2️⃣ Compruebo: 70 − 50 = 20 ✅",
+        "3️⃣ Siguiente: 70 + 20 = 90",
+        "4️⃣ Siguiente: 90 + 20 = 110"
+      ],
+      "answer": "30, 50, 70, 90, 110 ✅"
+    },
+    {
+      "id": "s11",
+      "type": "concept",
+      "emoji": "🧠",
+      "title": "Cálculo mental: sumar y restar 10",
+      "content": "<p>Para <span class='hl'>sumar 10</span> a un número, solo sube <span class='hl'>la decena</span>. Las unidades no cambian.</p><p>Ejemplo: <span class='hl'>47 + 10 = 57</span></p><p>Para <span class='hl'>restar 10</span>, solo baja <span class='hl'>la decena</span>.</p><p>Ejemplo: <span class='hl'>83 − 10 = 73</span></p><p>¡Funciona igual con centenas! <span class='hl'>234 + 10 = 244</span> y <span class='hl'>356 − 10 = 346</span>.</p>",
+      "tip": "Sumar o restar 10 es facilísimo: ¡solo cambia el dígito de las decenas!"
+    },
+    {
+      "id": "s12",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "¡Repasamos todo!",
+      "points": [
+        "➕ Suma con llevada: si las cifras suman más de 9, llevo 1 a la siguiente columna",
+        "➖ Resta con llevada: si la cifra de arriba es menor, pido prestado",
+        "🔢 Con 3 cifras: mismo proceso, una columna más (centenas)",
+        "⚖️ Comparar: > (mayor que) y < (menor que). ¡La boca se abre hacia el mayor!",
+        "📊 Ordenar: de menor a mayor o de mayor a menor",
+        "🧠 Truco: sumar o restar 10 → solo cambia la decena"
+      ]
+    }
+  ]
+}

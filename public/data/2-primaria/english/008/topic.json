@@ -1,1 +1,18 @@
-{"id":"008","subjectId":"english","title":"Unit 8","description":"Bandar, the Greedy Monkey","icon":"🐒","texts":{},"images":{}}
+{
+  "id": "008",
+  "subjectId": "english",
+  "title": "Unit 8",
+  "description": "Bandar, the Greedy Monkey",
+  "icon": "🐒",
+  "texts": {
+    "bandar": {
+      "title": "🐒 Bandar, the Greedy Monkey",
+      "html": "<p><span class='hl'>Bandar</span> was a little monkey who lived in the jungle. He was very <span class='hl'>greedy</span> — he always wanted more and more food!</p><p>One day, Bandar found a <span class='hl'>jar</span> full of nuts. He put his <span class='hl'>hand</span> inside and grabbed as many nuts as he could. But his hand was too full! He couldn't pull it out of the jar.</p><p>'<span class='hl'>Let go</span> of some nuts!' said the <span class='hl'>baker</span> who owned the jar. But Bandar didn't want to let go. He wanted all the nuts!</p><p>Bandar <span class='hl'>sat</span> there all day. He was <span class='hl'>bored</span> and <span class='hl'>hungry</span> because he couldn't eat the nuts in the jar. He couldn't <span class='hl'>hide</span> or play either.</p><p>Finally, Bandar <span class='hl'>let go</span> of the nuts. He took just a few and was happy. He <span class='hl'>didn't steal</span> anymore. He learned that being greedy doesn't make you happy!</p>"
+    },
+    "bodyactions": {
+      "title": "🏃 Our Body in Action",
+      "html": "<p>Our body has many parts and we use them every day!</p><p>We use our <span class='hl'>face</span> to show feelings. We smile when we are happy and frown when we are sad. Our <span class='hl'>nose</span> helps us smell things.</p><p>We use our <span class='hl'>hands</span> to hold things, write and draw. We use our <span class='hl'>arms</span> to carry things and hug our friends.</p><p>Our <span class='hl'>feet</span> help us walk, run and jump. We use our <span class='hl'>knees</span> to bend our legs. A <span class='hl'>cook</span> uses their hands to make food. A baker uses their hands to make bread.</p><p>Yesterday, I <span class='hl'>ran</span> in the park. My friend <span class='hl'>fell</span> down and hurt his knee. The teacher <span class='hl'>came</span> and helped him. She <span class='hl'>said</span>: 'Don't worry! It will be fine.'</p>"
+    }
+  },
+  "images": {}
+}

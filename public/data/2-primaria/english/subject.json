@@ -10,126 +10,144 @@
       "title": "Unit 1",
       "description": "Amazing Animals",
       "icon": "🐘",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "002",
       "title": "Unit 2",
       "description": "Leo and Lily's Adventure",
       "icon": "🗺️",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "003",
       "title": "Unit 3",
       "description": "What Is Our World Made Of?",
       "icon": "🌎",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "004",
       "title": "Unit 4",
       "description": "Let's Make Ice Cream!",
       "icon": "🍦",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "005",
       "title": "Unit 5",
       "description": "Then and Now",
       "icon": "⏳",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "006",
       "title": "Unit 6",
       "description": "Tell Me a Story, Grandpa",
       "icon": "👴",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "007",
       "title": "Unit 7",
       "description": "Subtraction",
       "icon": "➖",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "008",
       "title": "Unit 8",
       "description": "Bandar, the Greedy Monkey",
       "icon": "🐒",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "009",
       "title": "Unit 9",
       "description": "Following Rules",
       "icon": "📋",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "010",
       "title": "Unit 10",
       "description": "The Please and Thank You Book",
       "icon": "🙏",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 10
     },
     {
       "id": "011",
       "title": "Unit 11",
       "description": "Natural Resources",
       "icon": "🌿",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "012",
       "title": "Unit 12",
       "description": "A Juice Carton's Diary",
       "icon": "🧃",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "013",
       "title": "Unit 13",
       "description": "How Music Makes Us Feel",
       "icon": "🎵",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "014",
       "title": "Unit 14",
       "description": "Olga's Flute",
       "icon": "🎶",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "015",
       "title": "Unit 15",
       "description": "Forces and Movement",
       "icon": "💨",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "016",
       "title": "Unit 16",
       "description": "Two Stubborn Little Goats",
       "icon": "🐐",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "017",
       "title": "Unit 17",
       "description": "Shapes in Art",
       "icon": "🎨",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     },
     {
       "id": "018",
       "title": "Unit 18",
       "description": "Origami",
       "icon": "📄",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 11
     }
   ]
 }

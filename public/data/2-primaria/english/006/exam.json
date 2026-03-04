@@ -1,1 +1,274 @@
-{"topicId":"006","subjectId":"english","questions":[]}
+{
+  "topicId": "006",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "How did Grandpa get to school?",
+      "options": ["By bus", "By car", "He walked", "By bicycle"],
+      "answer": 2,
+      "refText": "grandpa",
+      "explanation": "Grandpa says: 'I walked two kilometres because there were no buses.'"
+    },
+    {
+      "id": "q02",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Grandpa's grandmother lived near a mountain.",
+      "answer": false,
+      "refText": "grandpa",
+      "explanation": "The text says she lived near the river, not a mountain."
+    },
+    {
+      "id": "q03",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What did Grandpa do after school?",
+      "options": ["Watched TV", "Cleaned the house and visited his grandmother", "Played video games", "Read books"],
+      "answer": 1,
+      "refText": "grandpa",
+      "explanation": "The text says: 'I cleaned the house and visited my grandmother.'"
+    },
+    {
+      "id": "q04",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Grandpa had many toys when he was young.",
+      "answer": false,
+      "refText": "grandpa",
+      "explanation": "Grandpa says: 'We didn't have many toys.'"
+    },
+    {
+      "id": "q05",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What did the class visit?",
+      "options": ["A park", "A zoo", "A museum", "A library"],
+      "answer": 2,
+      "refText": "museum",
+      "explanation": "The text says: 'Today the class visited a museum about life long ago.'"
+    },
+    {
+      "id": "q06",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What was special about the old lamp?",
+      "options": ["It was very small", "It used oil, not electricity", "It was made of gold", "It could fly"],
+      "answer": 1,
+      "refText": "museum",
+      "explanation": "The text says: 'It used oil, not electricity!'"
+    },
+    {
+      "id": "q07",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each verb with its past tense.",
+      "pairs": [
+        { "left": "arrive", "right": "arrived" },
+        { "left": "clean", "right": "cleaned" },
+        { "left": "walk", "right": "walked" },
+        { "left": "visit", "right": "visited" }
+      ],
+      "rightOptions": ["arrived", "cleaned", "walked", "visited", "played"]
+    },
+    {
+      "id": "q08",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the past tense.",
+      "sentence": "Grandpa _____ to school. He _____ the house after school.",
+      "blanks": ["walked", "cleaned"],
+      "wordBank": ["walked", "cleaned", "walk", "clean"]
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'I _____ to Madrid last summer.' Which word fits?",
+      "options": ["travel", "traveled", "travels", "traveling"],
+      "answer": 1,
+      "explanation": "We add -ed to make the past: travel → traveled."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'She _____ at the hotel at 5 o'clock.' Which word fits?",
+      "options": ["arrive", "arrives", "arrived", "arriving"],
+      "answer": 2,
+      "explanation": "We add -d to verbs ending in -e: arrive → arrived."
+    },
+    {
+      "id": "q11",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify: present or past tense?",
+      "words": ["walked", "play", "visited", "clean", "arrived", "listen"],
+      "slots": [
+        { "label": "Present tense", "accepts": ["play", "clean", "listen"] },
+        { "label": "Past tense", "accepts": ["walked", "visited", "arrived"] }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["visited", "They", "a", "museum", "yesterday"],
+      "answer": "They visited a museum yesterday"
+    },
+    {
+      "id": "q13",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["cleaned", "I", "house", "the"],
+      "answer": "I cleaned the house"
+    },
+    {
+      "id": "q14",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'We _____ outside with sticks and stones.' Which word completes the sentence?",
+      "options": ["play", "playing", "played", "plays"],
+      "answer": 2,
+      "explanation": "The story is about the past, so we use 'played'."
+    },
+    {
+      "id": "q15",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "To make the past tense of 'arrive', we add -d (not -ed) because it ends in -e.",
+      "answer": true,
+      "explanation": "Verbs ending in -e just add -d: arrive → arrived, love → loved."
+    },
+    {
+      "id": "q16",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each old object with what it was used for.",
+      "pairs": [
+        { "left": "Clock", "right": "telling the time" },
+        { "left": "Lamp", "right": "giving light" },
+        { "left": "Chair", "right": "sitting" },
+        { "left": "Suit", "right": "wearing" }
+      ],
+      "rightOptions": ["telling the time", "giving light", "sitting", "wearing", "cooking"]
+    },
+    {
+      "id": "q17",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct past tense.",
+      "sentence": "The class _____ a museum. They _____ many old things.",
+      "blanks": ["visited", "saw"],
+      "wordBank": ["visited", "saw", "visit", "see"]
+    },
+    {
+      "id": "q18",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'sailed' mean?",
+      "options": ["Walked very fast", "Traveled on water in a boat", "Flew in the sky", "Ran in a race"],
+      "answer": 1,
+      "explanation": "'Sailed' means to travel on water using a boat."
+    },
+    {
+      "id": "q19",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these objects: old or modern?",
+      "words": ["oil lamp", "tablet", "horse carriage", "smartphone", "clock tower", "Internet"],
+      "slots": [
+        { "label": "Old things", "accepts": ["oil lamp", "horse carriage", "clock tower"] },
+        { "label": "Modern things", "accepts": ["tablet", "smartphone", "Internet"] }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which sentence is in the past tense?",
+      "options": ["I walk to school.", "She plays every day.", "They visited London.", "We clean the house."],
+      "answer": 2,
+      "explanation": "'Visited' is past tense (visit + ed). The other verbs are in the present."
+    },
+    {
+      "id": "q21",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct past tense.",
+      "sentence": "Grandpa _____ trees when he was young. He _____ the clock before going home.",
+      "blanks": ["climbed", "checked"],
+      "wordBank": ["climbed", "checked", "climb", "check"]
+    },
+    {
+      "id": "q22",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "The teacher said people still love their families, just like in the past.",
+      "answer": true,
+      "refText": "museum",
+      "explanation": "The text says: 'people still love their families, just like then!'"
+    },
+    {
+      "id": "q23",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'_____ she clean her room yesterday?' Which word starts the question?",
+      "options": ["Do", "Does", "Did", "Was"],
+      "answer": 2,
+      "explanation": "We use 'Did' for past tense questions: 'Did she clean her room yesterday?'"
+    },
+    {
+      "id": "q24",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["Did", "walk", "to", "you", "school"],
+      "answer": "Did you walk to school"
+    },
+    {
+      "id": "q25",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the verb with its correct past tense.",
+      "pairs": [
+        { "left": "check", "right": "checked" },
+        { "left": "climb", "right": "climbed" },
+        { "left": "sail", "right": "sailed" },
+        { "left": "ask", "right": "asked" }
+      ],
+      "rightOptions": ["checked", "climbed", "sailed", "asked", "played"]
+    },
+    {
+      "id": "q26",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What did Grandpa play with?",
+      "options": ["Video games", "Sticks and stones", "Dolls", "Board games"],
+      "answer": 1,
+      "refText": "grandpa",
+      "explanation": "Grandpa says: 'We played outside with sticks and stones.'"
+    },
+    {
+      "id": "q27",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "In the past, people traveled fast.",
+      "answer": false,
+      "refText": "museum",
+      "explanation": "The text says: 'People arrived at places very slowly.'"
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["walked", "Grandpa", "kilometres", "two", "school", "to"],
+      "answer": "Grandpa walked two kilometres to school"
+    }
+  ]
+}

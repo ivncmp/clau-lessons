@@ -1,0 +1,110 @@
+{
+  "topicId": "001",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "🐾",
+      "title": "Animal Groups",
+      "content": "<p>There are many groups of animals. Let's learn the main ones!</p><p>🐕 <span class='hl'>Mammals</span> have <span class='hl'>fur</span> or hair on their <span class='hl'>skin</span>. Dogs, cats and elephants are mammals.</p><p>🐦 <span class='hl'>Birds</span> have <span class='hl'>feathers</span> and <span class='hl'>wings</span>. Most birds can fly!</p><p>🐟 <span class='hl'>Fish</span> have <span class='hl'>scales</span> and <span class='hl'>gills</span> to breathe underwater.</p><p>🐸 <span class='hl'>Amphibians</span> can live in water and on land. Frogs are amphibians.</p>"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "🥚",
+      "title": "How Are Babies Born?",
+      "content": "<p>Some animals lay <span class='hl'>eggs</span>. Birds, fish, reptiles and amphibians all lay eggs.</p><p>Most <span class='hl'>mammals</span> do NOT lay eggs. They have live babies. A cat has kittens, a dog has puppies!</p><p>Baby frogs are called <span class='hl'>tadpoles</span>. They live in water. When they grow up, they can jump on land!</p>",
+      "tip": "Almost all animals that are NOT mammals lay eggs!"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "🗣️",
+      "title": "Subject Pronouns",
+      "content": "<p><span class='hl'>Subject pronouns</span> replace the name of a person or thing:</p><p>👤 <span class='hl'>I</span> — the person speaking<br/>👤 <span class='hl'>You</span> — the person listening<br/>👦 <span class='hl'>He</span> — a boy or man<br/>👧 <span class='hl'>She</span> — a girl or woman<br/>🐕 <span class='hl'>It</span> — an animal or thing<br/>👥 <span class='hl'>We</span> — the speaker + others<br/>👥 <span class='hl'>They</span> — other people, animals or things</p>",
+      "tip": "Use 'it' for one animal or thing. Use 'they' for more than one!"
+    },
+    {
+      "id": "s04",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "Using Subject Pronouns",
+      "problem": "<p>Replace the underlined words with a <span class='hl'>subject pronoun</span>:</p><p>1. <u>The elephant</u> is very big.<br/>2. <u>Sara and Tom</u> like animals.<br/>3. <u>My mum</u> loves cats.</p>",
+      "steps": [
+        "1️⃣ The elephant is one animal → use 'it'",
+        "2️⃣ Sara and Tom are more than one person → use 'they'",
+        "3️⃣ My mum is one woman → use 'she'"
+      ],
+      "answer": "1. It is very big. 2. They like animals. 3. She loves cats."
+    },
+    {
+      "id": "s05",
+      "type": "story",
+      "emoji": "🦁",
+      "title": "A Day at the Zoo",
+      "html": "<p>Tom and his family went to the zoo. <span class='hl'>They</span> saw many amazing animals!</p><p>First, <span class='hl'>they</span> saw the lions. '<span class='hl'>It</span> has beautiful <span class='hl'>fur</span>!' said Tom about a big lion.</p><p>Then <span class='hl'>they</span> visited the birds. <span class='hl'>They</span> had colourful <span class='hl'>feathers</span> and long <span class='hl'>wings</span>.</p><p>Next, <span class='hl'>he</span> looked at the fish. The fish had shiny <span class='hl'>scales</span> and used their <span class='hl'>gills</span> to breathe.</p><p>'<span class='hl'>I</span> love the zoo!' said Tom. '<span class='hl'>We</span> should come again!'</p>"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "🐘",
+      "title": "Animal Body Coverings",
+      "content": "<p>Different animals have different things on their <span class='hl'>skin</span>:</p><p>🐕 <span class='hl'>Fur</span> — soft hair that keeps mammals warm. Dogs and cats have fur.</p><p>🐦 <span class='hl'>Feathers</span> — light coverings that help birds fly. They also keep birds warm.</p><p>🐟 <span class='hl'>Scales</span> — hard, flat pieces on fish and reptiles. They protect the animal.</p><p>🐸 Amphibians have smooth, wet <span class='hl'>skin</span> with no fur, feathers or scales!</p>"
+    },
+    {
+      "id": "s07",
+      "type": "concept",
+      "emoji": "🔗",
+      "title": "Compound Nouns",
+      "content": "<p>A <span class='hl'>compound noun</span> is made of <span class='hl'>two words</span> put together to make a new word:</p><p>🐟 <span class='hl'>goldfish</span> = gold + fish<br/>🦋 <span class='hl'>butterfly</span> = butter + fly<br/>🐦 <span class='hl'>birdhouse</span> = bird + house<br/>🐈 <span class='hl'>catfish</span> = cat + fish</p><p>The two small words give you a clue about the meaning!</p>",
+      "tip": "A goldfish is not made of gold, and a butterfly is not made of butter! But the words help you remember."
+    },
+    {
+      "id": "s08",
+      "type": "example",
+      "emoji": "🧩",
+      "title": "Make Compound Nouns",
+      "problem": "<p>Match the words to make <span class='hl'>compound nouns</span>:</p><p>1. rain + ?<br/>2. sun + ?<br/>3. star + ?<br/>Words: <span class='hl'>fish</span>, <span class='hl'>bow</span>, <span class='hl'>flower</span></p>",
+      "steps": [
+        "1️⃣ rain + bow → rainbow (the colourful arc in the sky)",
+        "2️⃣ sun + flower → sunflower (a big yellow flower)",
+        "3️⃣ star + fish → starfish (a sea animal shaped like a star)"
+      ],
+      "answer": "rainbow, sunflower, starfish"
+    },
+    {
+      "id": "s09",
+      "type": "story",
+      "emoji": "🐸",
+      "title": "The Life of a Frog",
+      "html": "<p>A frog is an <span class='hl'>amphibian</span>. <span class='hl'>It</span> has a very interesting life!</p><p>First, the mother frog lays <span class='hl'>eggs</span> in the water. The eggs are very small and soft.</p><p>Then, baby frogs come out of the eggs. <span class='hl'>They</span> are called tadpoles. <span class='hl'>They</span> live in water and breathe with <span class='hl'>gills</span>, just like fish!</p><p>Slowly, the tadpoles grow legs. <span class='hl'>They</span> lose their tails. Now <span class='hl'>they</span> are frogs!</p><p>Adult frogs can live on land and in water. <span class='hl'>They</span> have smooth, wet <span class='hl'>skin</span> and strong legs to jump.</p>"
+    },
+    {
+      "id": "s10",
+      "type": "example",
+      "emoji": "👤",
+      "title": "He, She or It?",
+      "problem": "<p>Choose the correct pronoun: <span class='hl'>he</span>, <span class='hl'>she</span> or <span class='hl'>it</span>?</p><p>1. My dad is tall. ___ plays football.<br/>2. The cat is sleeping. ___ is tired.<br/>3. My sister likes music. ___ sings well.</p>",
+      "steps": [
+        "1️⃣ Dad is a man → use 'he'",
+        "2️⃣ Cat is an animal → use 'it'",
+        "3️⃣ Sister is a girl → use 'she'"
+      ],
+      "answer": "1. He plays football. 2. It is tired. 3. She sings well."
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "🐾 Mammals have fur, birds have feathers, fish have scales",
+        "🐟 Fish breathe with gills; amphibians live in water AND on land",
+        "🥚 Birds, fish, reptiles and amphibians lay eggs; most mammals do not",
+        "👤 Subject pronouns: I, you, he, she, it, we, they",
+        "🔗 Compound nouns: two words together make a new word (goldfish, butterfly, rainbow)"
+      ]
+    }
+  ]
+}

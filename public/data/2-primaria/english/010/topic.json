@@ -1,1 +1,18 @@
-{"id":"010","subjectId":"english","title":"Unit 10","description":"The Please and Thank You Book","icon":"🙏","texts":{},"images":{}}
+{
+  "id": "010",
+  "subjectId": "english",
+  "title": "Unit 10",
+  "description": "The Please and Thank You Book",
+  "icon": "🙏",
+  "texts": {
+    "manners": {
+      "title": "🙏 The Please and Thank You Book",
+      "html": "<p>Good manners are very important. When we want something, we say '<span class='hl'>please</span>'. When someone helps us, we say '<span class='hl'>thank you</span>'.</p><p>If someone is at the door, we <span class='hl'>knock</span> before entering. If we want to borrow a pen, we say: '<span class='hl'>Can</span> I borrow your pen, please?'</p><p>It is <span class='hl'>rude</span> to <span class='hl'>grab</span> things from others. We should ask first! It is <span class='hl'>thoughtful</span> to help others without them asking.</p><p>When someone gives you food, you can say: 'Please <span class='hl'>pass</span> the salt.' If you bump into someone, you say: 'I'm sorry!' Being polite makes everyone feel happy.</p><p>'<span class='hl'>Can</span> I go to the toilet?' asked Tom. '<span class='hl'>May</span> I go to the toilet?' is more polite. Both are correct, but '<span class='hl'>May</span> I...?' sounds more formal.</p>"
+    },
+    "technology": {
+      "title": "💻 Being Polite with Technology",
+      "html": "<p>We use technology every day. A <span class='hl'>computer</span> or <span class='hl'>laptop</span> helps us learn new things. A <span class='hl'>tablet</span> is fun for reading and playing games.</p><p>We can use a <span class='hl'>camera</span> to take photos. But we should always ask: '<span class='hl'>Can</span> I take your photo?' before we take a picture of someone.</p><p>A <span class='hl'>recorder</span> can record sounds. A <span class='hl'>cell phone</span> can do many things — call, text, take photos and play music!</p><p>Good manners with technology:</p><p>We should <span class='hl'>put away</span> our phone when someone is talking to us. We should <span class='hl'>finish</span> our <span class='hl'>work</span> before playing games. We should <span class='hl'>share</span> devices with our brothers and sisters.</p><p>'<span class='hl'>May</span> I use the computer?' is a polite way to ask. Being respectful with technology is just as important as being respectful in person!</p>"
+    }
+  },
+  "images": {}
+}

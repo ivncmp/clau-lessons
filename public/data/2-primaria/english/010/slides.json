@@ -1,0 +1,98 @@
+{
+  "topicId": "010",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "🙏",
+      "title": "Please and Thank You",
+      "content": "<p>Good manners are very important!</p><p>When we want something, we say '<span class='hl'>please</span>'.<br/>When someone helps us, we say '<span class='hl'>thank you</span>'.</p><p>These two words make everyone feel happy and respected.</p>",
+      "tip": "Please and thank you are the magic words!"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "🚪",
+      "title": "Being Polite",
+      "content": "<p>There are many ways to be polite:</p><p><span class='hl'>Knock</span> before entering a room - tap on the door first.<br/>Don't <span class='hl'>grab</span> things from others - ask first!<br/>Say 'excuse me' or 'I'm sorry' when you make a mistake.</p><p>It is <span class='hl'>rude</span> to take things without asking. <span class='hl'>Rude</span> means not polite.</p>"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "💭",
+      "title": "Key Vocabulary",
+      "content": "<p><span class='hl'>Please</span> - a polite word when you ask for something<br/><span class='hl'>Thank you</span> - a polite word when someone helps you<br/><span class='hl'>Knock</span> - tap on the door before entering<br/><span class='hl'>Rude</span> - not polite, bad manners<br/><span class='hl'>Grab</span> - take something quickly (not polite!)<br/><span class='hl'>Thoughtful</span> - kind, thinking about others<br/><span class='hl'>Pass</span> - give something to someone at the table</p>"
+    },
+    {
+      "id": "s04",
+      "type": "concept",
+      "emoji": "🗣️",
+      "title": "Can I...? vs May I...?",
+      "content": "<p>We use <span class='hl'>Can I...?</span> and <span class='hl'>May I...?</span> to ask for <span class='hl'>permission</span>.</p><p>'<span class='hl'>Can I</span> go to the toilet?' - this is correct and common.</p><p>'<span class='hl'>May I</span> go to the toilet?' - this is more formal and polite.</p><p>Both are correct! But <span class='hl'>May I...?</span> sounds more polite in formal situations.</p>",
+      "tip": "Can I = everyday. May I = more polite and formal."
+    },
+    {
+      "id": "s05",
+      "type": "example",
+      "emoji": "🗣️",
+      "title": "Example: Can I / May I",
+      "problem": "<p>Choose <span class='hl'>Can I</span> or <span class='hl'>May I</span> for each situation:</p><p>1. Asking your teacher to leave the room.<br/>2. Asking your friend to borrow a pen.<br/>3. Asking the headteacher to use the phone.</p>",
+      "steps": [
+        "1. Teacher (formal): MAY I leave the room, please?",
+        "2. Friend (informal): CAN I borrow your pen?",
+        "3. Headteacher (very formal): MAY I use the phone, please?"
+      ],
+      "answer": "May I, Can I, May I"
+    },
+    {
+      "id": "s06",
+      "type": "story",
+      "emoji": "🍽️",
+      "title": "Lunch at School",
+      "html": "<p>It was lunchtime at school. Tom was very hungry.</p><p>'<span class='hl'>Can I</span> sit here?' Tom asked his friend Sara. 'Of course!' said Sara.</p><p>'<span class='hl'>Please</span> <span class='hl'>pass</span> the bread,' said Tom. Sara passed the bread. '<span class='hl'>Thank you</span>!' said Tom.</p><p>Then Max came and <span class='hl'>grabbed</span> Sara's juice. 'Hey! That's <span class='hl'>rude</span>!' said Sara. 'You should ask first!'</p><p>'I'm sorry,' said Max. '<span class='hl'>May I</span> have some juice, <span class='hl'>please</span>?' 'Yes, you may,' said Sara with a smile. '<span class='hl'>Thank you</span>!' said Max. Being polite is easy!</p>"
+    },
+    {
+      "id": "s07",
+      "type": "concept",
+      "emoji": "💻",
+      "title": "Polite with Technology",
+      "content": "<p>We should also be polite when using technology!</p><p>'<span class='hl'>Can I</span> take your photo?' - always ask before taking a photo of someone.</p><p>'<span class='hl'>May I</span> use the computer?' - ask before using shared devices.</p><p>Being <span class='hl'>thoughtful</span> means thinking about others. Put your phone away when someone is talking to you!</p>"
+    },
+    {
+      "id": "s08",
+      "type": "example",
+      "emoji": "🙏",
+      "title": "Example: Polite or Rude?",
+      "problem": "<p>Is this behaviour <span class='hl'>polite</span> or <span class='hl'>rude</span>?</p><p>1. Saying 'please' when you ask for something.<br/>2. Grabbing a toy from your friend.<br/>3. Knocking before entering a room.<br/>4. Talking when the teacher is talking.</p>",
+      "steps": [
+        "1. Saying 'please' -> POLITE!",
+        "2. Grabbing a toy -> RUDE! You should ask first.",
+        "3. Knocking on the door -> POLITE!",
+        "4. Talking over the teacher -> RUDE!"
+      ],
+      "answer": "polite, rude, polite, rude"
+    },
+    {
+      "id": "s09",
+      "type": "story",
+      "emoji": "🎁",
+      "title": "The Thoughtful Friend",
+      "html": "<p>Sara was a very <span class='hl'>thoughtful</span> girl. She always thought about her friends.</p><p>When Tom forgot his lunch, Sara said: '<span class='hl'>Can I</span> share my sandwich with you?' Tom smiled and said '<span class='hl'>Thank you</span>, Sara!'</p><p>When a new girl came to class, Sara <span class='hl'>knocked</span> on her desk and said: '<span class='hl'>May I</span> sit with you?' The new girl was so happy!</p><p>Sara never <span class='hl'>grabbed</span> things. She always said '<span class='hl'>please</span>'. She was never <span class='hl'>rude</span>. Everyone loved Sara because she was kind and polite.</p>"
+    },
+    {
+      "id": "s10",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "🙏 Say 'please' when asking and 'thank you' when receiving",
+        "🚪 Knock before entering a room",
+        "❌ Don't grab things - it's rude! Ask first.",
+        "💭 Be thoughtful - think about others' feelings",
+        "🗣️ Can I...? = everyday permission, May I...? = more formal and polite",
+        "💻 Be polite with technology too - ask before taking photos!"
+      ]
+    }
+  ]
+}

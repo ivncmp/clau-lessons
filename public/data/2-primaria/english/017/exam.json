@@ -1,1 +1,273 @@
-{"topicId":"017","subjectId":"english","questions":[]}
+{
+  "topicId": "017",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "How many sides does a triangle have?",
+      "options": ["Two", "Three", "Four", "Five"],
+      "answer": 1,
+      "refText": "shapes",
+      "explanation": "The text says: 'A triangle has three sides.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What shape is an egg?",
+      "options": ["A triangle", "A diamond", "An oval", "A spiral"],
+      "answer": 2,
+      "refText": "shapes",
+      "explanation": "The text says: 'An oval is like a long circle — eggs are ovals!'"
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "A spiral goes round and round, getting bigger and bigger.",
+      "answer": true,
+      "refText": "shapes",
+      "explanation": "The text says: 'A spiral goes round and round, getting bigger and bigger.'"
+    },
+    {
+      "id": "q04",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "A diamond looks like a circle turned sideways.",
+      "answer": false,
+      "refText": "shapes",
+      "explanation": "The text says: 'A diamond looks like a square turned sideways.' Not a circle!"
+    },
+    {
+      "id": "q05",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Where can you see spiral patterns in nature?",
+      "options": ["In flowers", "In spider webs", "In snowflakes", "In leaves"],
+      "answer": 1,
+      "refText": "shapes",
+      "explanation": "The text says: 'Spider webs have spiral patterns.'"
+    },
+    {
+      "id": "q06",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What do snowflakes have inside?",
+      "options": ["Spiral shapes", "Oval shapes", "Diamond shapes", "Triangle shapes"],
+      "answer": 3,
+      "refText": "shapes",
+      "explanation": "The text says: 'Snowflakes have triangle shapes inside!'"
+    },
+    {
+      "id": "q07",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What does the teacher hang from the ceiling?",
+      "options": ["A photograph", "A drawing", "A mobile", "A spiral"],
+      "answer": 2,
+      "refText": "artclass",
+      "explanation": "The text says: 'She hangs the art as a mobile from the ceiling.'"
+    },
+    {
+      "id": "q08",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Lily uses glue to make her origami bird.",
+      "answer": false,
+      "refText": "artclass",
+      "explanation": "The teacher says: 'Origami doesn't need glue — only folding!'"
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "_____ any triangles on the table?",
+      "options": ["Is there", "Are there", "There are", "There is"],
+      "answer": 1,
+      "explanation": "We use 'Are there any...?' to ask about plural things."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "_____ any diamonds yet.",
+      "options": ["There aren't", "There isn't", "Are there", "Is there"],
+      "answer": 0,
+      "explanation": "'There aren't any' is used with plural nouns (diamonds)."
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "_____ any glue on my table!",
+      "options": ["There aren't", "There isn't", "Are there", "Is there"],
+      "answer": 1,
+      "explanation": "'There isn't any' is used with uncountable or singular nouns (glue)."
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "_____ any circles in the box?",
+      "options": ["Is there", "There isn't", "Are there", "There aren't"],
+      "answer": 2,
+      "explanation": "We use 'Are there any...?' to ask about plural things (circles)."
+    },
+    {
+      "id": "q13",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with 'there isn't any' or 'there aren't any'.",
+      "sentence": "_____ paper on the table. _____ scissors in the drawer.",
+      "blanks": ["There isn't any", "There aren't any"],
+      "wordBank": ["There isn't any", "There aren't any", "Are there any", "Is there any"]
+    },
+    {
+      "id": "q14",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["Are", "there", "any", "spirals", "?"],
+      "answer": "Are there any spirals ?"
+    },
+    {
+      "id": "q15",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["aren't", "There", "any", "ovals", "here"],
+      "answer": "There aren't any ovals here"
+    },
+    {
+      "id": "q16",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which two words sound the same but mean different things? (Homophones)",
+      "options": ["see / sea", "big / bag", "art / ant", "cut / cat"],
+      "answer": 0,
+      "explanation": "'See' (to look) and 'sea' (the ocean) sound the same but have different meanings. These are homophones."
+    },
+    {
+      "id": "q17",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which pair of words are homophones?",
+      "options": ["flower / flour", "shape / sharp", "round / found", "paper / pencil"],
+      "answer": 0,
+      "explanation": "'Flower' (a plant) and 'flour' (for baking) sound the same but have different meanings."
+    },
+    {
+      "id": "q18",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "I can _____ many shapes in this picture. (see / sea)",
+      "options": ["see", "sea"],
+      "answer": 0,
+      "explanation": "'See' means to look at something with your eyes. 'Sea' is a body of water."
+    },
+    {
+      "id": "q19",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What is a 'spiral'?",
+      "options": ["A shape with three sides", "A shape that goes round and round", "A shape like a long circle", "A shape with four equal sides"],
+      "answer": 1,
+      "explanation": "A spiral is a shape that goes round and round, getting bigger and bigger."
+    },
+    {
+      "id": "q20",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'compare' mean?",
+      "options": ["To cut something", "To look at things to see how they are different", "To draw a picture", "To fold paper"],
+      "answer": 1,
+      "explanation": "'Compare' means to look at two or more things to see how they are similar or different."
+    },
+    {
+      "id": "q21",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each shape with where you find it in nature.",
+      "pairs": [
+        { "left": "Oval", "right": "flower petals" },
+        { "left": "Spiral", "right": "snail shells" },
+        { "left": "Triangle", "right": "snowflakes" },
+        { "left": "Straight line", "right": "leaves" }
+      ],
+      "rightOptions": ["flower petals", "snail shells", "snowflakes", "leaves", "clouds"]
+    },
+    {
+      "id": "q22",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the shape with its description.",
+      "pairs": [
+        { "left": "Triangle", "right": "three sides" },
+        { "left": "Diamond", "right": "a square turned sideways" },
+        { "left": "Oval", "right": "a long circle" },
+        { "left": "Spiral", "right": "goes round and round" }
+      ],
+      "rightOptions": ["three sides", "a square turned sideways", "a long circle", "goes round and round", "four equal sides"]
+    },
+    {
+      "id": "q23",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these words into shapes or art words.",
+      "words": ["triangle", "photograph", "oval", "drawing", "diamond", "mobile"],
+      "slots": [
+        { "label": "Shapes", "accepts": ["triangle", "oval", "diamond"] },
+        { "label": "Art words", "accepts": ["photograph", "drawing", "mobile"] }
+      ]
+    },
+    {
+      "id": "q24",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify: do these shapes appear in nature or in buildings?",
+      "words": ["spiral in spider webs", "triangle on roofs", "oval in eggs", "oval in windows"],
+      "slots": [
+        { "label": "Nature", "accepts": ["spiral in spider webs", "oval in eggs"] },
+        { "label": "Buildings", "accepts": ["triangle on roofs", "oval in windows"] }
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete the sentences about shapes in art.",
+      "sentence": "Tom makes a _____ with triangles. Mia makes a beautiful _____ with paper.",
+      "blanks": ["pattern", "spiral"],
+      "wordBank": ["pattern", "spiral", "diamond", "photograph"]
+    },
+    {
+      "id": "q26",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Tom makes a pattern with circles — big, small, big, small.",
+      "answer": false,
+      "refText": "artclass",
+      "explanation": "The text says Tom makes a pattern with triangles, not circles."
+    },
+    {
+      "id": "q27",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What is a 'mobile' in art?",
+      "options": ["A telephone", "Art that hangs and moves", "A type of painting", "A drawing of shapes"],
+      "answer": 1,
+      "explanation": "In art, a mobile is a piece of art that hangs from the ceiling and moves in the wind."
+    },
+    {
+      "id": "q28",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What is 'origami'?",
+      "options": ["Drawing with pencils", "Cutting paper into shapes", "Folding paper to make things", "Painting with colours"],
+      "answer": 2,
+      "explanation": "Origami is the Japanese art of folding paper to make shapes and figures — no glue needed!"
+    }
+  ]
+}

@@ -47,6 +47,8 @@ export interface EvalSubjectContent {
   topics: string[];
 }
 
+export type SubjectStatus = "ready" | "building" | "pending";
+
 export interface SubjectSummary {
   id: string;
   name: string;
@@ -55,6 +57,7 @@ export interface SubjectSummary {
   lang: "es" | "en";
   topicCount: number;
   disabled?: boolean;
+  status?: SubjectStatus;
 }
 
 // ─── Subject Detail (per curso) ────────────────────────────────
@@ -198,10 +201,18 @@ export interface WordBankOrderQuestion extends QuestionBase {
   answer: string;
 }
 
+export interface MathOperationQuestion extends QuestionBase {
+  type: "math-operation";
+  operands: [number, number];
+  operator: "+" | "-";
+  answer: number;
+}
+
 export type Question =
   | ChoiceQuestion
   | TrueFalseQuestion
   | MatchingQuestion
   | WordBankClassifyQuestion
   | WordBankFillQuestion
-  | WordBankOrderQuestion;
+  | WordBankOrderQuestion
+  | MathOperationQuestion;

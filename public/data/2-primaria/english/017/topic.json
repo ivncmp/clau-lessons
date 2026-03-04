@@ -1,1 +1,18 @@
-{"id":"017","subjectId":"english","title":"Unit 17","description":"Shapes in Art","icon":"🎨","texts":{},"images":{}}
+{
+  "id": "017",
+  "subjectId": "english",
+  "title": "Unit 17",
+  "description": "Shapes in Art",
+  "icon": "🎨",
+  "texts": {
+    "shapes": {
+      "title": "🎨 Shapes in Art",
+      "html": "<p>Look around you! Can you see shapes? Shapes are everywhere — in buildings, in <span class='hl'>nature</span> and in art.</p><p>A <span class='hl'>triangle</span> has three sides. Many roofs are triangles. A <span class='hl'>diamond</span> looks like a square turned sideways. You can see diamonds on playing cards!</p><p>An <span class='hl'>oval</span> is like a long circle — eggs are ovals! A <span class='hl'>spiral</span> goes round and round, getting bigger and bigger. Snail shells are beautiful spirals.</p><p>Artists use shapes to make amazing art. Some artists <span class='hl'>compare</span> the <span class='hl'>size</span> of shapes — big circles next to small circles look very interesting.</p><p>You can find shapes in nature too. Flowers have oval petals. Spider webs have spiral <span class='hl'>patterns</span>. Leaves have <span class='hl'>straight</span> lines running through them. Snowflakes have triangle shapes inside!</p><p>Look at a <span class='hl'>photograph</span> of a city. Can you see triangles on the roofs? Can you see ovals in the windows? Shapes are all around us — you just need to look!</p>"
+    },
+    "artclass": {
+      "title": "✂️ Art Class",
+      "html": "<p>Today is art class! The teacher says: 'We are going to make art with shapes.'</p><p>'Are there any triangles on the table?' asks Mia. 'Yes, there are lots of triangles!' says the teacher. 'Are there any circles?' asks Tom. 'Yes! There are big circles and small circles.'</p><p>'Are there any <span class='hl'>diamonds</span>?' asks Lily. 'There aren't any diamonds yet — you can cut some!' says the teacher.</p><p>First, the children cut out shapes from coloured paper. Tom makes a <span class='hl'>pattern</span> with triangles — big, small, big, small. Mia makes a beautiful <span class='hl'>spiral</span> with strips of paper.</p><p>Lily uses <span class='hl'>origami</span> to fold a paper bird. 'There isn't any glue on my table!' says Lily. 'That is OK,' says the teacher. 'Origami doesn't need glue — only folding!'</p><p>At the end, the children put their art on the wall. Tom makes a <span class='hl'>drawing</span> of all the shapes. The teacher takes a <span class='hl'>photograph</span> of the wall. She hangs the art as a <span class='hl'>mobile</span> from the ceiling. It moves in the wind!</p><p>'Are there any more shapes to find?' asks Tom. 'Always!' says the teacher. 'Shapes are everywhere!'</p>"
+    }
+  },
+  "images": {}
+}

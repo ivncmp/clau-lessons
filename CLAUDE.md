@@ -41,14 +41,39 @@ public/data/
   cursos.json                              # Index of available cursos
   {cursoSlug}/                             # e.g. "2-primaria"
     curso.json                             # Curso metadata + subject list
+    evaluations.json                       # Evaluation calendar per class + content per eval
     {subjectId}/
       subject.json                         # Subject metadata + topic list
       {topicId}/
         topic.json                         # Topic metadata + reading texts + SVG images
         exam.json                          # Exam questions
+        slides.json                        # (optional) Presentation slides
 ```
 
 The user's curso (from their profile) is converted to a slug via `cursoToSlug()` in `src/utils/cursoSlug.ts` ("2º Primaria" → "2-primaria") and used to resolve the data path. Curso is NOT in the URL — it's implicit from the logged-in user.
+
+### Subjects (2º Primaria)
+
+| Id | Name | Lang | Editorial | Icon |
+|---|---|---|---|---|
+| `lengua` | Lengua | es | Anaya (Operación Mundo) | 📝 |
+| `mates` | Matemáticas | es | Santillana (Construyendo Mundos) | 🔢 |
+| `calculo` | Cálculo | es | Bruño + Santillana | 🧮 |
+| `natural-science` | Natural Science | en | Anaya (Operación Mundo) | 🔬 |
+| `social-science` | Social Science | en | Anaya (Operación Mundo) | 🌍 |
+| `english` | English | en | Oxford (Discover 2nd Ed.) | 🇬🇧 |
+
+### Evaluations (`evaluations.json`)
+
+5 evaluation periods: 1ª–4ª Evaluación + Final. Each has:
+- `exams`: per-class (A–E) array of `{ date?, subjectId }` — exam dates per subject
+- `content`: per-subject `{ units: number[], topics: string[] }` — what's covered
+
+Classes C and D have dates filled in. A, B, E pending.
+
+### Slides (`slides.json`)
+
+Optional per-topic presentation. Types: `concept`, `story`, `example`, `summary`. Each slide has `id`, `type`, `emoji`, `title` + type-specific fields. Currently only `mates/006` has slides.
 
 ### Question Types (discriminated union in `src/types/data.ts`)
 

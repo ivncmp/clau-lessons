@@ -6,6 +6,7 @@ import MatchingQuestion from "./questions/MatchingQuestion";
 import WordBankClassifyQuestion from "./questions/WordBankClassifyQuestion";
 import WordBankFillQuestion from "./questions/WordBankFillQuestion";
 import WordBankOrderQuestion from "./questions/WordBankOrderQuestion";
+import MathOperationQuestion from "./questions/MathOperationQuestion";
 
 interface QuestionRendererProps {
   question: Question;
@@ -62,6 +63,14 @@ export default function QuestionRenderer({
     case "word-bank-order":
       return (
         <WordBankOrderQuestion
+          question={question}
+          answer={answer}
+          onAnswer={onAnswer}
+        />
+      );
+    case "math-operation":
+      return (
+        <MathOperationQuestion
           question={question}
           answer={answer}
           onAnswer={onAnswer}

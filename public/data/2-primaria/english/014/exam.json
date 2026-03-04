@@ -1,1 +1,277 @@
-{"topicId":"014","subjectId":"english","questions":[]}
+{
+  "topicId": "014",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What instrument did Olga play?",
+      "options": ["Piano", "Drums", "Flute", "Guitar"],
+      "answer": 2,
+      "refText": "olga",
+      "explanation": "The text says: 'She played the flute every day after school.'"
+    },
+    {
+      "id": "q02",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Olga made many mistakes at the concert.",
+      "answer": false,
+      "refText": "olga",
+      "explanation": "The text says: 'She didn't make a single mistake!'"
+    },
+    {
+      "id": "q03",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "When did Olga practice?",
+      "options": ["Only at night", "In the morning and afternoon", "Only on weekends", "Never"],
+      "answer": 1,
+      "refText": "olga",
+      "explanation": "The text says: 'She practiced in the morning and in the afternoon.'"
+    },
+    {
+      "id": "q04",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "How did Olga feel after the concert?",
+      "options": ["Sad", "Nervous", "Proud", "Tired"],
+      "answer": 2,
+      "refText": "olga",
+      "explanation": "The text says: 'Olga felt very proud.'"
+    },
+    {
+      "id": "q05",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "A 'solo' means playing alone.",
+      "answer": true,
+      "refText": "olga",
+      "explanation": "A solo is a piece of music played by one person alone."
+    },
+    {
+      "id": "q06",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the events in Olga's story in order.",
+      "pairs": [
+        { "left": "First", "right": "Teacher announced the solo" },
+        { "left": "Then", "right": "Olga practiced every day" },
+        { "left": "Next", "right": "Olga played at the concert" },
+        { "left": "Finally", "right": "Everyone clapped" }
+      ],
+      "rightOptions": ["Teacher announced the solo", "Olga practiced every day", "Olga played at the concert", "Everyone clapped", "Olga quit music"]
+    },
+    {
+      "id": "q07",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which is an adverb of time?",
+      "options": ["quickly", "loudly", "every day", "softly"],
+      "answer": 2,
+      "explanation": "'Every day' tells us WHEN something happens — it is an adverb of time."
+    },
+    {
+      "id": "q08",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which is an adverb of time?",
+      "options": ["already", "beautiful", "big", "happy"],
+      "answer": 0,
+      "explanation": "'Already' tells us WHEN — it is an adverb of time."
+    },
+    {
+      "id": "q09",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each adverb of time with an example.",
+      "pairs": [
+        { "left": "every day", "right": "I practice every day" },
+        { "left": "already", "right": "She already knows" },
+        { "left": "in the morning", "right": "I wake up in the morning" },
+        { "left": "yesterday", "right": "We played yesterday" }
+      ],
+      "rightOptions": ["I practice every day", "She already knows", "I wake up in the morning", "We played yesterday", "She is happy"]
+    },
+    {
+      "id": "q10",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct adverb of time.",
+      "sentence": "I practice _____ _____ after school.",
+      "blanks": ["every", "day"],
+      "wordBank": ["every", "day", "already", "never"]
+    },
+    {
+      "id": "q11",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify: adverb of time or not?",
+      "words": ["every day", "beautiful", "already", "big", "yesterday", "in the morning"],
+      "slots": [
+        { "label": "Adverb of time", "accepts": ["every day", "already", "yesterday", "in the morning"] },
+        { "label": "Not an adverb of time", "accepts": ["beautiful", "big"] }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct word.",
+      "sentence": "She _____ knows the song. She memorized it _____.",
+      "blanks": ["already", "yesterday"],
+      "wordBank": ["already", "yesterday", "beautiful", "happy"]
+    },
+    {
+      "id": "q13",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'I practice _____ the morning.' Which preposition fits?",
+      "options": ["at", "on", "in", "to"],
+      "answer": 2,
+      "explanation": "We use 'in' with parts of the day: in the morning, in the afternoon, in the evening."
+    },
+    {
+      "id": "q14",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["practice", "I", "day", "every"],
+      "answer": "I practice every day"
+    },
+    {
+      "id": "q15",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["already", "She", "knows", "song", "the"],
+      "answer": "She already knows the song"
+    },
+    {
+      "id": "q16",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'have lunch' mean?",
+      "options": ["Cook food", "Eat the midday meal", "Buy food", "Make a sandwich"],
+      "answer": 1,
+      "explanation": "'Have lunch' means to eat the midday meal."
+    },
+    {
+      "id": "q17",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each phrase with its meaning.",
+      "pairs": [
+        { "left": "give a concert", "right": "perform music" },
+        { "left": "make a mistake", "right": "do something wrong" },
+        { "left": "do an art project", "right": "create artwork" },
+        { "left": "have lunch", "right": "eat midday meal" }
+      ],
+      "rightOptions": ["perform music", "do something wrong", "create artwork", "eat midday meal", "go to sleep"]
+    },
+    {
+      "id": "q18",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Olga gave up practicing because it was too hard.",
+      "answer": false,
+      "refText": "olga",
+      "explanation": "The text says: 'But Olga didn't give up.'"
+    },
+    {
+      "id": "q19",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with 'in', 'at' or 'on'.",
+      "sentence": "I practice _____ the afternoon. The concert is _____ Saturday.",
+      "blanks": ["in", "on"],
+      "wordBank": ["in", "on", "at", "for"]
+    },
+    {
+      "id": "q20",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which sentence uses 'already' correctly?",
+      "options": ["She already plays the flute.", "She plays already the flute.", "Already she plays the flute.", "She the flute already plays."],
+      "answer": 0,
+      "explanation": "'Already' goes before the main verb: 'She already plays the flute.'"
+    },
+    {
+      "id": "q21",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these activities.",
+      "words": ["give a concert", "have lunch", "make a mistake", "do an art project"],
+      "slots": [
+        { "label": "Music-related", "accepts": ["give a concert", "make a mistake"] },
+        { "label": "Daily activities", "accepts": ["have lunch", "do an art project"] }
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Why were Olga's hands sweaty?",
+      "options": ["It was very hot", "She was nervous", "She was sick", "She was running"],
+      "answer": 1,
+      "refText": "olga",
+      "explanation": "The text says her notes were wet because she was so nervous her hands were sweaty."
+    },
+    {
+      "id": "q23",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["felt", "Olga", "proud", "very"],
+      "answer": "Olga felt very proud"
+    },
+    {
+      "id": "q24",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "The best musicians practice every day.",
+      "answer": true,
+      "refText": "instruments",
+      "explanation": "The text says: 'The best musicians practice every day.'"
+    },
+    {
+      "id": "q25",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct words from Olga's story.",
+      "sentence": "Olga played a _____ at the concert. She didn't make a single _____!",
+      "blanks": ["solo", "mistake"],
+      "wordBank": ["solo", "mistake", "song", "friend"]
+    },
+    {
+      "id": "q26",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'_____ do you practice?' 'Every day after school.'",
+      "options": ["What", "Where", "When", "Who"],
+      "answer": 2,
+      "explanation": "'When' asks about time: 'When do you practice?'"
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each feeling with when Olga felt it.",
+      "pairs": [
+        { "left": "Nervous", "right": "Before the concert" },
+        { "left": "Proud", "right": "After playing well" },
+        { "left": "Determined", "right": "While practicing" }
+      ],
+      "rightOptions": ["Before the concert", "After playing well", "While practicing", "At lunch time"]
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["didn't", "Olga", "give up"],
+      "answer": "Olga didn't give up"
+    }
+  ]
+}

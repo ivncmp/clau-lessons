@@ -1,1 +1,269 @@
-{"topicId":"004","subjectId":"english","questions":[]}
+{
+  "topicId": "004",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What do you need to make ice cream at home?",
+      "options": ["Flour, eggs and milk", "Cream, sugar, salt and plastic bags", "Water, juice and fruit", "Bread, butter and cheese"],
+      "answer": 1,
+      "refText": "icecream",
+      "explanation": "The text says: 'You need cream, sugar, salt and plastic bags.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Why do you add salt to the ice?",
+      "options": ["To make it taste good", "To make the ice very cold", "To melt the ice", "To add flavour"],
+      "answer": 1,
+      "refText": "icecream",
+      "explanation": "The text says: 'The salt makes the ice very, very cold.'"
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "You shake the bags for five minutes to make ice cream.",
+      "answer": false,
+      "refText": "icecream",
+      "explanation": "The text says you shake the bags for ten minutes, not five."
+    },
+    {
+      "id": "q04",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "A mixture is when you put two or more things together.",
+      "answer": true,
+      "refText": "mixtures",
+      "explanation": "The text says: 'A mixture is when you put two or more things together.'"
+    },
+    {
+      "id": "q05",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Which mixture can be separated easily?",
+      "options": ["Sugar in water", "Coffee with milk", "Fruit salad", "Tea with sugar"],
+      "answer": 2,
+      "refText": "mixtures",
+      "explanation": "The text says: 'You can pick the fruit out of a fruit salad.'"
+    },
+    {
+      "id": "q06",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "You can easily take sugar out of water.",
+      "answer": false,
+      "refText": "mixtures",
+      "explanation": "The text says: 'When you mix sugar in water, you cannot take the sugar out!'"
+    },
+    {
+      "id": "q07",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these foods and drinks.",
+      "words": ["coffee", "salad", "tea", "pasta", "fruit", "vegetables"],
+      "slots": [
+        { "label": "Drinks", "accepts": ["coffee", "tea"] },
+        { "label": "Foods", "accepts": ["salad", "pasta", "fruit", "vegetables"] }
+      ]
+    },
+    {
+      "id": "q08",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the ingredients with what you make.",
+      "pairs": [
+        { "left": "Cream + sugar", "right": "ice cream" },
+        { "left": "Lettuce + tomato", "right": "salad" },
+        { "left": "Water + tea leaves", "right": "tea" },
+        { "left": "Pasta + sauce", "right": "pasta dish" }
+      ],
+      "rightOptions": ["ice cream", "salad", "tea", "pasta dish", "cake"]
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'pour' mean?",
+      "options": ["To eat something", "To make a liquid flow from one place to another", "To cut into pieces", "To cook in the oven"],
+      "answer": 1,
+      "explanation": "'Pour' means to make a liquid flow, like pouring milk into a glass."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'mixture' mean?",
+      "options": ["One thing by itself", "Two or more things put together", "Something very hot", "Something very cold"],
+      "answer": 1,
+      "explanation": "A mixture is two or more things combined together."
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'The ice cream _____ delicious!' Which word completes the sentence about yesterday?",
+      "options": ["is", "are", "was", "were"],
+      "answer": 2,
+      "explanation": "'Ice cream' is singular, so we use 'was' in the past: 'The ice cream was delicious!'"
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'_____ the teacher happy with the experiment?' Which word starts this question?",
+      "options": ["Were", "Was", "Is", "Do"],
+      "answer": 1,
+      "explanation": "'Teacher' is singular, so we use 'Was': 'Was the teacher happy?'"
+    },
+    {
+      "id": "q13",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with 'was', 'wasn't', 'were' or 'weren't'.",
+      "sentence": "The cookies _____ good, but the cake _____ nice.",
+      "blanks": ["were", "wasn't"],
+      "wordBank": ["were", "wasn't", "was", "weren't"]
+    },
+    {
+      "id": "q14",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with 'was' or 'were'.",
+      "sentence": "_____ the sun shining? Yes, it _____!",
+      "blanks": ["Was", "was"],
+      "wordBank": ["Was", "was", "Were", "were"]
+    },
+    {
+      "id": "q15",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'The children _____ excited about the experiment.' Which word fits?",
+      "options": ["was", "is", "were", "am"],
+      "answer": 2,
+      "explanation": "'Children' is plural, so we use 'were': 'The children were excited.'"
+    },
+    {
+      "id": "q16",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["Was", "good", "the", "ice cream"],
+      "answer": "Was the ice cream good"
+    },
+    {
+      "id": "q17",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["were", "The", "results", "good"],
+      "answer": "The results were good"
+    },
+    {
+      "id": "q18",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "'Were' is used with he, she, and it.",
+      "answer": false,
+      "explanation": "'Was' is used with I, he, she, it. 'Were' is used with you, we, they."
+    },
+    {
+      "id": "q19",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which sentence is correct?",
+      "options": ["I were at the party.", "She were happy.", "They was tired.", "We were at home."],
+      "answer": 3,
+      "explanation": "'We were at home' is correct. We use 'were' with we, you, they."
+    },
+    {
+      "id": "q20",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match to make correct sentences in the past.",
+      "pairs": [
+        { "left": "I", "right": "was happy." },
+        { "left": "You", "right": "were at school." },
+        { "left": "The cake", "right": "was delicious." },
+        { "left": "The cookies", "right": "were sweet." }
+      ],
+      "rightOptions": ["was happy.", "were at school.", "was delicious.", "were sweet.", "am tired."]
+    },
+    {
+      "id": "q21",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete the ice cream recipe steps.",
+      "sentence": "First, _____ the cream into a bag. Then add some _____.",
+      "blanks": ["pour", "sugar"],
+      "wordBank": ["pour", "sugar", "freeze", "salt"]
+    },
+    {
+      "id": "q22",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify: can these mixtures be separated easily?",
+      "words": ["fruit salad", "sugar in water", "nuts and raisins", "coffee with milk"],
+      "slots": [
+        { "label": "Easy to separate", "accepts": ["fruit salad", "nuts and raisins"] },
+        { "label": "Hard to separate", "accepts": ["sugar in water", "coffee with milk"] }
+      ]
+    },
+    {
+      "id": "q23",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What is the first step to make ice cream?",
+      "options": ["Add salt to the ice", "Shake the bags", "Pour the cream into a small bag", "Open the bag"],
+      "answer": 2,
+      "refText": "icecream",
+      "explanation": "The text says: 'First, pour the cream into a small plastic bag.'"
+    },
+    {
+      "id": "q24",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "A salad is an example of a mixture.",
+      "answer": true,
+      "refText": "mixtures",
+      "explanation": "The text says: 'When you make a salad, you mix vegetables together.'"
+    },
+    {
+      "id": "q25",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["is", "mixture", "A", "two", "things", "together", "or", "more"],
+      "answer": "A mixture is two or more things together"
+    },
+    {
+      "id": "q26",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'The experiment _____ fun. The students _____ happy.' Which words complete the sentences?",
+      "options": ["was / were", "were / was", "was / was", "were / were"],
+      "answer": 0,
+      "explanation": "'Experiment' is singular (was), 'students' is plural (were)."
+    },
+    {
+      "id": "q27",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with 'wasn't' or 'weren't'.",
+      "sentence": "The milk _____ cold. The eggs _____ fresh.",
+      "blanks": ["wasn't", "weren't"],
+      "wordBank": ["wasn't", "weren't", "was", "were"]
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["Were", "the", "results", "good"],
+      "answer": "Were the results good"
+    }
+  ]
+}

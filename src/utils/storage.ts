@@ -5,6 +5,7 @@ import type {
   UserProgress,
   ExamAttempt,
   ExportedData,
+  MentalMathStats,
 } from "../types/storage";
 
 const STORE_KEY = "clau_lessons_store";
@@ -49,6 +50,7 @@ export function createUser(
   name: string,
   course: string,
   classId: string,
+  avatar?: string,
 ): UserProfile {
   const store = getStore();
   const id = generateUserId(name);
@@ -57,6 +59,7 @@ export function createUser(
   const profile: UserProfile = {
     id,
     name: name.trim(),
+    avatar,
     course,
     classId,
     createdAt: now,
@@ -98,6 +101,19 @@ export function deleteUser(userId: string): void {
     store.activeUserId = null;
   }
   saveStore(store);
+}
+
+export function updateProfile(
+  userId: string,
+  updates: Partial<Pick<UserProfile, "name" | "avatar">>,
+): UserProfile | null {
+  const store = getStore();
+  const user = store.users[userId];
+  if (!user) return null;
+  if (updates.name !== undefined) user.profile.name = updates.name.trim();
+  if (updates.avatar !== undefined) user.profile.avatar = updates.avatar;
+  saveStore(store);
+  return user.profile;
 }
 
 export function logout(): void {
@@ -196,6 +212,36 @@ export function getBestScore(
   return Math.max(...attempts.map((a) => a.score / a.total));
 }
 
+// ─── Mental Math Stats ────────────────────────────────────────
+
+export function getMentalMathStats(userId: string): MentalMathStats {
+  const progress = getProgress(userId);
+  return (
+    progress.mentalMath ?? { rounds: 0, totalCorrect: 0, totalAttempted: 0 }
+  );
+}
+
+export function recordMentalMathRound(
+  userId: string,
+  correct: number,
+  total: number,
+): void {
+  const store = getStore();
+  const user = store.users[userId];
+  if (!user) return;
+  if (!user.progress.mentalMath) {
+    user.progress.mentalMath = {
+      rounds: 0,
+      totalCorrect: 0,
+      totalAttempted: 0,
+    };
+  }
+  user.progress.mentalMath.rounds++;
+  user.progress.mentalMath.totalCorrect += correct;
+  user.progress.mentalMath.totalAttempted += total;
+  saveStore(store);
+}
+
 // ─── In-Progress Exam ─────────────────────────────────────────
 
 interface InProgressExam {
@@ -210,6 +256,28 @@ function examProgressKey(
   topicId: string,
 ): string {
   return `clau_exam_${userId}_${subjectId}_${topicId}`;
+}
+
+/** Returns total number of in-progress exams for a user. */
+export function getAllInProgressExamsCount(userId: string): number {
+  const prefix = `clau_exam_${userId}_`;
+  let count = 0;
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (key?.startsWith(prefix)) count++;
+  }
+  return count;
+}
+
+/** Returns count of answered questions for an in-progress exam, or null if none. */
+export function getInProgressCount(
+  userId: string,
+  subjectId: string,
+  topicId: string,
+): number | null {
+  const data = getInProgressExam(userId, subjectId, topicId);
+  if (!data) return null;
+  return Object.keys(data.answers).length;
 }
 
 export function getInProgressExam(
@@ -287,9 +355,25 @@ export async function handleFileImport(file: File): Promise<UserProfile> {
   }
 
   const store = getStore();
-  const newId = generateUserId(data.user.profile.name);
+  const incoming = data.user.profile;
+
+  // Check if a user with the same name and course already exists
+  const existing = Object.values(store.users).find(
+    (u) =>
+      u.profile.name === incoming.name && u.profile.course === incoming.course,
+  );
+
+  if (existing) {
+    // Update existing user's progress instead of creating a duplicate
+    existing.progress = data.user.progress;
+    existing.profile.lastLoginAt = new Date().toISOString();
+    saveStore(store);
+    return existing.profile;
+  }
+
+  const newId = generateUserId(incoming.name);
   const profile: UserProfile = {
-    ...data.user.profile,
+    ...incoming,
     id: newId,
     lastLoginAt: new Date().toISOString(),
   };

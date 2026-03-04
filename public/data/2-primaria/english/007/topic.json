@@ -1,1 +1,18 @@
-{"id":"007","subjectId":"english","title":"Unit 7","description":"Subtraction","icon":"➖","texts":{},"images":{}}
+{
+  "id": "007",
+  "subjectId": "english",
+  "title": "Unit 7",
+  "description": "Subtraction",
+  "icon": "➖",
+  "texts": {
+    "subtraction": {
+      "title": "➖ Subtraction",
+      "html": "<p><span class='hl'>Subtraction</span> means <span class='hl'>take away</span>. When we subtract, we find out how many are left.</p><p>We use a <span class='hl'>minus sign</span> (−) for subtraction. For example: 8 − 3 = 5. We say 'eight minus three equals five' or 'eight take away three is five'.</p><p>We can use <span class='hl'>columns</span> to subtract big numbers. We write the numbers one under the other, in a <span class='hl'>column</span>. We start subtracting from the right side.</p><p>A <span class='hl'>single-digit number</span> has one digit, like 5 or 9. A <span class='hl'>double-digit number</span> has two digits, like 15 or 42.</p><p>Subtraction is everywhere! If you have 10 sweets and you <span class='hl'>eat</span> 3, how many are left? 10 − 3 = 7. You have 7 sweets left!</p>"
+    },
+    "problems": {
+      "title": "🧮 Subtraction Word Problems",
+      "html": "<p>Let's solve some word problems using subtraction!</p><p>Tom <span class='hl'>had</span> 15 stickers. He <span class='hl'>gave</span> 6 to his friend. How many stickers does Tom have now? 15 − 6 = 9. Tom has 9 stickers.</p><p>Sara <span class='hl'>bought</span> 20 apples. Her family <span class='hl'>ate</span> 8 apples. How many apples are left? 20 − 8 = 12. There are 12 apples left.</p><p>The class <span class='hl'>had</span> 25 students. 7 students were absent. How many students <span class='hl'>came</span> to school? 25 − 7 = 18. 18 students came to school.</p><p>In a <span class='hl'>test score</span>, Max <span class='hl'>got</span> 10 out of 10. He was <span class='hl'>clean</span> — no mistakes! But his friend <span class='hl'>got</span> 7 out of 10. He was a bit <span class='hl'>tired</span> that day.</p><p>The key to subtraction is: start with the bigger number and take away the smaller number!</p>"
+    }
+  },
+  "images": {}
+}

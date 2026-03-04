@@ -1,0 +1,114 @@
+{
+  "topicId": "018",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "🦢",
+      "title": "Origami Vocabulary",
+      "content": "<p><span class='hl'>Origami</span> is the Japanese art of folding paper. Let's learn the key words:</p><p>📄 <span class='hl'>fold</span> — to bend paper to make a shape<br/>🤲 <span class='hl'>crumple</span> — to squash paper into a ball<br/>📐 <span class='hl'>edge</span> — the side or border of the paper<br/>📌 <span class='hl'>corner</span> — the point where two edges meet</p>",
+      "tip": "Fold = doblar. Be careful: fold neatly, don't crumple!"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "🎨",
+      "title": "Art Materials",
+      "content": "<p>Things we use to make art:</p><p>🖍️ <span class='hl'>markers</span> — coloured pens with thick tips<br/>🎨 <span class='hl'>watercolours</span> — paints you mix with water<br/>🖍️ <span class='hl'>chalk</span> — soft sticks for drawing on a board or paper<br/>✂️ <span class='hl'>scissors</span> — a tool for cutting paper<br/>🧴 <span class='hl'>glue</span> — sticky liquid to join things together</p>",
+      "tip": "Scissors is always plural in English! We say 'a pair of scissors'."
+    },
+    {
+      "id": "s03",
+      "type": "story",
+      "emoji": "📖",
+      "title": "Origami Day",
+      "html": "<p>Today is <span class='hl'>Origami</span> Day in class! Miss Green gives everyone a square piece of paper.</p><p>&ldquo;First, <span class='hl'>fold</span> the paper in half,&rdquo; she says. &ldquo;Match the <span class='hl'>edges</span> carefully. Now <span class='hl'>fold</span> one <span class='hl'>corner</span> down.&rdquo;</p><p>Tom <span class='hl'>crumples</span> his paper by accident! &ldquo;Oh no!&rdquo; he says. Miss Green gives him a new one.</p><p>At the end, everyone has a beautiful paper bird. They colour them with <span class='hl'>markers</span> and <span class='hl'>watercolours</span>. Some children use <span class='hl'>chalk</span> too. They cut out extra wings with <span class='hl'>scissors</span> and stick them on with <span class='hl'>glue</span>.</p>"
+    },
+    {
+      "id": "s04",
+      "type": "concept",
+      "emoji": "❓",
+      "title": "Do I need...?",
+      "content": "<p>We use <span class='hl'>Do I need...?</span> to ask if something is necessary:</p><p>❓ <span class='hl'>Do I need</span> scissors?<br/>✅ Yes, you do.<br/>❌ No, you don't.</p><p>We use <span class='hl'>You don't need...</span> to say something is NOT necessary:</p><p>🔹 <span class='hl'>You don't need</span> glue for this project.<br/>🔹 <span class='hl'>You don't need</span> watercolours today.</p>",
+      "tip": "Do I need = Do I have to have it? You don't need = You can do it without it!"
+    },
+    {
+      "id": "s05",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "What Do I Need?",
+      "problem": "<p>Answer the questions about making an origami bird:</p><p>1. Do I need paper? _____<br/>2. Do I need scissors? _____<br/>3. Do I need glue? _____<br/>4. Do I need watercolours? _____</p>",
+      "steps": [
+        "1. You always need paper for origami --> Yes, you do.",
+        "2. Origami is only folding, no cutting --> No, you don't.",
+        "3. Origami is only folding, no sticking --> No, you don't.",
+        "4. You can colour it after, but you don't have to --> No, you don't."
+      ],
+      "answer": "1. Yes, you do.  2. No, you don't.  3. No, you don't.  4. No, you don't."
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "✏️",
+      "title": "Commas in Lists",
+      "content": "<p>When we write a <span class='hl'>list</span> of three or more things, we use <span class='hl'>commas</span> to separate them:</p><p>✅ I need <span class='hl'>paper, scissors, and glue</span>.<br/>✅ She has <span class='hl'>markers, chalk, and watercolours</span>.</p><p>Rules:</p><p>🔹 Put a <span class='hl'>comma</span> after each item<br/>🔹 Use <span class='hl'>and</span> before the last item<br/>🔹 No comma needed for only TWO items: <em>paper and scissors</em></p>",
+      "tip": "Commas in a list are like little pauses when you read. They help you separate each item!"
+    },
+    {
+      "id": "s07",
+      "type": "example",
+      "emoji": "📝",
+      "title": "Add the Commas",
+      "problem": "<p>Add commas to these sentences:</p><p>1. I need paper scissors and glue.<br/>2. She likes red blue and green.<br/>3. We fold crumple and cut the paper.<br/>4. Tom has markers chalk and watercolours.</p>",
+      "steps": [
+        "1. Three items: paper + scissors + glue --> I need paper, scissors, and glue.",
+        "2. Three items: red + blue + green --> She likes red, blue, and green.",
+        "3. Three items: fold + crumple + cut --> We fold, crumple, and cut the paper.",
+        "4. Three items: markers + chalk + watercolours --> Tom has markers, chalk, and watercolours."
+      ],
+      "answer": "1. paper, scissors, and glue  2. red, blue, and green  3. fold, crumple, and cut  4. markers, chalk, and watercolours"
+    },
+    {
+      "id": "s08",
+      "type": "story",
+      "emoji": "✂️",
+      "title": "The Art Cupboard",
+      "html": "<p>&ldquo;<span class='hl'>Do I need</span> any <span class='hl'>markers</span>?&rdquo; asks Lily.</p><p>&ldquo;<span class='hl'>You don't need</span> markers today,&rdquo; says Miss Green. &ldquo;You need <span class='hl'>paper, scissors, and glue</span>.&rdquo;</p><p>Lily goes to the art cupboard. She finds <span class='hl'>chalk, watercolours, and scissors</span>, but there isn't any <span class='hl'>glue</span>!</p><p>&ldquo;Miss Green, <span class='hl'>do I need</span> glue?&rdquo; she asks. &ldquo;<span class='hl'>You don't need</span> glue for the first step. First, <span class='hl'>fold</span> the paper. Match the <span class='hl'>edges</span> and <span class='hl'>corners</span>. Don't <span class='hl'>crumple</span> it!&rdquo;</p>"
+    },
+    {
+      "id": "s09",
+      "type": "concept",
+      "emoji": "📄",
+      "title": "Origami Instructions",
+      "content": "<p>When we give <span class='hl'>instructions</span> for origami, we use action words:</p><p>1️⃣ <span class='hl'>Fold</span> the paper in half.<br/>2️⃣ Match the <span class='hl'>edges</span>.<br/>3️⃣ Press the <span class='hl'>corners</span> down.<br/>4️⃣ Don't <span class='hl'>crumple</span> the paper!</p><p>We can also say what materials we need:<br/><em>You need <span class='hl'>paper, scissors, and markers</span>.</em><br/><em><span class='hl'>You don't need</span> glue or chalk.</em></p>"
+    },
+    {
+      "id": "s10",
+      "type": "example",
+      "emoji": "🎯",
+      "title": "Origami Challenge",
+      "problem": "<p>Read the instructions and answer:</p><p><em>To make an origami boat, you need paper. Fold the paper in half. Fold the corners to the middle edge. You don't need scissors or glue.</em></p><p>1. Do I need scissors?<br/>2. What do I fold first?<br/>3. Do I need glue?</p>",
+      "steps": [
+        "1. The instructions say you don't need scissors --> No, you don't.",
+        "2. The first step says fold the paper in half --> The paper in half.",
+        "3. The instructions say you don't need glue --> No, you don't."
+      ],
+      "answer": "1. No, you don't.  2. The paper in half.  3. No, you don't."
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "🦢 Origami words: fold, crumple, edge, corner",
+        "🎨 Art materials: markers, watercolours, chalk, scissors, glue",
+        "❓ Do I need...? --> Yes, you do. / No, you don't.",
+        "🚫 You don't need... = it is not necessary",
+        "✏️ Commas in lists: item1, item2, and item3",
+        "📝 Only use commas for THREE or more items!"
+      ]
+    }
+  ]
+}

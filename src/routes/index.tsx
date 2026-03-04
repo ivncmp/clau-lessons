@@ -7,6 +7,7 @@ import SubjectPage from "../features/subject/components/SubjectPage";
 import TopicPage from "../features/topic/components/TopicPage";
 import ExamPage from "../features/exam/components/ExamPage";
 import SlidesPage from "../features/slides/components/SlidesPage";
+import ProfilePage from "../features/profile/components/ProfilePage";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ export const router = createBrowserRouter([
         element: <AppLayout />,
         children: [
           { path: "/dashboard", element: <DashboardPage /> },
+          { path: "/profile", element: <ProfilePage /> },
           { path: "/subject/:subjectId", element: <SubjectPage /> },
           {
             path: "/subject/:subjectId/topic/:topicId/lesson",

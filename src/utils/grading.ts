@@ -39,6 +39,11 @@ export function isCorrect(question: Question, answer: UserAnswer): boolean {
       return (
         answer.type === "word-bank-order" && answer.arranged === question.answer
       );
+
+    case "math-operation":
+      return (
+        answer.type === "math-operation" && answer.value === question.answer
+      );
   }
 }
 

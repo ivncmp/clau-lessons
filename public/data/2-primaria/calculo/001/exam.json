@@ -1,0 +1,496 @@
+{
+  "topicId": "001",
+  "subjectId": "calculo",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Calcula esta resta.",
+      "operands": [12, 4],
+      "operator": "-",
+      "answer": 8,
+      "explanation": "12 − 4 = 8."
+    },
+    {
+      "id": "q02",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Calcula esta resta con llevada.",
+      "operands": [25, 8],
+      "operator": "-",
+      "answer": 17,
+      "explanation": "25 − 8 = 17. Como 5 < 8, pedimos prestado: 15 − 8 = 7 y 1 − 0 = 1."
+    },
+    {
+      "id": "q03",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Calcula esta resta.",
+      "operands": [42, 6],
+      "operator": "-",
+      "answer": 36,
+      "explanation": "42 − 6 = 36. Pedimos prestado: 12 − 6 = 6, y 3 − 0 = 3."
+    },
+    {
+      "id": "q04",
+      "type": "math-operation",
+      "emoji": "✏️",
+      "question": "Calcula esta resta con llevada.",
+      "operands": [37, 8],
+      "operator": "-",
+      "answer": 29,
+      "explanation": "37 − 8 = 29. Pedimos prestado: 17 − 8 = 9, y 2 − 0 = 2."
+    },
+    {
+      "id": "q05",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "En la resta 73 − 5, hay que pedir prestado (llevar).",
+      "answer": true,
+      "explanation": "Sí. Las unidades son 3 − 5 y como 3 < 5, hay que pedir prestado."
+    },
+    {
+      "id": "q06",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "En la resta 84 − 8, NO hay llevada.",
+      "answer": false,
+      "explanation": "Falso. Las unidades son 4 − 8 y como 4 < 8, sí hay llevada."
+    },
+    {
+      "id": "q07",
+      "type": "math-operation",
+      "emoji": "📐",
+      "question": "Resta en vertical.",
+      "operands": [76, 29],
+      "operator": "-",
+      "answer": 47,
+      "explanation": "Unidades: 16 − 9 = 7 (con llevada). Decenas: 6 − 2 = 4. Resultado: 47."
+    },
+    {
+      "id": "q08",
+      "type": "math-operation",
+      "emoji": "📐",
+      "question": "Resta en vertical.",
+      "operands": [81, 27],
+      "operator": "-",
+      "answer": 54,
+      "explanation": "Unidades: 11 − 7 = 4 (con llevada). Decenas: 7 − 2 = 5. Resultado: 54."
+    },
+    {
+      "id": "q09",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada resta con su resultado.",
+      "pairs": [
+        { "left": "27 − 8", "right": "19" },
+        { "left": "23 − 5", "right": "18" },
+        { "left": "14 − 8", "right": "6" },
+        { "left": "32 − 7", "right": "25" }
+      ],
+      "rightOptions": ["19", "18", "6", "25", "7"]
+    },
+    {
+      "id": "q10",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Relaciona cada resta con su resultado.",
+      "pairs": [
+        { "left": "52 − 25", "right": "27" },
+        { "left": "63 − 28", "right": "35" },
+        { "left": "45 − 18", "right": "27" },
+        { "left": "91 − 7", "right": "84" }
+      ],
+      "rightOptions": ["27", "35", "27", "84", "42"]
+    },
+    {
+      "id": "q11",
+      "type": "math-operation",
+      "emoji": "📐",
+      "question": "Resta en vertical.",
+      "operands": [42, 27],
+      "operator": "-",
+      "answer": 15,
+      "explanation": "Unidades: 12 − 7 = 5 (con llevada). Decenas: 3 − 2 = 1. Resultado: 15."
+    },
+    {
+      "id": "q12",
+      "type": "math-operation",
+      "emoji": "📐",
+      "question": "Resta en vertical.",
+      "operands": [58, 39],
+      "operator": "-",
+      "answer": 19,
+      "explanation": "Unidades: 18 − 9 = 9 (con llevada). Decenas: 4 − 3 = 1. Resultado: 19."
+    },
+    {
+      "id": "q13",
+      "type": "word-bank-order",
+      "emoji": "🔢",
+      "question": "Completa la serie descendente: 10, 8, 6, __, __",
+      "words": ["2", "4", "0", "3"],
+      "answer": "4, 2",
+      "explanation": "La serie baja de 2 en 2: 10, 8, 6, 4, 2."
+    },
+    {
+      "id": "q14",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "¿Qué número sigue en la serie? 10, 7, 4, __",
+      "options": ["0", "1", "2", "3"],
+      "answer": 1,
+      "explanation": "La serie baja de 3 en 3: 10, 7, 4, 1."
+    },
+    {
+      "id": "q15",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "La serie 9, 7, 6, 4 baja siempre de 2 en 2.",
+      "answer": false,
+      "explanation": "Falso. De 9 a 7 baja 2, pero de 7 a 6 solo baja 1. No es constante."
+    },
+    {
+      "id": "q16",
+      "type": "math-operation",
+      "emoji": "📐",
+      "question": "Resta en vertical.",
+      "operands": [86, 39],
+      "operator": "-",
+      "answer": 47,
+      "explanation": "Unidades: 16 − 9 = 7 (con llevada). Decenas: 7 − 3 = 4. Resultado: 47."
+    },
+    {
+      "id": "q17",
+      "type": "math-operation",
+      "emoji": "💯",
+      "question": "Resta de 3 cifras.",
+      "operands": [752, 123],
+      "operator": "-",
+      "answer": 629,
+      "explanation": "Unidades: 12 − 3 = 9 (con llevada). Decenas: 4 − 2 = 2. Centenas: 7 − 1 = 6. Resultado: 629."
+    },
+    {
+      "id": "q18",
+      "type": "math-operation",
+      "emoji": "💯",
+      "question": "Resta de 3 cifras con llevada.",
+      "operands": [623, 188],
+      "operator": "-",
+      "answer": 435,
+      "explanation": "Unidades: 13 − 8 = 5 (con llevada). Decenas: 1 − 8 → pedimos prestado: 11 − 8 = 3. Centenas: 5 − 1 = 4. Resultado: 435."
+    },
+    {
+      "id": "q19",
+      "type": "math-operation",
+      "emoji": "💯",
+      "question": "Resta de 3 cifras con llevada.",
+      "operands": [553, 237],
+      "operator": "-",
+      "answer": 316,
+      "explanation": "Unidades: 3 − 7 → pedimos prestado: 13 − 7 = 6. Decenas: 4 − 3 = 1. Centenas: 5 − 2 = 3. Resultado: 316."
+    },
+    {
+      "id": "q20",
+      "type": "matching",
+      "emoji": "💯",
+      "question": "Relaciona cada resta de 3 cifras con su resultado.",
+      "pairs": [
+        { "left": "418 − 239", "right": "179" },
+        { "left": "504 − 238", "right": "266" },
+        { "left": "233 − 159", "right": "74" }
+      ],
+      "rightOptions": ["179", "266", "74", "185"]
+    },
+    {
+      "id": "q21",
+      "type": "choice",
+      "emoji": "🔄",
+      "question": "¿Qué número falta? ☐ − 5 = 9",
+      "options": ["12", "13", "14", "15"],
+      "answer": 2,
+      "explanation": "Si ☐ − 5 = 9, entonces ☐ = 9 + 5 = 14."
+    },
+    {
+      "id": "q22",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "El resultado de 34 − 16 es 18.",
+      "answer": true,
+      "explanation": "Correcto. Unidades: 14 − 6 = 8 (con llevada). Decenas: 2 − 1 = 1. Resultado: 18."
+    },
+    {
+      "id": "q23",
+      "type": "math-operation",
+      "emoji": "💯",
+      "question": "Calcula esta resta.",
+      "operands": [93, 54],
+      "operator": "-",
+      "answer": 39,
+      "explanation": "Unidades: 13 − 4 = 9 (con llevada). Decenas: 8 − 5 = 3. Resultado: 39."
+    },
+    {
+      "id": "q24",
+      "type": "word-bank-classify",
+      "emoji": "📊",
+      "question": "Clasifica estas restas según tengan o no llevada.",
+      "words": ["45 − 23", "52 − 18", "87 − 35", "63 − 27", "96 − 41"],
+      "slots": [
+        { "label": "Sin llevada", "accepts": ["45 − 23", "87 − 35", "96 − 41"] },
+        { "label": "Con llevada", "accepts": ["52 − 18", "63 − 27"] }
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "La resta 524 − 278 tiene llevada en las unidades y también en las decenas.",
+      "answer": true,
+      "explanation": "Correcto. Unidades: 4 − 8 → llevada (14 − 8 = 6). Decenas: 2 pasa a 1 por la llevada, y 1 − 7 → otra llevada (11 − 7 = 4). Centenas: 5 pasa a 4, y 4 − 2 = 2. Resultado: 246."
+    },
+    {
+      "id": "q26",
+      "type": "choice",
+      "emoji": "🧁",
+      "question": "En el taller de magdalenas, tenían 60 € y gastaron 43 €. ¿Cuánto les sobró?",
+      "refText": "magdalenas",
+      "options": ["17 €", "23 €", "15 €", "27 €"],
+      "answer": 0,
+      "explanation": "60 − 43 = 17 €."
+    },
+    {
+      "id": "q27",
+      "type": "math-operation",
+      "emoji": "🧠",
+      "question": "Cálculo mental: resta de decenas enteras.",
+      "operands": [86, 30],
+      "operator": "-",
+      "answer": 56,
+      "explanation": "Al restar decenas enteras, solo cambian las decenas: 8 − 3 = 5. Resultado: 56."
+    },
+    {
+      "id": "q28",
+      "type": "math-operation",
+      "emoji": "🧠",
+      "question": "Cálculo mental: resta de decenas enteras.",
+      "operands": [74, 40],
+      "operator": "-",
+      "answer": 34,
+      "explanation": "Solo cambian las decenas: 7 − 4 = 3. Las unidades se quedan: 4. Resultado: 34."
+    },
+    {
+      "id": "q29",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Calcula esta resta con llevada.",
+      "operands": [31, 5],
+      "operator": "-",
+      "answer": 26,
+      "explanation": "31 − 5 = 26. Pedimos prestado: 11 − 5 = 6, y 2 − 0 = 2."
+    },
+    {
+      "id": "q30",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Calcula esta resta.",
+      "operands": [53, 8],
+      "operator": "-",
+      "answer": 45,
+      "explanation": "53 − 8 = 45. Pedimos prestado: 13 − 8 = 5, y 4 − 0 = 4."
+    },
+    {
+      "id": "q31",
+      "type": "math-operation",
+      "emoji": "📐",
+      "question": "Resta en vertical.",
+      "operands": [63, 28],
+      "operator": "-",
+      "answer": 35,
+      "explanation": "Unidades: 13 − 8 = 5 (con llevada). Decenas: 5 − 2 = 3. Resultado: 35."
+    },
+    {
+      "id": "q32",
+      "type": "math-operation",
+      "emoji": "📐",
+      "question": "Resta en vertical.",
+      "operands": [95, 17],
+      "operator": "-",
+      "answer": 78,
+      "explanation": "Unidades: 15 − 7 = 8 (con llevada). Decenas: 8 − 1 = 7. Resultado: 78."
+    },
+    {
+      "id": "q33",
+      "type": "math-operation",
+      "emoji": "📐",
+      "question": "Resta en vertical.",
+      "operands": [71, 45],
+      "operator": "-",
+      "answer": 26,
+      "explanation": "Unidades: 11 − 5 = 6 (con llevada). Decenas: 6 − 4 = 2. Resultado: 26."
+    },
+    {
+      "id": "q34",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "En la resta 56 − 23, hay llevada.",
+      "answer": false,
+      "explanation": "Falso. Las unidades son 6 − 3 = 3 (sin problema) y las decenas 5 − 2 = 3. No hay llevada."
+    },
+    {
+      "id": "q35",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "El resultado de 82 − 37 es 45.",
+      "answer": true,
+      "explanation": "Correcto. Unidades: 12 − 7 = 5 (con llevada). Decenas: 7 − 3 = 4. Resultado: 45."
+    },
+    {
+      "id": "q36",
+      "type": "choice",
+      "emoji": "🔄",
+      "question": "¿Qué número falta? ☐ − 8 = 6",
+      "options": ["12", "13", "14", "16"],
+      "answer": 2,
+      "explanation": "Si ☐ − 8 = 6, entonces ☐ = 6 + 8 = 14."
+    },
+    {
+      "id": "q37",
+      "type": "choice",
+      "emoji": "🔄",
+      "question": "¿Qué número falta? 50 − ☐ = 23",
+      "options": ["23", "27", "33", "17"],
+      "answer": 1,
+      "explanation": "Si 50 − ☐ = 23, entonces ☐ = 50 − 23 = 27."
+    },
+    {
+      "id": "q38",
+      "type": "math-operation",
+      "emoji": "💯",
+      "question": "Resta de 3 cifras.",
+      "operands": [845, 326],
+      "operator": "-",
+      "answer": 519,
+      "explanation": "Unidades: 5 − 6 → pedimos: 15 − 6 = 9. Decenas: 3 − 2 = 1. Centenas: 8 − 3 = 5. Resultado: 519."
+    },
+    {
+      "id": "q39",
+      "type": "math-operation",
+      "emoji": "💯",
+      "question": "Resta de 3 cifras con llevada.",
+      "operands": [731, 258],
+      "operator": "-",
+      "answer": 473,
+      "explanation": "Unidades: 11 − 8 = 3 (con llevada). Decenas: 2 − 5 → pedimos: 12 − 5 = 7. Centenas: 6 − 2 = 4. Resultado: 473."
+    },
+    {
+      "id": "q40",
+      "type": "math-operation",
+      "emoji": "💯",
+      "question": "Resta de 3 cifras.",
+      "operands": [600, 157],
+      "operator": "-",
+      "answer": 443,
+      "explanation": "Unidades: 10 − 7 = 3 (con llevada). Decenas: 9 − 5 = 4 (con llevada de centenas). Centenas: 5 − 1 = 4. Resultado: 443."
+    },
+    {
+      "id": "q41",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada resta con su resultado.",
+      "pairs": [
+        { "left": "40 − 10", "right": "30" },
+        { "left": "80 − 20", "right": "60" },
+        { "left": "70 − 30", "right": "40" }
+      ],
+      "rightOptions": ["30", "60", "40", "50"]
+    },
+    {
+      "id": "q42",
+      "type": "word-bank-classify",
+      "emoji": "📊",
+      "question": "Clasifica estas restas según el resultado sea mayor o menor que 20.",
+      "words": ["45 − 18", "33 − 9", "50 − 35", "62 − 29", "41 − 25"],
+      "slots": [
+        { "label": "Resultado ≥ 20", "accepts": ["45 − 18", "33 − 9", "62 − 29"] },
+        { "label": "Resultado < 20", "accepts": ["50 − 35", "41 − 25"] }
+      ]
+    },
+    {
+      "id": "q43",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "¿Qué número sigue en la serie? 20, 17, 14, 11, __",
+      "options": ["9", "8", "7", "10"],
+      "answer": 1,
+      "explanation": "La serie baja de 3 en 3: 20, 17, 14, 11, 8."
+    },
+    {
+      "id": "q44",
+      "type": "math-operation",
+      "emoji": "📐",
+      "question": "Resta en vertical.",
+      "operands": [84, 47],
+      "operator": "-",
+      "answer": 37,
+      "explanation": "Unidades: 14 − 7 = 7 (con llevada). Decenas: 7 − 4 = 3. Resultado: 37."
+    },
+    {
+      "id": "q45",
+      "type": "math-operation",
+      "emoji": "📐",
+      "question": "Resta en vertical.",
+      "operands": [56, 38],
+      "operator": "-",
+      "answer": 18,
+      "explanation": "Unidades: 16 − 8 = 8 (con llevada). Decenas: 4 − 3 = 1. Resultado: 18."
+    },
+    {
+      "id": "q46",
+      "type": "true-false",
+      "emoji": "🤔",
+      "question": "La resta 155 − 38 = 117.",
+      "answer": true,
+      "explanation": "Unidades: 15 − 8 = 7 (con llevada). Decenas: 4 − 3 = 1. Centenas: 1. Resultado: 117."
+    },
+    {
+      "id": "q47",
+      "type": "choice",
+      "emoji": "🧁",
+      "question": "El taller de magdalenas duró 3 horas. Si preparar la masa costó 1 hora y hornear 30 minutos, ¿cuánto tardaron en empaquetar?",
+      "refText": "magdalenas",
+      "options": ["30 minutos", "1 hora", "1 hora y 30 minutos", "2 horas"],
+      "answer": 2,
+      "explanation": "3 horas − 1 hora − 30 minutos = 1 hora y 30 minutos."
+    },
+    {
+      "id": "q48",
+      "type": "math-operation",
+      "emoji": "💯",
+      "question": "Resta de 3 cifras con llevada.",
+      "operands": [912, 383],
+      "operator": "-",
+      "answer": 529,
+      "explanation": "Unidades: 12 − 3 = 9 (con llevada). Decenas: 0 − 8 → pedimos: 10 − 8 = 2. Centenas: 8 − 3 = 5. Resultado: 529."
+    },
+    {
+      "id": "q49",
+      "type": "math-operation",
+      "emoji": "🧠",
+      "question": "Cálculo mental: resta de decenas enteras.",
+      "operands": [95, 50],
+      "operator": "-",
+      "answer": 45,
+      "explanation": "Solo cambian las decenas: 9 − 5 = 4. Las unidades no cambian: 5. Resultado: 45."
+    },
+    {
+      "id": "q50",
+      "type": "choice",
+      "emoji": "🧁",
+      "question": "Si el recorrido para llevar las magdalenas era un rectángulo de 30 m de largo y 50 m de ancho, ¿cuántos metros recorrieron en total?",
+      "refText": "magdalenas",
+      "options": ["80 metros", "120 metros", "160 metros", "200 metros"],
+      "answer": 2,
+      "explanation": "Perímetro del rectángulo: 2 × (30 + 50) = 2 × 80 = 160 metros."
+    }
+  ]
+}

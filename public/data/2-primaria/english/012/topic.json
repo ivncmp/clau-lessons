@@ -1,1 +1,18 @@
-{"id":"012","subjectId":"english","title":"Unit 12","description":"A Juice Carton's Diary","icon":"🧃","texts":{},"images":{}}
+{
+  "id": "012",
+  "subjectId": "english",
+  "title": "Unit 12",
+  "description": "A Juice Carton's Diary",
+  "icon": "🧃",
+  "texts": {
+    "diary": {
+      "title": "🧃 A Juice Carton's Diary",
+      "html": "<p><strong>Monday:</strong> Hello! I am a juice <span class='hl'>carton</span>. Today I was born in a big factory. A <span class='hl'>machine</span> made me from <span class='hl'>paper</span> and plastic. Then a worker filled me with delicious orange juice.</p><p><strong>Tuesday:</strong> A big truck took me to a <span class='hl'>stationery store</span>... no wait, it was a supermarket! I am now on a <span class='hl'>shelf</span> with many other cartons. We are all waiting for someone to take us home.</p><p><strong>Wednesday:</strong> A girl picked me up! She put me in her bag. At lunchtime, she drank all my juice. Mmm, she liked it! Then she threw me in the <span class='hl'>blue</span> recycling bin. Good girl!</p><p><strong>Thursday:</strong> Today I went to a <span class='hl'>recycling plant</span>. Big machines washed me and cut me into tiny pieces. They separated the paper from the plastic.</p><p><strong>Friday:</strong> This is amazing! The factory used my paper to make a new notebook. I am not a carton anymore — I am a notebook now! A boy will write stories in me. The plastic part? It became part of a <span class='hl'>shirt</span>! The recycling plant gave me a <span class='hl'>rescue</span>. I have a new life!</p><p>Remember: when you recycle, old things become new things. Every <span class='hl'>carton</span>, bottle and can can have a second life!</p>"
+    },
+    "time": {
+      "title": "🕐 Telling the Time",
+      "html": "<p>Do you know how to tell the time in English? Let's learn!</p><p>When the long hand points to 12, we say <span class='hl'>o'clock</span>. For example: 'It is three o'clock.' That means 3:00.</p><p>When the long hand points to 3, we say <span class='hl'>quarter past</span>. For example: 'It is quarter past three.' That means 3:15. The long hand has moved a quarter of the way around the clock.</p><p>When the long hand points to 6, we say <span class='hl'>half past</span>. For example: 'It is half past three.' That means 3:30. The long hand has moved half way around the clock.</p><p>When the long hand points to 9, we say <span class='hl'>quarter to</span>. But be careful! Now we say the NEXT hour. For example: 'It is quarter to four.' That means 3:45. The long hand is almost at the top again, so we say the next hour — four!</p><p>Let's practise! 8:00 = eight o'clock. 8:15 = quarter past eight. 8:30 = half past eight. 8:45 = quarter to nine. Can you tell the time now?</p>"
+    }
+  },
+  "images": {}
+}

@@ -29,14 +29,24 @@ export const theme = createTheme({
     h4: {
       fontFamily: '"Quicksand", "Roboto", "Helvetica", "Arial", sans-serif',
       fontWeight: 300,
+      fontSize: "2.125rem",
+      "@media (max-width:600px)": {
+        fontSize: "1.5rem",
+      },
     },
     h5: {
       fontFamily: '"Quicksand", "Roboto", "Helvetica", "Arial", sans-serif',
       fontWeight: 300,
+      "@media (max-width:600px)": {
+        fontSize: "1.25rem",
+      },
     },
     h6: {
       fontFamily: '"Quicksand", "Roboto", "Helvetica", "Arial", sans-serif',
       fontWeight: 300,
+      "@media (max-width:600px)": {
+        fontSize: "1.05rem",
+      },
     },
   },
   shape: {

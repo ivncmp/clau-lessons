@@ -1,0 +1,18 @@
+{
+  "id": "001",
+  "subjectId": "calculo",
+  "title": "Unidad 1",
+  "description": "Restas con llevada",
+  "icon": "➖",
+  "texts": {
+    "magdalenas": {
+      "title": "🧁 ¡Vamos a hacer magdalenas!",
+      "html": "<p>Mei y sus compañeros se han apuntado a un taller para aprender a hacer <span class='hl'>magdalenas</span>.</p><p>Para empezar, compraron los ingredientes. Tenían <span class='hl'>3 billetes de 10 €</span>, <span class='hl'>4 de 5 €</span> y <span class='hl'>10 monedas de 1 €</span>. En total tenían <span class='hl'>60 euros</span>.</p><p>Para hacer las magdalenas, hay que seguir estos pasos: primero, se prepara la masa; segundo, se llenan los moldes y se meten en el horno; y tercero, cuando están hechas, se dejan enfriar y se empaquetan.</p><p>El taller duró <span class='hl'>3 horas</span> en total. Preparar la masa costó <span class='hl'>1 hora</span>, hornear <span class='hl'>30 minutos</span> y empaquetar <span class='hl'>1 hora y 30 minutos</span>.</p><p>Al final hicieron muchas bolsas de magdalenas y decidieron llevarlas a una asociación que ayuda a niños y niñas con necesidades. El recorrido fue de forma rectangular: <span class='hl'>30 metros</span> de largo y <span class='hl'>50 metros</span> de ancho. En total recorrieron <span class='hl'>160 metros</span>.</p>"
+    },
+    "llevada": {
+      "title": "📝 ¿Qué es restar con llevada?",
+      "html": "<p>Cuando restamos, a veces la <span class='hl'>cifra de arriba</span> es <span class='hl'>más pequeña</span> que la cifra de abajo. ¡Entonces necesitamos <span class='hl'>pedir prestado</span>!</p><p>Por ejemplo, en <span class='hl'>34 − 18</span>: las unidades son 4 − 8. Como 4 es menor que 8, tomamos <span class='hl'>una decena prestada</span> del 3 y se la damos al 4, que se convierte en <span class='hl'>14</span>.</p><p>Ahora: 14 − 8 = <span class='hl'>6</span> (unidades). Y como hemos prestado una decena: 2 − 1 = <span class='hl'>1</span> (decenas). Resultado: <span class='hl'>16</span>.</p><p>¡Pero luego hay que <span class='hl'>devolver la unidad prestada</span>! Por eso se llama «con llevada».</p>"
+    }
+  },
+  "images": {}
+}

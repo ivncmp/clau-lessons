@@ -1,0 +1,111 @@
+{
+  "topicId": "007",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "➖",
+      "title": "What Is Subtraction?",
+      "content": "<p><span class='hl'>Subtraction</span> means <span class='hl'>take away</span>. When we subtract, we find out how many are left.</p><p>If you have 10 apples and you eat 3, you <span class='hl'>take away</span> 3. You have 7 apples left!</p><p>10 - 3 = 7</p>",
+      "tip": "Think of subtraction as removing things from a group!"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "🔢",
+      "title": "The Minus Sign",
+      "content": "<p>We use the <span class='hl'>minus sign</span> (-) for subtraction.</p><p>We read 8 - 3 = 5 as: 'eight <span class='hl'>minus</span> three equals five'.</p><p>We can also say: 'eight <span class='hl'>take away</span> three is five'.</p><p>Both ways are correct!</p>"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "1️⃣",
+      "title": "Single-Digit and Double-Digit Numbers",
+      "content": "<p>A <span class='hl'>single-digit</span> number has one digit: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.</p><p>A <span class='hl'>double-digit</span> number has two digits: 10, 11, 15, 23, 42, 99...</p><p>We can subtract single-digit numbers from double-digit numbers!</p><p>Example: <span class='hl'>15 - 6 = 9</span></p>",
+      "tip": "Single = one digit. Double = two digits. Easy!"
+    },
+    {
+      "id": "s04",
+      "type": "concept",
+      "emoji": "📊",
+      "title": "Column Subtraction",
+      "content": "<p>For bigger numbers, we use <span class='hl'>columns</span>. We write numbers one under the other.</p><p>We always start subtracting from the <span class='hl'>right side</span> (the ones).</p><p>Step 1: Write the numbers in a <span class='hl'>column</span><br/>Step 2: Subtract the ones<br/>Step 3: Subtract the tens</p>"
+    },
+    {
+      "id": "s05",
+      "type": "example",
+      "emoji": "📊",
+      "title": "Example: Column Subtraction",
+      "problem": "<p>Let's subtract <span class='hl'>47 - 23</span> using columns.</p>",
+      "steps": [
+        "1. Write 47 on top and 23 below, lining up the digits",
+        "2. Ones: 7 - 3 = 4",
+        "3. Tens: 4 - 2 = 2"
+      ],
+      "answer": "47 - 23 = 24"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "📖",
+      "title": "Simple Past Irregular Verbs",
+      "content": "<p>Some verbs in the past are <span class='hl'>irregular</span> - they don't add -ed!</p><p>have -> <span class='hl'>had</span> (I <span class='hl'>had</span> 15 stickers.)<br/>give -> <span class='hl'>gave</span> (He <span class='hl'>gave</span> 6 to his friend.)<br/>buy -> <span class='hl'>bought</span> (She <span class='hl'>bought</span> 20 apples.)<br/>eat -> <span class='hl'>ate</span> (They <span class='hl'>ate</span> 8 apples.)<br/>come -> <span class='hl'>came</span> (18 students <span class='hl'>came</span> to school.)<br/>get -> <span class='hl'>got</span> (Max <span class='hl'>got</span> 10 out of 10.)</p>",
+      "tip": "These verbs change completely in the past. You need to memorise them!"
+    },
+    {
+      "id": "s07",
+      "type": "story",
+      "emoji": "🍎",
+      "title": "The Apple Problem",
+      "html": "<p>Sara <span class='hl'>bought</span> 20 apples at the market. She <span class='hl'>came</span> home and put them on the table.</p><p>Her brother <span class='hl'>ate</span> 3 apples after lunch. Her mum <span class='hl'>gave</span> 5 apples to the neighbour. Sara <span class='hl'>had</span> some apples left.</p><p>How many apples does Sara have now? 20 - 3 - 5 = <span class='hl'>12 apples</span>!</p><p>Sara <span class='hl'>got</span> a box and put the 12 apples inside to keep them safe.</p>"
+    },
+    {
+      "id": "s08",
+      "type": "example",
+      "emoji": "📖",
+      "title": "Example: Using Past Irregular Verbs",
+      "problem": "<p>Complete the sentences with the correct <span class='hl'>past tense</span> verb.</p><p>Yesterday, Tom _____ (have) 15 stickers.<br/>He _____ (give) 6 to his friend.<br/>His mum _____ (buy) more stickers.</p>",
+      "steps": [
+        "have -> had: Tom HAD 15 stickers.",
+        "give -> gave: He GAVE 6 to his friend.",
+        "buy -> bought: His mum BOUGHT more stickers."
+      ],
+      "answer": "had, gave, bought"
+    },
+    {
+      "id": "s09",
+      "type": "story",
+      "emoji": "🏫",
+      "title": "The School Trip",
+      "html": "<p>Last week, the class <span class='hl'>had</span> a trip to the zoo. 25 students <span class='hl'>came</span> to school that morning. But 7 students were ill, so only 18 <span class='hl'>got</span> on the bus.</p><p>At the zoo, they <span class='hl'>bought</span> sandwiches for lunch. They <span class='hl'>ate</span> them near the monkey cage. The teacher <span class='hl'>gave</span> everyone a worksheet to complete.</p><p>How many students were missing? 25 <span class='hl'>take away</span> 18 = 7. That's subtraction!</p>"
+    },
+    {
+      "id": "s10",
+      "type": "example",
+      "emoji": "🧮",
+      "title": "Example: Subtraction Word Problem",
+      "problem": "<p>Tom <span class='hl'>had</span> 15 stickers. He <span class='hl'>gave</span> 6 to his friend. How many stickers does Tom have now?</p>",
+      "steps": [
+        "Start with the bigger number: 15",
+        "Take away the smaller number: 6",
+        "15 - 6 = 9"
+      ],
+      "answer": "Tom has 9 stickers left."
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "➖ Subtraction means take away - we find out how many are left",
+        "🔢 We use the minus sign (-) for subtraction",
+        "📊 Use columns for bigger numbers - start from the right!",
+        "1️⃣ Single-digit = one digit (5), double-digit = two digits (42)",
+        "📖 Irregular past verbs: had, gave, bought, ate, came, got",
+        "🧮 In word problems: find the total, then take away"
+      ]
+    }
+  ]
+}

@@ -1,1 +1,271 @@
-{"topicId":"015","subjectId":"english","questions":[]}
+{
+  "topicId": "015",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What is a force?",
+      "options": ["A type of animal", "A push or a pull", "A big noise", "A colour"],
+      "answer": 1,
+      "refText": "forces",
+      "explanation": "The text says: 'A force is a push or a pull.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What does gravity do?",
+      "options": ["It pushes things up", "It pulls everything down to the ground", "It makes things float", "It makes things spin"],
+      "answer": 1,
+      "refText": "forces",
+      "explanation": "The text says: 'Gravity is a force that pulls everything down to the ground.'"
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "A strong push makes a ball go slow.",
+      "answer": false,
+      "refText": "forces",
+      "explanation": "The text says: 'A strong push makes a ball go fast.'"
+    },
+    {
+      "id": "q04",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What do brakes on a bicycle do?",
+      "options": ["Make it go faster", "Make it fly", "Stop the wheels", "Change colour"],
+      "answer": 2,
+      "refText": "forces",
+      "explanation": "The text says: 'Brakes on a bicycle use force to stop the wheels.'"
+    },
+    {
+      "id": "q05",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "A light ball is easier to push than a heavy one.",
+      "answer": true,
+      "refText": "forces",
+      "explanation": "The text says: 'A light ball is easier to push than a heavy one.'"
+    },
+    {
+      "id": "q06",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Why is it easier to move a suitcase with wheels?",
+      "options": ["Because it is smaller", "Because wheels make pulling easier", "Because it is lighter", "Because it has brakes"],
+      "answer": 1,
+      "refText": "everyday",
+      "explanation": "The text says: 'It is easier to pull a suitcase with wheels than to carry it!'"
+    },
+    {
+      "id": "q07",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Is a car faster than a bicycle?",
+      "options": ["No, a bicycle is faster", "Yes, a car has more speed", "They are the same speed", "It depends on the colour"],
+      "answer": 1,
+      "refText": "everyday",
+      "explanation": "The text says: 'Is a car faster than a bicycle? Yes! A car has more speed.'"
+    },
+    {
+      "id": "q08",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "A tablet is heavier than a computer.",
+      "answer": false,
+      "refText": "everyday",
+      "explanation": "The text says: 'A tablet is lighter than a computer.'"
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "An elephant is _____ than a cat. Which word fits?",
+      "options": ["big", "biggest", "bigger", "more big"],
+      "answer": 2,
+      "explanation": "We add '-er' to short adjectives to compare two things: 'bigger than'."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "A mouse is _____ than a dog. Which word fits?",
+      "options": ["small", "smallest", "smaller", "more small"],
+      "answer": 2,
+      "explanation": "We add '-er' to short adjectives: 'smaller than'."
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "A cheetah is _____ than a turtle. Which word fits?",
+      "options": ["fast", "fastest", "faster", "more fast"],
+      "answer": 2,
+      "explanation": "We add '-er' to short adjectives: 'faster than'."
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "A rock is _____ than a feather. Which word fits?",
+      "options": ["heavy", "heaviest", "heavier", "more heavy"],
+      "answer": 2,
+      "explanation": "For adjectives ending in -y, we change -y to -ier: 'heavier than'."
+    },
+    {
+      "id": "q13",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct comparative adjective.",
+      "sentence": "A bus is _____ than a car. A bicycle is _____ than a car.",
+      "blanks": ["bigger", "smaller"],
+      "wordBank": ["bigger", "smaller", "biggest", "smallest", "taller"]
+    },
+    {
+      "id": "q14",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct comparative adjective.",
+      "sentence": "A train is _____ than a bicycle. A snail is _____ than a rabbit.",
+      "blanks": ["faster", "slower"],
+      "wordBank": ["faster", "slower", "fastest", "taller", "shorter"]
+    },
+    {
+      "id": "q15",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a question.",
+      "words": ["Is", "a", "bigger", "car", "than", "bicycle", "a"],
+      "answer": "Is a car bigger than a bicycle"
+    },
+    {
+      "id": "q16",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["is", "A", "heavier", "than", "book", "feather", "a"],
+      "answer": "A book is heavier than a feather"
+    },
+    {
+      "id": "q17",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the force with the example.",
+      "pairs": [
+        { "left": "Push", "right": "kicking a ball" },
+        { "left": "Pull", "right": "opening a door" },
+        { "left": "Gravity", "right": "a ball falling down" },
+        { "left": "Brakes", "right": "stopping a bicycle" }
+      ],
+      "rightOptions": ["kicking a ball", "opening a door", "a ball falling down", "stopping a bicycle", "painting a picture"]
+    },
+    {
+      "id": "q18",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the adjective with its comparative form.",
+      "pairs": [
+        { "left": "big", "right": "bigger" },
+        { "left": "fast", "right": "faster" },
+        { "left": "small", "right": "smaller" },
+        { "left": "heavy", "right": "heavier" }
+      ],
+      "rightOptions": ["bigger", "faster", "smaller", "heavier", "tallest"]
+    },
+    {
+      "id": "q19",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these actions: push or pull?",
+      "words": ["kick a ball", "open a drawer", "press a button", "pull a suitcase", "swipe a tablet", "tug a rope"],
+      "slots": [
+        { "label": "Push", "accepts": ["kick a ball", "press a button", "swipe a tablet"] },
+        { "label": "Pull", "accepts": ["open a drawer", "pull a suitcase", "tug a rope"] }
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'movement' mean?",
+      "options": ["Standing still", "Going from one place to another", "A type of food", "A colour"],
+      "answer": 1,
+      "explanation": "'Movement' means going from one place to another — changing position."
+    },
+    {
+      "id": "q21",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'speed' mean?",
+      "options": ["How big something is", "How fast something moves", "How heavy something is", "How old something is"],
+      "answer": 1,
+      "explanation": "'Speed' means how fast or slow something moves."
+    },
+    {
+      "id": "q22",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'throw' mean?",
+      "options": ["Pick something up", "Send something through the air with your hand", "Sit on something", "Eat something"],
+      "answer": 1,
+      "explanation": "'Throw' means to send something through the air using your hand."
+    },
+    {
+      "id": "q23",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What are 'brakes'?",
+      "options": ["Parts that make things go faster", "Parts that stop or slow down wheels", "Parts of a computer", "A type of sport"],
+      "answer": 1,
+      "explanation": "'Brakes' are parts that use force to stop or slow down wheels."
+    },
+    {
+      "id": "q24",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "We use 'more big' to compare two things.",
+      "answer": false,
+      "explanation": "We say 'bigger', not 'more big'. Short adjectives add '-er': bigger, smaller, faster."
+    },
+    {
+      "id": "q25",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "'_____ a lion bigger than a cat?' Which word starts this question?",
+      "options": ["Do", "Are", "Is", "Does"],
+      "answer": 2,
+      "explanation": "Comparative questions with one thing use 'Is': 'Is a lion bigger than a cat?'"
+    },
+    {
+      "id": "q26",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these things by weight.",
+      "words": ["feather", "suitcase", "book", "pencil", "car", "ball"],
+      "slots": [
+        { "label": "Light things", "accepts": ["feather", "pencil", "ball"] },
+        { "label": "Heavy things", "accepts": ["suitcase", "book", "car"] }
+      ]
+    },
+    {
+      "id": "q27",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with 'push' or 'pull'.",
+      "sentence": "You _____ a door to open it. You _____ a button to turn on the light.",
+      "blanks": ["pull", "push"],
+      "wordBank": ["pull", "push", "throw", "kick"]
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["is", "An", "elephant", "heavier", "than", "mouse", "a"],
+      "answer": "An elephant is heavier than a mouse"
+    }
+  ]
+}

@@ -1,1 +1,276 @@
-{"topicId":"012","subjectId":"english","questions":[]}
+{
+  "topicId": "012",
+  "subjectId": "english",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What is the juice carton made from?",
+      "options": ["Glass and metal", "Paper and plastic", "Wood and cloth", "Only plastic"],
+      "answer": 1,
+      "refText": "diary",
+      "explanation": "The text says: 'A machine made me from paper and plastic.'"
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "Where did the carton go after the supermarket?",
+      "options": ["To a factory", "To a recycling plant", "To a girl's bag", "To the landfill"],
+      "answer": 2,
+      "refText": "diary",
+      "explanation": "The text says a girl picked the carton up and put it in her bag."
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "The girl threw the carton in the regular bin.",
+      "answer": false,
+      "refText": "diary",
+      "explanation": "The text says: 'She threw me in the blue recycling bin.' It was the recycling bin, not the regular bin."
+    },
+    {
+      "id": "q04",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What happened to the carton at the recycling plant?",
+      "options": ["It was thrown away", "It was burned", "Machines washed it and cut it into pieces", "Nothing happened"],
+      "answer": 2,
+      "refText": "diary",
+      "explanation": "The text says: 'Big machines washed me and cut me into tiny pieces.'"
+    },
+    {
+      "id": "q05",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "The paper part of the carton became a new notebook.",
+      "answer": true,
+      "refText": "diary",
+      "explanation": "The text says: 'The factory used my paper to make a new notebook.'"
+    },
+    {
+      "id": "q06",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "What did the plastic part of the carton become?",
+      "options": ["A new carton", "A toy", "Part of a shirt", "A bottle"],
+      "answer": 2,
+      "refText": "diary",
+      "explanation": "The text says: 'The plastic part? It became part of a shirt!'"
+    },
+    {
+      "id": "q07",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "The carton was born on a Wednesday.",
+      "answer": false,
+      "refText": "diary",
+      "explanation": "The text says the carton was born on Monday: 'Monday: Today I was born in a big factory.'"
+    },
+    {
+      "id": "q08",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "When the long hand points to 12, we say...",
+      "options": ["quarter past", "half past", "o'clock", "quarter to"],
+      "answer": 2,
+      "refText": "time",
+      "explanation": "The text says: 'When the long hand points to 12, we say o'clock.'"
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "What time is 'quarter past five'?",
+      "options": ["5:00", "5:15", "5:30", "5:45"],
+      "answer": 1,
+      "explanation": "'Quarter past' means 15 minutes after the hour. Quarter past five = 5:15."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "What time is 'half past seven'?",
+      "options": ["7:00", "7:15", "7:30", "7:45"],
+      "answer": 2,
+      "explanation": "'Half past' means 30 minutes after the hour. Half past seven = 7:30."
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "What time is 'quarter to nine'?",
+      "options": ["9:15", "9:45", "8:45", "8:15"],
+      "answer": 2,
+      "explanation": "'Quarter to' means 15 minutes before the next hour. Quarter to nine = 8:45."
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "How do you say 6:00 in English?",
+      "options": ["Half past six", "Quarter past six", "Six o'clock", "Quarter to six"],
+      "answer": 2,
+      "explanation": "When the minutes are :00, we say 'o'clock'. 6:00 = six o'clock."
+    },
+    {
+      "id": "q13",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "How do you say 2:30 in English?",
+      "options": ["Quarter past two", "Two o'clock", "Quarter to three", "Half past two"],
+      "answer": 3,
+      "explanation": "When the minutes are :30, we say 'half past'. 2:30 = half past two."
+    },
+    {
+      "id": "q14",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which sentence is in the PAST tense?",
+      "options": ["I go to school.", "I am going to school.", "I went to school.", "I like school."],
+      "answer": 2,
+      "explanation": "'Went' is the past tense of 'go'. 'I went to school' happened before now."
+    },
+    {
+      "id": "q15",
+      "type": "choice",
+      "emoji": "🗣️",
+      "question": "Which sentence is in the PRESENT tense?",
+      "options": ["She went home.", "She played outside.", "She goes to the park.", "She ate lunch."],
+      "answer": 2,
+      "explanation": "'Goes' is present tense. It tells us what she does now or regularly."
+    },
+    {
+      "id": "q16",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "'I am going to school' is in the past tense.",
+      "answer": false,
+      "explanation": "'I am going' is present continuous — it is happening right now, not in the past."
+    },
+    {
+      "id": "q17",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each time with how we say it in English.",
+      "pairs": [
+        { "left": "3:00", "right": "three o'clock" },
+        { "left": "3:15", "right": "quarter past three" },
+        { "left": "3:30", "right": "half past three" },
+        { "left": "3:45", "right": "quarter to four" }
+      ],
+      "rightOptions": ["three o'clock", "quarter past three", "half past three", "quarter to four", "half past four"]
+    },
+    {
+      "id": "q18",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match the present tense with the past tense.",
+      "pairs": [
+        { "left": "go", "right": "went" },
+        { "left": "eat", "right": "ate" },
+        { "left": "drink", "right": "drank" },
+        { "left": "make", "right": "made" }
+      ],
+      "rightOptions": ["went", "ate", "drank", "made", "took"]
+    },
+    {
+      "id": "q19",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Match each day in the diary with what happened.",
+      "pairs": [
+        { "left": "Monday", "right": "born in a factory" },
+        { "left": "Wednesday", "right": "a girl drank the juice" },
+        { "left": "Thursday", "right": "went to recycling plant" },
+        { "left": "Friday", "right": "became a notebook" }
+      ],
+      "rightOptions": ["born in a factory", "a girl drank the juice", "went to recycling plant", "became a notebook", "arrived at the shop"]
+    },
+    {
+      "id": "q20",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Classify these words: things you can recycle vs. places.",
+      "words": ["carton", "factory", "bottle", "recycling plant", "can", "supermarket"],
+      "slots": [
+        { "label": "Things to recycle", "accepts": ["carton", "bottle", "can"] },
+        { "label": "Places", "accepts": ["factory", "recycling plant", "supermarket"] }
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Is the verb in the present or the past?",
+      "words": ["go", "went", "eat", "ate", "make", "made"],
+      "slots": [
+        { "label": "Present", "accepts": ["go", "eat", "make"] },
+        { "label": "Past", "accepts": ["went", "ate", "made"] }
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete the sentences about the diary.",
+      "sentence": "The carton was made from _____ and plastic. The girl put it in the _____ bin.",
+      "blanks": ["paper", "recycling"],
+      "wordBank": ["paper", "recycling", "glass", "red"]
+    },
+    {
+      "id": "q23",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct time word.",
+      "sentence": "It is 4:15. We say: 'It is _____ past four.'",
+      "blanks": ["quarter"],
+      "wordBank": ["quarter", "half", "o'clock", "to"]
+    },
+    {
+      "id": "q24",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Complete with the correct verb.",
+      "sentence": "Yesterday, I _____ to the park. Today, I _____ to school.",
+      "blanks": ["went", "go"],
+      "wordBank": ["went", "go", "going", "goed"]
+    },
+    {
+      "id": "q25",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to make a sentence.",
+      "words": ["things", "become", "Old", "new", "things", "can"],
+      "answer": "Old things can become new things"
+    },
+    {
+      "id": "q26",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Put the words in order to tell the time.",
+      "words": ["is", "It", "past", "half", "ten"],
+      "answer": "It is half past ten"
+    },
+    {
+      "id": "q27",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What is a 'recycling plant'?",
+      "options": ["A green plant that grows", "A place where old things are made into new things", "A type of flower", "A toy factory"],
+      "answer": 1,
+      "explanation": "A recycling plant is a place with machines that turn old materials into new ones."
+    },
+    {
+      "id": "q28",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "What does 'shelf' mean?",
+      "options": ["A type of fish", "A flat board where things are placed in a shop", "A kind of shirt", "A blue box"],
+      "answer": 1,
+      "explanation": "A shelf is a flat surface in a shop or at home where you put things. The carton was on a shelf in the supermarket."
+    }
+  ]
+}

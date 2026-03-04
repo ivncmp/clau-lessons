@@ -1,0 +1,105 @@
+{
+  "topicId": "009",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "📋",
+      "title": "Why Do We Follow Rules?",
+      "content": "<p>Rules help us stay <span class='hl'>safe</span> and be <span class='hl'>kind</span> to each other.</p><p>At school, at home, and on the street - rules are everywhere!</p><p>When we follow rules, everyone is happy and things work well.</p>",
+      "tip": "Rules are not punishments - they help us live together!"
+    },
+    {
+      "id": "s02",
+      "type": "concept",
+      "emoji": "🏫",
+      "title": "Rules at School",
+      "content": "<p>At school, we follow many important rules:</p><p><span class='hl'>Take turns</span> - wait for your turn to speak or play<br/><span class='hl'>Share</span> - let others use your things too<br/><span class='hl'>Listen</span> - pay attention when the teacher talks<br/><span class='hl'>Clean up</span> - tidy your things after yourself</p><p><span class='hl'>Take turns</span> and <span class='hl'>clean up</span> are <span class='hl'>phrasal verbs</span>: a verb + a small word that changes the meaning!</p>",
+      "tip": "Phrasal verbs: take turns = wait for your go, clean up = make tidy"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "🚦",
+      "title": "Rules on the Street",
+      "content": "<p>On the street, we follow <span class='hl'>traffic</span> rules to stay safe.</p><p>We wait for the green <span class='hl'>light</span> before crossing the road. We look left and right.</p><p>We are always <span class='hl'>polite</span> to other people. <span class='hl'>Polite</span> means being nice and respectful.</p><p>Being <span class='hl'>disrespectful</span> means NOT following rules or being rude to others.</p>"
+    },
+    {
+      "id": "s04",
+      "type": "concept",
+      "emoji": "🙋",
+      "title": "Asking for Permission",
+      "content": "<p>It is important to ask for <span class='hl'>permission</span> before doing something.</p><p>We say: '<span class='hl'>May I</span> go to the toilet?' or '<span class='hl'>Can I</span> borrow your pen?'</p><p>In an <span class='hl'>emergency</span>, we must follow special rules: stay calm, listen to adults, and go to a safe place.</p>"
+    },
+    {
+      "id": "s05",
+      "type": "concept",
+      "emoji": "👜",
+      "title": "Possessive Pronouns",
+      "content": "<p><span class='hl'>Possessive pronouns</span> tell us who something belongs to - WITHOUT using a noun after!</p><p>Whose bag is this?<br/>It is <span class='hl'>mine</span>. (= my bag)<br/>It is <span class='hl'>yours</span>. (= your bag)<br/>It is <span class='hl'>his</span>. (= his bag)<br/>It is <span class='hl'>hers</span>. (= her bag)<br/>It is <span class='hl'>ours</span>. (= our bag)<br/>It is <span class='hl'>theirs</span>. (= their bag)</p>",
+      "tip": "Possessive pronouns stand ALONE. No noun after them!"
+    },
+    {
+      "id": "s06",
+      "type": "example",
+      "emoji": "👜",
+      "title": "Example: Possessive Pronouns",
+      "problem": "<p>Choose the correct possessive pronoun:</p><p>1. This is my pencil. It is _____.<br/>2. That is her book. It is _____.<br/>3. These are our chairs. They are _____.</p>",
+      "steps": [
+        "1. my -> mine: It is MINE.",
+        "2. her -> hers: It is HERS.",
+        "3. our -> ours: They are OURS."
+      ],
+      "answer": "mine, hers, ours"
+    },
+    {
+      "id": "s07",
+      "type": "story",
+      "emoji": "🏠",
+      "title": "Rules in Different Places",
+      "html": "<p>Different places have different rules!</p><p>In the <span class='hl'>kitchen</span>, we don't run. We are careful with hot things. We wash our hands before cooking.</p><p>In the <span class='hl'>classroom</span>, we raise our hand before speaking. On the <span class='hl'>playground</span>, we share the swings.</p><p>'Whose turn is it?' asked the teacher. 'It's <span class='hl'>mine</span>!' said Tom. 'No, it's <span class='hl'>hers</span>!' said Sara, pointing at her friend. 'Let's <span class='hl'>take turns</span>,' said the teacher. 'These are <span class='hl'>our</span> rules.'</p>"
+    },
+    {
+      "id": "s08",
+      "type": "concept",
+      "emoji": "🔄",
+      "title": "Phrasal Verbs: Clean Up & Take Turns",
+      "content": "<p>A <span class='hl'>phrasal verb</span> is a verb + a small word that makes a new meaning.</p><p><span class='hl'>Clean up</span> = make a place tidy<br/>'Please <span class='hl'>clean up</span> your desk after class.'</p><p><span class='hl'>Take turns</span> = do something one at a time<br/>'Let's <span class='hl'>take turns</span> on the swing.'</p><p>These are very useful in everyday English!</p>"
+    },
+    {
+      "id": "s09",
+      "type": "example",
+      "emoji": "🔄",
+      "title": "Example: Phrasal Verbs in Action",
+      "problem": "<p>Fill in the blanks with <span class='hl'>clean up</span> or <span class='hl'>take turns</span>:</p><p>1. After lunch, we _____ the cafeteria.<br/>2. In the game, we _____ to roll the dice.<br/>3. Please _____ your room before bed.</p>",
+      "steps": [
+        "1. After lunch, we CLEAN UP the cafeteria.",
+        "2. In the game, we TAKE TURNS to roll the dice.",
+        "3. Please CLEAN UP your room before bed."
+      ],
+      "answer": "clean up, take turns, clean up"
+    },
+    {
+      "id": "s10",
+      "type": "story",
+      "emoji": "🚨",
+      "title": "The Fire Drill",
+      "html": "<p>One day at school, there was an <span class='hl'>emergency</span> drill. The alarm rang loudly!</p><p>'Stay calm!' said the teacher. 'This is <span class='hl'>ours</span> to practise. <span class='hl'>Listen</span> to me carefully.'</p><p>The children walked in a line. They <span class='hl'>took turns</span> going through the door. Nobody pushed.</p><p>'Whose bag is that on the floor?' asked the teacher. 'It's <span class='hl'>mine</span>!' said Ana. 'Leave it! In an emergency, we go quickly to a safe place.'</p><p>Everyone was <span class='hl'>polite</span> and followed the rules. The teacher was very proud!</p>"
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "📋 Rules help us stay safe and be kind to each other",
+        "🏫 School rules: take turns, share, listen, clean up",
+        "🚦 Traffic rules: wait for the green light, be polite",
+        "🙋 Ask permission: May I...? Can I...?",
+        "👜 Possessive pronouns: mine, yours, his, hers, ours, theirs",
+        "🔄 Phrasal verbs: clean up (make tidy), take turns (one at a time)"
+      ]
+    }
+  ]
+}

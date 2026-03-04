@@ -1,1 +1,18 @@
-{"id":"004","subjectId":"english","title":"Unit 4","description":"Let's Make Ice Cream!","icon":"🍦","texts":{},"images":{}}
+{
+  "id": "004",
+  "subjectId": "english",
+  "title": "Unit 4",
+  "description": "Let's Make Ice Cream!",
+  "icon": "🍦",
+  "texts": {
+    "icecream": {
+      "title": "🍦 Let's Make Ice Cream!",
+      "html": "<p>Do you like ice cream? It is easy to make at home! You need <span class='hl'>cream</span>, <span class='hl'>sugar</span>, <span class='hl'>salt</span> and <span class='hl'>plastic bags</span>.</p><p>First, <span class='hl'>pour</span> the cream into a small plastic bag. Add some sugar. Close the bag very well.</p><p>Next, put ice and salt in a big plastic bag. Put the small bag inside the big bag. Close it.</p><p>Now shake the bags for ten minutes! The salt makes the ice very, very cold. The cold ice freezes the cream.</p><p>Open the small bag. Your <span class='hl'>mixture</span> is now ice cream! You can add fruit on top. <span class='hl'>Was</span> it easy? Yes, it <span class='hl'>was</span>!</p>"
+    },
+    "mixtures": {
+      "title": "🥗 Creating Mixtures",
+      "html": "<p>A <span class='hl'>mixture</span> is when you put two or more things together. We make mixtures every day!</p><p>When you make a <span class='hl'>salad</span>, you mix <span class='hl'>vegetables</span> together. Lettuce, tomatoes and carrots make a healthy salad.</p><p>When you make <span class='hl'>pasta</span>, you boil water and add the pasta. Then you can add sauce. That is a mixture too!</p><p>When you make <span class='hl'>tea</span> or <span class='hl'>coffee</span>, you add hot water. If you add sugar and milk, you are making a mixture.</p><p>Some mixtures can be separated. You can pick the <span class='hl'>fruit</span> out of a fruit salad. But some mixtures cannot be separated easily. When you mix sugar in water, you cannot take the sugar out!</p><p>The teacher asked: '<span class='hl'>Was</span> the experiment fun?' The children said: 'Yes! It <span class='hl'>was</span> great!' '<span class='hl'>Were</span> the results good?' 'Yes, they <span class='hl'>were</span>!'</p>"
+    }
+  },
+  "images": {}
+}

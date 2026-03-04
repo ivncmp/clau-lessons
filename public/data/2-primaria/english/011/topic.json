@@ -1,1 +1,18 @@
-{"id":"011","subjectId":"english","title":"Unit 11","description":"Natural Resources","icon":"🌿","texts":{},"images":{}}
+{
+  "id": "011",
+  "subjectId": "english",
+  "title": "Unit 11",
+  "description": "Natural Resources",
+  "icon": "🌿",
+  "texts": {
+    "resources": {
+      "title": "🌿 Natural Resources",
+      "html": "<p>The Earth gives us many things we need to live. These things are called <span class='hl'>natural resources</span>. Water, air, <span class='hl'>sunlight</span> and <span class='hl'>wood</span> are all natural resources.</p><p>We use wood to build houses and make paper. Wood comes from trees. We use water to drink, cook and wash. We use sunlight to grow food and to make energy.</p><p>But sometimes people are not careful with resources. People throw away a lot of <span class='hl'>trash</span>. The trash goes to a <span class='hl'>landfill</span>. A landfill is a big area of <span class='hl'>land</span> full of rubbish. Landfills are bad for the Earth.</p><p>Cars and factories make <span class='hl'>smoke</span>. Smoke makes the air dirty. Dirty air is bad for people and animals.</p><p>We can help the Earth! We can <span class='hl'>reduce</span> — that means use less. We can <span class='hl'>reuse</span> — that means use things again. If we all reduce and reuse, we can take care of our planet!</p>"
+    },
+    "activities": {
+      "title": "🏕️ Fun in Nature",
+      "html": "<p>Nature is wonderful! There are many fun things to do outside.</p><p>You can <span class='hl'>camp</span> in the forest. When you camp, you sleep in a tent. You can see the stars at night! The campfire is <span class='hl'>in front of</span> the tent. The tall trees are <span class='hl'>behind</span> the tent.</p><p>You can <span class='hl'>ride a horse</span> in the countryside. The horse walks <span class='hl'>next to</span> the river. There is a bridge <span class='hl'>across from</span> the farm. A little duck is swimming <span class='hl'>between</span> the two big rocks in the river.</p><p>In summer, you can go to the beach and <span class='hl'>surf</span> on the waves. You can also <span class='hl'>fish</span> in the lake. In winter, you can <span class='hl'>ski</span> in the mountains. You can also <span class='hl'>bike</span> on the paths in the park.</p><p><span class='hl'>Where is</span> the best place to play? <span class='hl'>Is there</span> a park next to your house? Nature is everywhere — go outside and enjoy it!</p>"
+    }
+  },
+  "images": {}
+}

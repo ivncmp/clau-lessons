@@ -1,0 +1,108 @@
+{
+  "topicId": "012",
+  "subjectId": "english",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "🧃",
+      "title": "A Juice Carton's Diary",
+      "content": "<p>A <span class='hl'>carton</span> is a container made of paper and plastic. Juice comes in cartons!</p><p>A <span class='hl'>diary</span> is a book where you write what happens each day.</p><p>In this unit, a juice carton tells us its story - from the <span class='hl'>factory</span> to the <span class='hl'>recycling plant</span>!</p>",
+      "tip": "A carton can have a second life if we recycle it!"
+    },
+    {
+      "id": "s02",
+      "type": "story",
+      "emoji": "📔",
+      "title": "The Carton's Week",
+      "html": "<p><strong>Monday:</strong> I was born in a <span class='hl'>factory</span>. A machine made me from paper and plastic. A worker filled me with orange juice.</p><p><strong>Tuesday:</strong> A truck took me to a supermarket. I sat on a <span class='hl'>shelf</span> with many other cartons.</p><p><strong>Wednesday:</strong> A girl picked me up! She drank all my juice at lunchtime. Then she put me in the recycling bin.</p><p><strong>Thursday:</strong> I went to a <span class='hl'>recycling plant</span>. Big machines cut me into tiny <span class='hl'>pieces</span>.</p><p><strong>Friday:</strong> The factory used my paper to make a new notebook. I have a new life!</p>"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "📖",
+      "title": "Key Vocabulary",
+      "content": "<p><span class='hl'>Carton</span> - a container for juice or milk<br/><span class='hl'>Factory</span> - a big building where things are made<br/><span class='hl'>Recycling plant</span> - a place where old things are made into new things<br/><span class='hl'>Shelf</span> - a flat surface in a shop where products sit<br/><span class='hl'>Pieces</span> - small parts of something bigger</p>"
+    },
+    {
+      "id": "s04",
+      "type": "concept",
+      "emoji": "⏰",
+      "title": "Present vs Past Tense",
+      "content": "<p>We use the <span class='hl'>present tense</span> for things happening NOW:</p><p>'I <span class='hl'>am</span> a juice carton.' / 'The machine <span class='hl'>makes</span> cartons.'</p><p>We use the <span class='hl'>past tense</span> for things that ALREADY HAPPENED:</p><p>'I <span class='hl'>was</span> born in a factory.' / 'The machine <span class='hl'>made</span> me.'</p><p>am -> <span class='hl'>was</span> / is -> <span class='hl'>was</span> / make -> <span class='hl'>made</span> / take -> <span class='hl'>took</span> / drink -> <span class='hl'>drank</span></p>",
+      "tip": "Present = now. Past = before, already finished."
+    },
+    {
+      "id": "s05",
+      "type": "example",
+      "emoji": "⏰",
+      "title": "Example: Present or Past?",
+      "problem": "<p>Is the sentence in the <span class='hl'>present</span> or the <span class='hl'>past</span>?</p><p>1. The carton is on the shelf.<br/>2. A girl drank the juice yesterday.<br/>3. The factory makes new notebooks.<br/>4. The truck took me to the shop.</p>",
+      "steps": [
+        "1. 'is' -> PRESENT (happening now)",
+        "2. 'drank' + 'yesterday' -> PAST (already happened)",
+        "3. 'makes' -> PRESENT (happening now)",
+        "4. 'took' -> PAST (already happened)"
+      ],
+      "answer": "present, past, present, past"
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "🕐",
+      "title": "Telling the Time: O'clock",
+      "content": "<p>When the long hand points to <span class='hl'>12</span>, we say <span class='hl'>o'clock</span>.</p><p>3:00 = 'It is three <span class='hl'>o'clock</span>.'<br/>8:00 = 'It is eight <span class='hl'>o'clock</span>.'<br/>12:00 = 'It is twelve <span class='hl'>o'clock</span>.'</p><p><span class='hl'>O'clock</span> means the time is exact - no extra minutes!</p>",
+      "tip": "Long hand on 12 = o'clock. Easy!"
+    },
+    {
+      "id": "s07",
+      "type": "concept",
+      "emoji": "🕒",
+      "title": "Quarter Past and Half Past",
+      "content": "<p>When the long hand points to <span class='hl'>3</span>, we say <span class='hl'>quarter past</span>.</p><p>3:15 = 'It is <span class='hl'>quarter past</span> three.'<br/>A quarter = 15 minutes (a quarter of 60 minutes).</p><p>When the long hand points to <span class='hl'>6</span>, we say <span class='hl'>half past</span>.</p><p>3:30 = 'It is <span class='hl'>half past</span> three.'<br/>Half = 30 minutes (half of 60 minutes).</p>"
+    },
+    {
+      "id": "s08",
+      "type": "concept",
+      "emoji": "🕘",
+      "title": "Quarter To",
+      "content": "<p>When the long hand points to <span class='hl'>9</span>, we say <span class='hl'>quarter to</span>.</p><p>But be careful! We say the <span class='hl'>NEXT hour</span>!</p><p>3:45 = 'It is <span class='hl'>quarter to four</span>.' (NOT quarter to three!)<br/>8:45 = 'It is <span class='hl'>quarter to nine</span>.'</p><p>The long hand is almost at the top, so we say the next hour.</p>",
+      "tip": "Quarter TO = 15 minutes BEFORE the next hour. Say the next hour!"
+    },
+    {
+      "id": "s09",
+      "type": "example",
+      "emoji": "🕐",
+      "title": "Example: What Time Is It?",
+      "problem": "<p>Say the time in English:</p><p>1. 5:00<br/>2. 7:15<br/>3. 2:30<br/>4. 9:45</p>",
+      "steps": [
+        "1. 5:00 -> It is five O'CLOCK.",
+        "2. 7:15 -> It is QUARTER PAST seven.",
+        "3. 2:30 -> It is HALF PAST two.",
+        "4. 9:45 -> It is QUARTER TO ten. (next hour!)"
+      ],
+      "answer": "five o'clock, quarter past seven, half past two, quarter to ten"
+    },
+    {
+      "id": "s10",
+      "type": "story",
+      "emoji": "📅",
+      "title": "A Recycling Day",
+      "html": "<p>It <span class='hl'>was</span> a special day at school - Recycling Day!</p><p>At nine <span class='hl'>o'clock</span>, the teacher <span class='hl'>took</span> the class to the <span class='hl'>recycling plant</span>. They <span class='hl'>saw</span> big machines cutting <span class='hl'>cartons</span> into tiny <span class='hl'>pieces</span>.</p><p>At <span class='hl'>quarter past</span> ten, they learned how paper <span class='hl'>is</span> recycled. Old <span class='hl'>cartons</span> become new notebooks!</p><p>At <span class='hl'>half past</span> eleven, they had lunch. At <span class='hl'>quarter to</span> one, they went back to school.</p><p>'Today I <span class='hl'>learned</span> that every carton can have a second life,' <span class='hl'>said</span> Tom. 'I will always recycle!'</p>"
+    },
+    {
+      "id": "s11",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "Let's Review!",
+      "points": [
+        "🧃 Key words: carton, factory, recycling plant, shelf, pieces",
+        "⏰ Present tense = now (I am, it makes). Past tense = before (I was, it made)",
+        "🕐 O'clock = long hand on 12 (3:00 = three o'clock)",
+        "🕒 Quarter past = long hand on 3 (3:15 = quarter past three)",
+        "🕕 Half past = long hand on 6 (3:30 = half past three)",
+        "🕘 Quarter to = long hand on 9, say NEXT hour (3:45 = quarter to four)"
+      ]
+    }
+  ]
+}
