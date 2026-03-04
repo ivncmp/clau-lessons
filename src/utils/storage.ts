@@ -19,6 +19,7 @@ function createEmptyStore(): AppStore {
 
 export function getStore(): AppStore {
   migrateV0ToV1();
+  migrateSpanishFields();
   const raw = localStorage.getItem(STORE_KEY);
   if (!raw) return createEmptyStore();
   try {
@@ -387,6 +388,42 @@ export async function handleFileImport(file: File): Promise<UserProfile> {
 }
 
 // ─── Migration ─────────────────────────────────────────────────
+
+/** Migrate v1 stores that used Spanish field names (nombre/curso) to English (name/course). */
+function migrateSpanishFields(): void {
+  const raw = localStorage.getItem(STORE_KEY);
+  if (!raw) return;
+  try {
+    const store = JSON.parse(raw);
+    if (store.version !== 1) return;
+    let changed = false;
+    for (const user of Object.values(store.users) as Record<
+      string,
+      unknown
+    >[]) {
+      const profile = user.profile as Record<string, unknown>;
+      if (profile && "nombre" in profile && !("name" in profile)) {
+        profile.name = profile.nombre;
+        delete profile.nombre;
+        changed = true;
+      }
+      if (profile && "curso" in profile && !("course" in profile)) {
+        profile.course = profile.curso;
+        delete profile.curso;
+        changed = true;
+      }
+      if (profile && !("classId" in profile)) {
+        profile.classId = "";
+        changed = true;
+      }
+    }
+    if (changed) {
+      localStorage.setItem(STORE_KEY, JSON.stringify(store));
+    }
+  } catch {
+    // Corrupted data, ignore
+  }
+}
 
 function migrateV0ToV1(): void {
   const oldRaw = localStorage.getItem(LEGACY_KEY);

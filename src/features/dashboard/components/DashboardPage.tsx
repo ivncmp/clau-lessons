@@ -76,10 +76,10 @@ export default function DashboardPage() {
   const navigate = useNavigate();
   const slug = courseToSlug(user?.course);
 
-  const { data: cursoData, isPending: cursoLoading } = useCursoDetail(
+  const { data: cursoData, isLoading: cursoLoading } = useCursoDetail(
     slug || undefined,
   );
-  const { data: evaluations = [], isPending: evalsLoading } = useEvaluations(
+  const { data: evaluations = [], isLoading: evalsLoading } = useEvaluations(
     slug || undefined,
     user?.classId || undefined,
   );
