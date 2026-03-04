@@ -5,7 +5,7 @@ import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 import QuizIcon from "@mui/icons-material/Quiz";
 import StarIcon from "@mui/icons-material/Star";
-import { loadCursoDetail } from "../../../utils/dataLoader";
+import { loadCursoDetail, loadEvaluations } from "../../../utils/dataLoader";
 import { cursoToSlug } from "../../../utils/cursoSlug";
 import { useAuth } from "../../auth/hooks/useAuth";
 import { getProgress } from "../../../utils/storage";
@@ -79,10 +79,14 @@ export default function DashboardPage() {
 
   useEffect(() => {
     if (!user) return;
-    loadCursoDetail(cursoToSlug(user.curso))
-      .then((data) => {
+    const slug = cursoToSlug(user.course);
+    Promise.all([
+      loadCursoDetail(slug),
+      user.classId ? loadEvaluations(slug, user.classId) : Promise.resolve([]),
+    ])
+      .then(([data, evals]) => {
         setSubjects(data.subjects);
-        setEvaluations(data.evaluations ?? []);
+        setEvaluations(evals);
       })
       .catch(() => setSubjects([]))
       .finally(() => setLoading(false));
@@ -93,7 +97,9 @@ export default function DashboardPage() {
     const now = new Date();
     now.setHours(0, 0, 0, 0);
     const idx = evaluations.findIndex((ev) => {
+      if (ev.exams.length === 0) return false;
       const lastExam = ev.exams[ev.exams.length - 1];
+      if (!lastExam.date) return true;
       return parseSpanishDate(lastExam.date) >= now;
     });
     return idx === -1 ? evaluations.length - 1 : idx;
@@ -146,7 +152,7 @@ export default function DashboardPage() {
           No hay asignaturas disponibles
         </Typography>
         <Typography sx={{ color: "#546E7A" }}>
-          Los contenidos para {user?.curso} se están preparando.
+          Los contenidos para {user?.course} se están preparando.
         </Typography>
       </Box>
     );
@@ -178,7 +184,7 @@ export default function DashboardPage() {
           textShadow: "0 1px 4px rgba(0,0,0,0.15)",
         }}
       >
-        {user?.curso} — Elige una asignatura para empezar
+        {user?.course} — Elige una asignatura para empezar
       </Typography>
 
       <Box
@@ -366,7 +372,7 @@ export default function DashboardPage() {
                       const content = ev.content?.[exam.subjectId];
                       return (
                         <Box
-                          key={exam.date}
+                          key={`${exam.subjectId}-${exam.date ?? "nodate"}`}
                           sx={{
                             px: 1,
                             py: 0.8,
@@ -407,7 +413,9 @@ export default function DashboardPage() {
                                 fontFamily: '"Quicksand", sans-serif',
                               }}
                             >
-                              {formatDateFull(exam.date)}
+                              {exam.date
+                                ? formatDateFull(exam.date)
+                                : "Sin fecha"}
                             </Typography>
                           </Box>
                           {content?.units?.length && (

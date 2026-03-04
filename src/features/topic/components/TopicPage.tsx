@@ -22,7 +22,7 @@ export default function TopicPage() {
 
   useEffect(() => {
     if (!subjectId || !topicId || !user) return;
-    loadTopicData(cursoToSlug(user.curso), subjectId, topicId)
+    loadTopicData(cursoToSlug(user.course), subjectId, topicId)
       .then((data) => {
         setTopic(data);
         markTopicViewed(user.id, subjectId, topicId);

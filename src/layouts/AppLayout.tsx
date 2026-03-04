@@ -66,7 +66,7 @@ export default function AppLayout() {
                   variant="body2"
                   sx={{ fontWeight: 600, color: "#1B4F72" }}
                 >
-                  {user.nombre}
+                  <b>{user.name}</b> · {user.course} {user.classId}
                 </Typography>
               </Box>
               <Box

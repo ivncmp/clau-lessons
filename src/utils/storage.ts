@@ -45,15 +45,20 @@ function generateUserId(nombre: string): string {
   return `${slug}-${suffix}`;
 }
 
-export function createUser(nombre: string, curso: string): UserProfile {
+export function createUser(
+  name: string,
+  course: string,
+  classId: string,
+): UserProfile {
   const store = getStore();
-  const id = generateUserId(nombre);
+  const id = generateUserId(name);
   const now = new Date().toISOString();
 
   const profile: UserProfile = {
     id,
-    nombre: nombre.trim(),
-    curso,
+    name: name.trim(),
+    course,
+    classId,
     createdAt: now,
     lastLoginAt: now,
   };
@@ -268,7 +273,7 @@ export function downloadUserData(userId: string): void {
   const a = document.createElement("a");
   const date = new Date().toISOString().slice(0, 10);
   a.href = url;
-  a.download = `clau-lessons-${user.profile.nombre.toLowerCase().replace(/\s+/g, "-")}-${date}.json`;
+  a.download = `clau-lessons-${user.profile.name.toLowerCase().replace(/\s+/g, "-")}-${date}.json`;
   a.click();
   URL.revokeObjectURL(url);
 }
@@ -282,7 +287,7 @@ export async function handleFileImport(file: File): Promise<UserProfile> {
   }
 
   const store = getStore();
-  const newId = generateUserId(data.user.profile.nombre);
+  const newId = generateUserId(data.user.profile.name);
   const profile: UserProfile = {
     ...data.user.profile,
     id: newId,
@@ -319,8 +324,9 @@ function migrateV0ToV1(): void {
         [id]: {
           profile: {
             id,
-            nombre: old.nombre,
-            curso: old.curso,
+            name: old.nombre,
+            course: old.curso,
+            classId: "",
             createdAt: old.createdAt,
             lastLoginAt: now,
           },

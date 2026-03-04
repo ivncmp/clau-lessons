@@ -15,8 +15,9 @@ export interface UserData {
 
 export interface UserProfile {
   id: string;
-  nombre: string;
-  curso: string;
+  name: string;
+  course: string;
+  classId: string;
   createdAt: string;
   lastLoginAt: string;
 }

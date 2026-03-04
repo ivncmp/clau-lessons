@@ -36,7 +36,7 @@ export default function SlidesPage() {
 
   useEffect(() => {
     if (!subjectId || !topicId || !user) return;
-    const slug = cursoToSlug(user.curso);
+    const slug = cursoToSlug(user.course);
     Promise.all([
       loadSlidesData(slug, subjectId, topicId),
       loadTopicData(slug, subjectId, topicId),
@@ -95,7 +95,7 @@ export default function SlidesPage() {
       slidesData={slidesData}
       topicData={topicData}
       subjectData={subjectData}
-      curso={user!.curso}
+      course={user!.course}
       onExit={handleExit}
     />
   );
@@ -107,7 +107,7 @@ interface SlidesRunnerProps {
   slidesData: SlidesData;
   topicData: TopicData | null;
   subjectData: SubjectDetail | null;
-  curso: string;
+  course: string;
   onExit: () => void;
 }
 
@@ -115,7 +115,7 @@ function SlidesRunner({
   slidesData,
   topicData,
   subjectData,
-  curso,
+  course,
   onExit,
 }: Readonly<SlidesRunnerProps>) {
   const slides = useSlides(slidesData.slides);
@@ -170,7 +170,7 @@ function SlidesRunner({
                 maxWidth: 320,
               }}
             >
-              {curso}
+              {course}
               {subjectData && (
                 <>
                   {" · "}

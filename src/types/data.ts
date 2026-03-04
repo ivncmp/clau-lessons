@@ -15,9 +15,21 @@ export interface CursoDetail {
   id: string;
   name: string;
   subjects: SubjectSummary[];
-  evaluations?: Evaluation[];
+  classes?: string[];
 }
 
+export interface EvaluationsFile {
+  evaluations: EvaluationEntry[];
+}
+
+export interface EvaluationEntry {
+  name: string;
+  note?: string;
+  exams: Record<string, EvalExam[]>;
+  content?: Record<string, EvalSubjectContent>;
+}
+
+/** Resolved evaluation for a specific class */
 export interface Evaluation {
   name: string;
   note?: string;
@@ -26,7 +38,7 @@ export interface Evaluation {
 }
 
 export interface EvalExam {
-  date: string;
+  date?: string;
   subjectId: string;
 }
 

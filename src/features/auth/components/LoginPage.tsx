@@ -14,7 +14,8 @@ import {
 } from "@mui/material";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 import { useAuth } from "../hooks/useAuth";
-import { loadCursosIndex } from "../../../utils/dataLoader";
+import { loadCursosIndex, loadCursoDetail } from "../../../utils/dataLoader";
+import { cursoToSlug } from "../../../utils/cursoSlug";
 import FloatingDecorations from "../../../components/FloatingDecorations";
 import type { CursoSummary } from "../../../types/data";
 
@@ -31,6 +32,21 @@ export default function LoginPage() {
   const [showForm, setShowForm] = useState(users.length === 0);
   const [nombre, setNombre] = useState("");
   const [curso, setCurso] = useState("");
+  const [clase, setClase] = useState("");
+  const [clases, setClases] = useState<string[]>([]);
+
+  useEffect(() => {
+    if (!curso) {
+      setClases([]);
+      setClase("");
+      return;
+    }
+    const cursoObj = cursos.find((c) => c.name === curso);
+    if (!cursoObj) return;
+    loadCursoDetail(cursoToSlug(cursoObj.name))
+      .then((data) => setClases(data.classes ?? []))
+      .catch(() => setClases([]));
+  }, [curso, cursos]);
 
   const handleLogin = (userId: string) => {
     login(userId);
@@ -40,12 +56,15 @@ export default function LoginPage() {
   const handleCreate = (e: React.FormEvent) => {
     e.preventDefault();
     if (!nombre.trim() || !curso) return;
-    const profile = createUser(nombre, curso);
+    if (clases.length > 0 && !clase) return;
+    createUser(nombre, curso, clase);
     navigate("/dashboard");
-    void profile;
   };
 
-  const isValid = nombre.trim().length > 0 && curso.length > 0;
+  const isValid =
+    nombre.trim().length > 0 &&
+    curso.length > 0 &&
+    (clases.length === 0 || clase.length > 0);
 
   return (
     <Box
@@ -115,10 +134,11 @@ export default function LoginPage() {
                 >
                   <Box sx={{ flexGrow: 1 }}>
                     <Typography variant="subtitle1" fontWeight={700}>
-                      {u.nombre}
+                      {u.name}
                     </Typography>
                     <Typography variant="body2" sx={{ color: "#546E7A" }}>
-                      {u.curso}
+                      {u.course}
+                      {u.classId ? ` · ${u.classId}` : ""}
                     </Typography>
                   </Box>
                   <IconButton
@@ -201,6 +221,33 @@ export default function LoginPage() {
                   ))}
                 </Select>
               </FormControl>
+
+              {clases.length > 0 && (
+                <FormControl
+                  fullWidth
+                  sx={{
+                    mb: 4,
+                    "& .MuiOutlinedInput-root": {
+                      borderRadius: "14px",
+                    },
+                  }}
+                >
+                  <InputLabel id="clase-label">Clase</InputLabel>
+                  <Select
+                    labelId="clase-label"
+                    value={clase}
+                    label="Clase"
+                    onChange={(e) => setClase(e.target.value)}
+                    required
+                  >
+                    {clases.map((c) => (
+                      <MenuItem key={c} value={c}>
+                        {c}
+                      </MenuItem>
+                    ))}
+                  </Select>
+                </FormControl>
+              )}
 
               <Box
                 component="button"

@@ -2,7 +2,7 @@ import { useEffect, useState, useMemo } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Box, Typography, CircularProgress, Grid } from "@mui/material";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { loadSubjectDetail, loadCursoDetail } from "../../../utils/dataLoader";
+import { loadSubjectDetail, loadEvaluations } from "../../../utils/dataLoader";
 import { cursoToSlug } from "../../../utils/cursoSlug";
 import { getBestScore } from "../../../utils/storage";
 import { useAuth } from "../../auth/hooks/useAuth";
@@ -19,10 +19,10 @@ export default function SubjectPage() {
 
   useEffect(() => {
     if (!subjectId || !user) return;
-    const slug = cursoToSlug(user.curso);
+    const slug = cursoToSlug(user.course);
     Promise.all([
       loadSubjectDetail(slug, subjectId),
-      loadCursoDetail(slug).then((d) => d.evaluations ?? []),
+      user.classId ? loadEvaluations(slug, user.classId) : Promise.resolve([]),
     ])
       .then(([subj, evals]) => {
         setSubject(subj);
@@ -36,7 +36,7 @@ export default function SubjectPage() {
   const topicEvalMap = useMemo(() => {
     const map: Record<
       string,
-      { evalName: string; date: string; evalIndex: number }
+      { evalName: string; date?: string; evalIndex: number }
     > = {};
     if (!subjectId) return map;
     for (let i = 0; i < evaluations.length; i++) {
@@ -137,7 +137,7 @@ export default function SubjectPage() {
         className="fade-in-up stagger-3"
         sx={{ mb: 4, color: "rgba(255,255,255,0.8)", fontWeight: 500 }}
       >
-        {user?.curso}
+        {user?.course}
       </Typography>
 
       <Grid container spacing={{ xs: 2, md: 3 }}>

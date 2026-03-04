@@ -1,6 +1,8 @@
 import type {
   CursosIndex,
   CursoDetail,
+  Evaluation,
+  EvaluationsFile,
   SubjectDetail,
   TopicData,
   ExamData,
@@ -19,6 +21,21 @@ export async function loadCursoDetail(cursoSlug: string): Promise<CursoDetail> {
   const res = await fetch(`${DATA_BASE}/${cursoSlug}/curso.json`);
   if (!res.ok) throw new Error(`Failed to load curso: ${cursoSlug}`);
   return res.json() as Promise<CursoDetail>;
+}
+
+export async function loadEvaluations(
+  cursoSlug: string,
+  classId: string,
+): Promise<Evaluation[]> {
+  const res = await fetch(`${DATA_BASE}/${cursoSlug}/evaluations.json`);
+  if (!res.ok) return [];
+  const file = (await res.json()) as EvaluationsFile;
+  return file.evaluations.map((entry) => ({
+    name: entry.name,
+    note: entry.note,
+    exams: entry.exams[classId] ?? [],
+    content: entry.content,
+  }));
 }
 
 export async function loadSubjectDetail(

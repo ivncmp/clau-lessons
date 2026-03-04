@@ -45,7 +45,7 @@ export default function ExamPage() {
 
   useEffect(() => {
     if (!subjectId || !topicId || !user) return;
-    const slug = cursoToSlug(user.curso);
+    const slug = cursoToSlug(user.course);
     Promise.all([
       loadExamData(slug, subjectId, topicId),
       loadTopicData(slug, subjectId, topicId),
@@ -111,7 +111,7 @@ export default function ExamPage() {
       examData={examData}
       topicData={topicData}
       subjectData={subjectData}
-      curso={user!.curso}
+      course={user!.course}
       subjectId={subjectId!}
       topicId={topicId!}
       userId={user!.id}
@@ -131,7 +131,7 @@ interface ExamRunnerProps {
   examData: ExamData;
   topicData: TopicData | null;
   subjectData: SubjectDetail | null;
-  curso: string;
+  course: string;
   subjectId: string;
   topicId: string;
   userId: string;
@@ -143,7 +143,7 @@ function ExamRunner({
   examData,
   topicData,
   subjectData,
-  curso,
+  course,
   subjectId,
   topicId,
   userId,
@@ -280,7 +280,7 @@ function ExamRunner({
                 maxWidth: 320,
               }}
             >
-              {curso}
+              {course}
               {subjectData && (
                 <>
                   {" · "}

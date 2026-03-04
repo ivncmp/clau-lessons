@@ -21,7 +21,7 @@ interface AuthContextValue {
   users: UserProfile[];
   loading: boolean;
   login: (userId: string) => void;
-  createUser: (nombre: string, curso: string) => UserProfile;
+  createUser: (name: string, course: string, classId: string) => UserProfile;
   logout: () => void;
   deleteUser: (userId: string) => void;
   refreshUsers: () => void;
@@ -62,8 +62,8 @@ export default function AuthProvider({
   );
 
   const createNewUser = useCallback(
-    (nombre: string, curso: string) => {
-      const profile = createStorageUser(nombre, curso);
+    (name: string, course: string, classId: string) => {
+      const profile = createStorageUser(name, course, classId);
       setUser(profile);
       refreshUsers();
       return profile;
