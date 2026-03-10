@@ -1,0 +1,175 @@
+{
+  "id": "mates-3eval",
+  "subjectId": "mates",
+  "title": "Matemáticas — 3ª Evaluación",
+  "date": "2026-02-20",
+  "evaluation": "3ª Evaluación",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "⚖️",
+      "question": "¿Cuánto pesan 8 bolsas de arroz si cada bolsa pesa 1 kg?",
+      "options": ["3 kg", "5 kg", "8 kg", "10 kg"],
+      "answer": 2
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "Escribe con letras: 6C + 7D + 8U",
+      "options": ["Seiscientos setenta y ocho", "Seiscientos ochenta y siete", "Setecientos sesenta y ocho", "Seis mil setecientos ochenta"],
+      "answer": 0
+    },
+    {
+      "id": "q03",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "Escribe con letras: 7C + 9D",
+      "options": ["Setecientos noventa", "Setecientos nueve", "Novecientos setenta", "Seiscientos noventa"],
+      "answer": 0
+    },
+    {
+      "id": "q04",
+      "type": "word-bank-fill",
+      "emoji": "🔍",
+      "question": "Compara los números. Arrastra el signo correcto.",
+      "sentence": "506 _____ 601",
+      "blanks": ["<"],
+      "wordBank": [">", "<", "="]
+    },
+    {
+      "id": "q05",
+      "type": "word-bank-fill",
+      "emoji": "🔍",
+      "question": "Compara los números. Arrastra el signo correcto.",
+      "sentence": "492 _____ 386",
+      "blanks": [">"],
+      "wordBank": [">", "<", "="]
+    },
+    {
+      "id": "q06",
+      "type": "word-bank-fill",
+      "emoji": "🔍",
+      "question": "Compara los números. Arrastra el signo correcto.",
+      "sentence": "436 _____ 673",
+      "blanks": ["<"],
+      "wordBank": [">", "<", "="]
+    },
+    {
+      "id": "q07",
+      "type": "word-bank-fill",
+      "emoji": "🔍",
+      "question": "Compara los números. Arrastra el signo correcto.",
+      "sentence": "782 _____ 699",
+      "blanks": [">"],
+      "wordBank": [">", "<", "="]
+    },
+    {
+      "id": "q08",
+      "type": "choice",
+      "emoji": "🔍",
+      "question": "¿Cuál es el mayor número par que tiene 4C?",
+      "options": ["498", "496", "490", "492"],
+      "answer": 0,
+      "explanation": "498 es el mayor número par con 4 centenas (entre 400 y 499)."
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "📐",
+      "question": "¿Cuántos lados tiene un triángulo?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 1
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "📐",
+      "question": "¿Cuántos vértices tiene un triángulo?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 1
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "📐",
+      "question": "¿Cuántos lados tiene cada cuadrilátero?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 2
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "emoji": "📐",
+      "question": "¿Cuántos vértices tiene un cuadrilátero?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 2
+    },
+    {
+      "id": "q13",
+      "type": "number-series",
+      "emoji": "🔢",
+      "question": "Completa la serie.",
+      "series": [525, null, null, null, null, null],
+      "operations": ["+5", "−1", "+3", "−10", "+4"],
+      "answers": [530, 529, 532, 522, 526]
+    },
+    {
+      "id": "q14",
+      "type": "number-series",
+      "emoji": "🔢",
+      "question": "Completa la serie.",
+      "series": [799, null, null, null, null, null],
+      "operations": ["+2", "+9", "−3", "−7", "−5"],
+      "answers": [801, 810, 807, 800, 805]
+    },
+    {
+      "id": "q15",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "Escribe con cifras: Ochocientos noventa y nueve",
+      "options": ["899", "889", "989", "898"],
+      "answer": 0
+    },
+    {
+      "id": "q16",
+      "type": "choice",
+      "emoji": "🔢",
+      "question": "Escribe con cifras: Seiscientos setenta y cinco",
+      "options": ["675", "657", "765", "576"],
+      "answer": 0
+    },
+    {
+      "id": "q17",
+      "type": "choice",
+      "emoji": "💡",
+      "question": "Piensa y escribe: Cinco números menores que 800 cuya cifra de las decenas sea 2. ¿Cuál de estos conjuntos es correcto?",
+      "options": [
+        "125, 224, 323, 422, 521",
+        "125, 224, 323, 822, 921",
+        "820, 821, 822, 823, 824",
+        "120, 220, 320, 820, 920"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q18",
+      "type": "choice",
+      "emoji": "🌲",
+      "question": "En un pinar había 125 pinos. Han plantado 90 pinos más. ¿Cuántos pinos hay ahora en el pinar?",
+      "options": ["215 pinos", "35 pinos", "315 pinos", "205 pinos"],
+      "answer": 0,
+      "explanation": "125 + 90 = 215 pinos."
+    },
+    {
+      "id": "q19",
+      "type": "choice",
+      "emoji": "🐄",
+      "question": "Marco tiene 150 ovejas y 85 vacas. ¿Cuántas ovejas más que vacas tiene Marco?",
+      "options": ["65 ovejas", "235 ovejas", "75 ovejas", "55 ovejas"],
+      "answer": 0,
+      "explanation": "150 − 85 = 65 ovejas más que vacas."
+    }
+  ]
+}

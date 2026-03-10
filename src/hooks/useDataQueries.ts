@@ -7,6 +7,8 @@ import {
   loadTopicData,
   loadExamData,
   loadSlidesData,
+  loadReviewExamsIndex,
+  loadReviewExamData,
 } from "@/utils/dataLoader";
 import { queryKeys } from "./queryKeys";
 
@@ -80,5 +82,25 @@ export function useSlidesData(
     queryKey: queryKeys.slides(cursoSlug!, subjectId!, topicId!),
     queryFn: () => loadSlidesData(cursoSlug!, subjectId!, topicId!),
     enabled: !!cursoSlug && !!subjectId && !!topicId,
+  });
+}
+
+export function useReviewExamsIndex(cursoSlug: string | undefined) {
+  return useQuery({
+    queryKey: queryKeys.reviewExams.index(cursoSlug!),
+    queryFn: () => loadReviewExamsIndex(cursoSlug!),
+    enabled: !!cursoSlug,
+  });
+}
+
+export function useReviewExamData(
+  cursoSlug: string | undefined,
+  evaluationId: string | undefined,
+  examId: string | undefined,
+) {
+  return useQuery({
+    queryKey: queryKeys.reviewExams.detail(cursoSlug!, evaluationId!, examId!),
+    queryFn: () => loadReviewExamData(cursoSlug!, evaluationId!, examId!),
+    enabled: !!cursoSlug && !!evaluationId && !!examId,
   });
 }

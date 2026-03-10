@@ -193,6 +193,7 @@ export interface WordBankFillQuestion extends QuestionBase {
   sentence: string;
   blanks: string[];
   wordBank: string[];
+  layout?: "compass";
 }
 
 export interface WordBankOrderQuestion extends QuestionBase {
@@ -203,9 +204,54 @@ export interface WordBankOrderQuestion extends QuestionBase {
 
 export interface MathOperationQuestion extends QuestionBase {
   type: "math-operation";
-  operands: [number, number];
+  operands: number[];
   operator: "+" | "-";
   answer: number;
+  layout?: "vertical" | "inline";
+}
+
+export interface NumberSeriesQuestion extends QuestionBase {
+  type: "number-series";
+  series: (number | null)[];
+  operations: string[];
+  answers: number[];
+}
+
+export interface WordSelectionQuestion extends QuestionBase {
+  type: "word-selection";
+  sentences: string[];
+  answers: number[][];
+}
+
+// ─── Review Exams ─────────────────────────────────────────────
+
+export interface ReviewExamsIndex {
+  evaluations: ReviewEvaluation[];
+}
+
+export interface ReviewEvaluation {
+  id: string;
+  name: string;
+  exams: ReviewExamSummary[];
+}
+
+export interface ReviewExamSummary {
+  id: string;
+  subjectId: string;
+  title: string;
+  date: string;
+  questionCount: number;
+  icon: string;
+}
+
+export interface ReviewExamData {
+  id: string;
+  subjectId: string;
+  title: string;
+  date: string;
+  evaluation: string;
+  questions: Question[];
+  texts?: Record<string, ReadingText>;
 }
 
 export type Question =
@@ -215,4 +261,6 @@ export type Question =
   | WordBankClassifyQuestion
   | WordBankFillQuestion
   | WordBankOrderQuestion
-  | MathOperationQuestion;
+  | MathOperationQuestion
+  | NumberSeriesQuestion
+  | WordSelectionQuestion;

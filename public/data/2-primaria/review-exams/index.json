@@ -1,0 +1,58 @@
+{
+  "evaluations": [
+    {
+      "id": "3-evaluacion",
+      "name": "3ª Evaluación",
+      "exams": [
+        {
+          "id": "lengua",
+          "subjectId": "lengua",
+          "title": "Lengua",
+          "date": "2026-02-24",
+          "questionCount": 16,
+          "icon": "📝"
+        },
+        {
+          "id": "mates",
+          "subjectId": "mates",
+          "title": "Matemáticas",
+          "date": "2026-02-20",
+          "questionCount": 19,
+          "icon": "🔢"
+        },
+        {
+          "id": "calculo",
+          "subjectId": "calculo",
+          "title": "Cálculo",
+          "date": "2026-02-20",
+          "questionCount": 16,
+          "icon": "🧮"
+        },
+        {
+          "id": "natural-science",
+          "subjectId": "natural-science",
+          "title": "Natural Science",
+          "date": "2026-02-25",
+          "questionCount": 17,
+          "icon": "🔬"
+        },
+        {
+          "id": "social-science",
+          "subjectId": "social-science",
+          "title": "Social Science",
+          "date": "2026-02-25",
+          "questionCount": 5,
+          "icon": "🌍"
+        },
+        {
+          "id": "english",
+          "subjectId": "english",
+          "title": "English",
+          "date": "2026-02-27",
+          "questionCount": 31,
+          "icon": "🇬🇧"
+        }
+      ]
+    }
+  ]
+}

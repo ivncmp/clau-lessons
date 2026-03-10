@@ -16,4 +16,9 @@ export const queryKeys = {
     ["exams", slug, sid, tid] as const,
   slides: (slug: string, sid: string, tid: string) =>
     ["slides", slug, sid, tid] as const,
+  reviewExams: {
+    index: (slug: string) => ["review-exams", slug] as const,
+    detail: (slug: string, evalId: string, examId: string) =>
+      ["review-exams", slug, evalId, examId] as const,
+  },
 };

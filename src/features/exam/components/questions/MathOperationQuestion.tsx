@@ -18,9 +18,12 @@ export default function MathOperationQuestion({
   answer,
   onAnswer,
 }: Readonly<MathOperationQuestionProps>) {
-  const [a, b] = question.operands;
+  const operands = question.operands;
   const answerLen = String(question.answer).length;
-  const maxDigits = Math.max(String(a).length, String(b).length, answerLen);
+  const maxDigits = Math.max(
+    ...operands.map((n) => String(n).length),
+    answerLen,
+  );
 
   const [digits, setDigits] = useState<string[]>(() => {
     if (answer?.type === "math-operation" && answer.value !== null) {
@@ -119,19 +122,95 @@ export default function MathOperationQuestion({
     }
   }
 
+  const isInline = question.layout === "inline";
+
   // Pad operand digits right-aligned
-  const aDigits = String(a).padStart(maxDigits, " ").split("");
-  const bDigits = String(b).padStart(maxDigits, " ").split("");
+  const operandRows = operands.map((n) =>
+    String(n).padStart(maxDigits, " ").split(""),
+  );
+
+  const answerInputs = digits.map((d, i) => {
+    const enabled = isDigitEnabled(i, digits);
+    return (
+      <Box
+        key={`ans-${i}`}
+        component="input"
+        ref={setRef(i)}
+        value={d}
+        inputMode="numeric"
+        readOnly={!enabled}
+        onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+          handleDigitChange(i, e.target.value)
+        }
+        onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) =>
+          handleKeyDown(i, e)
+        }
+        onFocus={() => handleFocus(i)}
+        sx={{
+          width: DIGIT_SIZE,
+          height: DIGIT_SIZE,
+          textAlign: "center",
+          fontFamily: FONT_FAMILY,
+          fontSize: FONT_SIZE,
+          fontWeight: 700,
+          border: enabled ? "2px solid #AED6F1" : "2px solid #E0E0E0",
+          borderRadius: "8px",
+          bgcolor: enabled ? "#EBF5FB" : "#F5F5F5",
+          color: "#1A5276",
+          outline: "none",
+          caretColor: "transparent",
+          cursor: enabled ? "text" : "pointer",
+          "&:focus": enabled
+            ? {
+                borderColor: "#2E86C1",
+                bgcolor: "#D6EAF8",
+                boxShadow: "0 0 0 3px rgba(46,134,193,0.2)",
+              }
+            : {},
+        }}
+      />
+    );
+  });
+
+  if (isInline) {
+    const opSymbol = question.operator === "+" ? "+" : "−";
+    return (
+      <Stack spacing={2}>
+        <Typography variant="h6" fontWeight={600}>
+          {question.emoji} {question.question}
+        </Typography>
+        <Typography variant="body2" sx={{ color: "#78909C" }}>
+          Escribe el resultado
+        </Typography>
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            gap: 1.5,
+            flexWrap: "wrap",
+          }}
+        >
+          <Typography
+            sx={{
+              fontFamily: FONT_FAMILY,
+              fontSize: "1.5rem",
+              fontWeight: 700,
+            }}
+          >
+            {operands[0]} {opSymbol} {operands[1]} =
+          </Typography>
+          <Box sx={{ display: "flex", gap: "4px" }}>{answerInputs}</Box>
+        </Box>
+      </Stack>
+    );
+  }
 
   return (
-    <Stack spacing={2} alignItems="center">
-      <Typography variant="h6" fontWeight={600} alignSelf="flex-start">
+    <Stack spacing={2}>
+      <Typography variant="h6" fontWeight={600}>
         {question.emoji} {question.question}
       </Typography>
-      <Typography
-        variant="body2"
-        sx={{ color: "#78909C", alignSelf: "flex-start" }}
-      >
+      <Typography variant="body2" sx={{ color: "#78909C" }}>
         Escribe el resultado cifra a cifra
       </Typography>
 
@@ -145,34 +224,48 @@ export default function MathOperationQuestion({
           display: "inline-flex",
           flexDirection: "column",
           alignItems: "flex-end",
+          alignSelf: "flex-start",
           gap: 0.5,
         }}
       >
-        {/* First operand row */}
-        <Box sx={{ display: "flex", gap: "4px", pl: `${DIGIT_SIZE + 8}px` }}>
-          {aDigits.map((d, i) => (
-            <DigitCell key={`a-${i}`} value={d} />
-          ))}
-        </Box>
-
-        {/* Operator + second operand row */}
-        <Box sx={{ display: "flex", gap: "4px", alignItems: "center" }}>
-          <Box
-            sx={{
-              width: DIGIT_SIZE,
-              textAlign: "center",
-              fontFamily: FONT_FAMILY,
-              fontSize: FONT_SIZE,
-              fontWeight: 700,
-              color: "#E65100",
-            }}
-          >
-            {question.operator}
-          </Box>
-          {bDigits.map((d, i) => (
-            <DigitCell key={`b-${i}`} value={d} />
-          ))}
-        </Box>
+        {/* Operand rows */}
+        {operandRows.map((row, rowIdx) => {
+          const isLast = rowIdx === operandRows.length - 1;
+          if (!isLast) {
+            return (
+              <Box
+                key={`op-${rowIdx}`}
+                sx={{ display: "flex", gap: "4px", pl: `${DIGIT_SIZE + 8}px` }}
+              >
+                {row.map((d, i) => (
+                  <DigitCell key={`r${rowIdx}-${i}`} value={d} />
+                ))}
+              </Box>
+            );
+          }
+          return (
+            <Box
+              key={`op-${rowIdx}`}
+              sx={{ display: "flex", gap: "4px", alignItems: "center" }}
+            >
+              <Box
+                sx={{
+                  width: DIGIT_SIZE,
+                  textAlign: "center",
+                  fontFamily: FONT_FAMILY,
+                  fontSize: FONT_SIZE,
+                  fontWeight: 700,
+                  color: "#E65100",
+                }}
+              >
+                {question.operator}
+              </Box>
+              {row.map((d, i) => (
+                <DigitCell key={`r${rowIdx}-${i}`} value={d} />
+              ))}
+            </Box>
+          );
+        })}
 
         {/* Separator line */}
         <Box
@@ -187,48 +280,7 @@ export default function MathOperationQuestion({
 
         {/* Answer digit inputs */}
         <Box sx={{ display: "flex", gap: "4px", pl: `${DIGIT_SIZE + 8}px` }}>
-          {digits.map((d, i) => {
-            const enabled = isDigitEnabled(i, digits);
-            return (
-              <Box
-                key={`ans-${i}`}
-                component="input"
-                ref={setRef(i)}
-                value={d}
-                inputMode="numeric"
-                readOnly={!enabled}
-                onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-                  handleDigitChange(i, e.target.value)
-                }
-                onKeyDown={(e: React.KeyboardEvent<HTMLInputElement>) =>
-                  handleKeyDown(i, e)
-                }
-                onFocus={() => handleFocus(i)}
-                sx={{
-                  width: DIGIT_SIZE,
-                  height: DIGIT_SIZE,
-                  textAlign: "center",
-                  fontFamily: FONT_FAMILY,
-                  fontSize: FONT_SIZE,
-                  fontWeight: 700,
-                  border: enabled ? "2px solid #AED6F1" : "2px solid #E0E0E0",
-                  borderRadius: "8px",
-                  bgcolor: enabled ? "#EBF5FB" : "#F5F5F5",
-                  color: "#1A5276",
-                  outline: "none",
-                  caretColor: "transparent",
-                  cursor: enabled ? "text" : "pointer",
-                  "&:focus": enabled
-                    ? {
-                        borderColor: "#2E86C1",
-                        bgcolor: "#D6EAF8",
-                        boxShadow: "0 0 0 3px rgba(46,134,193,0.2)",
-                      }
-                    : {},
-                }}
-              />
-            );
-          })}
+          {answerInputs}
         </Box>
       </Box>
     </Stack>

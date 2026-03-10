@@ -1,0 +1,161 @@
+{
+  "id": "calculo-3eval",
+  "subjectId": "calculo",
+  "title": "Cálculo — 3ª Evaluación",
+  "date": "2026-02-20",
+  "evaluation": "3ª Evaluación",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Resuelve esta suma.",
+      "operands": [1254, 1478, 3950],
+      "operator": "+",
+      "answer": 6682
+    },
+    {
+      "id": "q02",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Resuelve esta suma.",
+      "operands": [2509, 7850, 6984],
+      "operator": "+",
+      "answer": 17343
+    },
+    {
+      "id": "q03",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Resuelve esta suma.",
+      "operands": [2471, 1805, 4873],
+      "operator": "+",
+      "answer": 9149
+    },
+    {
+      "id": "q04",
+      "type": "math-operation",
+      "emoji": "➕",
+      "question": "Resuelve esta suma.",
+      "operands": [6008, 5789, 2351],
+      "operator": "+",
+      "answer": 14148
+    },
+    {
+      "id": "q05",
+      "type": "math-operation",
+      "emoji": "🧠",
+      "question": "Cálculo mental: 340 + 50",
+      "operands": [340, 50],
+      "operator": "+",
+      "answer": 390,
+      "layout": "inline"
+    },
+    {
+      "id": "q06",
+      "type": "math-operation",
+      "emoji": "🧠",
+      "question": "Cálculo mental: 40 − 8",
+      "operands": [40, 8],
+      "operator": "-",
+      "answer": 32,
+      "layout": "inline"
+    },
+    {
+      "id": "q07",
+      "type": "math-operation",
+      "emoji": "🧠",
+      "question": "Cálculo mental: 261 + 30",
+      "operands": [261, 30],
+      "operator": "+",
+      "answer": 291,
+      "layout": "inline"
+    },
+    {
+      "id": "q08",
+      "type": "math-operation",
+      "emoji": "🧠",
+      "question": "Cálculo mental: 39 + 7",
+      "operands": [39, 7],
+      "operator": "+",
+      "answer": 46,
+      "layout": "inline"
+    },
+    {
+      "id": "q09",
+      "type": "math-operation",
+      "emoji": "🧠",
+      "question": "Cálculo mental: 428 + 40",
+      "operands": [428, 40],
+      "operator": "+",
+      "answer": 468,
+      "layout": "inline"
+    },
+    {
+      "id": "q10",
+      "type": "math-operation",
+      "emoji": "🧠",
+      "question": "Cálculo mental: 95 − 9",
+      "operands": [95, 9],
+      "operator": "-",
+      "answer": 86,
+      "layout": "inline"
+    },
+    {
+      "id": "q11",
+      "type": "math-operation",
+      "emoji": "🧠",
+      "question": "Cálculo mental: 504 + 70",
+      "operands": [504, 70],
+      "operator": "+",
+      "answer": 574,
+      "layout": "inline"
+    },
+    {
+      "id": "q12",
+      "type": "math-operation",
+      "emoji": "🧠",
+      "question": "Cálculo mental: 67 + 9",
+      "operands": [67, 9],
+      "operator": "+",
+      "answer": 76,
+      "layout": "inline"
+    },
+    {
+      "id": "q13",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Resuelve esta resta.",
+      "operands": [505, 157],
+      "operator": "-",
+      "answer": 348
+    },
+    {
+      "id": "q14",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Resuelve esta resta.",
+      "operands": [350, 297],
+      "operator": "-",
+      "answer": 53
+    },
+    {
+      "id": "q15",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Resuelve esta resta.",
+      "operands": [954, 562],
+      "operator": "-",
+      "answer": 392
+    },
+    {
+      "id": "q16",
+      "type": "math-operation",
+      "emoji": "➖",
+      "question": "Resuelve esta resta.",
+      "operands": [543, 280],
+      "operator": "-",
+      "answer": 263
+    }
+  ]
+}

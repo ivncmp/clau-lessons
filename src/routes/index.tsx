@@ -8,6 +8,8 @@ import TopicPage from "../features/topic/components/TopicPage";
 import ExamPage from "../features/exam/components/ExamPage";
 import SlidesPage from "../features/slides/components/SlidesPage";
 import ProfilePage from "../features/profile/components/ProfilePage";
+import ReviewExamsPage from "../features/review-exams/components/ReviewExamsPage";
+import ReviewExamPage from "../features/review-exams/components/ReviewExamPage";
 
 export const router = createBrowserRouter([
   {
@@ -22,6 +24,7 @@ export const router = createBrowserRouter([
         children: [
           { path: "/dashboard", element: <DashboardPage /> },
           { path: "/profile", element: <ProfilePage /> },
+          { path: "/review-exams", element: <ReviewExamsPage /> },
           { path: "/subject/:subjectId", element: <SubjectPage /> },
           {
             path: "/subject/:subjectId/topic/:topicId/lesson",
@@ -32,6 +35,10 @@ export const router = createBrowserRouter([
       {
         path: "/subject/:subjectId/topic/:topicId/exam",
         element: <ExamPage />,
+      },
+      {
+        path: "/review-exams/:evaluationId/:examId",
+        element: <ReviewExamPage />,
       },
       {
         path: "/subject/:subjectId/topic/:topicId/slides",

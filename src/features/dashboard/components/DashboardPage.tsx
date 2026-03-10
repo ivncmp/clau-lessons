@@ -11,6 +11,7 @@ import {
   getMentalMathStats,
 } from "../../../utils/storage";
 import MentalMathCarousel from "./MentalMathCarousel";
+import ReviewExamsBanner from "../../review-exams/components/ReviewExamsBanner";
 
 // Evaluation color palette (by index)
 const EVAL_COLORS = [
@@ -220,6 +221,8 @@ export default function DashboardPage() {
       >
         {user?.course} — Elige una asignatura para empezar
       </Typography>
+
+      <ReviewExamsBanner />
 
       <Box
         sx={{

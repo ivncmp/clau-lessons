@@ -1,0 +1,182 @@
+{
+  "id": "lengua-3eval",
+  "subjectId": "lengua",
+  "title": "Lengua — 3ª Evaluación",
+  "date": "2026-02-24",
+  "evaluation": "3ª Evaluación",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "word-bank-fill",
+      "emoji": "👨‍👩‍👧",
+      "question": "Escribe palabras de la misma familia de 'Mar'.",
+      "sentence": "Mar → _____ y _____",
+      "blanks": ["marinero", "submarino"],
+      "wordBank": ["marinero", "submarino", "marca", "marioneta"]
+    },
+    {
+      "id": "q02",
+      "type": "word-bank-fill",
+      "emoji": "👨‍👩‍👧",
+      "question": "Escribe palabras de la misma familia de 'Reloj'.",
+      "sentence": "Reloj → _____ y _____",
+      "blanks": ["relojero", "relojería"],
+      "wordBank": ["relojero", "relojería", "relajar", "rejilla"]
+    },
+    {
+      "id": "q03",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Completa con za, zo, zu, ce, ci.",
+      "sentence": "_____pillo\t_____garra\tsu_____o\tbu_____n\ta_____car\tti_____s\tcora_____n\t_____bolla\tman_____na\t_____ne",
+      "blanks": ["ce", "ci", "ci", "zó", "zú", "za", "zó", "ce", "za", "ci"],
+      "wordBank": ["ce", "ce", "ce", "ci", "ci", "ci", "za", "za", "zó", "zó", "zú"]
+    },
+    {
+      "id": "q04",
+      "type": "word-bank-classify",
+      "emoji": "🏷️",
+      "question": "Coloca los adjetivos en cada frase.",
+      "words": ["cariñoso", "obediente", "espaciosa", "antigua", "blanca"],
+      "slots": [
+        {
+          "label": "Tu gato es ___ y ___",
+          "accepts": ["cariñoso", "obediente"]
+        },
+        {
+          "label": "Esa casa es ___ y ___",
+          "accepts": ["espaciosa", "antigua"]
+        },
+        {
+          "label": "Mete la ropa ___ en la lavadora",
+          "accepts": ["blanca"]
+        }
+      ]
+    },
+    {
+      "id": "q05",
+      "type": "word-bank-fill",
+      "emoji": "🐘",
+      "question": "Completa con adjetivos.",
+      "sentence": "El hipopótamo es muy _____ y la hormiga es _____.",
+      "blanks": ["grande", "pequeña"],
+      "wordBank": ["grande", "pequeña", "rápido", "lento"]
+    },
+    {
+      "id": "q06",
+      "type": "word-bank-fill",
+      "emoji": "👗",
+      "question": "Completa con adjetivos de color.",
+      "sentence": "Te queda mejor la falda _____ que el vestido _____.",
+      "blanks": ["rosa", "azul"],
+      "wordBank": ["rosa", "azul", "verde", "rojo"]
+    },
+    {
+      "id": "q07",
+      "type": "word-bank-classify",
+      "emoji": "🎨",
+      "question": "Clasifica estas palabras en adjetivos y no adjetivos.",
+      "words": ["Graciosos", "Vaso", "Traviesa", "Zambullir", "Calmado", "Hoja", "Valiente", "Cigüeñas", "Feliz", "Balón"],
+      "slots": [
+        {
+          "label": "Adjetivos",
+          "accepts": ["Graciosos", "Traviesa", "Calmado", "Valiente", "Feliz"]
+        },
+        {
+          "label": "No adjetivos",
+          "accepts": ["Vaso", "Zambullir", "Hoja", "Cigüeñas", "Balón"]
+        }
+      ]
+    },
+    {
+      "id": "q08",
+      "type": "word-bank-fill",
+      "emoji": "📝",
+      "question": "Completa con el posesivo correcto.",
+      "sentence": "Yo cuido _____ jardín y Luis pasea _____ perros.",
+      "blanks": ["mi", "sus"],
+      "wordBank": ["mi", "sus", "tu", "nuestros"]
+    },
+    {
+      "id": "q09",
+      "type": "word-selection",
+      "emoji": "👆",
+      "question": "Subraya los posesivos en cada frase.",
+      "sentences": [
+        "Todos los días viene mi amiga a jugar conmigo",
+        "Necesito que me prestes tus colores",
+        "Su familia está lejos",
+        "Tu casa está lejos de la de mis abuelos"
+      ],
+      "answers": [[4], [4], [0], [0, 7]]
+    },
+    {
+      "id": "q10",
+      "type": "word-bank-fill",
+      "emoji": "👉",
+      "question": "Completa con el demostrativo que corresponda.",
+      "sentence": "Si eliges _____ carretera llegarás a _____ lugar. Camina por delante de _____ árboles. _____ montañas son más altas que _____ lomas.",
+      "blanks": ["esa", "aquel", "aquellos", "Aquellas", "estas"],
+      "wordBank": ["estos", "aquellos", "esa", "aquel", "aquellas", "Aquellas", "estas"]
+    },
+    {
+      "id": "q11a",
+      "type": "matching",
+      "emoji": "🔤",
+      "question": "Escribe el diminutivo y aumentativo de 'Casa'.",
+      "pairs": [
+        { "left": "Casa → Diminutivo", "right": "casita" },
+        { "left": "Casa → Aumentativo", "right": "casota" }
+      ]
+    },
+    {
+      "id": "q11b",
+      "type": "matching",
+      "emoji": "🔤",
+      "question": "Escribe el diminutivo y aumentativo de 'Perro'.",
+      "pairs": [
+        { "left": "Perro → Diminutivo", "right": "perrito" },
+        { "left": "Perro → Aumentativo", "right": "perrón" }
+      ]
+    },
+    {
+      "id": "q11c",
+      "type": "matching",
+      "emoji": "🔤",
+      "question": "Escribe el diminutivo y aumentativo de 'Gato'.",
+      "pairs": [
+        { "left": "Gato → Diminutivo", "right": "gatito" },
+        { "left": "Gato → Aumentativo", "right": "gatón" }
+      ]
+    },
+    {
+      "id": "q11d",
+      "type": "matching",
+      "emoji": "🔤",
+      "question": "Escribe el diminutivo y aumentativo de 'Coche'.",
+      "pairs": [
+        { "left": "Coche → Diminutivo", "right": "cochecito" },
+        { "left": "Coche → Aumentativo", "right": "cochazo" }
+      ]
+    },
+    {
+      "id": "q11e",
+      "type": "matching",
+      "emoji": "🔤",
+      "question": "Escribe el diminutivo y aumentativo de 'Zapato'.",
+      "pairs": [
+        { "left": "Zapato → Diminutivo", "right": "zapatito" },
+        { "left": "Zapato → Aumentativo", "right": "zapatón" }
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "word-bank-fill",
+      "emoji": "🎸",
+      "question": "Completa con ga, go, gu, gue, gui, ji, gi, ge, je, güe, güi.",
+      "sentence": "_____tarra\t_____to\tpara_____ro\tti_____ras\t_____rafa\tci_____ña\t_____pardo\tpin_____no\thambur_____sa\tmar_____rita",
+      "blanks": ["gui", "ga", "güe", "je", "ji", "güe", "gue", "güi", "gue", "ga"],
+      "wordBank": ["gui", "ga", "ga", "gue", "gue", "güe", "güe", "je", "ji", "güi"]
+    }
+  ]
+}

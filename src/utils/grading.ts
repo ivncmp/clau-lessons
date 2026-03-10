@@ -44,6 +44,22 @@ export function isCorrect(question: Question, answer: UserAnswer): boolean {
       return (
         answer.type === "math-operation" && answer.value === question.answer
       );
+
+    case "number-series":
+      return (
+        answer.type === "number-series" &&
+        question.answers.every((expected, i) => answer.values[i] === expected)
+      );
+
+    case "word-selection":
+      if (answer.type !== "word-selection") return false;
+      return question.answers.every((correctIndices, i) => {
+        const sel = answer.selected[i] ?? [];
+        return (
+          correctIndices.length === sel.length &&
+          correctIndices.every((idx) => sel.includes(idx))
+        );
+      });
   }
 }
 

@@ -529,6 +529,7 @@ function ExamRunner({
           ) : (
             <Button
               endIcon={<ArrowForwardIcon />}
+              disabled={!exam.answers[exam.currentQuestion.id]}
               onClick={exam.next}
               sx={{
                 background: "linear-gradient(135deg, #5DADE2, #2E86C1)",
@@ -544,6 +545,11 @@ function ExamRunner({
                   background: "linear-gradient(135deg, #5DADE2, #1B4F72)",
                   transform: "translateY(-2px)",
                   boxShadow: "0 6px 20px rgba(38,198,218,0.5)",
+                },
+                "&.Mui-disabled": {
+                  opacity: 0.4,
+                  background: "linear-gradient(135deg, #5DADE2, #2E86C1)",
+                  color: "white",
                 },
                 transition: "all 0.2s",
               }}

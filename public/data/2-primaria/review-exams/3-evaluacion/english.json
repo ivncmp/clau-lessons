@@ -1,0 +1,294 @@
+{
+  "id": "english-3eval",
+  "subjectId": "english",
+  "title": "English — 3rd Evaluation (Units 11 & 12)",
+  "date": "2026-02-27",
+  "evaluation": "3ª Evaluación",
+  "texts": {
+    "luca": {
+      "title": "👦 Luca's Day",
+      "html": "<p><span class='hl'>Luca</span> gets up at <span class='hl'>seven o'clock</span> from Monday to Friday. He eats breakfast at <span class='hl'>7:45</span> and he goes to school at <span class='hl'>8:15</span>.</p><p>But at the weekends Luca likes to sleep. On Sunday, he gets up at <span class='hl'>9:15</span> and he eats breakfast at <span class='hl'>9:30</span>.</p><p>At school, Luca has lunch at <span class='hl'>12:45</span>, but on Sunday he has his lunch at <span class='hl'>13:30</span>.</p><p>Luca loves Sunday!</p>"
+    },
+    "sarah": {
+      "title": "📖 Sarah's Rules",
+      "html": "<p>After school <span class='hl'>Sarah</span> does her homework.</p><p>Her mother says she <span class='hl'>can't use the cell phone</span> until after dinner, but she <span class='hl'>can use the tablet</span> and headphones to listen to music.</p><p>She <span class='hl'>can use the computer</span> to write e-mails, but she <span class='hl'>can't play computer games</span>.</p><p>Sarah <span class='hl'>can use her camera</span> before dinner, and after dinner she <span class='hl'>can watch TV</span>.</p>"
+    }
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "type": "word-bank-fill",
+      "emoji": "🏠",
+      "image": "/img/550e8400-e29b-41d4-a716-446655440000.png",
+      "question": "Look, read and write the words. Complete with: in front of, above, behind, across from.",
+      "sentence": "The house is _____ the pond. The smoke is _____ the building. The flowers are _____ the pond. The trees are _____ the pond. The rabbit is _____ the house. The birds are _____ the big tree. The trash can is _____ the big tree.",
+      "blanks": ["across from", "above", "in front of", "behind", "in front of", "above", "behind"],
+      "wordBank": ["in front of", "in front of", "above", "above", "behind", "behind", "across from"]
+    },
+    {
+      "id": "q02",
+      "type": "word-bank-order",
+      "emoji": "❓",
+      "question": "Write the words in the correct order: It / Is / fountain? / behind / the →",
+      "words": ["Is", "it", "behind", "the", "fountain?"],
+      "answer": "Is it behind the fountain?"
+    },
+    {
+      "id": "q03",
+      "type": "word-bank-order",
+      "emoji": "❓",
+      "question": "Write the words in the correct order: across from / It's / recycling plant. / the →",
+      "words": ["It's", "across", "from", "the", "recycling", "plant."],
+      "answer": "It's across from the recycling plant."
+    },
+    {
+      "id": "q04",
+      "type": "word-bank-order",
+      "emoji": "❓",
+      "question": "Write the words in the correct order: the / birds / between / are / trees. / The →",
+      "words": ["The", "birds", "are", "between", "the", "trees."],
+      "answer": "The birds are between the trees."
+    },
+    {
+      "id": "q05",
+      "type": "word-bank-order",
+      "emoji": "❓",
+      "question": "Write the words in the correct order: rabbit? / Where's / the →",
+      "words": ["Where's", "the", "rabbit?"],
+      "answer": "Where's the rabbit?"
+    },
+    {
+      "id": "q06",
+      "type": "word-bank-order",
+      "emoji": "❓",
+      "question": "Write the words in the correct order: cat / Is / a / there / in front of / table? / the →",
+      "words": ["Is", "there", "a", "cat", "in", "front", "of", "the", "table?"],
+      "answer": "Is there a cat in front of the table?"
+    },
+    {
+      "id": "q07",
+      "type": "word-bank-fill",
+      "emoji": "🌍",
+      "question": "Complete the sentences with the correct word.",
+      "sentence": "Please throw that bad apple in the _____. I made the fire with _____. It is important to protect our _____. We need to _____ the amount of trash in our park. There's _____ on sunny days. I always _____ plastic bags and bottles.",
+      "blanks": ["trash", "wood", "resources", "reduce", "sunlight", "reuse"],
+      "wordBank": ["land", "reduce", "resources", "reuse", "sunlight", "trash", "wood"]
+    },
+    {
+      "id": "q08",
+      "type": "true-false",
+      "emoji": "👦",
+      "refText": "luca",
+      "question": "Luca eats breakfast before eight o'clock.",
+      "answer": true,
+      "explanation": "Luca eats breakfast at 7:45, which is before 8:00."
+    },
+    {
+      "id": "q09",
+      "type": "true-false",
+      "emoji": "👦",
+      "refText": "luca",
+      "question": "He goes to school after he eats breakfast.",
+      "answer": true
+    },
+    {
+      "id": "q10",
+      "type": "true-false",
+      "emoji": "👦",
+      "refText": "luca",
+      "question": "Luca gets up early on Sunday.",
+      "answer": false,
+      "explanation": "On Sunday he gets up at 9:15, which is late."
+    },
+    {
+      "id": "q11",
+      "type": "true-false",
+      "emoji": "👦",
+      "refText": "luca",
+      "question": "He has lunch at the same time every day.",
+      "answer": false,
+      "explanation": "At school lunch is at 12:45, on Sunday at 13:30."
+    },
+    {
+      "id": "q12",
+      "type": "true-false",
+      "emoji": "👦",
+      "refText": "luca",
+      "question": "He has lunch late on Sunday.",
+      "answer": true
+    },
+    {
+      "id": "q13",
+      "type": "true-false",
+      "emoji": "👦",
+      "refText": "luca",
+      "question": "Luca's favourite day is Saturday.",
+      "answer": false,
+      "explanation": "The text says Luca loves Sunday."
+    },
+    {
+      "id": "q14",
+      "type": "word-bank-fill",
+      "emoji": "🖼️",
+      "question": "Write the correct word from the box.",
+      "sentence": "Person who works in a library: _____.\tMarked path to cross the road: _____.\tHitting a door: _____.\tComputer you can carry: _____.\tCleaning hands with soap: _____.\tPaper on the ground: _____.\tStoring things neatly: _____.\tCatching someone: _____.\tPerson who saves lives at pool: _____.\tMarked path with person helping: _____.",
+      "blanks": ["librarian", "crosswalk", "knock", "laptop", "wash", "litter", "put away", "grab", "lifeguard", "crossing guard"],
+      "wordBank": ["put away", "laptop", "wash", "lifeguard", "crosswalk", "grab", "librarian", "crossing guard", "litter", "knock"]
+    },
+    {
+      "id": "q15",
+      "type": "true-false",
+      "emoji": "📖",
+      "refText": "sarah",
+      "question": "Sarah does her homework after dinner.",
+      "answer": false,
+      "explanation": "Sarah does her homework after school, not after dinner."
+    },
+    {
+      "id": "q16",
+      "type": "true-false",
+      "emoji": "📖",
+      "refText": "sarah",
+      "question": "She can't talk with her friends before dinner.",
+      "answer": true,
+      "explanation": "She can't use the cell phone until after dinner."
+    },
+    {
+      "id": "q17",
+      "type": "true-false",
+      "emoji": "📖",
+      "refText": "sarah",
+      "question": "She can listen to music quietly.",
+      "answer": true
+    },
+    {
+      "id": "q18",
+      "type": "true-false",
+      "emoji": "📖",
+      "refText": "sarah",
+      "question": "She can't write to her friends.",
+      "answer": false,
+      "explanation": "She can use the computer to write e-mails."
+    },
+    {
+      "id": "q19",
+      "type": "true-false",
+      "emoji": "📖",
+      "refText": "sarah",
+      "question": "She can't play games on the computer.",
+      "answer": true
+    },
+    {
+      "id": "q20",
+      "type": "true-false",
+      "emoji": "📖",
+      "refText": "sarah",
+      "question": "She can't take photos after dinner.",
+      "answer": false,
+      "explanation": "The text says she can use her camera before dinner — it doesn't say she can't after."
+    },
+    {
+      "id": "q21",
+      "type": "true-false",
+      "emoji": "📖",
+      "refText": "sarah",
+      "question": "She can watch TV before she goes to bed.",
+      "answer": true
+    },
+    {
+      "id": "q22",
+      "type": "word-bank-fill",
+      "emoji": "🕐",
+      "question": "Complete the sentences with the time.",
+      "sentence": "Mandy goes to school at _____ (seven thirty). Tom eats lunch at _____ (twelve o'clock). She does her homework at _____ (five thirty). They play in the playground at _____ (quarter to eleven). He has a shower at _____ (eight fifteen). She goes to bed at _____ (half past nine).",
+      "blanks": ["07:30", "12:00", "05:30", "10:45", "08:15", "09:30"],
+      "wordBank": ["07:30", "12:00", "05:30", "10:45", "08:15", "09:30"]
+    },
+    {
+      "id": "q23",
+      "type": "word-bank-fill",
+      "emoji": "🔑",
+      "question": "Complete the sentences with can or may.",
+      "sentence": "_____ I watch TV? No, you can't.\tMay I visit my friend? Yes, you _____.\t_____ I go outside? No, you may not.\tCan I have some salad? _____, you can.\tCan I have some cake? _____, you can't.\tMay I listen to music? _____, you may not.",
+      "blanks": ["Can", "may", "May", "Yes", "No", "No"],
+      "wordBank": ["Can", "May", "Yes", "No", "No", "may"]
+    },
+    {
+      "id": "q24",
+      "type": "choice",
+      "emoji": "🐱",
+      "question": "Circle the correct word: The cat ran _____ from the dog.",
+      "options": ["away", "up", "down", "into"],
+      "answer": 0
+    },
+    {
+      "id": "q25",
+      "type": "choice",
+      "emoji": "🧹",
+      "question": "Circle the correct word: Mike and Ann cleaned up / _____ the living room.",
+      "options": ["up", "down", "away", "into"],
+      "answer": 0
+    },
+    {
+      "id": "q26",
+      "type": "choice",
+      "emoji": "🤕",
+      "question": "Circle the correct word: I fell _____ and hurt my knee.",
+      "options": ["down", "into", "up", "away"],
+      "answer": 0
+    },
+    {
+      "id": "q27",
+      "type": "choice",
+      "emoji": "🧸",
+      "question": "Circle the correct word: Claire put _____ her toys.",
+      "options": ["away", "up", "down", "into"],
+      "answer": 0
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-fill",
+      "emoji": "😊",
+      "question": "Complete the sentences with the correct word: invite, rude, thoughtful, wash.",
+      "sentence": "Please _____ your hands before you eat. He was _____ and made her cry. He will _____ her to his party. She was _____ and helped me study.",
+      "blanks": ["wash", "rude", "invite", "thoughtful"],
+      "wordBank": ["invite", "rude", "thoughtful", "wash"]
+    },
+    {
+      "id": "q29a",
+      "type": "matching",
+      "emoji": "📋",
+      "question": "Possessive adjectives and pronouns: I / you",
+      "pairs": [
+        { "left": "I → adjective", "right": "my" },
+        { "left": "I → pronoun", "right": "mine" },
+        { "left": "you → adjective", "right": "your" },
+        { "left": "you → pronoun", "right": "yours" }
+      ]
+    },
+    {
+      "id": "q29b",
+      "type": "matching",
+      "emoji": "📋",
+      "question": "Possessive adjectives and pronouns: he / she",
+      "pairs": [
+        { "left": "he → adjective", "right": "his" },
+        { "left": "he → pronoun", "right": "his" },
+        { "left": "she → adjective", "right": "her" },
+        { "left": "she → pronoun", "right": "hers" }
+      ]
+    },
+    {
+      "id": "q29c",
+      "type": "matching",
+      "emoji": "📋",
+      "question": "Possessive adjectives and pronouns: we / they",
+      "pairs": [
+        { "left": "we → adjective", "right": "our" },
+        { "left": "we → pronoun", "right": "ours" },
+        { "left": "they → adjective", "right": "their" },
+        { "left": "they → pronoun", "right": "theirs" }
+      ]
+    }
+  ]
+}

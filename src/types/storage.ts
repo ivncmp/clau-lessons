@@ -65,7 +65,9 @@ export type UserAnswer =
   | { type: "word-bank-classify"; placements: Record<number, string[]> }
   | { type: "word-bank-fill"; words: (string | null)[] }
   | { type: "word-bank-order"; arranged: string }
-  | { type: "math-operation"; value: number | null };
+  | { type: "math-operation"; value: number | null }
+  | { type: "number-series"; values: (number | null)[] }
+  | { type: "word-selection"; selected: number[][] };
 
 // ─── Export/Import ─────────────────────────────────────────────
 

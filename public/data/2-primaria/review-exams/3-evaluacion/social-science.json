@@ -1,0 +1,71 @@
+{
+  "id": "social-science-3eval",
+  "subjectId": "social-science",
+  "title": "Social Science — 3rd Evaluation (Units 3, 4)",
+  "date": "2026-02-25",
+  "evaluation": "3ª Evaluación",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "word-bank-fill",
+      "emoji": "🧭",
+      "question": "Drag the cardinal points to the correct position on the compass.",
+      "layout": "compass",
+      "sentence": "_____ _____ _____ _____",
+      "blanks": ["north", "east", "south", "west"],
+      "wordBank": ["north", "south", "east", "west"]
+    },
+    {
+      "id": "q02",
+      "type": "matching",
+      "emoji": "🗺️",
+      "image": "/img/119be3a0-9439-4008-898c-472657c2428b.png",
+      "question": "Look at the map. Match each colour to its continent.",
+      "pairs": [
+        { "left": "Orange", "right": "America" },
+        { "left": "Green", "right": "Africa" },
+        { "left": "Pink", "right": "Europe" },
+        { "left": "Yellow", "right": "Asia" },
+        { "left": "Purple", "right": "Oceania" },
+        { "left": "Grey", "right": "Antarctica" }
+      ]
+    },
+    {
+      "id": "q03",
+      "type": "matching",
+      "emoji": "🗺️",
+      "question": "What type of map do you need? Match the pairs.",
+      "pairs": [
+        { "left": "Map that shows the whole world", "right": "World map" },
+        { "left": "Map that shows countries and cities", "right": "Political map" },
+        { "left": "Map that shows mountains, rivers, oceans...", "right": "Physical map" }
+      ]
+    },
+    {
+      "id": "q04",
+      "type": "matching",
+      "emoji": "⛰️",
+      "question": "Label the parts of a mountain: peak, slope, foot.",
+      "pairs": [
+        { "left": "The very top", "right": "Peak" },
+        { "left": "The side going down", "right": "Slope" },
+        { "left": "The bottom", "right": "Foot" }
+      ]
+    },
+    {
+      "id": "q05",
+      "type": "matching",
+      "emoji": "🏖️",
+      "image": "/img/4aff3fe4-b6e1-4643-93de-607d1b1777de.png",
+      "question": "Look at the picture. Match each letter to the correct coastal landform.",
+      "pairs": [
+        { "left": "A", "right": "cliff" },
+        { "left": "B", "right": "bay" },
+        { "left": "C", "right": "port" },
+        { "left": "D", "right": "beach" },
+        { "left": "E", "right": "cape" },
+        { "left": "F", "right": "island" }
+      ]
+    }
+  ]
+}

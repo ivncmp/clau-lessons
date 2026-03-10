@@ -24,7 +24,7 @@ function generateOperations(): MathOperationQuestion[] {
         emoji: "🧮",
         question: "Calcula",
         type: "math-operation" as const,
-        operands: [a, b] as [number, number],
+        operands: [a, b],
         operator: "+" as const,
         answer: a + b,
       };
@@ -36,7 +36,7 @@ function generateOperations(): MathOperationQuestion[] {
         emoji: "🧮",
         question: "Calcula",
         type: "math-operation" as const,
-        operands: [a, b] as [number, number],
+        operands: [a, b],
         operator: "-" as const,
         answer: a - b,
       };
@@ -254,9 +254,12 @@ function MiniOperation({
   onChange,
   disabled,
 }: Readonly<MiniOperationProps>) {
-  const [a, b] = question.operands;
+  const operands = question.operands;
   const answerLen = String(question.answer).length;
-  const maxDigits = Math.max(String(a).length, String(b).length, answerLen);
+  const maxDigits = Math.max(
+    ...operands.map((n) => String(n).length),
+    answerLen,
+  );
 
   const [digits, setDigits] = useState<string[]>(() =>
     Array(maxDigits).fill(""),
@@ -347,8 +350,9 @@ function MiniOperation({
     }
   }
 
-  const aDigits = String(a).padStart(maxDigits, " ").split("");
-  const bDigits = String(b).padStart(maxDigits, " ").split("");
+  const operandRows = operands.map((n) =>
+    String(n).padStart(maxDigits, " ").split(""),
+  );
 
   return (
     <Box
@@ -363,28 +367,43 @@ function MiniOperation({
         gap: 0.3,
       }}
     >
-      <Box sx={{ display: "flex", gap: "3px", pl: `${DIGIT_SIZE + 6}px` }}>
-        {aDigits.map((d, i) => (
-          <MiniDigitCell key={`a-${i}`} value={d} />
-        ))}
-      </Box>
-      <Box sx={{ display: "flex", gap: "3px", alignItems: "center" }}>
-        <Box
-          sx={{
-            width: DIGIT_SIZE,
-            textAlign: "center",
-            fontFamily: FONT_FAMILY,
-            fontSize: FONT_SIZE,
-            fontWeight: 700,
-            color: "#E65100",
-          }}
-        >
-          {question.operator}
-        </Box>
-        {bDigits.map((d, i) => (
-          <MiniDigitCell key={`b-${i}`} value={d} />
-        ))}
-      </Box>
+      {operandRows.map((row, rowIdx) => {
+        const isLast = rowIdx === operandRows.length - 1;
+        if (!isLast) {
+          return (
+            <Box
+              key={`op-${rowIdx}`}
+              sx={{ display: "flex", gap: "3px", pl: `${DIGIT_SIZE + 6}px` }}
+            >
+              {row.map((d, i) => (
+                <MiniDigitCell key={`r${rowIdx}-${i}`} value={d} />
+              ))}
+            </Box>
+          );
+        }
+        return (
+          <Box
+            key={`op-${rowIdx}`}
+            sx={{ display: "flex", gap: "3px", alignItems: "center" }}
+          >
+            <Box
+              sx={{
+                width: DIGIT_SIZE,
+                textAlign: "center",
+                fontFamily: FONT_FAMILY,
+                fontSize: FONT_SIZE,
+                fontWeight: 700,
+                color: "#E65100",
+              }}
+            >
+              {question.operator}
+            </Box>
+            {row.map((d, i) => (
+              <MiniDigitCell key={`r${rowIdx}-${i}`} value={d} />
+            ))}
+          </Box>
+        );
+      })}
       <Box
         sx={{
           width: "100%",

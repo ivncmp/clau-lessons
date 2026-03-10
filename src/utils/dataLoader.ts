@@ -7,6 +7,8 @@ import type {
   TopicData,
   ExamData,
   SlidesData,
+  ReviewExamsIndex,
+  ReviewExamData,
 } from "../types/data";
 
 const DATA_BASE = "/data";
@@ -93,4 +95,25 @@ export async function loadSlidesData(
       `Failed to load slides: ${cursoSlug}/${subjectId}/${topicId}`,
     );
   return res.json() as Promise<SlidesData>;
+}
+
+export async function loadReviewExamsIndex(
+  cursoSlug: string,
+): Promise<ReviewExamsIndex> {
+  const res = await fetch(`${DATA_BASE}/${cursoSlug}/review-exams/index.json`);
+  if (!res.ok) throw new Error("Failed to load review exams index");
+  return res.json() as Promise<ReviewExamsIndex>;
+}
+
+export async function loadReviewExamData(
+  cursoSlug: string,
+  evaluationId: string,
+  examId: string,
+): Promise<ReviewExamData> {
+  const res = await fetch(
+    `${DATA_BASE}/${cursoSlug}/review-exams/${evaluationId}/${examId}.json`,
+  );
+  if (!res.ok)
+    throw new Error(`Failed to load review exam: ${evaluationId}/${examId}`);
+  return res.json() as Promise<ReviewExamData>;
 }

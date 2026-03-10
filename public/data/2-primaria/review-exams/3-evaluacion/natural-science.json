@@ -1,0 +1,154 @@
+{
+  "id": "natural-science-3eval",
+  "subjectId": "natural-science",
+  "title": "Natural Science — 3rd Evaluation (Unit 3)",
+  "date": "2026-02-25",
+  "evaluation": "3ª Evaluación",
+  "questions": [
+    {
+      "id": "q01",
+      "type": "true-false",
+      "emoji": "🐻",
+      "question": "Mammals are born alive.",
+      "answer": true
+    },
+    {
+      "id": "q02",
+      "type": "true-false",
+      "emoji": "🐋",
+      "question": "Some mammals are aquatic.",
+      "answer": true
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "🐦",
+      "question": "Birds and mammals have feathers.",
+      "answer": false,
+      "explanation": "Only birds have feathers. Mammals have fur or hair."
+    },
+    {
+      "id": "q04",
+      "type": "true-false",
+      "emoji": "🐦",
+      "question": "Birds lay eggs in nests.",
+      "answer": true
+    },
+    {
+      "id": "q05",
+      "type": "true-false",
+      "emoji": "🐻",
+      "question": "Young mammals grow inside their mother's uterus.",
+      "answer": true
+    },
+    {
+      "id": "q06",
+      "type": "true-false",
+      "emoji": "🐕",
+      "question": "Wild mammals are pets and farm animals.",
+      "answer": false,
+      "explanation": "Pets and farm animals are domestic mammals, not wild."
+    },
+    {
+      "id": "q07",
+      "type": "matching",
+      "emoji": "🐾",
+      "question": "Match the sentence halves.",
+      "pairs": [
+        { "left": "Mammals and birds...", "right": "...can be domestic or wild." },
+        { "left": "A dog...", "right": "...is a domestic animal, it can live at home." },
+        { "left": "A giraffe...", "right": "...is a wild animal." },
+        { "left": "A hen...", "right": "...lives on a farm and gives us eggs." }
+      ]
+    },
+    {
+      "id": "q08",
+      "type": "matching",
+      "emoji": "🐟",
+      "question": "Match each description to the correct part of a fish.",
+      "pairs": [
+        { "left": "Breathing organ on sides", "right": "gills" },
+        { "left": "At the back for swimming", "right": "tail" },
+        { "left": "Covering the body", "right": "scales" },
+        { "left": "Flat parts for steering", "right": "fins" }
+      ]
+    },
+    {
+      "id": "q09",
+      "type": "true-false",
+      "emoji": "🐸",
+      "question": "Adult amphibians lay soft eggs in water.",
+      "answer": true
+    },
+    {
+      "id": "q10",
+      "type": "true-false",
+      "emoji": "🐸",
+      "question": "Adult amphibians live and grow in saltwater.",
+      "answer": false,
+      "explanation": "Amphibians live in freshwater, not saltwater."
+    },
+    {
+      "id": "q11",
+      "type": "true-false",
+      "emoji": "🐸",
+      "question": "Amphibians' bodies are covered in scales.",
+      "answer": false,
+      "explanation": "Amphibians have smooth, moist skin, not scales."
+    },
+    {
+      "id": "q12",
+      "type": "true-false",
+      "emoji": "🐸",
+      "question": "Young amphibians breathe through gills.",
+      "answer": true
+    },
+    {
+      "id": "q13",
+      "type": "true-false",
+      "emoji": "🐸",
+      "question": "Young amphibians have fins and adults amphibians have legs.",
+      "answer": true
+    },
+    {
+      "id": "q14",
+      "type": "true-false",
+      "emoji": "🐸",
+      "question": "All adult amphibians are herbivores.",
+      "answer": false,
+      "explanation": "Most adult amphibians are carnivores, eating insects."
+    },
+    {
+      "id": "q15",
+      "type": "word-bank-fill",
+      "emoji": "🦎",
+      "question": "Complete the sentences with the correct word from the box.",
+      "sentence": "Some reptiles have _____.\tFirst, amphibians live in _____. Then, they live on _____.\tFish breathe with _____.\tYoung mammals feed on _____ from their mothers.\tBirds use _____ to fly.\tAnimals that eat rabbits and chickens are _____.\tAnimals that eat plants are _____.\tAnimals that eat plants and animals are _____.\tDogs, cats and some cows are _____ animals.\tWhales, tigers and eagles are _____ animals.",
+      "blanks": ["shells", "water", "land", "gills", "milk", "wings", "carnivores", "herbivores", "omnivores", "domestic", "wild"],
+      "wordBank": ["shells", "water", "land", "gills", "milk", "wings", "carnivores", "herbivores", "omnivores", "domestic", "wild"]
+    },
+    {
+      "id": "q17",
+      "type": "matching",
+      "emoji": "🌍",
+      "question": "Write the name of the ecosystem.",
+      "pairs": [
+        { "left": "Hot, dry, sandy landscape", "right": "Desert" },
+        { "left": "Many trees and animals", "right": "Forest" },
+        { "left": "Large body of saltwater", "right": "Ocean" },
+        { "left": "Very cold, ice and snow", "right": "Pole" }
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "word-bank-classify",
+      "emoji": "🦎",
+      "question": "Classify the animals: reptiles or not reptiles.",
+      "words": ["squirrel", "snake", "lizard", "mouse", "fish", "frog", "turtle", "crocodile"],
+      "slots": [
+        { "label": "Reptiles", "accepts": ["snake", "lizard", "turtle", "crocodile"] },
+        { "label": "Not reptiles", "accepts": ["squirrel", "mouse", "fish", "frog"] }
+      ]
+    }
+  ]
+}
