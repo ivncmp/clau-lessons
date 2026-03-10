@@ -636,6 +636,25 @@ export default function DashboardPage() {
             title="Exámenes"
             barValue={null}
             barColor=""
+            headerAction={
+              stats.totalExams > 0 ? (
+                <Typography
+                  variant="caption"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    navigate("/exam-history");
+                  }}
+                  sx={{
+                    color: "#2E86C1",
+                    fontWeight: 700,
+                    cursor: "pointer",
+                    "&:hover": { textDecoration: "underline" },
+                  }}
+                >
+                  Ver todos
+                </Typography>
+              ) : undefined
+            }
             mainText={
               <Box sx={{ display: "flex", alignItems: "baseline", gap: 1 }}>
                 <Typography
@@ -789,6 +808,7 @@ interface ProgressCardProps {
   mainText?: React.ReactNode;
   detail?: string;
   motivation?: { text: string; emoji: string; color: string; bg: string };
+  headerAction?: React.ReactNode;
 }
 
 function ProgressCard({
@@ -800,6 +820,7 @@ function ProgressCard({
   mainText,
   detail,
   motivation,
+  headerAction,
 }: Readonly<ProgressCardProps>) {
   return (
     <Box
@@ -820,9 +841,14 @@ function ProgressCard({
         <Typography sx={{ fontSize: "1.6rem", lineHeight: 1 }}>
           {emoji}
         </Typography>
-        <Typography variant="body1" fontWeight={700} sx={{ color: "#37474F" }}>
+        <Typography
+          variant="body1"
+          fontWeight={700}
+          sx={{ color: "#37474F", flex: 1 }}
+        >
           {title}
         </Typography>
+        {headerAction}
       </Box>
 
       {/* Bar or custom content */}

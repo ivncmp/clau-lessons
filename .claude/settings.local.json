@@ -28,7 +28,8 @@
       "Bash(do echo \"=== $i ===\")",
       "Bash(for i in 013 014 015 016 017 018)",
       "Bash(do echo -n \"$i: \")",
-      "Bash(xargs cat)"
+      "Bash(xargs cat)",
+      "Bash(git add:*)"
     ]
   }
 }

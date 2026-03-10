@@ -262,13 +262,42 @@ function examProgressKey(
 
 /** Returns total number of in-progress exams for a user. */
 export function getAllInProgressExamsCount(userId: string): number {
+  return getAllInProgressExams(userId).length;
+}
+
+export interface InProgressExamInfo {
+  subjectId: string;
+  topicId: string;
+  answeredCount: number;
+  startedAt: number;
+}
+
+/** Returns all in-progress exams for a user with their subject/topic IDs. */
+export function getAllInProgressExams(userId: string): InProgressExamInfo[] {
   const prefix = `clau_exam_${userId}_`;
-  let count = 0;
+  const results: InProgressExamInfo[] = [];
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i);
-    if (key?.startsWith(prefix)) count++;
+    if (!key?.startsWith(prefix)) continue;
+    // key format: clau_exam_{userId}_{subjectId}_{topicId}
+    const rest = key.slice(prefix.length);
+    const sepIdx = rest.indexOf("_");
+    if (sepIdx === -1) continue;
+    const subjectId = rest.slice(0, sepIdx);
+    const topicId = rest.slice(sepIdx + 1);
+    try {
+      const data = JSON.parse(localStorage.getItem(key)!) as InProgressExam;
+      results.push({
+        subjectId,
+        topicId,
+        answeredCount: Object.keys(data.answers).length,
+        startedAt: data.startedAt,
+      });
+    } catch {
+      // skip corrupted entries
+    }
   }
-  return count;
+  return results;
 }
 
 /** Returns count of answered questions for an in-progress exam, or null if none. */
