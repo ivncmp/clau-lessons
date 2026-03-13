@@ -10,11 +10,14 @@ interface WordBankOrderQuestionProps {
   onAnswer: (answer: UserAnswer) => void;
 }
 
-/**
- * Decode the arranged string back into pieces by greedily matching
- * against the original word list (longest match first).
- */
-function splitIntoPieces(arranged: string, words: string[]): string[] {
+function splitIntoPieces(
+  arranged: string,
+  separator: string,
+  words: string[],
+): string[] {
+  if (!arranged) return [];
+  if (separator) return arranged.split(separator);
+  // For empty separator (syllables), greedily match against word list
   const pieces: string[] = [];
   let remaining = arranged;
   const sorted = [...words].sort((a, b) => b.length - a.length);
@@ -32,20 +35,21 @@ export default function WordBankOrderQuestion({
   answer,
   onAnswer,
 }: Readonly<WordBankOrderQuestionProps>) {
+  const sep = question.separator ?? " ";
   const arranged = answer?.type === "word-bank-order" ? answer.arranged : "";
-  const pieces = splitIntoPieces(arranged, question.words);
+  const pieces = splitIntoPieces(arranged, sep, question.words);
 
   const shuffledWords = useMemo(() => shuffle(question.words), [question]);
 
   const handleWordClick = (word: string) => {
-    const newArranged = arranged + word;
+    const newArranged = arranged ? arranged + sep + word : word;
     onAnswer({ type: "word-bank-order", arranged: newArranged });
   };
 
   const handleRemoveLast = () => {
     if (pieces.length === 0) return;
     const newPieces = pieces.slice(0, -1);
-    onAnswer({ type: "word-bank-order", arranged: newPieces.join("") });
+    onAnswer({ type: "word-bank-order", arranged: newPieces.join(sep) });
   };
 
   return (

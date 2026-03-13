@@ -184,7 +184,8 @@
       "emoji": "🧩",
       "question": "Ordena las sílabas para formar una palabra de la familia de «mar».",
       "words": ["ri", "ma", "ne", "ro"],
-      "answer": "marinero"
+      "answer": "marinero",
+      "separator": ""
     },
     {
       "id": "q19",
@@ -192,7 +193,8 @@
       "emoji": "🧩",
       "question": "Ordena las sílabas para formar una palabra de la familia de «mar».",
       "words": ["sub", "ma", "ri", "no"],
-      "answer": "submarino"
+      "answer": "submarino",
+      "separator": ""
     },
     {
       "id": "q20",
@@ -246,7 +248,8 @@
       "emoji": "🧩",
       "question": "Ordena las sílabas para formar el nombre de un animal marino.",
       "words": ["tor", "tu", "ga"],
-      "answer": "tortuga"
+      "answer": "tortuga",
+      "separator": ""
     },
     {
       "id": "q26",

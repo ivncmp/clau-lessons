@@ -11,7 +11,7 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css,json}\"",
     "preview": "vite preview",
-    "test": "vitest",
+    "test": "vitest run",
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
     "prepare": "husky",

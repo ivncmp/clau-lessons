@@ -170,6 +170,7 @@
       "question": "Ordena de menor a mayor: medio kilo, cuarto kilo, 2 kilos.",
       "words": ["2 kilos", "cuarto kilo", "medio kilo"],
       "answer": "cuarto kilo, medio kilo, 2 kilos",
+      "separator": ", ",
       "explanation": "Cuarto kilo (250 g) < medio kilo (500 g) < 2 kilos (2000 g)."
     },
     {

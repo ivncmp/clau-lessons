@@ -218,7 +218,8 @@
       "emoji": "🧩",
       "question": "Ordena las sílabas para formar el nombre de un número.",
       "words": ["seis", "cien", "tos"],
-      "answer": "seiscientos"
+      "answer": "seiscientos",
+      "separator": ""
     },
     {
       "id": "q24",

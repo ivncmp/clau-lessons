@@ -282,7 +282,8 @@
       "emoji": "🧩",
       "question": "Ordena las sílabas para formar el nombre de una forma geométrica.",
       "words": ["trián", "gu", "lo"],
-      "answer": "triángulo"
+      "answer": "triángulo",
+      "separator": ""
     }
   ]
 }

@@ -200,6 +200,7 @@ export interface WordBankOrderQuestion extends QuestionBase {
   type: "word-bank-order";
   words: string[];
   answer: string;
+  separator?: string;
 }
 
 export interface MathOperationQuestion extends QuestionBase {

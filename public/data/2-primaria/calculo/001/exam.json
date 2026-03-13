@@ -131,6 +131,7 @@
       "question": "Completa la serie descendente: 10, 8, 6, __, __",
       "words": ["2", "4", "0", "3"],
       "answer": "4, 2",
+      "separator": ", ",
       "explanation": "La serie baja de 2 en 2: 10, 8, 6, 4, 2."
     },
     {
