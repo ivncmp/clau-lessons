@@ -1,5 +1,292 @@
 {
   "topicId": "008",
   "subjectId": "lengua",
-  "questions": []
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "¿Qué lugar visitó Lucía con su clase?",
+      "options": ["Un parque natural", "Una planta de reciclaje", "Un zoo", "Una granja escuela"],
+      "answer": 1,
+      "refText": "diario",
+      "explanation": "Lucía cuenta: «Hemos ido a visitar una planta de reciclaje»."
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "¿Qué significan las Tres Erres?",
+      "options": ["Recoger, reparar y recortar", "Reducir, reutilizar y reciclar", "Reciclar, recoger y reparar", "Reducir, recoger y reusar"],
+      "answer": 1,
+      "refText": "diario",
+      "explanation": "Las Tres Erres significan reducir, reutilizar y reciclar."
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "En la planta de reciclaje, el contenedor azul es para el vidrio.",
+      "answer": false,
+      "refText": "diario",
+      "explanation": "El contenedor azul es para el papel. El verde es para el vidrio."
+    },
+    {
+      "id": "q04",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Al final del recorrido, Lucía vio objetos hechos con materiales reciclados.",
+      "answer": true,
+      "refText": "diario",
+      "explanation": "«Hemos pasado por una sala donde había objetos hechos con materiales reciclados: bolsos, jarrones, bandejas…»."
+    },
+    {
+      "id": "q05",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada contenedor con lo que se deposita en él.",
+      "pairs": [
+        { "left": "Azul", "right": "papel y cartón" },
+        { "left": "Amarillo", "right": "envases y plásticos" },
+        { "left": "Verde", "right": "vidrio" }
+      ],
+      "rightOptions": ["papel y cartón", "envases y plásticos", "vidrio", "restos orgánicos"]
+    },
+    {
+      "id": "q06",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "¿Qué transforman en compost en la planta de reciclaje?",
+      "options": ["El vidrio", "El papel", "La materia orgánica", "El plástico"],
+      "answer": 2,
+      "refText": "diario",
+      "explanation": "«También transforman en compost la materia orgánica»."
+    },
+    {
+      "id": "q07",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estos residuos en el contenedor correcto.",
+      "words": ["periódico", "botella de cristal", "lata de refresco", "caja de cartón", "tarro de mermelada", "brik de leche"],
+      "slots": [
+        { "label": "Contenedor azul (papel)", "accepts": ["periódico", "caja de cartón"] },
+        { "label": "Contenedor amarillo (envases)", "accepts": ["lata de refresco", "brik de leche"] },
+        { "label": "Contenedor verde (vidrio)", "accepts": ["botella de cristal", "tarro de mermelada"] }
+      ]
+    },
+    {
+      "id": "q08",
+      "type": "choice",
+      "emoji": "♻️",
+      "question": "Según el texto, ¿cuál de estas acciones NO es consumo responsable?",
+      "options": ["Usar bolsas reutilizables", "Comprar todo lo que nos guste", "Apagar las luces", "Cerrar el grifo"],
+      "answer": 1,
+      "refText": "consumo",
+      "explanation": "El texto dice «comprar solo lo que necesitamos», no todo lo que nos guste."
+    },
+    {
+      "id": "q09",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Debemos dejar el grifo abierto mientras nos lavamos los dientes.",
+      "answer": false,
+      "refText": "consumo",
+      "explanation": "El texto dice: «Dejar el grifo cerrado mientras nos lavamos los dientes»."
+    },
+    {
+      "id": "q10",
+      "type": "choice",
+      "emoji": "🔤",
+      "question": "¿Qué es una palabra compuesta?",
+      "options": [
+        "Una palabra muy larga",
+        "Una palabra formada uniendo dos o más palabras",
+        "Una palabra difícil de pronunciar",
+        "Una palabra que tiene muchas sílabas"
+      ],
+      "answer": 1,
+      "explanation": "Las palabras compuestas se forman uniendo dos o más palabras: gira + sol = girasol."
+    },
+    {
+      "id": "q11",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une las dos palabras para formar una palabra compuesta.",
+      "pairs": [
+        { "left": "gira + sol", "right": "girasol" },
+        { "left": "para + aguas", "right": "paraguas" },
+        { "left": "saca + puntas", "right": "sacapuntas" },
+        { "left": "rompe + cabezas", "right": "rompecabezas" }
+      ],
+      "rightOptions": ["girasol", "paraguas", "sacapuntas", "rompecabezas", "paracaídas"]
+    },
+    {
+      "id": "q12",
+      "type": "choice",
+      "emoji": "🔤",
+      "question": "¿Cuál de estas palabras es compuesta?",
+      "options": ["mariposa", "lavavajillas", "cocodrilo", "helicóptero"],
+      "answer": 1,
+      "explanation": "Lavavajillas es una palabra compuesta: lava + vajillas."
+    },
+    {
+      "id": "q13",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estas palabras en simples o compuestas.",
+      "words": ["girasol", "mesa", "paraguas", "libro", "cortacésped", "árbol"],
+      "slots": [
+        { "label": "Palabras simples", "accepts": ["mesa", "libro", "árbol"] },
+        { "label": "Palabras compuestas", "accepts": ["girasol", "paraguas", "cortacésped"] }
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Une estas dos palabras para formar una palabra compuesta.",
+      "words": ["limpia", "parabrisas"],
+      "answer": "limpiaparabrisas"
+    },
+    {
+      "id": "q15",
+      "type": "word-bank-order",
+      "emoji": "🧩",
+      "question": "Une estas dos palabras para formar una palabra compuesta.",
+      "words": ["medio", "ambiente"],
+      "answer": "medioambiente"
+    },
+    {
+      "id": "q16",
+      "type": "choice",
+      "emoji": "✏️",
+      "question": "¿Cómo se escribe el plural de «pared»?",
+      "options": ["paredes", "pareces", "paredos", "pareds"],
+      "answer": 0,
+      "explanation": "Las palabras terminadas en -d hacen el plural en -des: pared → paredes."
+    },
+    {
+      "id": "q17",
+      "type": "choice",
+      "emoji": "✏️",
+      "question": "¿Cómo se escribe el plural de «pez»?",
+      "options": ["pezes", "pezs", "peces", "pecez"],
+      "answer": 2,
+      "explanation": "Las palabras terminadas en -z hacen el plural en -ces: pez → peces."
+    },
+    {
+      "id": "q18",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estas palabras según terminen en -d o en -z.",
+      "words": ["ciudad", "nariz", "pared", "lápiz", "verdad", "luz"],
+      "slots": [
+        { "label": "Terminan en -d", "accepts": ["ciudad", "pared", "verdad"] },
+        { "label": "Terminan en -z", "accepts": ["nariz", "lápiz", "luz"] }
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada palabra con su plural.",
+      "pairs": [
+        { "left": "luz", "right": "luces" },
+        { "left": "ciudad", "right": "ciudades" },
+        { "left": "lápiz", "right": "lápices" },
+        { "left": "pared", "right": "paredes" }
+      ],
+      "rightOptions": ["luces", "ciudades", "lápices", "paredes", "narices"]
+    },
+    {
+      "id": "q20",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "El plural de «nariz» es «narizes».",
+      "answer": false,
+      "explanation": "Las palabras terminadas en -z cambian la z por c en plural: nariz → narices."
+    },
+    {
+      "id": "q21",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Completa con el plural correcto.",
+      "sentence": "Una luz → muchas _____. Un lápiz → varios _____.",
+      "blanks": ["luces", "lápices"],
+      "wordBank": ["luces", "lápices", "luzes", "lápizes"]
+    },
+    {
+      "id": "q22",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "¿Qué son los verbos?",
+      "options": [
+        "Palabras que indican cualidades",
+        "Palabras que expresan acciones",
+        "Palabras que nombran cosas",
+        "Palabras que unen frases"
+      ],
+      "answer": 1,
+      "explanation": "Los verbos son palabras que expresan acciones: comer, estudiar, jugar…"
+    },
+    {
+      "id": "q23",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "En la frase «Laura come una manzana», ¿cuál es el verbo?",
+      "options": ["Laura", "come", "una", "manzana"],
+      "answer": 1,
+      "explanation": "«Come» es el verbo porque indica la acción que realiza Laura."
+    },
+    {
+      "id": "q24",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estos verbos según su tiempo.",
+      "words": ["comió", "estudia", "jugará", "pintó", "lee", "cantará"],
+      "slots": [
+        { "label": "Pasado", "accepts": ["comió", "pintó"] },
+        { "label": "Presente", "accepts": ["estudia", "lee"] },
+        { "label": "Futuro", "accepts": ["jugará", "cantará"] }
+      ]
+    },
+    {
+      "id": "q25",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "«Mañana iré al parque.» ¿En qué tiempo está el verbo «iré»?",
+      "options": ["Pasado", "Presente", "Futuro"],
+      "answer": 2,
+      "explanation": "«Iré» indica una acción que va a suceder después, es futuro."
+    },
+    {
+      "id": "q26",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "El pasado indica que la acción está sucediendo ahora.",
+      "answer": false,
+      "explanation": "El pasado indica que la acción ya ha sucedido. El presente indica que sucede ahora."
+    },
+    {
+      "id": "q27",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada frase con el tiempo verbal correcto.",
+      "pairs": [
+        { "left": "Ayer jugué al fútbol", "right": "pasado" },
+        { "left": "Hoy estudio lengua", "right": "presente" },
+        { "left": "Mañana visitaré a mi abuela", "right": "futuro" }
+      ],
+      "rightOptions": ["pasado", "presente", "futuro", "infinitivo"]
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Completa con el verbo en el tiempo correcto.",
+      "sentence": "Ayer _____ un libro. Hoy _____ una revista. Mañana _____ un cómic.",
+      "blanks": ["leí", "leo", "leeré"],
+      "wordBank": ["leí", "leo", "leeré", "leer"]
+    }
+  ]
 }

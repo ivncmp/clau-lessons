@@ -1,5 +1,302 @@
 {
   "topicId": "009",
   "subjectId": "lengua",
-  "questions": []
+  "questions": [
+    {
+      "id": "q01",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "¿Qué hizo Molly Steer para luchar contra el plástico?",
+      "options": ["Reciclar botellas en su casa", "Conseguir que prohibieran las pajitas de plástico en las escuelas", "Inventar un plástico nuevo", "Plantar árboles en su ciudad"],
+      "answer": 1,
+      "refText": "iniciativas",
+      "explanation": "Molly convenció al gobierno para prohibir las pajitas de plástico en las escuelas."
+    },
+    {
+      "id": "q02",
+      "type": "choice",
+      "emoji": "📖",
+      "question": "¿Con qué materiales crea Maya Penn sus accesorios de moda?",
+      "options": ["Con telas nuevas compradas en tiendas", "Con materiales reciclados", "Con plástico del océano", "Con papel y cartón"],
+      "answer": 1,
+      "refText": "iniciativas",
+      "explanation": "Maya diseña accesorios de moda hechos con materiales reciclados y sostenibles."
+    },
+    {
+      "id": "q03",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Elif Bilgin creó un bioplástico a partir de pieles de plátano.",
+      "answer": true,
+      "refText": "iniciativas",
+      "explanation": "Elif usó pieles de plátano para crear un bioplástico que sustituya a los plásticos contaminantes."
+    },
+    {
+      "id": "q04",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "Adeline Tiffanie Suwana es de Australia.",
+      "answer": false,
+      "refText": "iniciativas",
+      "explanation": "Adeline es de Yakarta, Indonesia."
+    },
+    {
+      "id": "q05",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada persona con su iniciativa.",
+      "pairs": [
+        { "left": "Molly Steer", "right": "prohibir pajitas de plástico" },
+        { "left": "Maya Penn", "right": "moda con materiales reciclados" },
+        { "left": "Elif Bilgin", "right": "bioplástico de plátano" },
+        { "left": "Adeline Suwana", "right": "cultivar manglares" }
+      ],
+      "rightOptions": ["prohibir pajitas de plástico", "moda con materiales reciclados", "bioplástico de plátano", "cultivar manglares", "crear un blog"]
+    },
+    {
+      "id": "q06",
+      "type": "choice",
+      "emoji": "💻",
+      "question": "¿Qué publican Verónica y Julio en su blog?",
+      "options": ["Recetas de cocina", "Noticias y consejos sobre el cambio climático", "Cuentos infantiles", "Resultados de fútbol"],
+      "answer": 1,
+      "refText": "blog",
+      "explanation": "En su blog publican noticias sobre el cambio climático y buenos consejos para luchar contra él."
+    },
+    {
+      "id": "q07",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "El cambio climático hace que la temperatura del planeta baje.",
+      "answer": false,
+      "refText": "blog",
+      "explanation": "La temperatura de nuestro planeta está aumentando, no bajando."
+    },
+    {
+      "id": "q08",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estas acciones: ¿ayudan o NO ayudan al planeta?",
+      "words": ["ir en bici", "dejar las luces encendidas", "plantar árboles", "tirar basura al suelo", "reciclar", "malgastar agua"],
+      "slots": [
+        { "label": "Ayudan al planeta", "accepts": ["ir en bici", "plantar árboles", "reciclar"] },
+        { "label": "NO ayudan al planeta", "accepts": ["dejar las luces encendidas", "tirar basura al suelo", "malgastar agua"] }
+      ]
+    },
+    {
+      "id": "q09",
+      "type": "choice",
+      "emoji": "🔤",
+      "question": "¿Qué es un campo semántico?",
+      "options": [
+        "Un grupo de palabras que empiezan por la misma letra",
+        "Un grupo de palabras que tienen un significado común",
+        "Un grupo de palabras que riman",
+        "Un grupo de palabras compuestas"
+      ],
+      "answer": 1,
+      "explanation": "Las palabras que tienen un significado común forman un campo semántico: tigre, mono, elefante → animales."
+    },
+    {
+      "id": "q10",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estas palabras en su campo semántico.",
+      "words": ["tigre", "manzana", "mono", "fresa", "elefante", "plátano"],
+      "slots": [
+        { "label": "Animales", "accepts": ["tigre", "mono", "elefante"] },
+        { "label": "Frutas", "accepts": ["manzana", "fresa", "plátano"] }
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "choice",
+      "emoji": "🔤",
+      "question": "¿Cuál de estas palabras NO pertenece al campo semántico de los deportes?",
+      "options": ["fútbol", "natación", "baloncesto", "zanahoria"],
+      "answer": 3,
+      "explanation": "Zanahoria es un alimento, no un deporte."
+    },
+    {
+      "id": "q12",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estas palabras en su campo semántico.",
+      "words": ["doctor", "coche", "bombero", "autobús", "profesora", "bicicleta"],
+      "slots": [
+        { "label": "Profesiones", "accepts": ["doctor", "bombero", "profesora"] },
+        { "label": "Vehículos", "accepts": ["coche", "autobús", "bicicleta"] }
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada palabra con su campo semántico.",
+      "pairs": [
+        { "left": "rosa", "right": "flores" },
+        { "left": "piano", "right": "instrumentos" },
+        { "left": "lunes", "right": "días de la semana" },
+        { "left": "invierno", "right": "estaciones" }
+      ],
+      "rightOptions": ["flores", "instrumentos", "días de la semana", "estaciones", "colores"]
+    },
+    {
+      "id": "q14",
+      "type": "choice",
+      "emoji": "✏️",
+      "question": "¿Cuándo se escribe «por qué» (separado y con tilde)?",
+      "options": [
+        "Para dar una respuesta o explicación",
+        "Para hacer una pregunta",
+        "Al final de una frase",
+        "Cuando va entre comas"
+      ],
+      "answer": 1,
+      "explanation": "Se escribe «por qué» (separado y con tilde) para preguntar: ¿Por qué llueve?"
+    },
+    {
+      "id": "q15",
+      "type": "choice",
+      "emoji": "✏️",
+      "question": "¿Cuándo se escribe «porque» (junto y sin tilde)?",
+      "options": [
+        "Para hacer una pregunta",
+        "Para dar una respuesta o explicación",
+        "Solo al principio de una frase",
+        "Cuando va con signos de exclamación"
+      ],
+      "answer": 1,
+      "explanation": "Se escribe «porque» (junto y sin tilde) para responder o explicar: Porque hace frío."
+    },
+    {
+      "id": "q16",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Completa con «por qué» o «porque».",
+      "sentence": "¿_____ llevas tu propia bolsa a la compra? _____ no quiero usar una de plástico.",
+      "blanks": ["Por qué", "Porque"],
+      "wordBank": ["Por qué", "Porque", "Porqué", "Por que"]
+    },
+    {
+      "id": "q17",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Completa con «por qué» o «porque».",
+      "sentence": "¿_____ te lavas los dientes con el grifo cerrado? _____ así ahorro agua.",
+      "blanks": ["Por qué", "Porque"],
+      "wordBank": ["Por qué", "Porque", "Porqué", "Por que"]
+    },
+    {
+      "id": "q18",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "En la frase «¿Por qué reciclas?», «por qué» se escribe separado y con tilde.",
+      "answer": true,
+      "explanation": "Para preguntar se escribe «por qué», separado y con tilde."
+    },
+    {
+      "id": "q19",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "¿Qué son los pronombres personales?",
+      "options": [
+        "Palabras que expresan acciones",
+        "Palabras que sustituyen a los nombres",
+        "Palabras que describen cualidades",
+        "Palabras que unen oraciones"
+      ],
+      "answer": 1,
+      "explanation": "Los pronombres personales son palabras que sustituyen a los nombres: yo, tú, él, ella…"
+    },
+    {
+      "id": "q20",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "En la frase «María canta una canción. Ella canta muy bien», ¿qué pronombre sustituye a María?",
+      "options": ["Yo", "Tú", "Ella", "Nosotras"],
+      "answer": 2,
+      "explanation": "«Ella» sustituye a «María» en la segunda frase."
+    },
+    {
+      "id": "q21",
+      "type": "word-bank-classify",
+      "emoji": "📦",
+      "question": "Clasifica estos pronombres personales en singular o plural.",
+      "words": ["yo", "nosotros", "tú", "ellas", "él", "vosotras"],
+      "slots": [
+        { "label": "Singular", "accepts": ["yo", "tú", "él"] },
+        { "label": "Plural", "accepts": ["nosotros", "ellas", "vosotras"] }
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada nombre con el pronombre que lo sustituye.",
+      "pairs": [
+        { "left": "Pablo", "right": "él" },
+        { "left": "Lucía", "right": "ella" },
+        { "left": "Pablo y Marcos", "right": "ellos" },
+        { "left": "Lucía y Ana", "right": "ellas" }
+      ],
+      "rightOptions": ["él", "ella", "ellos", "ellas", "nosotros"]
+    },
+    {
+      "id": "q23",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Completa las frases con el pronombre correcto.",
+      "sentence": "_____ soy Susana. _____ es mi amiga Elisa. _____ jugamos muy bien juntas.",
+      "blanks": ["Yo", "Ella", "Nosotras"],
+      "wordBank": ["Yo", "Ella", "Nosotras", "Tú"]
+    },
+    {
+      "id": "q24",
+      "type": "true-false",
+      "emoji": "✅",
+      "question": "«Nosotros» es un pronombre personal en plural.",
+      "answer": true,
+      "explanation": "«Nosotros» se refiere a varias personas (yo + otros), por eso es plural."
+    },
+    {
+      "id": "q25",
+      "type": "choice",
+      "emoji": "📝",
+      "question": "¿Qué pronombre usarías para hablar de ti mismo?",
+      "options": ["Tú", "Él", "Yo", "Ellos"],
+      "answer": 2,
+      "explanation": "«Yo» es el pronombre que usamos para hablar de nosotros mismos."
+    },
+    {
+      "id": "q26",
+      "type": "matching",
+      "emoji": "🔗",
+      "question": "Une cada refrán con su significado.",
+      "pairs": [
+        { "left": "A mal tiempo, buena cara", "right": "ser positivo ante los problemas" },
+        { "left": "Un grano no hace granero", "right": "cada pequeña ayuda cuenta" },
+        { "left": "En boca cerrada no entran moscas", "right": "es mejor ser prudente antes de hablar" }
+      ],
+      "rightOptions": ["ser positivo ante los problemas", "cada pequeña ayuda cuenta", "es mejor ser prudente antes de hablar", "no hay que tener prisa"]
+    },
+    {
+      "id": "q27",
+      "type": "choice",
+      "emoji": "🔤",
+      "question": "¿Qué palabra NO pertenece al campo semántico de «días de la semana»?",
+      "options": ["lunes", "martes", "primavera", "viernes"],
+      "answer": 2,
+      "explanation": "Primavera es una estación del año, no un día de la semana."
+    },
+    {
+      "id": "q28",
+      "type": "word-bank-fill",
+      "emoji": "✏️",
+      "question": "Completa con el pronombre personal adecuado.",
+      "sentence": "_____ reparáis las cartas. _____ nos divertimos jugando.",
+      "blanks": ["Vosotros", "Nosotros"],
+      "wordBank": ["Vosotros", "Nosotros", "Ellos", "Yo"]
+    }
+  ]
 }

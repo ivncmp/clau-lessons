@@ -1,0 +1,122 @@
+{
+  "topicId": "009",
+  "subjectId": "lengua",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "🌍",
+      "title": "El cambio climático",
+      "content": "<p>La <span class='hl'>temperatura</span> de nuestro planeta está aumentando. Esto provoca el llamado <span class='hl'>cambio climático</span>.</p><p>🔹 Los veranos son más <span class='hl'>largos y calurosos</span>.</p><p>🔹 Las lluvias son más <span class='hl'>fuertes</span>.</p><p>🔹 Estos cambios afectan a los <span class='hl'>animales</span>, las <span class='hl'>plantas</span> y las personas.</p><p>Cada vez más personas se preocupan y trabajan para <span class='hl'>frenar</span> el cambio climático.</p>"
+    },
+    {
+      "id": "s02",
+      "type": "story",
+      "emoji": "🌟",
+      "title": "Niños que cambian el mundo",
+      "html": "<p>En todo el mundo hay niños y niñas que luchan contra el <span class='hl'>cambio climático</span> con sus propias ideas:</p><p>🇦🇺 <span class='hl'>Molly Steer</span> (Australia) consiguió que prohibieran las <span class='hl'>pajitas de plástico</span> en las escuelas de su ciudad.</p><p>🇺🇸 <span class='hl'>Maya Penn</span> (Estados Unidos) crea <span class='hl'>moda ecológica</span> con materiales reciclados desde los ocho años.</p><p>🇹🇷 <span class='hl'>Elif Bilgin</span> (Turquía) inventó un <span class='hl'>bioplástico</span> hecho con pieles de plátano.</p><p>🇮🇩 <span class='hl'>Adeline Suwana</span> (Indonesia) planta <span class='hl'>manglares</span> para proteger las costas y limpiar las playas.</p>"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "🔤",
+      "title": "Campos semánticos",
+      "content": "<p>Las palabras que tienen un <span class='hl'>significado común</span> forman un <span class='hl'>campo semántico</span>.</p><p>🐯 tigre, mono, elefante → campo semántico de los <span class='hl'>animales</span></p><p>🍎 manzana, fresa, plátano → campo semántico de las <span class='hl'>frutas</span></p><p>⚽ fútbol, natación, baloncesto → campo semántico de los <span class='hl'>deportes</span></p>",
+      "tip": "Piensa: ¿qué tienen en común estas palabras? Eso te dirá a qué campo semántico pertenecen."
+    },
+    {
+      "id": "s04",
+      "type": "example",
+      "emoji": "🔤",
+      "title": "Ejemplo: campos semánticos",
+      "problem": "<p>¿A qué campo semántico pertenecen estas palabras?</p>",
+      "steps": [
+        "🩺 doctor, bombero, profesora, panadero → profesiones",
+        "🚗 coche, autobús, bicicleta, tren → vehículos",
+        "🌸 rosa, margarita, tulipán, clavel → flores",
+        "🎹 piano, guitarra, flauta, tambor → instrumentos musicales"
+      ],
+      "answer": "Cada grupo comparte un significado común: ¡eso es un campo semántico! ✅"
+    },
+    {
+      "id": "s05",
+      "type": "concept",
+      "emoji": "❓",
+      "title": "Por qué y porque",
+      "content": "<p>¡No es lo mismo <span class='hl'>por qué</span> que <span class='hl'>porque</span>!</p><p>❓ <span class='hl'>Por qué</span> (separado, con tilde) → se usa para <span class='hl'>preguntar</span>.</p><p>«¿<span class='hl'>Por qué</span> llevas una bolsa reutilizable?»</p><p>💬 <span class='hl'>Porque</span> (junto, sin tilde) → se usa para <span class='hl'>responder o explicar</span>.</p><p>«<span class='hl'>Porque</span> no quiero usar una de plástico.»</p>",
+      "tip": "Truco fácil: si es una pregunta → por qué (separado). Si es una respuesta → porque (junto)."
+    },
+    {
+      "id": "s06",
+      "type": "example",
+      "emoji": "❓",
+      "title": "Ejemplo: por qué / porque",
+      "problem": "<p>Completa con <em>por qué</em> o <em>porque</em>.</p>",
+      "steps": [
+        "❓ ¿Por qué reciclas? → pregunta (separado, con tilde)",
+        "💬 Porque quiero cuidar el planeta. → respuesta (junto, sin tilde)",
+        "❓ ¿Por qué apagas las luces? → pregunta (separado, con tilde)",
+        "💬 Porque así ahorro energía. → respuesta (junto, sin tilde)"
+      ],
+      "answer": "Pregunta = por qué. Respuesta = porque. ✅"
+    },
+    {
+      "id": "s07",
+      "type": "concept",
+      "emoji": "👋",
+      "title": "Los pronombres personales",
+      "content": "<p>Los <span class='hl'>pronombres personales</span> son palabras que <span class='hl'>sustituyen a los nombres</span>.</p><p>En lugar de decir «María canta», podemos decir «<span class='hl'>Ella</span> canta».</p><p><strong>Singular:</strong></p><p>1ª persona: <span class='hl'>yo</span><br/>2ª persona: <span class='hl'>tú</span><br/>3ª persona: <span class='hl'>él / ella</span></p><p><strong>Plural:</strong></p><p>1ª persona: <span class='hl'>nosotros / nosotras</span><br/>2ª persona: <span class='hl'>vosotros / vosotras</span><br/>3ª persona: <span class='hl'>ellos / ellas</span></p>"
+    },
+    {
+      "id": "s08",
+      "type": "example",
+      "emoji": "👋",
+      "title": "Ejemplo: pronombres personales",
+      "problem": "<p>¿Qué pronombre sustituye a cada nombre?</p>",
+      "steps": [
+        "Pablo juega al fútbol → Él juega al fútbol",
+        "Lucía y Ana estudian → Ellas estudian",
+        "Marcos y yo corremos → Nosotros corremos",
+        "Tú y Sara bailáis → Vosotras bailáis"
+      ],
+      "answer": "Los pronombres sustituyen a los nombres para no repetirlos. ✅"
+    },
+    {
+      "id": "s09",
+      "type": "concept",
+      "emoji": "💻",
+      "title": "El correo electrónico",
+      "content": "<p>Un <span class='hl'>correo electrónico</span> es un mensaje que se envía por internet. Tiene estas partes:</p><p>📧 <span class='hl'>Destinatario</span>: la persona a quien escribimos.</p><p>📌 <span class='hl'>Asunto</span>: de qué trata el mensaje (en pocas palabras).</p><p>📝 <span class='hl'>Mensaje</span>: lo que queremos contar.</p><p>🔹 Empezamos con un <span class='hl'>saludo</span> (Hola, Querido/a…).</p><p>🔹 Escribimos el <span class='hl'>contenido</span> del mensaje.</p><p>🔹 Terminamos con una <span class='hl'>despedida</span> (Un abrazo, Hasta pronto…).</p>",
+      "tip": "Un correo electrónico es como una carta, pero se envía al instante por internet."
+    },
+    {
+      "id": "s10",
+      "type": "concept",
+      "emoji": "📜",
+      "title": "Los refranes",
+      "content": "<p>Los <span class='hl'>refranes</span> son frases populares que transmiten una <span class='hl'>enseñanza</span> o un consejo.</p><p>🌧️ «A mal tiempo, <span class='hl'>buena cara</span>» → Hay que ser positivo ante los problemas.</p><p>🌾 «Un grano no hace granero, pero <span class='hl'>ayuda al compañero</span>» → Cada pequeña ayuda cuenta.</p><p>🤐 «En boca cerrada <span class='hl'>no entran moscas</span>» → Es mejor pensar antes de hablar.</p>",
+      "tip": "Los refranes se han ido transmitiendo de padres a hijos durante muchos años."
+    },
+    {
+      "id": "s11",
+      "type": "story",
+      "emoji": "🌱",
+      "title": "¿Qué podemos hacer?",
+      "html": "<p>Todos podemos hacer <span class='hl'>pequeñas acciones</span> para cuidar el planeta:</p><p>🚶 Ir caminando o en <span class='hl'>bici</span> en lugar de en coche.</p><p>💡 <span class='hl'>Apagar</span> las luces y los aparatos electrónicos.</p><p>♻️ <span class='hl'>Reducir</span>, <span class='hl'>reutilizar</span> y <span class='hl'>reciclar</span>.</p><p>🌳 <span class='hl'>Plantar</span> árboles.</p><p>🏖️ Cuidar la naturaleza cuando vamos al campo o a la playa.</p><p>¡Recuerda el refrán: «Un grano no hace granero, pero ayuda al compañero»! Cada pequeña acción cuenta.</p>"
+    },
+    {
+      "id": "s12",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "¡Repasamos todo!",
+      "points": [
+        "🌍 El cambio climático: la temperatura del planeta sube y afecta a todos los seres vivos",
+        "🔤 Campo semántico: palabras con significado común (manzana, fresa, plátano → frutas)",
+        "❓ Por qué (separado, con tilde) → para preguntar. Porque (junto) → para responder",
+        "👋 Pronombres personales: sustituyen a los nombres (yo, tú, él, ella, nosotros…)",
+        "💻 Correo electrónico: saludo + mensaje + despedida",
+        "📜 Refranes: frases populares que enseñan algo"
+      ]
+    }
+  ]
+}

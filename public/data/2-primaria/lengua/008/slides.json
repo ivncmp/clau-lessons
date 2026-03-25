@@ -1,0 +1,122 @@
+{
+  "topicId": "008",
+  "subjectId": "lengua",
+  "slides": [
+    {
+      "id": "s01",
+      "type": "concept",
+      "emoji": "📖",
+      "title": "El diario",
+      "content": "<p>Un <span class='hl'>diario</span> es un texto en el que escribimos lo que nos pasa cada día.</p><p>🔹 Se escribe en <span class='hl'>primera persona</span> (yo).</p><p>🔹 Lleva la <span class='hl'>fecha</span> del día.</p><p>🔹 Contamos lo que hemos hecho, lo que hemos sentido y lo que hemos aprendido.</p>",
+      "tip": "Un diario es como hablar con un amigo invisible: le cuentas tu día con tus propias palabras."
+    },
+    {
+      "id": "s02",
+      "type": "story",
+      "emoji": "♻️",
+      "title": "La visita de Lucía",
+      "html": "<p>Lucía fue con su clase a visitar una <span class='hl'>planta de reciclaje</span>. Allí aprendió que las <span class='hl'>Tres Erres</span> significan <span class='hl'>reducir</span>, <span class='hl'>reutilizar</span> y <span class='hl'>reciclar</span>.</p><p>Vio máquinas que aplastaban y separaban los materiales. Cada residuo va a un contenedor de color diferente:</p><p>🔵 <span class='hl'>Azul</span> → papel y cartón<br/>🟡 <span class='hl'>Amarillo</span> → envases y plásticos<br/>🟢 <span class='hl'>Verde</span> → vidrio</p><p>Al final vio objetos hechos con <span class='hl'>materiales reciclados</span>: bolsos, jarrones y juguetes.</p>"
+    },
+    {
+      "id": "s03",
+      "type": "concept",
+      "emoji": "🔤",
+      "title": "Palabras compuestas",
+      "content": "<p>Las <span class='hl'>palabras compuestas</span> se forman uniendo <span class='hl'>dos o más palabras</span>.</p><p>🌻 gira + sol = <span class='hl'>girasol</span></p><p>☂️ para + aguas = <span class='hl'>paraguas</span></p><p>✏️ saca + puntas = <span class='hl'>sacapuntas</span></p><p>🧩 rompe + cabezas = <span class='hl'>rompecabezas</span></p>",
+      "tip": "Si puedes separar una palabra en dos palabras que tienen sentido solas, ¡es una palabra compuesta!"
+    },
+    {
+      "id": "s04",
+      "type": "example",
+      "emoji": "🔤",
+      "title": "Más palabras compuestas",
+      "problem": "<p>¿Puedes descubrir qué dos palabras forman estas palabras compuestas?</p>",
+      "steps": [
+        "🍳 cortacésped → corta + césped",
+        "🧹 lavavajillas → lava + vajillas",
+        "🌍 medioambiente → medio + ambiente",
+        "🚗 limpiaparabrisas → limpia + parabrisas"
+      ],
+      "answer": "¡Todas son palabras compuestas formadas por dos palabras! ✅"
+    },
+    {
+      "id": "s05",
+      "type": "concept",
+      "emoji": "✏️",
+      "title": "Palabras terminadas en -d",
+      "content": "<p>Algunas palabras terminan en <span class='hl'>-d</span>.</p><p>Para formar su <span class='hl'>plural</span>, se añade <span class='hl'>-es</span>:</p><p>🏠 pared → <span class='hl'>paredes</span></p><p>🏙️ ciudad → <span class='hl'>ciudades</span></p><p>✨ verdad → <span class='hl'>verdades</span></p><p>❤️ amistad → <span class='hl'>amistades</span></p>",
+      "tip": "Si no sabes si una palabra termina en -d, ¡ponla en plural! Si el plural es -des, termina en -d."
+    },
+    {
+      "id": "s06",
+      "type": "concept",
+      "emoji": "✏️",
+      "title": "Palabras terminadas en -z",
+      "content": "<p>Algunas palabras terminan en <span class='hl'>-z</span>.</p><p>Para formar su plural, la <span class='hl'>z</span> cambia a <span class='hl'>c</span> y se añade <span class='hl'>-es</span>:</p><p>🐟 pez → <span class='hl'>peces</span></p><p>✏️ lápiz → <span class='hl'>lápices</span></p><p>💡 luz → <span class='hl'>luces</span></p><p>👃 nariz → <span class='hl'>narices</span></p>",
+      "tip": "¡Recuerda! La z se convierte en c antes de añadir -es: lápiz → lápices, no lápizes."
+    },
+    {
+      "id": "s07",
+      "type": "example",
+      "emoji": "✏️",
+      "title": "Ejemplo: plural de -d y -z",
+      "problem": "<p>Escribe el plural de estas palabras.</p>",
+      "steps": [
+        "pared → paredes (terminada en -d: añadimos -es)",
+        "pez → peces (terminada en -z: cambiamos z→c y añadimos -es)",
+        "ciudad → ciudades (terminada en -d: añadimos -es)",
+        "lápiz → lápices (terminada en -z: cambiamos z→c y añadimos -es)"
+      ],
+      "answer": "Las palabras en -d añaden -es. Las palabras en -z cambian z→c y añaden -es. ✅"
+    },
+    {
+      "id": "s08",
+      "type": "concept",
+      "emoji": "🏃",
+      "title": "El verbo",
+      "content": "<p>Los <span class='hl'>verbos</span> son palabras que expresan <span class='hl'>acciones</span>.</p><p>🏃 Laura <span class='hl'>corre</span> por el parque.</p><p>📚 Ellos <span class='hl'>estudian</span> lengua.</p><p>⚽ Manuel <span class='hl'>juega</span> al fútbol.</p><p>Las palabras <em>corre</em>, <em>estudian</em> y <em>juega</em> son <span class='hl'>verbos</span> porque nos dicen qué acción hacen las personas.</p>"
+    },
+    {
+      "id": "s09",
+      "type": "concept",
+      "emoji": "⏰",
+      "title": "Los tiempos del verbo",
+      "content": "<p>Los <span class='hl'>tiempos verbales</span> nos indican <span class='hl'>cuándo</span> sucede la acción.</p><p>⬅️ <span class='hl'>Pasado</span>: la acción <span class='hl'>ya ha sucedido</span>.<br/>Ayer <span class='hl'>comió</span> un huevo.</p><p>⏺️ <span class='hl'>Presente</span>: la acción <span class='hl'>está sucediendo ahora</span>.<br/>Hoy <span class='hl'>ve</span> un patito.</p><p>➡️ <span class='hl'>Futuro</span>: la acción <span class='hl'>va a suceder después</span>.<br/>Dentro de un año <span class='hl'>será</span> un gallo.</p>"
+    },
+    {
+      "id": "s10",
+      "type": "example",
+      "emoji": "⏰",
+      "title": "Ejemplo: tiempos verbales",
+      "problem": "<p>¿En qué tiempo están estos verbos?</p>",
+      "steps": [
+        "⬅️ «Ayer compré los ingredientes» → Pasado (ya ocurrió)",
+        "⏺️ «Hoy lee la receta y hace la tarta» → Presente (ocurre ahora)",
+        "➡️ «Mañana invitará a su amiga» → Futuro (ocurrirá después)"
+      ],
+      "answer": "Fíjate en las palabras clave: ayer → pasado, hoy → presente, mañana → futuro ✅"
+    },
+    {
+      "id": "s11",
+      "type": "concept",
+      "emoji": "🏞️",
+      "title": "Descripción de lugares",
+      "content": "<p>Cuando describimos un <span class='hl'>lugar</span>, contamos cómo es:</p><p>🔹 <span class='hl'>¿Qué tipo de paisaje es?</span> (montaña, playa, ciudad, bosque…)</p><p>🔹 <span class='hl'>¿Qué elementos ves?</span> (árboles, ríos, edificios, nubes…)</p><p>🔹 <span class='hl'>¿Qué sensaciones transmite?</span> (tranquilidad, alegría, frío…)</p><p>Ejemplo: «Es un paisaje de costa. Se ve el mar, las olas y unas dunas con vegetación. El cielo tiene nubes. Este paisaje transmite <span class='hl'>tranquilidad</span> y <span class='hl'>paz</span>.»</p>",
+      "tip": "Para describir un lugar, usa muchos adjetivos: grande, verde, tranquilo, luminoso…"
+    },
+    {
+      "id": "s12",
+      "type": "summary",
+      "emoji": "📋",
+      "title": "¡Repasamos todo!",
+      "points": [
+        "📖 El diario: texto personal con fecha, en primera persona",
+        "🔤 Palabras compuestas: se forman uniendo dos palabras (gira + sol = girasol)",
+        "✏️ Plural de palabras en -d: se añade -es (pared → paredes)",
+        "✏️ Plural de palabras en -z: la z cambia a c + -es (pez → peces)",
+        "🏃 Los verbos expresan acciones (correr, saltar, leer…)",
+        "⏰ Tiempos del verbo: pasado (ya ocurrió), presente (ahora), futuro (ocurrirá)"
+      ]
+    }
+  ]
+}

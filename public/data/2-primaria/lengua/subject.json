@@ -59,14 +59,16 @@
       "title": "Unidad 8",
       "description": "Si lo cuido, yo me cuido",
       "icon": "💚",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 12
     },
     {
       "id": "009",
       "title": "Unidad 9",
       "description": "Mensajes a favor del planeta",
       "icon": "🌎",
-      "questionCount": 0
+      "questionCount": 28,
+      "slideCount": 12
     },
     {
       "id": "010",
