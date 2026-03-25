@@ -9,8 +9,8 @@
       "id": "q01",
       "type": "word-bank-fill",
       "emoji": "👨‍👩‍👧",
-      "question": "Escribe palabras de la misma familia de 'Mar'.",
-      "sentence": "Mar → _____ y _____",
+      "question": "Completa con palabras de la familia de 'Mar'.",
+      "sentence": "La persona que trabaja en el mar es el _____ y un barco que va bajo el agua es un _____.",
       "blanks": ["marinero", "submarino"],
       "wordBank": ["marinero", "submarino", "marca", "marioneta"]
     },
@@ -18,10 +18,10 @@
       "id": "q02",
       "type": "word-bank-fill",
       "emoji": "👨‍👩‍👧",
-      "question": "Escribe palabras de la misma familia de 'Reloj'.",
-      "sentence": "Reloj → _____ y _____",
-      "blanks": ["relojero", "relojería"],
-      "wordBank": ["relojero", "relojería", "relajar", "rejilla"]
+      "question": "Completa con palabras de la familia de 'Reloj'.",
+      "sentence": "La tienda de relojes es la _____ y la persona que los arregla es el _____.",
+      "blanks": ["relojería", "relojero"],
+      "wordBank": ["relojería", "relojero", "relajar", "rejilla"]
     },
     {
       "id": "q03",
@@ -67,9 +67,9 @@
       "type": "word-bank-fill",
       "emoji": "👗",
       "question": "Completa con adjetivos de color.",
-      "sentence": "Te queda mejor la falda _____ que el vestido _____.",
-      "blanks": ["rosa", "azul"],
-      "wordBank": ["rosa", "azul", "verde", "rojo"]
+      "sentence": "El cielo es _____ y las rosas son de color _____.",
+      "blanks": ["azul", "rojo"],
+      "wordBank": ["azul", "rojo", "verde", "rosa"]
     },
     {
       "id": "q07",
