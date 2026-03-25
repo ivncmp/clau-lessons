@@ -16,8 +16,7 @@ function splitIntoPieces(
   words: string[],
 ): string[] {
   if (!arranged) return [];
-  if (separator) return arranged.split(separator);
-  // For empty separator (syllables), greedily match against word list
+  // Always use greedy matching so multi-word tokens (e.g. "clean up") stay intact
   const pieces: string[] = [];
   let remaining = arranged;
   const sorted = [...words].sort((a, b) => b.length - a.length);
@@ -26,6 +25,10 @@ function splitIntoPieces(
     if (!match) break;
     pieces.push(match);
     remaining = remaining.slice(match.length);
+    // Strip leading separator
+    if (separator && remaining.startsWith(separator)) {
+      remaining = remaining.slice(separator.length);
+    }
   }
   return pieces;
 }
